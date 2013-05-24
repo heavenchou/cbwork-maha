@@ -1,0 +1,218 @@
+<html>
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+  <title>CBETA XML TagSet</title>
+  <style>
+<!--
+p.MsoNormal
+{margin:0cm;
+margin-bottom:.0001pt;
+font-size:12.0pt;
+font-family:"Times New Roman";}
+ol
+{margin-bottom:0cm;}
+ul
+{margin-bottom:0cm;}
+table.MsoNormalTable
+{mso-style-parent:"";
+font-size:10.0pt;
+font-family:"Times New Roman";
+}
+a:link {
+	color: #0033FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #9900CC;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #33FF66;
+}
+h1 {
+	font-size: 14pt;
+	color: #FF6600;
+}
+body {
+	background-image: url(images/63.gif);
+}
+.style13 {
+	color: #FF6600;
+	font-family: Verdana;
+}
+.style16 {color: #FF00FF;
+	font-family: Verdana;
+}
+.style17 {
+	font-family: Verdana;
+}
+.style19 {
+	font-family: Verdana;
+	font-weight: bold;
+}
+-->
+  </style>
+<script language="JavaScript">
+<!--
+
+function mmLoadMenus() {
+  if (window.mm_menu_0609101326_0) return;
+        window.mm_menu_0609101326_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609101326_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-FILDESC.html', '_blank');");
+  mm_menu_0609101326_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-fileDesc.html', '_blank');");
+   mm_menu_0609101326_0.hideOnMouseOut=true;
+   mm_menu_0609101326_0.bgColor='#CCCCCC';
+   mm_menu_0609101326_0.menuBorder=1;
+   mm_menu_0609101326_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609101326_0.menuBorderBgColor='#FFFFFF';
+
+  window.mm_menu_0609112403_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609112403_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-REVDESC.html', '_blank');");
+  mm_menu_0609112403_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-revisionDesc.html', '_blank');");
+   mm_menu_0609112403_0.hideOnMouseOut=true;
+   mm_menu_0609112403_0.bgColor='#CCCCCC';
+   mm_menu_0609112403_0.menuBorder=1;
+   mm_menu_0609112403_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609112403_0.menuBorderBgColor='#FFFFFF';
+
+  window.mm_menu_0609112836_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609112836_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-ENCDESC.html', '_blank');");
+  mm_menu_0609112836_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-encodingDesc.html', '_blank');");
+   mm_menu_0609112836_0.hideOnMouseOut=true;
+   mm_menu_0609112836_0.bgColor='#CCCCCC';
+   mm_menu_0609112836_0.menuBorder=1;
+   mm_menu_0609112836_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609112836_0.menuBorderBgColor='#FFFFFF';
+
+  
+                              
+                    
+  mm_menu_0609112836_0.writeMenus();
+} // mmLoadMenus()
+//-->
+</script>
+  <script language="JavaScript" src="mm_menu.js"></script></head>
+<body lang=ZH-TW>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<div class=Section1>
+<h1 class=MsoNormal align=center style='text-align:center'>&nbsp;</h1><h1 align=center class=MsoNormal style='text-align:center'>
+<b><span lang=EN-US style='font-size:20.0pt' class="style17">CBETA XML </span>
+<span style='font-size:20.0pt;' class="style17">
+  P5 標籤　<span class="MsoNormal" style="text-align:center">檔頭（Header）</span></span><span class="style17">
+</span>
+</b>
+</h1>
+<p class=MsoNormal align=center style='text-align:right'>
+<span class="MsoNormal" style="text-align:right">by 淑儀&nbsp; 更新日期：</span><span class="MsoNormal" style="text-align:right"><!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y/%m/%d" startspan -->2009/06/23<!--webbot bot="Timestamp" endspan i-checksum="12706" --></span><span class="MsoNormal" style="text-align:right"><p style="TEXT-ALIGN: right" align="right" class="style17">
+&nbsp;</p>
+
+</span>
+<!-- #EndDate -->
+<p>
+<span lang="en-us">
+<a name="back1"></a>檔頭標籤集分成以下四類：</span>
+</p>
+<ul>
+<li>
+		<span lang="en-us"><span class="style17"><a href="#fileDesc"> File Description </a>
+  本電子檔書目資訊描述</span></span><span class="style17"> </span>
+</li>
+<li>
+		<span lang="en-us"><span class="style17"><a href="#encodingDesc"> Encoding Description </a>
+  電子版與來源之間的關係描述</span></span><span class="style17"> </span>
+</li>
+<li>
+				<a href="#profileDesc" class="style13">Profile Description</a><span class="style17"> 
+		文件背景描述</span></li>
+<li>
+		<span lang="en-us"><span class="style17"><a href="#revisionDesc">Revision Description </a>
+  修訂摘要記</span></span>
+		<span class="MsoNormal"><span lang="en-us" class="style17">錄</span>
+     		</span>
+</li>
+</ul>
+<div align=center>
+<p>&nbsp;</p><table width="79%" border="1" cellpadding="1" cellspacing="0" bordercolor="#0000FF"> <tr bgcolor="#FFFFCC">
+	<td height="43" bgcolor="#FEE0B8" class="style19"><div align="center">
+		<span lang=EN-US class="style17">Element </span> <span class="style17"> 元素</span></div></td><td bgcolor="#FEE0B8">
+	<div align="center" class="style19">實例</div></td></tr><tr> 
+	<td width="35%" height="47" bgcolor="#FFFFE3" class="style17"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-teiHeader.html" target="_blank">&lt;teiHeader&gt;</a></td><td width="65%" bgcolor="#FFFFE3">
+	<div align="center" class="style16">底下均以
+  T18n0850 為實例</div></td></tr> <tr> 
+		<td align="left" valign="top" bgcolor="#FFFFE3" class="style17"><p>
+		<span class="style17"><a name="fileDesc"></a><strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-fileDesc.html" target="_blank">&lt;fileDesc&gt;</a></strong> 檔案描述<br />　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-titleStmt.html" target="_blank">&lt;titleStmt&gt;</a></strong> 標題陳述<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-title.html" target="_blank">&lt;title&gt;</a> 標題<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-author.html" target="_blank">&lt;author&gt;</a> 作者<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-respStmt.html" target="_blank">&lt;respStmt&gt;</a> 負責人陳述<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-resp.html" target="_blank">&lt;resp&gt;</a><br />　　　　</span><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-name.html" target="_parent"><span class="style17">&lt;name&gt;<br />
+		</span></a><span class="style17">　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-editionStmt.html" target="_blank">&lt;editionStmt&gt;</a></strong> 版本陳述<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-edition.html" target="_blank">&lt;edition&gt;</a> 版本<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-date.html" target="_blank">&lt;date&gt;</a> 日期<br />　　　&lt;respStmt
+        xml:id=&quot;resp1&quot;&gt;<br />　　　　&lt;resp&gt;<br />　　　　&lt;name&gt;<br />　　　&lt;respStmt
+        xml:id=&quot;resp2&quot;&gt;<br />　　　　&lt;resp&gt;<br />　　　　&lt;name&gt;<br />　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-extent.html" target="_blank">&lt;extent&gt;</a></strong> 卷數<br />　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-publicationStmt.html" target="_blank">&lt;publicationStmt&gt;</a></strong> 出版描述<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-distributor.html" target="_blank">&lt;distributor&gt;</a> 發行者／單位<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-name.html" target="_blank">&lt;name&gt;</a><br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-address.html" target="_blank">&lt;address&gt;</a><br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-addrLine.html" target="_blank">&lt;addrLine&gt;</a><br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-availability.html" target="_blank">&lt;availability&gt;</a> 著作權狀態<br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-p.html" target="_blank">&lt;p&gt;</a><br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-date.html" target="_blank">&lt;date&gt;</a> 日期<br />　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-sourceDesc.html" target="_blank">&lt;sourceDesc&gt;</a></strong> 來源描述<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-bibl.html" target="_blank">&lt;bibl&gt;</a> 書目資料<br />　　　　&lt;listWit&gt;<br />　　　　　&lt;witness
+        xml:id=&quot;wit1&quot;&gt;【CBETA】&lt;/witness&gt;<br />　　　　　&lt;witness
+        xml:id=&quot;wit2&quot;&gt;【卍續】&lt;/witness&gt;</span></p></td><td bgcolor="#FFFFE3"><p>
+		<span class="style17"><strong>&lt;fileDesc&gt;</strong><br /> </span>　<span class="style17"><strong>&lt;titleStmt&gt;</strong><br />　　&lt;title&gt;Taisho
+            Tripitaka, Electronic version, No. 0850 攝大毘盧遮那成佛神變加持經入蓮華胎藏海會悲生曼荼攞廣大念誦儀軌供養方便會&lt;/title&gt;<br /> 　　&lt;author&gt;唐
+            輸婆迦羅譯&lt;/author&gt;<br /> 　　&lt;respStmt&gt;<br />　　　&lt;resp&gt;Electronic
+            Version by&lt;/resp&gt;<br />　　　&lt;name&gt;CBETA&lt;/name&gt;&lt;/respStmt&gt;<br />　&lt;/titleStmt&gt;<br /> &lt;editionStmt&gt;<br /> 　&lt;edition&gt;$Revision:
+            1.30 $ (Big5)&lt;date&gt;$Date: 2010/05/10 06:29:54 $&lt;/date&gt;<br />　&lt;/edition&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp1&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;<br />　　&lt;name&gt;Taisho&lt;/name&gt;&lt;/respStmt&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp2&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;<br />　　&lt;name&gt;CBETA&lt;/name&gt;&lt;/respStmt&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp3&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;<br />　　&lt;name&gt;CBETA.say&lt;/name&gt;&lt;/respStmt&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp4&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;&lt;name/&gt;<br />　　&lt;name&gt;【原】&lt;/name&gt;&lt;/respStmt&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp5&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;<br />　　&lt;name&gt;CBETA.Maha&lt;/name&gt;&lt;/respStmt&gt;<br /> 　&lt;respStmt
+            xml:id=&quot;resp6&quot;&gt;<br />　　&lt;resp&gt;corrections&lt;/resp&gt;<br />　　&lt;name&gt;CBETA.maha&lt;/name&gt;&lt;/respStmt&gt;&lt;/editionStmt&gt;<br /> 　&lt;extent&gt;3卷&lt;/extent&gt;<br /> 　&lt;publicationStmt&gt;<br /> 　　&lt;distributor&gt;<br /> 　　&lt;name&gt;中華電子佛典協會
+            (CBETA)&lt;/name&gt;<br /> 　　&lt;address&gt;<br />　　　&lt;addrLine&gt;service@cbeta.org&lt;/addrLine&gt;&lt;/address&gt;<br />　　&lt;/distributor&gt;<br /> 　　&lt;availability&gt;<br /> 　　　&lt;p&gt;Available
+            for non-commercial use when distributed with this header intact.&lt;/p&gt;&lt;/availability&gt;<br /> 　　&lt;date&gt;$Date:
+            2009/04/23 07:59:43 $&lt;/date&gt;&lt;/publicationStmt&gt;<br /> 　&lt;sourceDesc&gt;<br />　　&lt;bibl&gt;Taisho
+            Tripitaka Vol. 18, No. 850 &lt;/bibl&gt;<br /> 　　　&lt;listWit&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit1&quot;&gt;【大】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit2&quot;&gt;【甲】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit3&quot;&gt;【乙】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit4&quot;&gt;【CBETA】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit5&quot;&gt;【宋】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit6&quot;&gt;【元】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit7&quot;&gt;【明】&lt;/witness&gt;<br /> 　　　　&lt;witness
+            xml:id=&quot;wit8&quot;&gt;【？】&lt;/witness&gt;<br /> 　　　&lt;/listWit&gt;<br /> 　&lt;/sourceDesc&gt;<br />&lt;/fileDesc&gt;<br /><br />
+		</span>
+</p></td></tr><tr><td valign="top" bgcolor="#FFFFE3" class="style17"><p><strong>
+		<span class="style17"><a name="encodingDesc"></a><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-encodingDesc.html" target="_blank">&lt;encodingDesc&gt;</a></span></strong><span class="style17"> 來源描述<br /> 　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-projectDesc.html" target="_blank">&lt;projectDesc&gt;</a></strong> 計畫描述<br /> 　　　&lt;p
+          xml:lang&gt;<br /> 　　　&lt;p
+          xml:lang&gt;<br /> 　　<strong><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charDecl.html" target="_blank">&lt;charDecl&gt;</a></strong> 文字宣告<br />　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-char.html" target="_blank">&lt;char
+              </a>xml:id=&quot;&quot;&gt;<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charName.html" target="_blank">&lt;charName&gt;</a> 文字名稱<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charProp.html" target="_blank">&lt;charProp&gt;</a> 文字性質<br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-localName.html" target="_blank">&lt;localName&gt; </a>當地定義<br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-value.html" target="_blank">&lt;value&gt;</a> 性質值<br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charProp.html" target="_blank">&lt;charProp&gt;</a> 文字性質<br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-localName.html">&lt;localName&gt;</a><br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-value.html" target="_blank">&lt;value&gt;</a><br />　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charProp.html" target="_blank">&lt;charProp&gt;</a> 文字性質<br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-localName.html" target="_blank">&lt;localName&gt;</a><br />　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-value.html" target="_blank">&lt;value&gt;</a></span><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-mapping.html" target="_blank"><span class="style17"><br />　　　　&lt;mapping&gt;</span></a><span class="style17">文字對應</span></p></td><td valign="top" bgcolor="#FFFFE3">
+		<p class="style17">&lt;encodingDesc&gt;<br /> 　&lt;projectDesc&gt;<br /> 　&lt;p
+                  xml:lang=&quot;en&quot; cb:type=&quot;ly&quot;&gt;Text as provided
+                  by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous, USA&lt;/p&gt;<br /> 　&lt;p
+                  xml:lang=&quot;zh&quot; cb:type=&quot;ly&quot;&gt;蕭鎮國大德提供，北美某大德提供&lt;/p&gt;&lt;/projectDesc&gt;<br /> 　&lt;charDecl&gt;<br /> 　　&lt;char
+                  xml:id=&quot;CB01225&quot;&gt;<br /> 　　　&lt;charName&gt;CBETA
+                  CHARACTER CB01225&lt;/charName&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;uniflag&lt;/localName&gt;<br /> 　　　　 &lt;value&gt;0&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;entity&lt;/localName&gt;<br /> 　　　　&lt;value&gt;CB01225&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;composition&lt;/localName&gt;<br /> 　　　　&lt;value&gt;[口*狸]&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Mojikyo
+                  number&lt;/localName&gt;<br /> 　　　　&lt;value&gt;M067723&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Mojikyo
+                  font name&lt;/localName&gt;<br /> 　　　　&lt;value&gt;Mojikyo M113&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Mojikyo
+                  character value&lt;/localName&gt;<br /> 　　　　&lt;value&gt;4F0A&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;mapping
+                  type=&quot;PUA&quot; cb:dec=&quot;984265&quot;&gt;U+F04C9&lt;/mapping&gt;<br /> 　　&lt;/char&gt;<br />　　---<br /> 　　&lt;char
+                  xml:id=&quot;SD-A441&quot;&gt;<br /> 　　　&lt;charName&gt;CBETA
+                  CHARACTER SD-A441&lt;/charName&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;uniflag&lt;/localName&gt;<br /> 　　　　&lt;value/&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;entity&lt;/localName&gt;<br /> 　　　　&lt;value&gt;SD-A441&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Romanized
+                  form in CBETA transcription&lt;/localName&gt;<br /> 　　　　&lt;value&gt;kaa&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Romanized
+                  form in Unicode transcription&lt;/localName&gt;<br /> 　　　　&lt;value&gt;kā&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;charProp&gt;<br /> 　　　　&lt;localName&gt;Character
+                  in the Siddham font&lt;/localName&gt;<br /> 　　　　&lt;value&gt;乙&lt;/value&gt;&lt;/charProp&gt;<br /> 　　　&lt;mapping
+                  type=&quot;PUA&quot; cb:dec=&quot;1066049&quot;&gt;U+104441&lt;/mapping&gt;<br /> 　　&lt;/char&gt;&lt;/charDecl&gt;<br />&lt;/encodingDesc&gt;</p></td></tr><tr>
+		<td valign="top" bgcolor="#FFFFE3" class="style17"><a name="profileDesc"></a><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-profileDesc.html" target="_blank">&lt;profileDesc&gt;</a> 文件背景描述<br /><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-langUsage.html" target="_blank">　&lt;langUsage&gt;</a> 語言使用<br /><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-language.html" target="_blank">　　&lt;language&gt;</a> 個別敘述文本中使用的語言</td><td bgcolor="#FFFFE3">
+		<p class="style17">&lt;profileDesc&gt;<br /> 　 &lt;langUsage&gt;<br />　　&lt;language
+              ident=&quot;sa-Sidd&quot;&gt;Sanskrit-Siddam&lt;/language&gt;<br />　　&lt;language
+              ident=&quot;en&quot;&gt;English&lt;/language&gt;<br />　　&lt;language
+              ident=&quot;zh&quot;&gt;Chinese&lt;/language&gt;<br />　&lt;/langUsage&gt;<br />&lt;/profileDesc&gt;</p></td></tr><tr>
+		<td valign="top" bgcolor="#FFFFE3" class="style17"><p class="style17"><a name="revisionDesc"></a><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-revisionDesc.html" target="_blank">&lt;revisionDesc&gt;</a> 修訂描述<br />　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-change.html" target="_blank">&lt;change</a>
+              when&gt; 變更內容與日期</p></td><td bgcolor="#FFFFE3"><p>
+		<span class="style17">&lt;revisionDesc&gt;<br /></span>　<span class="style17"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-change.html" target="_blank">&lt;change</a>
+                when=&quot;2009-05-08+09:00&quot;&gt;&lt;name&gt;CW&lt;/name&gt;P4
+                to P5 conversion by cbetap4top5.xsl Rev. 1.19 of 2009/05/04:
+                P5 version, intended for publication&lt;/change&gt;<br />　&lt;change
+                when=&quot;2000-01-05T17:54:00&quot;&gt;CW (ed.) Created initial
+        TEI XML version with BASICX.BAT (00/01/05)&lt;/change&gt;<br /> &lt;/revisionDesc&gt;<br /><br />
+		</span></p></td></tr> </table><p align="right"><span class="MsoNormal"><span lang=EN-US style='color:blue'><a href="#back1" style="text-decoration: none"><b><font color="#800080">[Back </font> </b> </a> </span> <b> <a href="#back" style="text-decoration: none"> <font color="#800080"> <span lang=EN-US> ]</span></font></a></b></span></p><p>&nbsp;</p></div>
+<blockquote><blockquote><blockquote><blockquote>&nbsp;</blockquote></blockquote></blockquote></blockquote>
+</div>
+<p align="center"><span class="style13"><strong><br /></strong></span>
+</p>
+<p>&nbsp;</p></body>
+</html>

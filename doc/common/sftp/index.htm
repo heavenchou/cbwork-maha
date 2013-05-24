@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<style type="text/css">
+<!--
+.style1 {color: #0000FF}
+.style3 {color: #0000FF; font-weight: bold; }
+.style4 {
+	color: #0066FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+ <hr>
+ <h1 align="center">SSH Secure File Transfer Client 介紹</h1>
+ <div align="right">by Heaven
+ </div>
+ <hr>
+ <h2 class="style4">1. 程式說明</h2>
+ <p>SSH Secure File Transfer Client 是一個類似 FTP 的程式，但它和一般 FTP 不同，它有加密的功能，所以比較安全，不用擔心半路有人偷聽，所以也比較不會被竊取帳號及密碼。</p>
+ <p>當然，這是因為伺服器有支援這個功能，我們才會用這個程式上傳與下載，若對方沒支援，用這支程式也沒有用。</p>
+ <h2 class="style4">2. 安裝</h2>
+ <p>我想安裝應該沒什麼特別困難，因為我沒有重新安裝，所以也無法將安裝畫面貼出來。</p>
+ <h2 class="style4">3. 第一次執行</h2>
+ <p>首先要做書籤，選 Profiles -&gt; Add Profile...</p>
+ <p><img src="image1.jpg" width="312" height="164"></p>
+ <p>出現底下畫面後，輸入名稱，可用 intranet，並按下右邊的 Add to Profiles</p>
+ <p><img src="image2.jpg" width="312" height="59"></p>
+ <p>然後再選  Profiles -&gt; Edit Profile...</p>
+ <p><img src="image3.jpg" width="314" height="136"></p>
+ <p>就會看到有一個 intranet 在左邊</p>
+ <p>然後在右邊的 Host name 填上 <span class="style3">w3.cbeta.org</span></p>
+ <p>User name 填上 <span class="style1"><strong>cbeta</strong></span></p>
+ <p>如果是在 CBETA 辦公室，則 Host name 填上 <span class="style3">10.1.6.14 </span>應該會變的很快。</p>
+ <p>填完之後按 OK 即可。</p>
+ <p><img src="image4.jpg" width="615" height="510"></p>
+ <p>這時再選 Profiles 就可以看到 intranet 的書籤，按下去即可執行。</p>
+ <p><img src="image5.jpg" width="311" height="183"></p>
+ <p>第一次執行時，會有如下訊息，按 Yes 即可。</p>
+ <p><img src="image8.jpg" width="437" height="203"></p>
+ <p>然後會要你輸入密碼，密碼我不想寫在這裡，</p>
+ <p>也就是 <span class="style1"><strong>CB五個數字</strong></span> 那一個密碼。</p>
+ <p>然後按下 OK</p>
+ <p><img src="Image6.jpg" width="381" height="95"></p>
+ <p>密碼確認過之後，右邊就會看到伺服器的目錄，預設應該會看到 /home/cbeta</p>
+ <p>這裡先解釋一下，在 unix 的作業系統中，它不像 DOS/Windows 有磁碟機 C: D: E: 等名稱，</p>
+ <p>它都是從根目錄 / 開始，而且目錄分隔的斜線方向相反，其它就和 DOS/Windows 差不多了。</p>
+ <p>你們可以在左邊移動到 C:\cbwork\doc 的目錄，右邊移到 /var/web/intranet 的目錄，</p>
+ <p>可以直接在上方紅色圈起來的地方輸入，也可以像在檔案總管的操作方式一般，一層一層地進入。</p>
+ <p>到達目的後，可按下旁邊的 Add 按鈕，就會把這些位置記憶起來，下次就可直接在下拉選單中找到。</p>
+ <p>而最下方的視窗就是傳輸檔案時的進度畫面。</p>
+ <p><img src="Image7.jpg" width="1061" height="401"></p>
+ <h2 class="style4">4. 傳送檔案</h2>
+ <p>傳送檔案很簡單，就是在二個視窗拖曳檔案或目錄即可。</p>
+ <p>就如檔案總管或 Total Commander 的操作。</p>
+ <p><strong>請各位小心，這裡也可以刪除檔案，刪除了就救不回來了。</strong></p>
+ <h2 class="style4">5. 目錄說明</h2>
+ <p>我們在網站上看到的 http://w3.cbeta.org/intranet/ 這個目錄，</p>
+ <p>就等於在 sftp 看到的這個目錄 /var/web/intranet/</p>
+ <p>這二個目錄的底下都是同步的。</p>
+ <p>例如我把 SSHSecureShellClient-3.2.0.exe 放在 /var/web/intranet/common/utility/SSHSecureShellClient-3.2.0.exe</p>
+ <p>這時在做網頁時，要設定的連結位置就是必須是</p>
+ <p><a href="http://w3.cbeta.org/intranet/common/utility/SSHSecureShellClient-3.2.0.exe">http://w3.cbeta.org/intranet/common/utility/SSHSecureShellClient-3.2.0.exe</a></p>
+ <p>這樣別人才能順利連結，這樣應該不難懂。</p>
+ <p>先介紹到這裡，有問題請告訴我，我再來補充。</p>
+ <hr>
+ <p>&nbsp;</p>
+ <p>&nbsp; </p>
+ <p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>CBETA網資組</title>
+<style type="text/css">
+<!--
+.style1 {
+	color: #0000FF;
+	font-family: "標楷體";
+}
+.style2 {color: #0000FF}
+.style3 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<h1 align="center" class="style1">新的經文上網流程</h1>
+<hr>
+<blockquote>
+  <p><a href="#1">1.下載最新經文及資料</a><br>
+    <a href="#2">2.產生各種版本的經文</a><br>
+    <a href="#3">3.比對各版</a><br>
+    <a href="#4">4. 產生 PDF 及比對</a><br>
+    <a href="#5">5. 產生 X2R 的版本</a><br>
+    <a href="#6">6.產生各冊 HTML 網頁</a><br>
+    <a href="#7">7.上傳的各站</a><br>
+    <a href="#8">8.公告</a></p>
+</blockquote>
+<hr>
+<p><a name="1"></a>1.下載最新經文及資料</p>
+<blockquote>
+  <p> 由 CVS 下載最新的 XML 經文, 目錄 CVS://cbwork/xml<br>
+    由 CVS 下載最新的 SM 經文, 目錄 CVS://cbwork/simple<br>
+    由 CVS 下載最新的 X2R 檔案, 目錄 CVS://cbwork/common/X2R</p>
+</blockquote>
+<p><a name="2" id="2"></a>2.產生各種版本的經文</p>
+<blockquote>
+  <p> a.由 XML 產生各版經文.</p>
+  <blockquote>
+    <p>      1.由 CVS 下載產生的程式 CVS://cbwork/work/bin/go_h.pl, 這是由 ray 的 go.pl 改變而來的.</p>
+    <p>2.在 go_h.pl 約 22 行的地方, 有一個地方是要處理的冊數, 此範例是處理 X11 ~ X16 冊, 此處要看懂才建議修改.</p>
+    <blockquote>
+      <p>if($vol !~ /X1[1-6]/) ######################## 只要這一冊 ######################</p>
+    </blockquote>
+    <p>3.預設會產生七個版本</p>
+    <blockquote>
+      <p> # normal<br>
+        system(&quot;xml2txt -z -u -v $vol -o c:/release/normal-des&quot;); # 標準 normal, big5, 用組字式<br>
+        system(&quot;xml2txt -u -v $vol -o c:/release/normal&quot;); # 標準 normal, big5<br>
+        system(&quot;xml2txt -e utf8 -u -v $vol -o c:/release/normal-utf8&quot;); # 標準 normal, utf8 <br>
+  # app1<br>
+  system(&quot;xml2txt -z -v $vol -a -o c:/release/app1-des&quot;); # big5 app1 版 一經一檔, 用組字式<br>
+  system(&quot;xml2txt -v $vol -a -o c:/release/app1&quot;); # big5 app1 版 一經一檔<br>
+  system(&quot;xml2txt -e utf8 -v $vol -a -o c:/release/app1-utf8&quot;); # utf8 app1 版 一經一檔<br>
+  system(&quot;xml2txt -u -v $vol -a -o c:/release/app&quot;); # big5 app 版 一卷一檔<br>
+  # PDA Version<br>
+  system(&quot;xml2txt -v $vol -p -u -o c:/release/pda&quot; ); #edith 2005/1/21 轉 big5 pda 版</p>
+    </blockquote>
+    <p>4.執行時先執行 c:\cbwork\work\p.bat , 其內容僅為</p>
+    <blockquote>
+      <p>PATH=C:\CBWORK\work\BIN;%PATH%</p>
+    </blockquote>
+    <p>5.執行 go_h.pl , 會在 c:\release 目錄產生步驟 3 所列出的七個版本.</p>
+  </blockquote>
+  <p>b.由 SM 版產生普及版經文</p>
+  <blockquote>
+    <p>1.以下以 X11 冊為例.</p>
+    <p>2.開啟命提示字元 (DOS視窗)，移至 c:\cbwork\simple\bin 目錄，執行 pre_one X11。</p>
+    <p>3.再執行 nor_one X11，即會在 c:\cbwork\simple\release\normal 產生 X11 的普及版經文。</p>
+  </blockquote>
+</blockquote>
+<p><a name="3" id="3"></a>3.比對各版</p>
+<blockquote>
+  <p>	a. 先比對 normal ，也就是 sm-&gt;normal vs xml-&gt;normal，以確定 xml-&gt;normal 是正確的。</p>
+  <blockquote>
+    <p> 1.用 c:\cbwork\work\bin\file_convert.pl 比對。</p>
+    <p>2.選擇程式中的第一個功能：$function = &quot;comp2file&quot;; # 比對二個目錄的檔案</p>
+    <p>3.選擇忽略換行：my $skip_enter = 1;					# 忽略換行</p>
+    <p>4.由 c:\cbwork\work\bin\2filediff.txt 可檢查是否完全相同，應該要沒有任何差異。</p>
+  </blockquote>
+  <p>b. 比對 pda , app1, app 這三個版本</p>
+  <blockquote>
+    <p>    1.用c:\cbwork\work\bin\connect_h.pl 分別把 normal, pda, app, app1 四版都接成一冊一檔,  接起來的檔案沒有卷首、行首、換行及全半型空白。</p>
+    <p>2.用 windows command 比對 normal 版與其它三版，以確定其它三版內容亦正確。 (或用任何可比對全檔的程式，如 DOS 的 fc ) </p>
+  </blockquote>
+  <p>    c. 比對 normal-utf8 與 app1-utf8 這二個版本</p>
+  <blockquote>
+    <p> 
+    1.c:\release\normal-des 利用 file_convert.pl 的第二個功能 $function = &quot;des2nor&quot;; 產生 c:\release\normal-des-nor。</p>
+    <p>2.將上面產生的結果用 windows command 直接同步比對 c:\release\normal, 以確定 c:\release\normal-des 是 ok 的。</p>
+    <p>3.重複上面二個流程，把 normal 換成 app1，用以確定 c:\release\app1-des 是 ok 的。</p>
+    <p>      4.c:\release\normal-des 利用 file_convert.pl 的第三個功能 $function = &quot;big52utf8&quot;; 產生 c:\release\normal-des-utf8。</p>
+    <p> 5.用 windows command 比對 c:\release\normal-des-utf8 及 c:\release\normal-utf8，用來確定 c:\release\normal-utf8 是 ok 的。</p>
+    <p>6.重複上面二個流程，把 normal 換成 app1，用以確定 c:\release\app1-utf8 是 ok 的。</p>
+  </blockquote>
+</blockquote>
+<p><a name="4" id="4"></a>4. 產生 PDF 及比對</p>
+<blockquote>
+  <p>a. 產生 PDF 版 </p>
+  <blockquote>
+    <p>1. 要產生 PDF 版，則要先產生 XML UTF8 版。用  file_convert.pl 的第三個功能 $function = &quot;big52utf8&quot;; 產生 c:\release\xml-utf8。</p>
+    <p>2. 要產生 PDF 的程式是放在 c:\edith\java 目錄中。安裝此程式有點複雜，日後再寫如何安裝。</p>
+    <p>3. 要記得更新最新的圖檔，要放在 c:\edith\java\figures\X。</p>
+    <p>4. 開啟命令字元視窗 (DOS 視窗)，切換至 c:\edith\java，執行環境變數設定批次檔 p.bat ，其內容為：<br>
+      　<span class="style2">set path=c:\j2sdk1.4.2_07\bin\;%path%<br>
+    　set classpath=.;c:\j2sdk1.4.2_07\lib\ </span> </p>
+    <p>5. 執行 r.bat 產生指定各冊，其內容為如下，這是以 T01 為例：<br>
+      　<span class="style2">java -Xmx256m go T01
+    </span></p>
+    <p>6. 如果畫面停在某圖檔，則可能是圖形比例不好而造成無法繼續。處理方式為將其縮小，或是將比例調至 800*600 或 900*700 左右。</p>
+    <p>7. 若執行順利，會在 c:\release\pdf 目錄中產生指定冊數的 PDF 版經文。</p>
+  </blockquote>
+  <p>b. 比對 PDF 版</p>
+  <blockquote>
+    <p>1. 利用 xpdf 把 PDF 轉成 UTF8 純文字檔，<a href="http://w3.cbeta.org/intranet/common/utility/xpdf-3.00pl3-win32.zip">xpdf 在此下載</a>，下載後解開放在空白目錄中，參考 a.bat 的內容，把 PDF 轉成 UTF8 純文字檔。語法如下：</p>
+    <p>　<span class="style2">for /r c:\release\pdf\T01 %%f in (*.pdf) do pdftotext -raw -nopgbrk -enc UTF-8 %%f</span></p>
+    <p>　會在 c:\release\pdf 各冊目錄中產生文字檔。</p>
+    <p>2. 利用 file_convert.pl 的第四個功能 $function = &quot;utf82big5&quot;;，並使用這個變數</p>
+    <p>　<span class="style2">my $extispdf = 1;<br>　my $easyver = 1;</span></p>
+    <p>　則會把上一個步驟的 utf8 純文字檔變成 big5 檔，接成一冊一檔，放在　c:\release\pdf_out\pdf 目錄中。</p>
+    <p>3. 利用 file_convert.pl 的第四個功能 $function = &quot;utf82big5&quot;;，並使用這個變數</p>
+    <p>　<span class="style2">my $extispdf = <span class="style3">0</span>;<br>
+    　my $easyver = 1;</span></p>
+    <p>　則會c:\release\app1-utf8 純文字檔變成 big5 檔，接成一冊一檔，放在　c:\release\pdf_out\app1 目錄中。</p>
+    <p>4. 用 windows command 比對上述二個目錄，如果沒有差異，可視為 PDF 版 ok，若有差異，見下一步驟。</p>
+    <p>5. 重覆 2 及 3 二步驟，差別是底下這一個變數要設成 0</p>
+    <p><span class="style2">      　my $easyver = 0;</span></p>
+    <p>　這個會保留 app1 的行首，此時無法用 windows command 比對，而應該用 c:\release\pdf_out 的 wfgfc 比對，<br>　並忽略 0123456789_ 及全半型空格，這樣才能查出差異在什麼地方。 </p>
+  </blockquote>
+</blockquote>
+<p><a name="5" id="5"></a>5. 產生 X2R 的版本</p>
+<blockquote>
+  <p>a.	c:\cbwork\bin\website\Xnor2Rnor.pl　　　將 normal/app X 版轉成 normal/app R 版.<br>
+b. c:\cbwork\bin\website\Xnor2Rnor_uni.pl　將 unicode normal/app X 版轉成 unicode normal/app R 版.</p>
+  <p>以上要下的參數主要有二個</p>
+  <blockquote>
+    <p class="style2">$from_vol = 11; # 開始冊數<br>
+      $to_vol = 16; # 結束冊數</p>
+  </blockquote>
+  <p>而且各版都有 normal 及 app1 要處理，所以二支程式共會產生四個版本：normal, app1, normal_utf8, app1_utf8 </p>
+  <p>因為有這二組參數要分別執行。 (unicode 版依此類推)</p>
+  <blockquote>
+    <p class="style2">$source_path = &quot;c:/release/normal/&quot;;<br>
+      $out_path = &quot;c:/release/normal_R/&quot;;</p>
+    <p class="style2"> $source_path = &quot;c:/release/app1/&quot;;<br>
+      $out_path = &quot;c:/release/app1_R/&quot;;</p>
+  </blockquote>
+  <p>參數設定好之後就可以直接執行</p>
+</blockquote>
+<p><a name="6" id="6"></a>6.產生各冊 HTML 網頁</p>
+<blockquote>
+  <p>a.	先手動更新 c:\cbwork\bin\website\taisho.txt 及 c:\cbwork\bin\website\xuzang.txt，這是由各冊 source.txt 檔整理過來的。</p>
+  <p> b. 產生各冊的目錄</p>
+  <blockquote>
+    <p>1. 用 c:\cbwork\bin\website\make_Txxhtm.pl 是將大正藏每一冊的目錄索引做成 html 檔<br>
+ 2. 用 c:\cbwork\bin\website\make_Xnnhtm.pl 是將卍續藏每一冊的目錄索引做成 html 檔</p>
+    <p>要先改程式的日期變數，表示上網的日期。</p>
+    <blockquote>
+      <p class="style2">my $updatedate = '2006/06/23'; # 完成日期</p>
+    </blockquote>
+    <p>並且要記得加上各冊部類名稱</p>
+    <blockquote>
+      <p class="style2">sub get_part()<br>
+      {</p>
+      <blockquote>
+        <p class="style2">        $part[0] = '印度撰述一';<br>
+          ...... <br>
+          $part[87] = '史傳部十四';</p>
+      </blockquote>
+      <p class="style2">        }</p>
+    </blockquote>
+    <p>執行時要下參數，分別是起始冊及終止冊，否則就是全部。底下是第 11 冊至第 16 冊的例子：</p>
+    <blockquote>
+      <p class="style2">perl make_Xnnhtm.pl 11 16 </p>
+    </blockquote>
+  </blockquote>
+  <p>c. 產生各經的目錄</p>
+  <blockquote>
+    <p>      1. 使用程式  c:\cbwork\bin\website\make_Ttoc.pl 是將大正藏每一經的目錄索引做成 html 檔.<br>
+      2. 使用程式  c:\cbwork\bin\website\make_Xtoc.pl 是將卍續藏每一經的目錄索引做成 html 檔.</p>
+    <p>要先改程式的日期變數，表示上網的日期。</p>
+    <blockquote>
+      <p class="style2">my $updatedate = '2006/06/23'; # 完成日期</p>
+    </blockquote>
+    <p>若有特殊卷或不連續卷，要在程式中特別處理。</p>
+    <p>執行時要下參數，分別是起始冊及終止冊，否則就是全部。底下是第 11 冊至第 16 冊的例子：</p>
+    <blockquote>
+      <p class="style2">perl make_Xtoc.pl 11 16 </p>
+    </blockquote>
+    </blockquote>
+  <p>d. 產生經文檔</p>
+  <blockquote>
+    <p>1.	c:\cbwork\bin\website\normal2htm.pl   將 normal(app) 版做成 html 線上版.</p>
+    <p>主要可能會修改的參數如下:</p>
+    <blockquote>
+      <p class="style2">$TX = &quot;X&quot;; # 大正藏用 &quot;T&quot; , 卍續藏用 &quot;X&quot;</p>
+      <p class="style2">$from_vol = 11; # 起始冊數<br>
+        $to_vol = 16; # 終止冊數</p>
+      <p class="style2">$run_x2r = 1; # 1: 要, 0: 不是, 是否要處理卍續藏X版轉換R版的動作</p>
+      <p class="style2">        $out_path = &quot;d:/cbeta.www/result/normal/&quot;; # 輸出目錄</p>
+    </blockquote>
+    <p>參數設定好之後，直接執行即可。</p>
+  </blockquote>
+</blockquote>
+<p><a name="7" id="7"></a>7.上傳的各站</p>
+<blockquote>
+  <p>要上傳的站計有：CBETA, W3, 台大, 香港, 大陸。</p>
+  <p>要上傳的經文計有：normal (big5, utf8)(R, X) 四版, app1  (big5, utf8)(R, X) 四版, PDF, PDA, XML 共 11 個版本。<br>
+  （註：CBETA 主站因空間不足，無須上傳這 11個版本）</p>
+  <p>還要上傳各冊目錄、各經目錄、經文內容，以及首頁的 index.htm 及 index_list.htm 要手動增加目錄。</p>
+</blockquote>
+<p><a name="8" id="8"></a>8.公告</p>
+<blockquote>
+  <p>a. 首頁公告。</p>
+  <p>b. CBETA 最新消息以電子報系統送出。</p>
+</blockquote>
+</body>
+
+</html>

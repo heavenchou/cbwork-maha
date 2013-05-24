@@ -1,0 +1,676 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>大正藏 XML 經文修訂注意事項</title>
+<style type="text/css">
+.style1 {font-family: "新細明體"}
+h3
+	{margin:9.0pt 0cm; line-height:28.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	}
+span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+</style>
+</head>
+
+<body style="background-image: url('images/63.gif')">
+
+<p style="TEXT-ALIGN: center" align="center"><font color="#008000"><b>
+<span style="FONT-FAMILY: 新細明體"><font size="6">大正藏</font></span><font size="6"> 
+XML <span style="FONT-FAMILY: 新細明體">經文修訂注意事項</span> </font></b></font></p>
+<p style="TEXT-ALIGN: right" align="right">
+<!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y/%m/%d" startspan -->2009/06/03<!--webbot bot="Timestamp" endspan i-checksum="12704" --></p>
+<p>
+		<font color="#800080" size="4">
+		<strong style="font-weight: 400">
+				<span style="font-family:新細明體;">【例一】<a href="#1">經文校勘用字依其他藏經修訂</a></span><a href="#1">
+		--</a></strong><a href="#1"><span style="font-family:新細明體;">【麗
+</span>
+		-CB<span style="font-family:新細明體; ">】【</span>CB<span style="font-family:新細明體; ">】</span></a><span style="font-family:新細明體; "><br>
+		</span>
+		<strong style="font-weight: 400">
+				<span style="font-family:新細明體;">【例二】<a href="#2">經文校勘用字依其他藏經修訂</a></span><a href="#2">
+		--</a></strong><a href="#2">【麗-CB】【磧砂-CB】【CB】</a><br>
+		<strong style="font-weight: 400">
+				<span style="font-family:新細明體;">【例三】<a href="#3">經文校勘用字依其他藏經修訂</a></span><a href="#3">
+		--</a></strong><a href="#3"><span style="font-family: 新細明體; ">【磧砂</span><span lang="EN-US">-CB</span><span style="font-family: 新細明體; ">】【</span><span lang="EN-US">CB</span><span style="font-family: 新細明體; ">】
+		及 「＊」 修訂</span></a><span style="font-family: 新細明體; "><br>
+		</span><strong style="font-weight: 400">
+				<span style="font-family:新細明體;">【例四】</span></strong><a href="#4">經文校勘用字修訂<strong style="font-weight: 400"><span style="font-family:新細明體;">依其他
+		經文修訂</span></strong></a></font><br>
+		<font color="#800080" size="4">
+		<span style="font-family:新細明體; "><strong style="font-weight: 400"> 【例五】<a href="#5">[TK比對]一般經文用字修訂</a></strong></span><span style="font-family:新細明體;"><strong><br>
+		</strong><strong style="font-weight: 400">【例六】</strong></span><a href="#6"><span lang="EN-US">[TK</span><span style="font-family: 新細明體; ">比對</span><span lang="EN-US">]</span><span style="font-family: 新細明體; ">校勘用字修訂</span></a><span style="font-family: 新細明體; "><br>
+		</span><strong style="font-weight: 400">
+		<span style="font-family:新細明體;">【例七】<a href="#7">遇到經文修訂時，如何將</a></span><a href="#7">
+				&lt;sic&gt;
+				<span style="font-family:新細明體;">標記改成</span>
+				&lt;app&gt;
+				<span style="font-family:新細明體;">標記</span></a> <br>
+		<span style="font-family:新細明體;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#7.1">（</a></span><a href="#7.1">
+				1
+				<span style="font-family:新細明體;">）「<span style="font-family:新細明體; ">？</span>」的類型</span></a><span style="font-family:新細明體;"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#7.2">（</a></span><a href="#7.2">
+				2
+				<span style="font-family:新細明體;">）日文略符「カ」</span></a></strong></font><br>
+		<strong style="font-weight: 400"><font size="4" color="#800080">
+		<span style="font-family: 新細明體">【例八】<a href="#8">校勘[12]除恐陰。加入【CB】修訂表示法</a><br>
+		</span></font><font face="新細明體" size="4" color="#800080">【例九】<a href="#9">kw、kI</a><br>
+		</font></strong><font color="#800080" size="4">
+		<strong style="font-weight: 400">
+		<span style="font-family:新細明體;">【例十】</span></strong><span style="font-family:新細明體; "><a href="#10">大量修訂經文
+		使用<strong style="font-weight: 400"> corr2xml 程式</strong></a><strong style="font-weight: 400"> </strong></span></font></p>
+<p>&nbsp;</p>
+<p><strong><span style="FONT-FAMILY: 新細明體"><font size="5"><a name="1"></a></font></span></strong></p>
+		<p>
+		<strong>
+				<span style="font-family:新細明體;"><font size="5">【例一】</font></span><font size="5"><span style="font-family:新細明體;">經文校勘用字</span></font><span style="font-family:新細明體;"><font size="5">依其他藏經修訂</font></span><font size="5"> 
+		--</font></strong><b><span style="font-family:新細明體;"><font size="5">【麗 
+		</font>
+</span>
+		<font size="5">-CB<span style="font-family:新細明體; ">】【</span>CB</font><span style="font-family:新細明體; "><font size="5">】</font></span></b></p>
+		<p>
+		<span style="font-family:細明體; ">T19n0930.xml</span>
+		</p>
+		<p>
+		&lt;note n=
+		&quot;0067011&quot; resp=
+		&quot;Taisho&quot; place=
+		&quot;foot text&quot; type= &quot;orig&quot;&gt;
+		<span style="font-family:新細明體;">〔而〕－【三】【乙】【丙】</span>&lt;/note&gt; <br>
+		&lt;note n=
+		&quot;0067011&quot; resp= &quot;CBETA&quot; type=
+		&quot;mod&quot;&gt;
+		<span style="font-family:新細明體;">〔而〕－【宋】【元】【明】【乙】【丙】<span style="color:red; ">【麗</span>
+</span>
+		<span style="color:red;">-CB</span><span style="font-family:新細明體; color:red;">】【</span><span style="color:red;">CB</span><span style="font-family:新細明體; color:red;">】</span>&lt;/note&gt;
+		<br>
+		&lt;app n=
+		&quot;0067011&quot;&gt; <br>
+&nbsp;&nbsp;&nbsp;
+		&lt;lem resp= &quot;CBETA.maha&quot; wit= &quot;<font color="#FF0000"><span style="font-family:新細明體;">【</span>CBETA</font><span style="font-family:新細明體;"><font color="#FF0000">】</font><span style="color:red; ">【麗】</span>
+</span>
+		&quot; cf1= &quot;<span style="color:red; ">K36n1312_p1005b16</span>&quot;&gt;&amp;lac;&lt;/lem&gt;
+		<br>
+&nbsp;&nbsp;&nbsp;
+		&lt;rdg wit= &quot;<span style="font-family:新細明體;">【大】</span>&quot;&gt;<span style="font-family:新細明體;">而</span>&lt;/rdg&gt;
+		<br>
+&nbsp;&nbsp;&nbsp;
+		&lt;rdg resp=
+		&quot;Taisho&quot; wit=&quot;<span style="font-family:新細明體;">【宋】【元】【明】【乙】【丙】</span>&quot;&gt;&amp;lac;&lt;/rdg&gt;
+		<br>
+		&lt;/app&gt; &nbsp;
+		</p>
+		<p>
+		<strong><u>
+				<span style="font-family:新細明體; ">說明：</span>
+		</u></strong>
+		</p>
+		<p>１．&lt;lem&gt; <span style="font-family:新細明體; ">裡的</span>
+				wit
+				<span style="font-family:新細明體; ">要加上【麗】、【磧砂】、【嘉興】、【北藏】、</span><span style="font-family:細明體; ">【龍】等參考版本。  這裡 w</span>it
+				<span style="font-family:細明體; ">的版本</span> <strong>”
+						<span style="font-family:細明體; ">不用</span>
+						”</strong> <span style="font-family:細明體; ">加上 </span>”
+				<span style="color:red; ">-CB</span>
+				”
+				<span style="font-family:細明體; ">。 <br>
+		　　以前的討論是：</span>
+		<span style="font-family:新細明體; ">不管是在</span>
+		&lt;lem&gt;
+		<span style="font-family:新細明體; ">或</span>
+		&lt;rdg&gt;
+		<span style="font-family:新細明體; ">，只要</span>
+		<span style="font-family:細明體; ">看到</span>
+		resp= &quot;CBETA.xxx&quot;
+		<span style="font-family:新細明體; ">就知道是</span>
+		CBETA
+		<span style="font-family:新細明體; ">修訂的，所以不加上</span>
+		”
+		<span style="color:red; ">-CB</span>
+		”
+		<span style="font-family:細明體; ">。</span>
+		<br>
+		<b><span style="font-family:細明體; ">２．&lt;note mod&gt;
+</span><span style="font-family:新細明體; ">裡，依據修訂</span><span style="font-family:細明體; ">的</span><span style="font-family:新細明體; ">藏經</span></b><span style="font-family:細明體; "><b>版本</b><strong>要</strong><b>加上</b></span><b>
+				”
+				<span style="color:red; ">-CB</span>
+				”
+				<span style="font-family:細明體; ">。 <br>
+		３．&lt;note mod&gt; </span>
+		<span style="font-family:新細明體; ">裡，</span>
+		CBETA
+		<span style="font-family:新細明體; ">抉擇的用字可以加上</span>
+		<span style="font-family:新細明體; color:red;">【</span><span style="color:red;">CB</span><span style="font-family:新細明體; color:red;">】</span>
+		<span style="font-family:新細明體; ">版本</span></b>&nbsp;
+		</p>
+		<p class="style1">&nbsp;</p>
+		<h3 style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm">
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="2"></a>
+		【例二】</font></span><font size="5"><span style="font-family:新細明體;">經文校勘用字</span></font><span style="font-family:新細明體;"><font size="5">依其他藏經修訂</font></span><font size="5"> 
+		--</font></strong><font size="5">【麗-CB】【磧砂-CB】【CB】</font></h3>
+		<p class="MsoNormal"><span class="linehead">
+		<span lang="EN-US" style="color:#0000A0">T01n0023_p0277c02║</span></span><span class="gaiji"><span style="font-family: 新細明體; color: black">實。車</span><span lang="EN-US" style="font-family:SimSun;color:black">[(</span><span style="font-family:SimSun;color:black">王<span lang="EN-US">*</span>巨<span lang="EN-US">)/</span>木<span lang="EN-US">]</span></span><span lang="EN-US" style="color:black">[</span><span lang="EN-US" style="font-family:細明體;color:black"><span class="MsoHyperlink"><span lang="EN-US" style="font-family: 新細明體">＊</span></span></span><span lang="EN-US" style="color:black">]</span></span><span class="foot"><span style="font-family: 新細明體; color: black">樹</span></span><span class="gaiji"><span style="font-family: 新細明體; color: black">車</span><span lang="EN-US" style="font-family:SimSun;color:black">[(</span><span style="font-family:SimSun;color:black">王<span lang="EN-US">*</span>巨<span lang="EN-US">)/</span>木<span lang="EN-US">]</span></span><span style="font-family: 新細明體; color: black">根莖。一切寶枝葉華實。</span><span lang="EN-US" style="color:black">[</span><span lang="EN-US" style="font-family:細明體;color:black"><span class="MsoHyperlink"><span style="font-family: Times New Roman">37</span></span></span><span lang="EN-US" style="color:black">]</span></span><span class="foot"><span style="font-family: 新細明體; color: black">彩</span></span><span lang="EN-US" style="color:black"><br>
+		</span><span class="linehead"><span lang="EN-US" style="color:#0000A0">
+		T01n0023_p0277c03║</span></span><span class="gaiji"><span style="font-family: 新細明體; color: black">畫</span><span lang="EN-US" style="color:black">[</span><span lang="EN-US" style="font-family:細明體;color:black"><span class="MsoHyperlink"><span style="font-family: Times New Roman">38</span></span></span><span lang="EN-US" style="color:black">]</span></span><span class="foot"><span style="font-family: 新細明體; color: black">殊</span></span><span class="gaiji"><span style="font-family: 新細明體; color: black">好。皆以七寶。金銀琉璃水精赤真珠車</span></span><span lang="EN-US" style="font-family:細明體;color:black"><br>
+		</span><span class="gaiji"><span lang="EN-US" style="color:black"><br>
+		p. 
+		277, [38] </span><span style="font-family: 新細明體; color: black">殊＝</span><span style="font-family: 新細明體; ">妹</span><span style="font-family: 新細明體; color: black">【宋】【元】【明】</span></span>，＝姝<font color="#FF0000">【麗-CB】【磧砂-CB】【CB】</font></p>
+		<span class="gaiji">
+		<span lang="EN-US" style="font-size: 12.0pt; font-family: 細明體; color: black">
+		●</span><span style="font-size: 12.0pt; font-family: 細明體; color: black">參考 
+		磧砂藏 第<span lang="EN-US">18</span>冊<span lang="EN-US"> p.0719b19 </span>
+		作「姝」，以上校勘 </span>
+		<span style="font-size: 12.0pt; font-family: 新細明體; color: red">妹</span><span style="font-size: 12.0pt; font-family: Times New Roman; color: black">
+		</span><span style="font-size: 12.0pt; font-family: 新細明體; color: black">
+		改作</span><span style="font-size: 12.0pt; font-family: Times New Roman; color: black">
+		</span>
+		<span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman">
+		[</span><span style="font-size: 12.0pt; font-family: 新細明體">妹</span><span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman">&gt;</span><span style="font-size: 12.0pt; font-family: 新細明體">姝</span><span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman">]</span><span style="font-size: 12.0pt; font-family: 新細明體; color: black">。</span></span>(<span style="font-family: 新細明體">【磧<span lang="EN-US">砂-CB</span>】，表示是<span lang="EN-US">CBETA</span>查證的磧砂藏。)</span><p class="style1">
+		&lt;note n=&quot;0277038&quot; resp=&quot;Taisho&quot; place=&quot;foot 
+		text&quot; type=&quot;orig&quot;&gt;殊＝妹【三】&lt;/note&gt;<br>
+		&lt;note n=&quot;0277038&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;殊＝妹【宋】【元】【明】，＝姝<font color="#FF0000">【麗-CB】【磧砂-CB】【CB】</font>&lt;/note&gt;<br>
+		&lt;app 
+		n=&quot;0277038&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;lem wit=&quot;<font color="#FF0000">【CBETA】【麗】【磧砂】</font>&quot; resp=&quot;CBETA.maha CBETA.say&quot; cf1=&quot;<font color="#FF0000">K19n0662_p0425c22</font>&quot; cf2=&quot;<font color="#FF0000">Q18_p0719b19</font>&quot;&gt;姝&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【大】&quot;&gt;殊&lt;/rdg&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg resp=&quot;Taisho&quot; wit=&quot;【宋】【元】【明】&quot;&gt;妹&lt;/rdg&gt;<br>
+		&lt;/app&gt;</p>
+		<p class="style1">&nbsp;</p>
+		<p class="MsoNormal" style="line-height: 28.0pt">
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="3"></a>
+		【例三】經文校勘用字依其他藏經修訂</font></span><font size="5"> 
+		--</font></strong><b><span style="font-family: 新細明體; "><font size="5">【磧砂</font></span><font size="5"><span lang="EN-US">-CB</span><span style="font-family: 新細明體; ">】【</span><span lang="EN-US">CB</span><span style="font-family: 新細明體; ">】
+		及</span></font><span style="font-family: 新細明體"><font size="5"> 「＊」 修訂</font></span></b></p>
+		<p class="MsoNormal"><span lang="EN-US">T01n0026_p0436b13_##[</span><span style="font-family: 新細明體">腳</span><span lang="EN-US">-</span><span style="font-family: 新細明體">谷</span><span lang="EN-US">+</span><span style="font-family: 新細明體">去</span><span lang="EN-US">]</span><span style="font-family: 新細明體">．後</span><span lang="EN-US">[</span><span style="font-family: 新細明體">腳</span><span lang="EN-US">-</span><span style="font-family: 新細明體">谷</span><span lang="EN-US">+</span><span style="font-family: 新細明體">去</span><span lang="EN-US">]</span><span style="font-family: 新細明體">．尾．</span><span lang="EN-US">[12]<span style="color:red">[</span></span><span style="font-family: 新細明體; color: red">骼</span><span lang="EN-US" style="color:red">&gt;</span><span style="font-family: 新細明體; color: red">髂</span><span lang="EN-US" style="color:red">]</span><span style="font-family: 新細明體">．脊．</span><span lang="EN-US">[</span><span style="font-family: 新細明體">月</span><span lang="EN-US">*</span><span style="font-family: 新細明體">劦</span><span lang="EN-US">]</span><span style="font-family: 新細明體">．</span><span lang="EN-US">[13]</span><span style="font-family: 新細明體">項．額．耳．牙。一切皆用。唯</span></p>
+		<p class="MsoNormal"><span lang="EN-US">p. 436, [12] </span>
+		<span style="font-family: 新細明體; ">髂＝骼【宋】【元】【明】</span><font color="#FF0000"><span lang="EN-US">[&gt;</span><span style="font-family: 新細明體">＊</span><span lang="EN-US">]</span></font><span style="font-family: 新細明體">，＝髂<font color="#FF0000">【磧砂</font></span><font color="#FF0000"><span lang="EN-US">-CB</span></font><span style="font-family: 新細明體"><font color="#FF0000">】</font><span style="color:red">【</span></span><span lang="EN-US" style="color:red">CB</span><span style="font-family: 新細明體; color: red">】</span></p>
+		<p class="style1">&lt;note 
+		n=&quot;0436012&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;&amp;CB03554;＝骼【三】&lt;/note&gt;<br>
+		&lt;note 
+		n=&quot;0436012&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;&amp;CB03554;＝骼【宋】【元】【明】&lt;app&gt;&lt;lem resp=&quot;CBETA.say&quot;&gt;＊&lt;/lem&gt;&lt;rdg 
+		wit=&quot;【大】&quot;&gt;&amp;lac;&lt;/rdg&gt;&lt;/app&gt;，＝髂【磧砂-CB】＊【CB】＊&lt;/note&gt;<br>
+		&lt;app n=&quot;0436012&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;lem 
+		wit=&quot;【CBETA】【磧砂】&quot; resp=&quot;CBETA.maha CBETA.say&quot; cf1=&quot;Q17_p0454b08&quot;&gt;髂&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg 
+		wit=&quot;【大】&quot;&gt;骼&lt;/rdg&gt;&lt;rdg wit=&quot;【麗】&quot; resp=&quot;CBETA.maha&quot; cf1=&quot;KI17n0648_p1047a16&quot;&gt;&amp;CB03554;&lt;/rdg&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg resp=&quot;Taisho&quot; wit=&quot;【宋】【元】【明】&quot;&gt;骼&lt;/rdg&gt;<br>
+		&lt;/app&gt;</p>
+		<p class="style1">&nbsp;</p>
+		<p class="style1">
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="4"></a>
+		【例四】</font></span></strong><b><font size="5">經文校勘用字修訂</font></b><strong><span style="font-family:新細明體;"><font size="5">依其他
+		經文修訂</font></span></strong></p>
+		<font face="細明體">
+		<div dir="ltr" align="left">
+			<span class="linehead"><font color="#0000a0">T50n2060_p0533a29║</font></span>通情盡一。唐初廓定未拔[<a id="a0533014" onblur="abc(&quot;n0533014&quot;,nocolor)" title="outbind://48-000000002B5387476B9DCB4CAF520804F35420B6A47B4600/" onfocus="abc(&quot;n0533014&quot;,sr)" onclick="return aOnClick('0533014')" orig="蒱＝蒲【三】【宮】" mod="蒱＝蒲【宋】【元】【明】【宮】">14</a>]<font color="#ff0000">[<span class="foot" id="n0533014" v150="蒱" ver="030 050 070 080 150 " v070="蒲" v080="蒲" v030="蒲" v050="蒲"><span class="640035802-01052009"></span><span class="SearchWord1"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=14&amp;P=&amp;87284.htm#0_0" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=14&P=&87284.htm#0_0"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=14&amp;P=&amp;87284.htm#0_0" style="BACKGROUND-COLOR: #ffff66">蒱</font></a></span></span></font><span class="SearchWord1"><span class="640035802-01052009"></span><font color="#ff0000">&gt;蒲<span class="640035802-01052009">]</span></font><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=14&amp;P=&amp;87284.htm#0_0" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=14&P=&87284.htm#0_0"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=14&amp;P=&amp;87284.htm#0_0" style="BACKGROUND-COLOR: #ffff66">州</font></a></span>。愻與寺僧</div>
+		<div dir="ltr" align="left">
+			<br>
+			[<a id="f0533014" onblur="abc(&quot;f0533014&quot;,&quot;white&quot;)" title="outbind://48-000000002B5387476B9DCB4CAF520804F35420B6A47B4600/" style="BACKGROUND-COLOR: white" onfocus="abc(&quot;f0533014&quot;,&quot;lightblue&quot;)" onclick="return footOnClick(&quot;0533014&quot;)">0533014</a>] 
+			蒱＝蒲【宋】【元】【明】【宮】<font color="#FF0000" face="新細明體">【CB】</font></div>
+		<div dir="ltr" align="left">
+			&nbsp;</div>
+		<div dir="ltr" align="left">
+			參考：</div>
+		<ul dir="ltr">
+			<li>
+			<div align="left">
+				<span class="linehead"><font color="#0000a0">T49n2035_p0271c18║</font></span>　州道昂法師　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_4" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2112&B=T&V=49&S=2035&J=27&P=&87288.htm#1_4"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_4" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span>虎丘智琰法師　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_5" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2112&B=T&V=49&S=2035&J=27&P=&87288.htm#1_5"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_5" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span><span class="SearchWord1"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#0_0" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2112&B=T&V=49&S=2035&J=27&P=&87288.htm#0_0"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#0_0" style="BACKGROUND-COLOR: #ffff66">蒲州</font></a></span><br>
+				<span class="linehead">
+				<font color="#0000a0">T49n2035_p0271c19║</font></span>　神素法師　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_6" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2112&B=T&V=49&S=2035&J=27&P=&87288.htm#1_6"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_6" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span>浚儀功<span class="gaiji"><font face="SimSun">逈<!--gaiji,迥,1[這-言+向],2&#X9008;,3--></font></span>法師　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_7" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2112&B=T&V=49&S=2035&J=27&P=&87288.htm#1_7"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2112&amp;B=T&amp;V=49&amp;S=2035&amp;J=27&amp;P=&amp;87288.htm#1_7" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span>并州惟</div>
+			</li>
+			<li>
+			<div align="left">
+				<span class="linehead"><font color="#0000a0">T50n2060_p0521c25║</font></span>　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_3" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=13&P=&87289.htm#1_3"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_3" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span>新羅國皇隆寺釋圓光傳五<font color="#800080" size="2"><span class="note">(圓安)</span><br>
+				</font>
+				<span class="linehead"><font color="#0000a0">T50n2060_p0521c26║</font></span>　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_4" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=13&P=&87289.htm#1_4"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_4" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span><span class="SearchWord1"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#0_2" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=13&P=&87289.htm#0_2"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#0_2" style="BACKGROUND-COLOR: #ffff66">蒲州</font></a></span>仁壽寺釋海順傳六<span class="note"><font color="#800080" size="2">([</font><a id="a0521029" onblur="abc(&quot;n0521029&quot;,nocolor)" title="outbind://48-000000002B5387476B9DCB4CAF520804F35420B6A47B4600/" onfocus="abc(&quot;n0521029&quot;,sr)" onclick="return aOnClick('0521029')" orig="行友＋（慧本）【三】【宮】" mod="行友＋（慧本）【宋】【元】【明】【宮】"><font title="outbind://48-000000002B5387476B9DCB4CAF520804F35420B6A47B4600/" size="2">29</font></a><font color="#800080" size="2">]<span class="foot" id="n0521029" v150="行友" ver="030 050 070 080 150 " v070="行友慧本" v080="行友慧本" v030="行友慧本" v050="行友慧本">行友</span>)</font></span><br>
+				<span class="linehead">
+				<font color="#0000a0">T50n2060_p0521c27║</font></span>　<span class="SearchWord2"><a title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_5" href="../../../maha/Local%20Settings/Temp/cbrtmp_sutra_&T=2138&B=T&V=50&S=2060&J=13&P=&87289.htm#1_5"><font title="file:///C:/Documents%20and%20Settings/maha/Local%20Settings/Temp/cbrtmp_sutra_&amp;T=2138&amp;B=T&amp;V=50&amp;S=2060&amp;J=13&amp;P=&amp;87289.htm#1_5" style="BACKGROUND-COLOR: #a0ffff">唐</font></a></span>京師普光寺釋曇藏傳七</div>
+			</li>
+			<li>
+			<div align="left">
+				蒲1&nbsp; 〔p ㄆㄨˊ〕〔《廣韻》薄胡切，平模，並。〕<br>
+				7.古邑名。 春秋&nbsp; 衛 地， 戰國 屬 魏 。在今 河南省&nbsp; 長垣縣 。《左傳‧桓公三年》：“ 夏 ， 齊侯 、 衛侯 胥命于 
+				蒲 。”8.古邑名。 春秋&nbsp; 晉 地，在今 山西省&nbsp; 隰縣 西北。《左傳‧僖公四年》：“ 重耳 奔 蒲 ， 夷吾 奔 屈。”
+				</font></div>
+			</li>
+		</ul>
+		<p>
+		<font face="新細明體">&lt;note n=&quot;0533014&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;蒱＝蒲【三】【宮】&lt;/note&gt;<br>
+		&lt;note 
+		n=&quot;0533014&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;蒱＝蒲【宋】【元】【明】【宮】<font color="#FF0000">【CB】</font>&lt;/note&gt;<br>
+		&lt;app 
+		n=&quot;0533014&quot;&gt;<font color="#FF0000"><br>
+&nbsp;&nbsp;&nbsp; </font>&lt;lem resp=&quot;CBETA.maha&quot; cf1=&quot;<font color="#FF0000">T50n2060_p0521c26</font>&quot; wit=&quot;【CBETA】&quot;&gt;蒲&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【大】&quot;&gt;蒱&lt;/rdg&gt;<font color="#FF0000"><br>
+&nbsp;&nbsp;&nbsp; </font>&lt;rdg 
+		resp=&quot;Taisho&quot; wit=&quot;【宋】【元】【明】【宮】&quot;&gt;蒲&lt;/rdg&gt;<br>
+		&lt;/app&gt;</font></p>
+		<p class="style1">&nbsp;</p>
+		<p>
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="5"></a>【例
+		五】</font></span></strong><b><span lang="EN-US"><font size="5">[TK</font></span><font size="5"><span style="font-family: 新細明體; ">比對</span></font><span lang="EN-US"><font size="5">]一般經文用字修訂</font></span></b></p>
+		<p class="MsoNormal"><span lang="EN-US" style="font-family: 新細明體">
+		T25n1509_p0343a19_##</span><span style="font-family: 新細明體">處起入滅盡定。<span lang="EN-US" style="color:red">[</span><span style="color:red">知<span lang="EN-US">&gt;</span>如<span lang="EN-US">]</span></span><span style="color:blue">是舍利弗</span>。菩薩摩訶薩行</span></p>
+		<p>
+		<span lang="en-us">&lt;app&gt;<br>
+		<font color="#FF0000">&nbsp;&nbsp;&nbsp; &lt;lem 
+		resp=&quot;CBETA.maha CBETA.say&quot; <b>cf1=&quot;KI14n0549_p0891b11&quot; wit=&quot;【CBETA】【麗】&quot; cf2=&quot;T25n1509_p0344b20&quot;</b>&gt;如&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【大】&quot;&gt;知&lt;/rdg&gt;<br>
+		</font>&lt;/app&gt;</span></p>
+		<p class="MsoNormal" style="line-height: 28.0pt"><strong>
+				<span style="font-family:新細明體;"><font size="5"><br>
+		<a name="6"></a>【例六】</font></span></strong><b><span lang="EN-US"><font size="5">[TK</font></span><font size="5"><span style="font-family: 新細明體; ">比對</span><span lang="EN-US">]</span></font><span style="font-family: 新細明體; "><font size="5">校勘用字修訂</font></span></b></p>
+		<p class="MsoNormal"><span lang="EN-US" style="font-family: 新細明體">
+		T01n0001_p0044b03_##</span><span style="font-family: 新細明體">引喻說有他世。<span lang="EN-US">[09]</span>知我所見。猶無有也。Ｐ迦<span lang="EN-US"><br>
+		&nbsp;&nbsp;&nbsp; p. 44, [9] </span>知＝如【聖】</span><span lang="EN-US" style="font-family: 新細明體">&nbsp;</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體">修訂成：</span></b></p>
+		<p class="MsoNormal"><span lang="EN-US" style="font-family: 新細明體">
+		T01n0001_p0044b03_##</span><span style="font-family: 新細明體">引喻說有他世。<span lang="EN-US">[09][</span>知<span lang="EN-US">&gt;</span>如<span lang="EN-US">]</span>我所見。猶無有也。Ｐ迦<span lang="EN-US"><br>
+		&nbsp;&nbsp;&nbsp; p. 44, [9] </span>知＝如【聖】</span><font color="#0000ff"><span class="828135006-20052009"><span style="color: red; font-family: 新細明體"><font color="#000000"><span class="531293807-20052009"><span style="FONT-FAMILY: 新細明體"><span style="COLOR: red">【麗-<span lang="EN-US">CB</span>】</span></span></span></font></span></span></font><span style="color:red; font-family:新細明體">【<span lang="EN-US">CB</span>】</span><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal" style="line-height: 28.0pt"><span lang="EN-US">
+		&lt;note n=&quot;0044009&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;</span><span style="font-family: 新細明體">知＝如【聖】</span><span lang="EN-US">&lt;/note&gt;<br>
+		&lt;note n=&quot;0044009&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;</span><span style="font-family: 新細明體">知＝如【聖】</span><font color="#0000ff"><span class="828135006-20052009"><span style="color: red; font-family: 新細明體"><font color="#000000"><span class="531293807-20052009"><span style="FONT-FAMILY: 新細明體"><span style="COLOR: red">【麗-<span lang="EN-US">CB</span>】</span></span></span></font></span></span></font><span style="font-family: 新細明體"><font color="#FF0000">【</font></span><font color="#FF0000"><span lang="EN-US">CB</span><span style="font-family: 新細明體">】</span></font><span lang="EN-US">&lt;/note&gt;<br>
+		&lt;app 
+		n=&quot;0044009&quot;&gt;<font color="#FF0000"><br>
+&nbsp;&nbsp;&nbsp; &lt;lem resp=&quot;CBETA.maha&quot; wit=&quot;</font></span><font color="#FF0000"><span style="font-family: 新細明體">【</span><span lang="EN-US">CBETA</span><span style="font-family: 新細明體">】【麗】</span><span lang="EN-US">&quot; cf1=&quot;K17_p0873a17&quot; cf2=&quot;T01n0001_p0044c21&quot;&gt;</span><span style="font-family: 新細明體">如</span><span lang="EN-US">&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg 
+		wit=&quot;</span><span style="font-family: 新細明體">【大】</span><span lang="EN-US">&quot;&gt;</span><span style="font-family: 新細明體">知</span></font><span lang="EN-US"><font color="#FF0000">&lt;/rdg&gt;<br>
+&nbsp;&nbsp;&nbsp; </font>&lt;rdg 
+		resp=&quot;Taisho&quot; wit=&quot;</span><span style="font-family: 新細明體">【聖】</span><span lang="EN-US">&quot;&gt;</span><span style="font-family: 新細明體">如</span><span lang="EN-US">&lt;/rdg&gt;<br>
+		&lt;/app&gt;</span></p>
+		<p class="style1">&nbsp;</p>
+		<p>
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="7"></a>【例
+		七】遇到經文修訂時，如何將</font></span><font size="5">
+				&lt;sic&gt;
+				<span style="font-family:新細明體;">標記改成</span>
+				&lt;app&gt;
+				<span style="font-family:新細明體;">標記</span>
+		</font>
+		</strong>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">參考</span>
+		ray
+		<span style="font-family:新細明體; ">的信：</span>
+		</p>
+		<p>
+		<span style="color:#993300; ">Re: &lt;sic&gt;
+</span>
+		<span style="font-family:新細明體; color:#993300; ">要怎麼加入</span>
+		<span style="color:#993300; ">&lt;app&gt;
+</span>
+		<span style="font-family:新細明體; color:#993300; ">修訂？</span>
+		<br>
+		<span style="color:#993300; ">2006/12/18 (</span>
+		<span style="font-family:新細明體; color:#993300; ">星期一</span>
+		<span style="color:#993300; ">) </span>
+		<span style="font-family:新細明體; color:#993300; ">上午</span>
+		<span style="color:#993300; ">  11:09</span>
+		&nbsp;
+		</p>
+		<p>
+		<strong>
+						<span style="font-family:新細明體;"><font size="5">
+		<a name="7.1"></a>（</font></span><font size="5">
+				1
+				</font>
+				<span style="font-family:新細明體;"><font size="5">）「<span style="font-family:新細明體; ">？</span>」的類型</font></span>
+		</strong>
+		</p>
+		<p>
+		T47n1966_p0124c14_##
+		<span style="font-family:新細明體; ">「</span>
+		[04
+		<span style="color:black; ">]</span>
+		<span style="color:red; ">[</span><span style="font-family:新細明體; color:red; ">苦</span><span style="color:red; ">&gt;</span><span style="font-family:新細明體; color:red; ">若</span><span style="color:red; ">]</span>
+		<span style="font-family:新細明體; ">能為我說念佛要法者，吾當終身供給走</span>
+		</p>
+		<p>
+		[04
+		<span style="color:black; ">] </span>
+		<span style="font-family:新細明體; ">苦＝若？</span>
+		&nbsp;
+		</p>
+		<p>
+		<strong><u>
+				<span style="font-family:新細明體; ">XML</span>
+				<span style="font-family:新細明體; ">原標記：</span>
+		</u></strong>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">&lt;note  n=&quot;0124004&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;
+苦＝若<strong><span style="color:blue; ">？</span></strong>&lt;/note&gt;<br>
+</span>
+		<span style="font-family:新細明體; color:red; ">&lt;sic</span>
+		<span style="font-family:新細明體; "> <span style="color:blue; ">cert=&quot;<strong>?</strong>&quot;</span>  n=&quot;0124004&quot; resp=&quot;Taisho&quot; 
+		corr=&quot;
+若&quot;&gt;苦<span style="color:red; ">&lt;/sic&gt;</span> 
+</span>
+		&nbsp;
+		</p>
+		<p>
+		<strong><u>
+				<span style="font-family:新細明體; ">改成：</span>
+		</u></strong>
+		</p>
+		<p>
+		&lt;note n=&quot;0124004&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=
+		&quot;foot text&quot;&gt;
+		<span style="font-family:新細明體; ">苦＝若？</span>&lt;/note&gt; <br>
+		<span style="color:purple; ">&lt;note  n=&quot;0124004&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;
+</span>
+		<span style="font-family:新細明體; color:purple; ">苦＝若？，</span><font color="#FF0000"><span style="font-family:新細明體; ">＝若【</span>
+		</font>
+		<span style="color:#FF0000; ">CB</span><font color="#FF0000"> </font>
+		<span style="font-family:新細明體; color:#FF0000; ">】</span><span style="color:purple; ">&lt;/note&gt;
+		<br>
+</span>&lt;app n=&quot;0124004&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;
+		&lt;lem
+		<span style="color:red; ">resp=&quot;<b>CBETA.maha Taisho&quot;</b>
+</span>
+		wit= &quot;<span style="font-family:新細明體; ">【</span>CBETA<span style="font-family:新細明體; ">】</span>&quot;&gt;<span style="font-family:新細明體; ">若</span>&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;<span style="font-family:新細明體; ">【大】</span>&quot;&gt;<span style="font-family:新細明體; ">苦</span>&lt;/rdg&gt;<br>
+		&lt;/app&gt; &nbsp;
+		</p>
+		<p>
+		<strong>p/s: </strong>
+		</p>
+		<p>
+		1.
+		<span style="font-family:新細明體; ">上面</span>
+		&lt;sic&gt;
+		<span style="font-family:新細明體; ">改成</span>
+		&lt;app&gt;
+		<span style="font-family:新細明體; ">標記，主要是</span>
+		resp
+		<span style="font-family:新細明體; ">多加個</span>
+		“
+		<span style="color:red; ">Taisho</span>
+		”
+		<span style="font-family:新細明體; ">。<br>
+&nbsp; 「？」校勘是大正藏編輯的，所以</span>
+		resp
+		<span style="font-family:新細明體; ">加上</span>
+		“
+		<span style="color:red; ">Taisho</span>
+		”
+		<span style="font-family:新細明體; ">。</span>
+		<br>
+		2.
+		<span style="font-family:新細明體; ">上面</span>
+		&lt;lem&gt;
+		<span style="font-family:新細明體; ">裡的</span>
+		wit
+		<span style="font-family:新細明體; ">照理應該還要加上</span>
+		”<span style="font-family:新細明體; ">【大】</span>”
+		<span style="font-family:新細明體; ">，即</span>
+		wit=&quot;<span style="font-family:新細明體; ">【</span>CBETA<span style="font-family:新細明體; ">】【大】</span>&quot;<span style="font-family:新細明體; ">。</span>
+		<br>
+		<span style="font-family:新細明體; ">&nbsp;&nbsp;&nbsp; 這一點可以再請教一下海文等人。（早期大正藏沒用</span>
+		wit
+		<span style="font-family:新細明體; ">，</span>
+		wit
+		<span style="font-family:新細明體; ">是後來才加入的）</span>
+		</p>
+		<p>&nbsp;
+		</p>
+		<p>
+		<strong>
+						<span style="font-family:新細明體;"><font size="5">
+		<a name="7.2"></a>（</font></span><font size="5">
+				2
+				<span style="font-family:新細明體;">）日文略符「カ」</span>
+		</font>
+		</strong>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">T51n2067_p0014b18P#1魏外國釋正無畏(法花三[07<span style="color:red; ">][味&gt;昧]</span>經六卷亦一本加正字)</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">        [07] 味＝昧</span><span style="font-family:新細明體; color:blue; ">カ</span><span style="font-family:新細明體; ">【甲】＊ </span>&nbsp;
+		</p>
+		<p>
+				<strong><u>
+						<span style="font-family:新細明體; ">XML</span>
+				<span style="font-family:新細明體; ">原標記如下</span>
+				</u></strong><u>
+		<span style="font-family:新細明體; ">，<span style="color:blue; ">&amp;M062485;是日文略符</span>
+</span>
+		<span style="font-family:新細明體; color:blue; ">「<strong>カ</strong>」</span>
+		<span style="font-family:新細明體; ">： </span>
+				</u>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">&lt;note  n=&quot;0014007&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot text&quot;&gt;味＝昧<span style="color:blue; ">&amp;M062485;</span>【甲】＊&lt;/note&gt;<br>
+</span><span style="font-family:新細明體; color:red; ">&lt;sic</span>
+		<span style="font-family:新細明體; "> n=&quot;0014007&quot; corr=&quot;昧&quot; resp=&quot;【甲】&quot;&gt;味<span style="color:red; ">&lt;/sic&gt;</span></span>&nbsp;
+		</p>
+		<p>
+		<strong><u>
+				<span style="font-family:新細明體; ">改成：</span>
+		</u></strong>
+		</p>
+		<p>
+		&lt;note n= &quot;0014007&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;<span style="font-family:新細明體; ">味＝昧</span><span style="color:blue; ">&amp;M062485;</span><span style="font-family:新細明體; ">【甲】＊</span>&lt;/note&gt;
+		<br>
+		&lt;note n= &quot;0014007&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;<span style="font-family:新細明體; ">味＝昧</span>&amp;M062485;<span style="font-family:新細明體; ">【甲】＊
+		，<font color="#FF0000">＝昧【</font></span><font color="#FF0000">CB<span style="font-family:新細明體; ">】＊</span></font>&lt;/note&gt;
+		<br>
+		&lt;app n= &quot;0014007&quot;&gt; <br>
+		<strong>
+				&nbsp;&nbsp;&nbsp;
+				&lt;lem</strong>
+		<span style="color:red; ">resp=&quot;CBETA.maha</span><span style="font-family:新細明體; color:red; ">【甲】</span><span style="color:red; ">&quot;
+</span>
+		wit=&quot;<span style="font-family:新細明體; ">【</span>CBETA<span style="font-family:新細明體; ">】</span>&quot; cf1=&quot;<font color="#FF0000">T34n1722_p0649c26</font>&quot; cf2=&quot;<font color="#FF0000">T55n2153_p0442c27</font>&quot;&gt;<span style="font-family:新細明體; ">昧</span><strong>&lt;/lem&gt;
+		<br>
+		</strong>&nbsp;&nbsp;&nbsp; &lt;rdg wit= &quot;<span style="font-family:新細明體; ">【大】</span>&quot;&gt;<span style="font-family:新細明體; ">味</span>&lt;/rdg&gt;
+		<br>
+		&lt;/app&gt; &nbsp;
+		</p>
+		<p>
+		<strong>p/s: </strong>
+		</p>
+		<p>
+		1.
+		<span style="font-family:新細明體; ">上面</span>
+		&lt;sic&gt;
+		<span style="font-family:新細明體; ">改成</span>
+		&lt;app&gt;
+		<span style="font-family:新細明體; ">標記，主要是</span>
+		resp
+		<span style="font-family:新細明體; ">多加個</span>
+		“<span style="font-family:新細明體; color:red; ">【甲】</span>”
+		<span style="font-family:新細明體; ">。</span>
+		<br>
+		<span style="font-family:新細明體; ">因為校勘是「味＝昧カ</span><span style="font-family:新細明體; color:red; ">【甲】</span><span style="font-family:新細明體; ">＊」，所以</span>
+		resp
+		<span style="font-family:新細明體; ">加上</span>
+		“<span style="font-family:新細明體; color:red; ">【甲】</span>”<span style="font-family:新細明體; ">。</span>
+		</p>
+		<p>
+		2.
+		<span style="font-family:新細明體; ">上面</span>
+		&lt;lem&gt;
+		<span style="font-family:新細明體; ">裡的</span>
+		wit
+		<span style="font-family:新細明體; ">照理應該還要加上</span>
+		”<span style="font-family:新細明體; ">【大】</span>”
+		<span style="font-family:新細明體; ">，即</span>
+		wit= &quot;<span style="font-family:新細明體; ">【</span>CBETA<span style="font-family:新細明體; ">】<span style="color:red; ">【甲】</span>
+</span>
+		&quot;<span style="font-family:新細明體; ">。</span>
+		<br>
+		<span style="font-family:新細明體; ">這一點可以再請教一下海文等人。（早期大正藏沒用</span>
+		wit
+		<span style="font-family:新細明體; ">，</span>
+		wit
+		<span style="font-family:新細明體; ">是後來才加入的）</span>
+		</p>
+		<p class="style1">&nbsp;</p>
+		<h3 style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm">
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="8"></a>【例
+		八】</font></span></strong><span style="font-family: 新細明體"><font size="5">校勘</font></span><font size="5"><span lang="EN-US" style="font-family: 新細明體">[12]</span></font><span style="font-family: 新細明體"><font size="5">除恐陰。加入【<span lang="EN-US">CB</span>】修訂表示法</font></span></h3>
+		<p class="MsoNormal"><span style="font-family: 新細明體">《雜阿含經》卷<span lang="EN-US">2</span>：「<br>
+		　二<span lang="EN-US">[11]</span>信二阿難　　壞法．鬱低迦<span lang="EN-US"><br>
+		</span>　婆羅及世間　　<span lang="EN-US">[12]</span>除漏無漏法」<span lang="EN-US">(CBETA, 
+		T02, no. 99, p. 13, c5-6)<br>
+&nbsp;&nbsp;&nbsp; </span></span><span lang="EN-US" style="font-family: 新細明體"><br>
+		&nbsp;&nbsp;&nbsp;
+		[12]</span><span style="font-family: 新細明體">除恐陰。</span><span lang="EN-US" style="font-family: 新細明體">&nbsp;&nbsp;</span></p>
+		<p class="MsoNormal"><b><u><span style="font-family: 新細明體">所以建議改成如下，並處理標點<span lang="EN-US">&nbsp;</span></span><span lang="EN-US" style="font-family: 新細明體">&nbsp;</span></u></b></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">二<span lang="EN-US">[11]</span>信<b><span style="color:red">．</span></b>二阿難　　壞法．鬱低迦</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">婆羅及世間　　<span lang="EN-US">[12]<b><span style="color:red">[</span></b></span><b><span style="color:red">除<span lang="EN-US">&gt;</span>陰<span lang="EN-US">]</span>．</span></b>漏<b><span style="color:red">、</span></b>無漏法</span><span lang="EN-US" style="font-family: 新細明體">&nbsp;</span></p>
+		<span style="font-size: 12.0pt; font-family: 新細明體"><u><b>校勘修訂：<span lang="EN-US">XML</span>改成這樣：</b></u><span lang="EN-US"><br>
+		<br>
+		&lt;note n=&quot;0013012&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;除恐陰&lt;/note&gt;<br>
+		&lt;note n=&quot;0013012&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;<font color="#FF0000">除＝陰？【大】，除＝陰【CB】</font>&lt;/note&gt;<br>
+		&lt;app n=&quot;0013012&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;lem resp=&quot;CBETA.maha 
+		Taisho&quot; wit=&quot;【CBETA】&quot;&gt;陰&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【大】&quot;&gt;除&lt;/rdg&gt;<br>
+		&lt;/app&gt;</span></span><p>
+		<font face="新細明體"><br>
+&nbsp;</font></p>
+		<p class="MsoNormal">
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="9"></a>【例
+		九】</font></span></strong><b><span lang="EN-US" style="font-family: 細明體; "><font size="5">kw、kI</font></span></b></p>
+		<p class="MsoNormal" style="text-indent: 6.0pt">
+		<span lang="EN-US" style="font-family: 細明體; color: blue">&nbsp;K&nbsp; </span>
+		<span style="font-family:細明體;
+color:blue">用在<span lang="EN-US"> KW</span>、<span lang="EN-US">KI </span>
+		出處皆一致的狀況</span></p>
+		<p class="MsoNormal">
+		<span lang="EN-US" style="font-family: 細明體; color: blue">&nbsp;&nbsp;KW&nbsp;</span><span style="font-family: 細明體; color: blue">高麗藏新文豐影印本</span></p>
+		<p class="MsoNormal" style="text-indent: 12.0pt">
+		<span lang="EN-US" style="font-family: 細明體; color: blue">KI </span>
+		<span style="font-family:細明體;color:blue">高麗藏研究所光碟文字電子檔</span><span lang="EN-US" style="font-family: 新細明體; color: blue">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體; color: blue">（基本上以<span lang="EN-US">K</span>代號，</span><span style="font-family: 細明體; color: blue">新文豐影印本與</span><span style="font-family:
+細明體;color:blue">高麗藏研究所光碟文字電子檔</span><span style="font-family: 細明體; color: blue">不一致的</span><span style="font-family: 新細明體; color: blue">地方才</span><span style="font-family: 細明體; color: blue">用<span lang="EN-US"> 
+		KW</span>、<span lang="EN-US">KI </span>來記）</span><b><span lang="EN-US" style="font-family: 細明體; color: blue"><br>
+		&nbsp;</span></b></p>
+		<p class="MsoNormal"><u><span style="font-family: 細明體">BM版經文作如下修訂：<br>
+		</span></u><span lang="EN-US" style="font-family: 新細明體; color: green"><br>
+		</span><span style="font-family: 細明體">　　<span lang="EN-US">T25n1509_p0123a25_##</span>火。火非水華所<span lang="EN-US" style="color:red">[</span><span style="color:red">宣<span lang="EN-US">&gt;</span>宜<span lang="EN-US">]</span></span>故。天寶蓮華琉璃為莖。</span><span lang="EN-US" style="font-family: 細明體; color: green">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 細明體; color: green">高麗藏作<span lang="EN-US"> 
+		CB04833 [</span>冗<span lang="EN-US">-</span>几<span lang="EN-US">+</span>且<span lang="EN-US">]</span>，</span></p>
+		<p class="MsoNormal"><span style="font-family: 細明體; color: green">「宜」、「<span lang="EN-US">[</span>冗<span lang="EN-US">-</span>几<span lang="EN-US">+</span>且<span lang="EN-US">]</span>」有異體關係，<span lang="EN-US">CBETA
+		</span>經文在這裡選擇「宜」字。</span></p>
+		<p class="MsoNormal"><u><span lang="EN-US" style="font-family: 新細明體">XML</span><span style="font-family: 細明體">：</span></u></p>
+		<p class="MsoNormal"><font face="細明體" color="#0000FF">&lt;app&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;lem resp=&quot;CBETA.mprajna&quot; wit=&quot;【CBETA】【麗】&quot; cf1=&quot;</font><b><font face="細明體" color="#FF0000">KW</font></b><font face="細明體" color="#0000FF">14n0549_p0460a17&quot; cf2=&quot;</font><b><font face="細明體" color="#FF0000">KI</font></b><font face="細明體" color="#0000FF">14n0549_p0579a17&quot;&gt;宜&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;rdg 
+		wit=&quot;【大】&quot;&gt;宣&lt;/rdg&gt;<br>
+		&lt;/app&gt;</font></p>
+		<p>
+		&nbsp;</p>
+		<p>
+		<strong>
+				<span style="font-family:新細明體;"><font size="5"><a name="10"></a>【例
+		十】</font></span></strong><span style="font-family:新細明體; "><b><font size="5">大量修訂經文
+		使用</font></b><strong><font size="5"> corr2xml 程式</font></strong></span></p>
+		<p>
+		<span style="font-family:新細明體; ">大量修訂經文時可以用<strong><span style="color:purple; "> corr2xml 程式</span></strong>，底下是說明，特別是修訂高麗藏很好用，cf 格式會自動轉如下藍色字： </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; "># </span>
+		<strong>
+				<span style="font-family:新細明體; ">將 SM 的修訂符號變成 xml 格式<br />  </span>
+		</strong>
+		<span style="font-family:新細明體; ">#T30n1579_p0644b22_##</span>
+		<span style="font-family:新細明體; ">隨煩惱。謂有<span style="color:red; ">[詔&gt;諂]</span>誑。矯詐。無慚無愧。不信懈<br />  #cf1=<span style="color:blue; ">K0570V15P0998a09L;<br />  </span>#cf2=T30n1579_p0670b05<br />  #<br />  #希望<strong>程式可以自動轉成：</strong><br />  #&lt;app&gt;&lt;lem<span style="color:blue; "> 
+		wit=&quot;【CBETA】【麗】&quot;</span><span style="color:fuchsia; ">&nbsp;</span>  resp=&quot;CBETA.maha&quot; cf1=&quot;<span style="color:blue; ">K15n0570_p0998a09</span>&quot; cf2=&quot;T30n1579_p0670b05&quot;&gt;諂&lt;/lem&gt;&lt;rdg  wit=&quot;【大】&quot;&gt;詔&lt;/rdg&gt;&lt;/app&gt;
+</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">my $infile =  &quot;in.txt&quot;;&nbsp;&nbsp;&nbsp;# 輸入檔<br />  my $outfile = &quot;out.txt&quot;;&nbsp;&nbsp;# 輸出檔<br />  my $resp = &quot;CBETA.maha&quot;;&nbsp;&nbsp;# 預設的  resp</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">只要將 BM 修訂用字及 cf 資料放到 &quot;in.txt&quot;，執行 corr2xml.pl ，就會產生&nbsp; &quot;out.txt&quot; 輸出檔，然後就可以將它貼到XML經文檔。 
+		<br>
+		當中的 resp 修訂者  也可以自己設定。<br>
+		</span>&nbsp;
+		</p>
+		<p>
+		<strong>
+				<span style="font-family:新細明體; ">注意：</span>
+		</strong>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">1. 以上 &quot;in.txt&quot; 裡的 cf1 及 cf2 後面不用加上引號 &nbsp;<span style="color:red; ">&quot; 
+		&quot;</span><span style="color:black; ">。</span> 
+		</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; color:black; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;out.txt&quot; 
+會自動呈現引號。</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">2. 【磧砂】【嘉興】【龍】也可以自動轉，程式會依 cf 裡的首字 Q、J、L 判別是哪一藏。 </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">3.&nbsp;  
+</span>
+		<strong>
+				<span style="font-family:新細明體; color:red; ">修訂高麗藏 第14~20 這幾冊需注意</span>
+		</strong>
+		<span style="font-family:新細明體; ">： </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">這幾冊在新文豐書本（KW）與 &nbsp;韓國的電子檔（KI）有出入。（我們的TK差異資料是以電子檔（KI）比對的） </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">所以看到 cf 這幾冊時，請執行<strong><span style="color:purple; "> KIKW.exe 這個程式</span></strong><span style="color:black; ">查詢，介面如下：</span> 
+</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; "><img width="465" height="426" src="images/clip_image001.gif" /></span>
+		&nbsp;
+		</p>
+		<p>
+		<span style="font-family:新細明體; font-weight:700">使用方式： </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">1. 執行 KIKW.exe 這個程式 </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">2. 將高麗藏 第<span style="color:fuchsia; ">15</span> 冊 cf1 資料 <span style="color:blue; ">K0570</span><span style="color:fuchsia; ">V15</span><span style="color:blue; ">P0998a09L;  </span><span style="color:black; ">貼到「查詢字串」</span> 
+		</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">3. 按「查詢」，會呈現 KI 及 KW 如上，以上兩個數字呈現不一樣 </span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">4.&nbsp;當 KI 及 KW 數字不一樣時，請將 &quot;out.txt&quot; 裡的 cf1=&quot;<span style="color:red; ">K</span><span style="color:blue; ">15n0570_p0998a09</span>&quot; 改成 cf1=&quot;<span style="color:red; ">K<strong>I</strong></span><span style="color:blue; ">15n0570_p0998a09</span>&quot; ，即 K 要改成 KI， 然後才將它貼到XML經文檔。   
+</span>
+		</p>
+		<p>
+		<span style="font-family:新細明體; ">&nbsp;&nbsp;&nbsp;
+如果 KI 及 KW 數字一樣時就不用改，一樣以 K 表示就可。 
+</span>
+		</p>
+		
+</body>
+
+</html>

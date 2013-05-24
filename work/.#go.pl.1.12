@@ -1,0 +1,38 @@
+$outPath="d:/cbwork/gbk";
+mkdir("c:/Release/app1",MODE);
+mkdir("c:/Release/normal",MODE);
+
+for ($i=1; $i<=85; $i++) {
+	$vol = sprintf("T%2.2d",$i);
+	$dir = "c:/cbwork/xml/$vol";
+	if (not -e $dir) { next; }
+	chdir($dir);
+	
+	#system "\"c:/program files/winzip/wzzip\" \\\\C880318053\\mo\\2001-07-27\\$vol.zip c:/cbwork/xml/$vol/*.xml";
+
+	### Normal Format
+	#system "normal -v $vol";
+	#system "xml2txt -v $vol -b -u"; # 給惠敏法師的, 用部類目錄
+	#system("normal -v $vol -e gbk -o $outPath");
+	
+	#system("xml2txt -v $vol -p -u"); # PDA Version, 一卷一檔
+	#if (-e "c:/cbwork/err.txt") { die; }
+	#system "\"c:/program files/winzip/wzzip\" c:/release/pda-zip/$vol.zip c:/release/pda/$vol";
+	
+	### app1 s-jis format
+	#system("xml2txt -a -j -m -e sjis -o c:/release/shift-jis");
+	#if (-e "c:/cbwork/err.txt") { die; }
+	system "\"c:/program files/winzip/wzzip\" c:/release/app1-sjis-zip/$vol.zip c:/release/shift-jis/app/$vol";
+	
+	### HTML Format
+	#system "html1 $vol";
+	#system "\"c:/program files/winzip/wzzip\" k:/temp(¨C¬P´d@²M°£)/ray/$vol.zip c:/release/html/$vol";
+	#if (-e "c:/cbwork/err.txt") { die; }
+	
+	### RTF Format
+	#chdir("c:/cbwork/work/bin");
+	#system "perl /cbwork/work/bin/x2rtf.pl -v $vol -t";
+	#system "\"c:/program files/winzip/wzzip\" y:/cbeta/rtf/$vol.zip c:/release/doc/$vol";
+	#if (-e "c:/cbwork/err.txt") { die; }
+}
+chdir ("c:/cbwork");

@@ -1,0 +1,2660 @@
+.mstheme
+{
+	separator-image: url(strrulee.gif);
+	list-image-1: url(3_01.gif);
+	list-image-2: url(3_02.gif);
+	list-image-3: url(3_03.gif);
+	nav-banner-image: url(01.gif);
+	navbutton-horiz-normal: url(2_01.gif);
+	navbutton-horiz-hovered: url(2_03.gif);
+	navbutton-horiz-pushed: url(2_02.gif);
+	navbutton-vert-normal: url(2_01.gif);
+	navbutton-vert-hovered: url(2_03.gif);
+	navbutton-vert-pushed: url(2_02.gif);
+	navbutton-home-normal: url(5_02.gif);
+	navbutton-home-hovered: url(7_02.gif);
+	navbutton-home-pushed: url(strhomebtnne.gif);
+	navbutton-next-normal: url(5_04.gif);
+	navbutton-next-hovered: url(7_04.gif);
+	navbutton-next-pushed: url(strnextbtnne.gif);
+	navbutton-prev-normal: url(5_01.gif);
+	navbutton-prev-hovered: url(7_01.gif);
+	navbutton-prev-pushed: url(strprevbtnne.gif);
+	navbutton-up-normal: url(5_03.gif);
+	navbutton-up-hovered: url(7_03.gif);
+	navbutton-up-pushed: url(strupbtnne.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 5;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-horiz-navtxt
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-vert-navtxt
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-navtxthome
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-navtxtnext
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-navtxtprev
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal
+}
+.mstheme-navtxtup
+{
+	font-family: 新細明體;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal
+}
+ul
+{
+	list-style-image: url(3_01.gif);
+}
+ul ul
+{
+	list-style-image: url(3_02.gif);
+}
+ul ul ul
+{
+	list-style-image: url(3_03.gif);
+}
+a:link
+{
+	color: rgb(0, 128, 0);
+}
+a:active
+{
+	color: rgb(128, 128, 0);
+}
+a:visited
+{
+	color: rgb(128, 128, 128);
+}
+body
+{
+	background-color: rgb(238, 255, 247);
+	color: rgb(0, 0, 0);
+}
+table
+{
+	table-border-color-light: rgb(102, 153, 0);
+	table-border-color-dark: rgb(102, 153, 0);
+	border-color: rgb(102, 153, 0);
+}
+th
+{
+	border-color: rgb(102, 153, 0);
+}
+td
+{
+	border-color: rgb(102, 153, 0);
+}
+h1
+{
+	color: rgb(0, 128, 128);
+}
+h2
+{
+	color: rgb(0, 128, 0);
+}
+h3
+{
+	color: rgb(0, 153, 153);
+}
+h4
+{
+	color: rgb(102, 153, 153);
+}
+h5
+{
+	color: rgb(0, 0, 0);
+}
+h6
+{
+	color: rgb(0, 0, 0);
+}
+hr
+{
+	color: rgb(0, 0, 0);
+}
+button
+{
+}
+label
+{
+	color: rgb(0, 0, 0);
+}
+.mstheme-text
+{
+}
+textarea
+{
+}
+fieldset
+{
+	color: rgb(0, 0, 0);
+}
+legend
+{
+	color: rgb(0, 0, 0);
+}
+select
+{
+	color: rgb(0, 0, 0);
+}
+caption
+{
+	color: rgb(0, 0, 0);
+}
+.ms-addnew
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	text-decoration: none;
+	color: #660000
+}
+.ms-alerttext
+{
+	color: #DB6751;
+	font-family: 新細明體;
+}
+.ms-alternating
+{
+	background-color: #CCCC99;
+}
+.ms-announcementtitle
+{
+	font-weight: bold;
+}
+.ms-appt
+{
+	border-right-width: 2px;
+	border-right-color: #333333;
+	color: #000000;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-left-color: #333333;
+	overflow: hidden;
+	height: 18px;
+	border-bottom-width: 2px;
+	border-left-style: solid;
+	border-bottom-color: #333333;
+	border-bottom-style: solid;
+	text-align: center;
+	vertical-align: middle;
+	border-top-width: 2px;
+	border-top-color: #333333;
+	text-overflow: ellipsis;
+	border-top-style: solid;
+	background-color: #003366;
+}
+.ms-appt a
+{
+	color: #660000;
+}
+.ms-appt a:hover
+{
+	color: #666666;
+}
+.ms-apptsingle
+{
+	border-right-color: #000000;
+	border-right-style: solid;
+	overflow: hidden;
+	vertical-align: middle;
+	border-left-width: 1px;
+	text-overflow: ellipsis;
+	color: #000000;
+	border-left-color: #000000;
+	height: 18px;
+	border-left-style: solid;
+	border-right-width: 1px;
+}
+.ms-authoringcontrols
+{
+	font-family: 新細明體;
+	background-color: #CCCC99;
+	color: #000000
+}
+.ms-back
+{
+	background-color: #CCCC99;
+	padding-right: 4;
+	padding-top: 2;
+	padding-bottom: 4;
+	padding-left: 4;
+	vertical-align: top;
+}
+.ms-banner
+{
+	color: #CCCC99;
+	font-family: 新細明體;
+}
+.ms-banner a:link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 新細明體;
+}
+.ms-banner a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 新細明體;
+}
+.ms-bannerframe
+{
+	background-image: url();
+	background-color: #003366;
+	background-repeat: repeat-x;
+}
+.ms-bannerframe, .ms-grheaderbackground
+{
+	background-image: url();
+	background-repeat: repeat-x;
+	background-color: #003366;
+}
+.ms-bannerframe, .ms-grheaderbackground, .ms-stormefree
+{
+	background-color: #003366;
+	background-repeat: repeat-x;
+	background-image: url();
+}
+.ms-bodyareaframe
+{
+	border-bottom-color: #CCCC99;
+	border-right-color: #CCCC99;
+	border-left-color: #CCCC99;
+	border-top-color: #CCCC99;
+}
+.ms-cal
+{
+	border-collapse: collapse;
+	font-family: 新細明體;
+	table-layout: fixed;
+	cursor: default
+}
+.ms-calallday
+{
+	vertical-align: top;
+	text-align: center;
+	width: 10%;
+	height: 12px;
+}
+.ms-calbot
+{
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-left-color: #333333;
+	border-top-width: medium;
+	border-right-style: solid;
+	border-top-color: inherit;
+	border-left-style: solid;
+	height: 2px;
+	border-top-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #333333;
+	border-bottom-style: solid;
+	border-right-color: #333333;
+}
+.ms-caldmidhalfhour
+{
+	border-left-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-top-color: #333333;
+	height: 20px;
+}
+.ms-caldmidhour
+{
+	height: 20px;
+	border-top-color: #333333;
+	border-left-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+}
+.ms-caldmidquarterhour
+{
+	border-bottom-width: 0px;
+	border-bottom-color: inherit;
+	border-right-width: 0px;
+	height: 20px;
+	border-bottom-style: none;
+	border-right-color: inherit;
+	border-top-width: 0px;
+	border-right-style: none;
+	border-top-color: inherit;
+	border-top-style: none;
+	border-left-width: 0px;
+	border-left-color: inherit;
+	border-left-style: none;
+}
+.ms-caldow
+{
+	border-left-color: #333333;
+	text-align: center;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-top-color: #333333;
+	border-top-style: solid;
+	height: 20px;
+	font-weight: bold;
+	border-right-width: 1px;
+	border-right-color: #333333;
+	border-left-width: 1px;
+	border-right-style: solid;
+	vertical-align: top;
+	color: #000000;
+}
+.ms-caldowdown
+{
+	vertical-align: middle;
+	font-family: 新細明體;
+	color: #000000;
+	text-align: center;
+	font-weight: bold
+}
+.ms-caldown
+{
+	vertical-align: top;
+	color: #000000;
+}
+.ms-caldspacer
+{
+	border-right-width: 1px;
+	border-right-color: #333333;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-color: #333333;
+	height: 4px;
+	border-left-style: solid;
+}
+.ms-calhalfhour
+{
+	height: 12px;
+	border-top-width: 1px;
+	border-top-color: #003366;
+	vertical-align: top;
+	border-top-style: solid;
+}
+.ms-calhead
+{
+	border:medium none; padding:2px; font-family: 新細明體;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+	
+}
+.ms-calhour
+{
+	border-top-width: 1px;
+	width: 10%;
+	height: 12px;
+	vertical-align: top;
+	border-top-color: #333333;
+	border-top-style: solid;
+}
+.ms-calmid
+{
+	border-left-color: #333333;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-color: #333333;
+	border-right-style: solid;
+	height: 20px;
+	border-left-width: 1px;
+}
+.ms-calquarterhour
+{
+	vertical-align: top;
+	border-top-width: 0px;
+	border-top-color: inherit;
+	height: 12px;
+	border-top-style: none;
+}
+.ms-calspacer
+{
+	border-left-color: #333333;
+	border-left-style: solid;
+	border-right-color: #333333;
+	border-right-style: solid;
+	height: 4px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.ms-caltop
+{
+	border-left-color: #333333;
+	border-left-style: solid;
+	vertical-align: top;
+	border-top-width: 1px;
+	border-top-color: #333333;
+	height: 30px;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-color: #333333;
+	border-right-style: solid;
+	border-left-width: 1px;
+	width: 14%;
+}
+.ms-calvspacer
+{
+	width: 0px;
+	background-color: #333333;
+}
+.ms-categorytitle
+{
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 新細明體;
+}
+.ms-connerror
+{
+	color: #db6751;
+}
+.ms-dappt
+{
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-color: #333333;
+	border-left-color: #333333;
+	border-bottom-width: 2px;
+	color: #000000;
+	vertical-align: middle;
+	border-bottom-color: #333333;
+	border-right-style: solid;
+	overflow: hidden;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-top-color: #333333;
+	text-align: center;
+	border-top-style: solid;
+	background-color: #003366;
+	height: 18px;
+}
+.ms-dapptsingle
+{
+	border-right-style: solid;
+	height: 18px;
+	border-left-color: #000000;
+	vertical-align: middle;
+	border-left-style: solid;
+	overflow: hidden;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-left-width: 1px;
+	color: #000000;
+}
+.ms-datepicker
+{
+	border:2 outset activeborder; font-family: 新細明體;
+	cursor: default;
+	background-color: #FFFFFF;
+	color: #000000
+}
+.ms-datepickeriframe
+{
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	background-attachment: scroll;
+	background-position-y: 0%;
+	background-position-x: 0%;
+	background-repeat: repeat;
+	background-image: url(none);
+}
+.ms-dcal
+{
+	border-left:1px solid #333333; border-right:1px solid #333333; table-layout: fixed;
+	font-family: 新細明體;
+	cursor: default;
+	border-collapse: collapse;
+	
+}
+.ms-descriptiontext
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.ms-descriptiontext a
+{
+	color: #660000;
+	font-family: 新細明體;
+}
+.ms-discussionseparator
+{
+	color: #003366;
+	height: 1px;
+}
+.ms-discussiontitle
+{
+	color: #000000;
+	font-family: 新細明體;
+	font-weight: bold
+}
+.ms-dpday
+{
+	border-bottom-width: medium;
+	border-bottom-style: none;
+	border-top-width: medium;
+	border-top-color: inherit;
+	border-left-width: medium;
+	border-top-style: none;
+	border-left-color: inherit;
+	border-left-style: none;
+	border-right-width: medium;
+	border-right-color: inherit;
+	cursor: hand;
+	text-align: center;
+	border-right-style: none;
+	border-bottom-color: inherit;
+}
+.ms-dpdow
+{
+	border-left-color: inherit;
+	border-bottom-color: #333333;
+	border-right-color: inherit;
+	border-left-style: none;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-width: medium;
+	border-top-color: inherit;
+	border-top-style: none;
+	vertical-align: top;
+	color: #000000;
+	border-left-width: medium;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-right-width: medium;
+	font-weight: bold;
+}
+.ms-dpfoot
+{
+	text-align: center;
+	border-right-color: inherit;
+	border-bottom-color: inherit;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-width: medium;
+	border-left-color: inherit;
+	border-left-style: none;
+	height: 24px;
+	font-style: italic;
+	border-top-width: 1px;
+	border-top-color: inherit;
+	border-top-style: solid;
+	border-right-width: medium;
+	border-bottom-width: medium;
+}
+.ms-dphead
+{
+	border-top-color: inherit;
+	font-weight: bold;
+	border-top-style: none;
+	text-align: center;
+	border-bottom-width: medium;
+	background-color: #BFBF85;
+	border-bottom-color: inherit;
+	border-left-width: medium;
+	border-bottom-style: none;
+	border-left-color: inherit;
+	border-left-style: none;
+	border-right-width: medium;
+	border-right-color: inherit;
+	border-right-style: none;
+	color: #000000;
+	border-top-width: medium;
+}
+.ms-dpnextprev
+{
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-width: medium;
+	border-bottom-style: none;
+	border-top-width: medium;
+	border-top-color: inherit;
+	text-align: center;
+	border-top-style: none;
+	background-color: #BFBF85;
+	cursor: hand;
+	font-weight: bold;
+	border-right-width: medium;
+	border-right-color: inherit;
+	border-left-width: medium;
+	border-left-color: inherit;
+	color: #000000;
+	border-bottom-color: inherit;
+}
+.ms-dpnonmonth
+{
+	border-top-width: medium;
+	border-left-width: medium;
+	border-left-color: inherit;
+	text-align: center;
+	cursor: hand;
+	border-bottom-width: medium;
+	border-left-style: none;
+	border-bottom-color: inherit;
+	border-bottom-style: none;
+	border-right-width: medium;
+	border-right-color: inherit;
+	border-right-style: none;
+	border-top-color: inherit;
+	color: #BBBBBB;
+	border-top-style: none;
+}
+.ms-dpselectedday
+{
+	border-bottom-width: medium;
+	border-bottom-color: inherit;
+	border-top-width: medium;
+	text-align: center;
+	border-bottom-style: none;
+	border-top-color: inherit;
+	border-top-style: none;
+	border-left-width: medium;
+	border-right-width: medium;
+	border-left-color: inherit;
+	border-right-color: inherit;
+	cursor: hand;
+	border-left-style: none;
+	background-color: #CCCC99;
+	border-right-style: none;
+}
+.ms-error
+{
+	font-weight: normal;
+	color: #FF0000;
+	font-family: 新細明體;
+}
+.ms-filedialog td
+{
+	height: 16px;
+}
+.ms-firstcalhour
+{
+	width: 10%;
+	height: 12px;
+	vertical-align: top;
+}
+.ms-formbody
+{
+	color: #000000;
+	font-family: 新細明體;
+	vertical-align: top
+}
+.ms-formdescription
+{
+	font-family: 新細明體;
+	color: #808080
+}
+.ms-formdescription a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-formlabel
+{
+	color: #808080;
+	text-align: left;
+	font-size: .75em;
+	font-weight: normal;
+	font-family: 新細明體;
+}
+.ms-formrecurrence
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	vertical-align: top
+}
+.ms-formtable .ms-formbody
+{
+	line-height: 1.3em;
+}
+.ms-gb
+{
+	font-family: 新細明體;
+	height: 18px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CCCC99
+}
+.ms-gridt1
+{
+	color: #BBBBBB;
+	font-family: 新細明體;
+	text-align: center
+}
+.ms-gridtext
+{
+	cursor: default;
+	height: 19px;
+	font-family: 新細明體;
+}
+.ms-highlight
+{
+	background-color: #003366;
+}
+.ms-homepagetitle
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: 新細明體;
+	text-decoration: none
+}
+:hover.ms-homepagetitle
+{
+	color: #660000;
+	text-decoration: underline;
+}
+.ms-hovercellactive
+{
+	border-top-color: #660000;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-right-color: #660000;
+	background-color: #BFBF85;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-color: #660000;
+	border-left-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #660000;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+}
+.ms-hovercellactivedark
+{
+	border-bottom-style: solid;
+	background-color: #E0E0B8;
+	border-left-width: 1px;
+	border-left-color: #003366;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-color: #003366;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #003366;
+	border-top-width: 1px;
+	border-top-color: #003366;
+	border-top-style: solid;
+}
+.ms-imglibmenu
+{
+	background-color: #CCCC99;
+	font-family: 新細明體;
+	cursor: hand;
+	color: #660000
+}
+.ms-imglibmenuarea
+{
+	background-color: #CCCC99;
+}
+.ms-imglibmenuhead
+{
+	cursor: move;
+}
+.ms-imglibmenutext
+{
+	font-weight: bold;
+	cursor: move;
+	color: #660000;
+}
+.ms-imglibthumbnail
+{
+	background-color: #CCCC99;
+	border-bottom-color: #BFBF85;
+	border-left-width: 0px;
+	border-left-color: #BFBF85;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 0px;
+	border-top-color: #BFBF85;
+	border-top-style: solid;
+	border-right-width: 0px;
+	border-right-color: #BFBF85;
+	border-right-style: solid;
+	border-bottom-width: 0px;
+}
+.ms-itemheader a
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-itemheader a:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.ms-itemheader a:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.ms-itemheader a:visited:hover
+{
+	text-decoration: underline;
+}
+.ms-long
+{
+	font-family: 新細明體;
+	width: 386px
+}
+.ms-main
+{
+	border-top-color: #CCCC99;
+	border-right-color: #CCCC99;
+	border-left-color: #CCCC99;
+	border-bottom-color: #CCCC99;
+}
+.ms-menuimagecell
+{
+	background-color: #CCCC99;
+	cursor: hand;
+}
+.ms-nav .ms-navwatermark
+{
+	color: #BAB981;
+}
+.ms-nav a
+{
+	text-decoration: none;
+	font-weight: normal;
+	font-family: 新細明體;
+	color: #660000
+}
+.ms-nav a:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-nav a:link
+{
+}
+.ms-nav a:visited
+{
+	color: #660000;
+}
+.ms-nav td
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-nav td, .ms-nav .ms-spzonelabel
+{
+	font-family: 新細明體;
+}
+.ms-nav td, .ms-nav .ms-spzonelabel, .ms-input
+{
+	font-family: 新細明體;
+}
+.ms-nav th
+{
+	color: #000000;
+	font-weight: normal;
+	font-family: 新細明體;
+}
+.ms-navframe
+{
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position-y: 0%;
+	background-color: #CCCC99;
+	background-position-x: 0%;
+	border-right-color: #CCCC99;
+	border-bottom-color: #CCCC99;
+	border-left-color: #CCCC99;
+	border-top-color: #CCCC99;
+	background-image: url(none);
+}
+.ms-navheader a
+{
+	font-weight: bold;
+}
+.ms-navheader a, .ms-navheader a:link
+{
+	font-weight: bold;
+}
+.ms-navheader a, .ms-navheader a:link, .ms-navheader a:visited
+{
+	font-weight: bold;
+}
+.ms-navline
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #003366;
+	border-bottom-style: solid;
+}
+.ms-pagecaption
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.ms-pageheaderdate
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.ms-pageheadergreeting
+{
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-pagetitle
+{
+	font-weight: bold;
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-pagetitle a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-pagetitle a:hover
+{
+	text-decoration: underline;
+	color: #666666;
+}
+.ms-partline
+{
+	background-color: #333333;
+}
+.ms-partspacingvertical
+{
+	padding-top: 10px;
+}
+.ms-partspacingvertical, .ms-partspacinghorizontal
+{
+	padding-top: 10px;
+}
+.ms-propertysheet
+{
+	font-family: 新細明體;
+}
+.ms-propertysheet a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-propertysheet a:hover
+{
+	text-decoration: underline;
+	color: #666666;
+}
+.ms-propertysheet a:visited
+{
+	text-decoration: none;
+	color: #003399;
+}
+.ms-propertysheet a:visited:hover
+{
+	text-decoration: underline;
+}
+.ms-propertysheet th
+{
+	font-family: 新細明體;
+	color: #000000;
+	font-weight: bold
+}
+.ms-propgridbuilderbutton
+{
+	width: 16px;
+	border-top-color: #CCCC99;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-color: #CCCC99;
+	border-right-width: 1px;
+	border-right-color: #CCCC99;
+	border-bottom-style: solid;
+	background-color: #BFBF85;
+	border-right-style: solid;
+	border-left-width: 1px;
+	border-left-color: #CCCC99;
+	border-left-style: solid;
+	display: none;
+	border-top-width: 1px;
+}
+.ms-radiotext
+{
+	cursor: default;
+	height: 19px;
+	font-family: 新細明體;
+	text-align: left;
+	font-size: 10pt
+}
+.ms-rtapplybackground
+{
+	border-top-width: 0.02cm;
+	border-top-color: #CCCC99;
+	border-left-width: 0.02cm;
+	border-top-style: solid;
+	border-left-color: #CCCC99;
+	border-right-width: 0.02cm;
+	border-bottom-width: 0.02cm;
+	border-right-color: #CCCC99;
+	border-left-style: solid;
+	border-bottom-color: #CCCC99;
+	background-color: #000000;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+.ms-rtremovebackground
+{
+	border-left-color: #FFFFFF;
+	border-right-width: 0.02cm;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-right-style: solid;
+	border-top-width: 0.02cm;
+	border-bottom-width: 0.02cm;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: transparent;
+	border-left-width: 0.02cm;
+}
+.ms-rttoolbardefaultstyle
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 8pt
+}
+.ms-searchform
+{
+	background-color: #CCCC99;
+}
+.ms-sectionheader
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: 新細明體;
+}
+.ms-sectionheader a
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-sectionheader a:hover
+{
+	text-decoration: none;
+	color: #666666;
+}
+.ms-sectionheader a:visited
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-sectionline
+{
+	background-color: #333333;
+}
+.ms-selected
+{
+	color: #000000;
+	background-color: #003366;
+}
+.ms-selected span
+{
+	color: #003366;
+}
+.ms-selectednav
+{
+	border-bottom-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	background-repeat: repeat;
+	padding-bottom: 2px;
+	border-right-color: #000000;
+	background-attachment: scroll;
+	border-right-style: solid;
+	background-color: #FFFFFF;
+	background-position-y: 0%;
+	padding-top: 1px;
+	background-position-x: 0%;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-top-color: #000000;
+	background-image: url(none);
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+}
+.ms-selectedtitle
+{
+	border-right-color: #CCCC99;
+	border-right-style: solid;
+	background-color: #CCCC99;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	padding-top: 1px;
+	border-bottom-color: #CCCC99;
+	border-bottom-style: solid;
+	border-left-width: 1px;
+	border-left-color: #CCCC99;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-right-width: 1px;
+	border-top-style: solid;
+}
+.ms-separator
+{
+	color: #000000;
+}
+.ms-smallheader
+{
+	font-weight: bold;
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-smallsectionline
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 2;
+	border-bottom-color: #CCCC99;
+}
+.ms-spbutton
+{
+	font-family: 新細明體;
+}
+.ms-sperror
+{
+	border-bottom:2px solid #E0E0B8; padding:2px; color: #DB6751;
+	font-family: 新細明體;
+	
+}
+.ms-splink
+{
+	color: #660000;
+	font-family: 新細明體;
+}
+.ms-splink a:link
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-splink a:link, .ms-splink a:visited
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-spzone
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-right-color: #000000;
+	padding-right: 5px;
+	border-bottom-width: 1px;
+	padding-left: 5px;
+	border-right-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	padding-top: 5px;
+	border-top-style: solid;
+	padding-bottom: 5px;
+	border-left-color: #000000;
+}
+.ms-spzonecaption
+{
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-spzoneibar
+{
+	border-left-width: 3px;
+	border-left-color: #FFCC00;
+	border-left-style: solid;
+	border-top-width: 3px;
+	border-top-color: #FFCC00;
+	border-top-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #FFCC00;
+	border-bottom-style: solid;
+	border-right-width: 3px;
+	border-right-color: #FFCC00;
+	border-right-style: solid;
+}
+.ms-spzonelabel
+{
+	padding:0; color: #000000;
+	font-family: 新細明體;
+}
+.ms-spzoneselected
+{
+	padding-bottom: 5px;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-bottom-color: #FFCC00;
+	border-right-width: 1px;
+	padding-left: 5px;
+	border-right-color: #FFCC00;
+	border-bottom-style: solid;
+	padding-top: 5px;
+	border-right-style: solid;
+	padding-right: 5px;
+	border-left-color: #FFCC00;
+	border-top-color: #FFCC00;
+}
+.ms-stormeestimated
+{
+	background-color: #666666;
+}
+.ms-stormefree
+{
+	background-color: #660000;
+}
+.ms-stormeused
+{
+	background-color: #003399;
+}
+.ms-stylebody
+{
+	font-family: 新細明體;
+	font-size: 9pt
+}
+.ms-stylebox
+{
+	border:1px solid #003366; text-align: left;
+	font-family: 新細明體;
+}
+.ms-styleheader
+{
+	background-color: #CCCC99;
+	font-family: 新細明體;
+	font-size: 0.75em
+}
+.ms-styleheader a:hover
+{
+	color: #ff3300;
+	text-decoration: underline;
+}
+.ms-styleheader a:hover, .ms-stylebody a:hover
+{
+	color: #ff3300;
+	text-decoration: underline;
+}
+.ms-styleheader a:link
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-styleheader a:link, .ms-stylebody a:link
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-styleheader a:visited
+{
+	text-decoration: none;
+}
+.ms-styleheader a:visited, .ms-stylebody a:visited
+{
+	text-decoration: none;
+}
+.ms-stylelabel
+{
+	color: #003366;
+	font-size: 9pt;
+	font-family: 新細明體;
+}
+.ms-subsmanagecell
+{
+	font-family: 新細明體;
+	height: 18px;
+	color: #000000;
+	vertical-align: top
+}
+.ms-subsmanageheader
+{
+	font-weight: bold;
+	vertical-align: top;
+	text-decoration: none;
+	font-family: 新細明體;
+	background-color: #CCCC99
+}
+.ms-surveygvvbar
+{
+	background-color: #999966;
+	border-bottom-width: 0px;
+	width: 9px;
+	border-bottom-style: solid;
+	border-top-width: 0px;
+	border-top-color: #999966;
+	border-top-style: solid;
+	border-bottom-color: #CCCC99;
+}
+.ms-surveygvvbars
+{
+	width: 20px;
+}
+.ms-surveyvbart
+{
+	font-size: 7pt;
+	color: #BBBBBB;
+	font-family: 新細明體;
+	text-align: center
+}
+.ms-tabinactive
+{
+	border:2px solid #CCCC99; color: #660000;
+	padding-right: 10px;
+	background-color: #CCCC99;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	font-family: 新細明體;
+}
+.ms-tabinactive a:link
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-tabinactive a:link, .ms-tabinactive a:hover
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-tabinactive a:link, .ms-tabinactive a:hover, .ms-tabinactive a:visited
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-tabselected
+{
+	border:2px solid #333333; font-weight: bold;
+	padding-right: 10px;
+	padding-top: 3px;
+	font-family: 新細明體;
+	color: #CCCC99;
+	background-color: #333333;
+	padding-bottom: 3px;
+	padding-left: 10px
+}
+.ms-titlearea
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.ms-titlearealine
+{
+	background-color: #333333;
+}
+.ms-toolbar
+{
+	font-family: 新細明體;
+	color: #660000;
+	text-decoration: none
+}
+.ms-toolbar, .ms-toolbar a:visited
+{
+	font-family: 新細明體;
+	color: #660000;
+	text-decoration: none
+}
+.ms-toolpanebody
+{
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.ms-toolpaneborder
+{
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-width: medium;
+	border-bottom-color: none;
+	border-bottom-style: solid;
+	border-top-width: medium;
+	border-right-width: 1px;
+	border-top-color: none;
+	border-right-color: #E0E0B8;
+	border-left-width: 1px;
+	border-left-color: #E0E0B8;
+	border-left-style: solid;
+}
+.ms-toolpaneclose
+{
+	background-color: #BFBF85;
+}
+.ms-toolpaneerror
+{
+	padding:2px; font-family: 新細明體;
+	color: #db6751;
+	
+}
+.ms-toolpanefooter
+{
+	padding:5px; font-family: 新細明體;
+	color: #000000;
+	background-color: #BFBF85;
+	
+}
+.ms-toolpaneframe
+{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #CCCC99;
+	padding-top: 0px;
+}
+.ms-toolpaneheader
+{
+	border-bottom-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	background-color: #BFBF85;
+}
+.ms-toolpaneinfo
+{
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: #E0E0B8;
+	padding-right: 5px;
+	font-family: 新細明體;
+}
+.ms-toolpanetitle
+{
+	font-weight: bold;
+	padding-top: 3px;
+	font-family: 新細明體;
+	padding-bottom: 3px;
+	background-color: #BFBF85;
+	color: #000000
+}
+.ms-toolpartspacing
+{
+	padding-top: 8px;
+}
+.ms-tpbody
+{
+	font-family: 新細明體;
+	color: #000000
+}
+.ms-tpbody a:link
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #660000;
+}
+.ms-tpbody a:link, .ms-tpbody a:visited
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #660000;
+}
+.ms-tpbody a:link, .ms-tpbody a:visited, .ms-tpbody a:hover
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #660000;
+}
+.ms-tpborder
+{
+	border-bottom-style: none;
+	border-left-width: medium;
+	border-left-color: inherit;
+	border-left-style: none;
+	border-right-width: medium;
+	border-right-color: inherit;
+	border-right-style: none;
+	border-bottom-width: medium;
+	border-top-width: medium;
+	border-bottom-color: inherit;
+	border-top-color: inherit;
+	border-top-style: none;
+}
+.ms-tpcommands
+{
+}
+.ms-tpheader
+{
+	background-color: #003366;
+}
+.ms-tpinput
+{
+	font-family: 新細明體;
+	color: #FFFFFF
+}
+.ms-tptitle
+{
+	padding-top: 2px;
+	font-family: 新細明體;
+	padding-bottom: 2px;
+	color: #FFFFFF;
+	font-weight: bold
+}
+.ms-underline
+{
+	padding-right: 4;
+	padding-left: 4;
+	vertical-align: top;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCC99;
+	border-bottom-style: solid;
+	padding-bottom: 4;
+	padding-top: 2;
+}
+.ms-underlineback
+{
+	vertical-align: top;
+	background-color: #CCCC99;
+	padding-top: 2;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCC99;
+	border-bottom-style: solid;
+	padding-bottom: 4;
+	padding-right: 4;
+	padding-left: 4;
+}
+.ms-unselectednav
+{
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+	border-right-width: 1px;
+	padding-bottom: 2px;
+	border-right-color: #CCCC99;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	padding-top: 1px;
+	border-bottom-color: #CCCC99;
+	border-bottom-style: solid;
+	border-left-color: #CCCC99;
+	border-left-style: solid;
+}
+.ms-unselectedtitle
+{
+	padding-top: 1px;
+	padding-bottom: 2px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.ms-uploadborder
+{
+	border-right-width: 1px;
+	border-right-color: #003366;
+	border-right-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #003366;
+	border-top-width: 1px;
+	border-top-color: #003366;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-color: #003366;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+.ms-uploadcontrol
+{
+	background-color: #003366;
+}
+.ms-vappt
+{
+	border-left-style: solid;
+	height: 12px;
+	text-overflow: ellipsis;
+	padding-left: 3px;
+	border-top-width: 1px;
+	border-top-color: #999966;
+	vertical-align: middle;
+	padding-right: 3px;
+	border-top-style: solid;
+	color: #000000;
+	background-color: #BAB981;
+	border-bottom-width: 3px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-bottom-color: #999966;
+	border-right-color: #999966;
+	overflow: hidden;
+	border-left-color: #999966;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	text-align: center;
+}
+.ms-vappt a:hover
+{
+	text-decoration: underline;
+	color: #000000;
+}
+.ms-vappt a:link
+{
+}
+.ms-vapptsingle
+{
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: #000000;
+	border-left-color: #000000;
+	border-right-style: solid;
+	color: #000000;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	text-align: center;
+	border-top-style: solid;
+	text-overflow: ellipsis;
+	background-color: #BAB981;
+	border-bottom-width: 1px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.ms-vapptsingle a
+{
+	overflow: hidden;
+	color: #660000;
+	font-weight: normal;
+	font-family: 新細明體;
+	text-decoration: none;
+	text-overflow: ellipsis
+}
+.ms-vapptsingle a, .ms-vappt a
+{
+	text-overflow: ellipsis;
+	font-family: 新細明體;
+	text-decoration: none;
+	font-weight: normal;
+	color: #660000;
+	overflow: hidden
+}
+.ms-vapptsingle a:hover
+{
+	text-decoration: underline;
+}
+.ms-vapptsingle a:link
+{
+}
+.ms-vapptsingle a:visited
+{
+}
+.ms-vb
+{
+	vertical-align: top;
+	color: #000000;
+	font-family: 新細明體;
+	height: 18px
+}
+.ms-vb a
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-vb a, .ms-vb2 a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vb a, .ms-vb2 a, .ms-grstatustext a
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-vb a, .ms-vb2 a, .ms-grstatustext a, .ms-vb-user a
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-vb a:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-vb a:hover, .ms-vb2 a:hover
+{
+	text-decoration: underline;
+	color: #666666;
+}
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover
+{
+	text-decoration: underline;
+	color: #666666;
+}
+.ms-vb a:visited
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vb a:visited, .ms-vb2 a:visited
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-grstatustext a:visited
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-grstatustext a:visited, .ms-vb-user a:visited
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vb a:visited:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-vb a:visited:hover, .ms-vb2 a:visited:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-vb a:visited:hover, .ms-vb2 a:visited:hover, .ms-vb-user a:visited:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-vb, .ms-vb2
+{
+	vertical-align: top;
+	font-family: 新細明體;
+}
+.ms-vb, .ms-vb2, .ms-grfont
+{
+	vertical-align: top;
+	font-family: 新細明體;
+}
+.ms-vb, .ms-vb2, .ms-grfont, .ms-vb-user
+{
+	vertical-align: top;
+	font-family: 新細明體;
+}
+.ms-vb-icon
+{
+	width: 16px;
+	vertical-align: top;
+	padding-bottom: 0px;
+	padding-top: 2px;
+}
+.ms-vb2
+{
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+	padding-bottom: 0px;
+	padding-top: 3px;
+}
+.ms-vb2, .ms-vb-title
+{
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+}
+.ms-vb2, .ms-vb-title, .ms-vb-icon
+{
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+}
+.ms-vb2, .ms-vb-title, .ms-vb-icon, .ms-vb-user
+{
+	border-top-width: 1px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+}
+.ms-vcal
+{
+	cursor: default;
+	border-collapse: separate;
+	table-layout: fixed;
+	font-family: 新細明體;
+}
+.ms-verticaldots
+{
+	border-top-color: #333333;
+	background-image: url(blank.gif);
+	border-left-color: #333333;
+	background-repeat: repeat-y;
+	border-bottom-color: #333333;
+	border-right-color: #333333;
+}
+.ms-vevt
+{
+	padding:0px; color: #000000;
+	vertical-align: top;
+	text-align: center;
+	height: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: normal;
+	font-family: 新細明體;
+	
+}
+.ms-vevt a
+{
+	text-decoration: none;
+	font-family: 新細明體;
+	color: #000000;
+	font-weight: normal
+}
+.ms-vevt a:hover
+{
+	text-decoration: underline;
+	color: #000000;
+}
+.ms-vevt a:link
+{
+}
+.ms-vevt a:visited
+{
+	color: #DFD664;
+}
+.ms-vh
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #660000;
+	font-family: 新細明體;
+}
+.ms-vh a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vh a, .ms-vh2 a
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-vh a:hover
+{
+	text-decoration: underline;
+}
+.ms-vh a:hover, .ms-vh2 a:hover
+{
+	text-decoration: underline;
+}
+.ms-vh-icon
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	vertical-align: top;
+	width: 22px;
+	color: #4F4F4F;
+	text-decoration: none
+}
+.ms-vh-icon-empty
+{
+	text-decoration: none;
+	width: 0px;
+	color: #4F4F4F;
+	font-weight: normal;
+	font-family: 新細明體;
+	vertical-align: top
+}
+.ms-vh-left
+{
+	font-weight: normal;
+	text-decoration: none;
+	font-family: 新細明體;
+	color: #4F4F4F
+}
+.ms-vh-left-icon
+{
+	color: #4F4F4F;
+	font-family: 新細明體;
+	text-decoration: none;
+	font-weight: normal;
+	width: 22px
+}
+.ms-vh-left-icon-empty
+{
+	width: 0px;
+	color: #4F4F4F;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: 新細明體;
+}
+.ms-vh-right
+{
+	font-family: 新細明體;
+	color: #4F4F4F;
+	text-decoration: none;
+	font-weight: normal
+}
+.ms-vh-right-icon
+{
+	width: 22px;
+	font-weight: normal;
+	font-family: 新細明體;
+	text-decoration: none;
+	color: #4F4F4F
+}
+.ms-vh-right-icon-empty
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	width: 0px;
+	text-decoration: none;
+	color: #4F4F4F
+}
+.ms-vh2
+{
+	text-decoration: none;
+	color: #660000;
+	font-weight: normal;
+	vertical-align: top;
+	font-family: 新細明體;
+}
+.ms-vhimage
+{
+	font-family: 新細明體;
+	color: #4F4F4F;
+	text-decoration: none;
+	vertical-align: top;
+	font-weight: normal;
+	width: 18pt
+}
+.ms-viewselect a:link
+{
+	font-family: 新細明體;
+	color: #660000
+}
+.ms-wpbody
+{
+	font-family: 新細明體;
+}
+.ms-wpbody a:hover
+{
+	color: #666666;
+	text-decoration: underline;
+}
+.ms-wpbody a:link
+{
+	text-decoration: none;
+	color: #660000;
+}
+.ms-wpbody a:link, .ms-wpbody a:visited
+{
+	color: #660000;
+	text-decoration: none;
+}
+.ms-wpbody h1
+{
+	font-weight: bold;
+}
+.ms-wpbody h1, .ms-tpbody h1
+{
+	font-weight: bold;
+}
+.ms-wpbody h2
+{
+	font-weight: bold;
+}
+.ms-wpbody h2, .ms-tpbody h2
+{
+	font-weight: bold;
+}
+.ms-wpbody h3
+{
+	font-weight: bold;
+}
+.ms-wpbody h3, .ms-tpbody h3
+{
+	font-weight: bold;
+}
+.ms-wpbody h4
+{
+	font-weight: bold;
+}
+.ms-wpbody h4, .ms-tpbody h4
+{
+	font-weight: bold;
+}
+.ms-wpbody h5
+{
+	font-weight: bold;
+}
+.ms-wpbody h5, .ms-tpbody h5
+{
+	font-weight: bold;
+}
+.ms-wpbody h6
+{
+	font-weight: bold;
+}
+.ms-wpbody h6, .ms-tpbody h6
+{
+	font-weight: bold;
+}
+.ms-wpbody table
+{
+}
+.ms-wpbody table, .ms-tpbody table
+{
+}
+.ms-wpbody td
+{
+	font-family: 新細明體;
+}
+.ms-wpbody th
+{
+	font-weight: bold;
+}
+.ms-wpbody th, .ms-tpbody th
+{
+	font-weight: bold;
+}
+.ms-wpborder
+{
+	border-left-style: solid;
+	border-top-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #003366;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #003366;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-color: #003366;
+}
+.ms-wpdesign
+{
+	background-color: #E0E0B8;
+}
+.ms-wpheader
+{
+	background-repeat: repeat-x;
+	background-image: url(blank.gif);
+	background-color: #CCCC99;
+}
+.ms-wpmenu
+{
+	background-color: #E0E0B8;
+}
+.ms-wpselected
+{
+	border-bottom-width: 3px;
+	border-bottom-color: #005BB5;
+	border-bottom-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #005BB5;
+	border-left-width: 3px;
+	border-left-color: #005BB5;
+	border-top-style: dashed;
+	border-left-style: dashed;
+	border-right-width: 3px;
+	border-right-color: #005BB5;
+	border-right-style: dashed;
+}
+.ms-wptitle
+{
+	padding-bottom: 2px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 2px;
+	font-family: 新細明體;
+}
+.ms-wptitle a:hover
+{
+	cursor: hand;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ms-wptitle a:link
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	cursor: hand;
+}
+.ms-wptitle a:link, .ms-wptitle a:visited
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	cursor: hand;
+}
+.mstheme
+{
+	top-bar-button: url(8.gif);
+	navbutton-background-color: #FFFFFF;
+}
+.mstheme-topbar-font
+{
+	font-weight: normal;
+	color: #000000;
+	vertical-align: middle;
+	font-size: 10pt;
+	font-style: normal;
+	text-align: center;
+	font-family: 新細明體;
+}
+.userbackground
+{
+	background-color: #FFFFFF;
+}
+.userbutton
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.userbutton, .userinput
+{
+	color: #000000;
+	font-family: 新細明體;
+}
+.userbutton, .userinput, .userselect
+{
+	font-family: 新細明體;
+	color: #000000
+}
+.usercaption
+{
+	font-family: 新細明體;
+	background-color: #CCCC99
+}
+.usercell
+{
+	padding-right: 5px;
+	color: #000000;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	font-family: 新細明體;
+}
+.usercellselected
+{
+	border:1px solid #000000; padding-left: 4px;
+	padding-bottom: 2px;
+	color: #000000;
+	padding-top: 1px;
+	font-family: 新細明體;
+	padding-right: 4px;
+	background-color: #FFFFFF
+}
+.usercommandarea
+{
+	padding-top: 7px;
+}
+.userconfiguration
+{
+	background-color: #CCCC99;
+	font-family: 新細明體;
+}
+.usercontrolgroup
+{
+	padding-bottom: 10px;
+	padding-top: 2px;
+}
+.userdottedline
+{
+	margin-bottom: 2px;
+	background-image: url(dot.gif);
+	height: 1px;
+	background-repeat: repeat-x;
+	background-color: transparent;
+	overflow: hidden;
+}
+.userfooter
+{
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	width: 100%;
+}
+.usergeneric
+{
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 8px;
+}
+.usergenericbody
+{
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 17px;
+	padding-right: 0px;
+}
+.usergenericbulletitem
+{
+	padding-bottom: 2px;
+}
+.usergenericheader
+{
+	color: #000000;
+	font-weight: bold;
+	font-family: 新細明體;
+}
+.usergenerictext
+{
+	color: #000000;
+}
+.usernotification
+{
+	padding:4px; color: #BBBBBB;
+	font-family: 新細明體;
+	
+}
+.usersectionbody
+{
+	padding-left: 7px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+}
+.usersectionfooter
+{
+	color: #000000;
+	border-top-width: 1px;
+	border-top-color: #BFBF85;
+	border-top-style: solid;
+}
+.usersectionhead
+{
+	padding-bottom: 3px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	color: #000000;
+}
+.usersectiontitle
+{
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #BFBF85;
+	width: 100%;
+	border-bottom-style: solid;
+	color: #000000;
+}
+.usershadedregion
+{
+	background-color: #CCCC99;
+	font-family: 新細明體;
+}
+.usertoolbar
+{
+	background-repeat: repeat-x;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BBBBBB;
+	background-image: url(toolgrad.gif);
+	border-bottom-width: 1px;
+	border-bottom-color: #BBBBBB;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: transparent;
+	border-left-width: 1px;
+	border-left-color: #BBBBBB;
+	border-left-style: solid;
+	border-right-color: #BBBBBB;
+}
+.usertoolbardisabledlink
+{
+	padding:4px; font-family: 新細明體;
+	color: #003366;
+	
+}
+.usertoolbarimage
+{
+	background-color: #BBBBBB;
+	border-left-width: medium;
+	border-left-color: inherit;
+	border-left-style: none;
+	border-bottom-width: medium;
+	border-right-width: medium;
+	border-bottom-color: inherit;
+	border-right-color: inherit;
+	border-bottom-style: none;
+	border-right-style: none;
+	text-align: center;
+	border-top-width: medium;
+	border-top-color: inherit;
+	border-top-style: none;
+	cursor: hand;
+}
+.usertoolbarimagearea
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	padding-bottom: 5px
+}
+.usertoolbarselectedimage
+{
+	border-bottom-width: 1px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom-color: #000000;
+	border-left-width: medium;
+	border-left-color: inherit;
+	text-align: center;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-width: medium;
+	border-top-color: inherit;
+	border-top-style: none;
+	border-right-width: medium;
+	border-right-color: inherit;
+	border-right-style: none;
+}
+.usertoolbartextarea
+{
+	padding-bottom: 5px;
+	font-weight: normal;
+	font-family: 新細明體;
+}
+.usertoolbartextarea a:hover
+{
+	text-decoration: underline;
+	color: #666666;
+}
+.usertoolbartextarea a:link
+{
+	text-decoration: none;
+	color: #660000;
+}
+.usertoolbartextarea a:visited
+{
+	color: #660000;
+	text-decoration: none;
+}
+a.ms-imglibpreviewtitle
+{
+	width: 130;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+body
+{
+	font-weight: normal;
+	font-style: normal;
+	font-family: 新細明體;
+	background-image: url('di5.gif');
+	text-align: none;
+	vertical-align: none
+}
+button
+{
+	border-style:solid; border-width:1pt; font-style: normal;
+	font-family: 新細明體;
+	
+}
+caption
+{
+	font-family: 新細明體;
+	font-style: normal
+}
+div.ms-titleareaframe
+{
+	border-top-width: 4px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+}
+fieldset
+{
+	border-style:solid; border-width:1pt; font-family: 新細明體;
+	font-style: normal;
+	
+}
+h1
+{
+	font-weight: bold;
+	vertical-align: none;
+	font-family: 新細明體;
+	font-style: normal;
+	text-align: none
+}
+h2
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	font-style: normal
+}
+h3
+{
+	font-weight: normal;
+	font-style: normal;
+	font-family: 新細明體;
+}
+h4
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	font-style: normal
+}
+h5
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	font-style: normal
+}
+h6
+{
+	font-weight: normal;
+	font-family: 新細明體;
+	font-style: normal
+}
+hr
+{
+	color: #000000;
+	height: 2px;
+}
+il
+{
+	list-style-image: url(strbul2c.gif);
+}
+img.ms-button
+{
+	cursor: hand;
+}
+img.ms-imglibpreviewarea
+{
+	border-bottom-width: 3px;
+	margin-top: 3px;
+	border-top-width: 3px;
+	border-top-color: #CCCC99;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-color: #CCCC99;
+	border-left-color: #CCCC99;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #CCCC99;
+	border-bottom-style: solid;
+}
+img.thumbnail
+{
+	border-top-color: #BFBF85;
+	border-left-color: #BFBF85;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #BFBF85;
+	border-bottom-style: solid;
+	border-right-width: 3px;
+	border-right-color: #BFBF85;
+	border-right-style: solid;
+	border-top-width: 3px;
+	border-left-width: 3px;
+}
+label
+{
+	font-style: normal;
+	font-family: 新細明體;
+}
+label, .mstheme-label
+{
+	font-style: normal;
+	font-family: 新細明體;
+}
+legend
+{
+	font-style: normal;
+	font-family: 新細明體;
+}
+marquee
+{
+	font-family: 新細明體;
+}
+select
+{
+	border-style:solid; font-style: normal;
+	font-family: 新細明體;
+	
+}
+span.thumbnail
+{
+	width: 5px;
+	padding-bottom: 16;
+	position: relative;
+	padding-top: 16;
+	padding-right: 10;
+	padding-left: 10;
+}
+span.userdata
+{
+	behavior: url(#default#userData);
+	display: none;
+}
+table
+{
+	vertical-align: none;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 新細明體;
+	text-align: none
+}
+table.ms-form td
+{
+	width: 100%;
+	vertical-align: top;
+}
+table.ms-form th
+{
+	font-weight: normal;
+	color: #000000;
+	font-family: 新細明體;
+	vertical-align: top
+}
+table.ms-imglibpreviewtable
+{
+	display: none;
+}
+table.ms-imglibtitletable
+{
+	border-right-color: #CCCC99;
+	border-right-style: solid;
+	border-top-width: 0px;
+	border-top-color: #CCCC99;
+	border-top-style: solid;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-bottom-color: #CCCC99;
+	border-left-color: #CCCC99;
+	border-right-width: 0px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+table.ms-titleareaframe
+{
+	border-left-width: 0px;
+	border-left-color: inherit;
+	border-left-style: none;
+}
+table.ms-toolbar
+{
+	border-right-color: #BBBBBB;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BBBBBB;
+	background-image: url(toolgrad.gif);
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #BBBBBB;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-left-color: #BBBBBB;
+}
+td.ms-titleareaframe
+{
+	border-bottom-color: #CCCC99;
+	color: #000000;
+	border-right-color: #CCCC99;
+	border-top-color: #CCCC99;
+	border-left-color: #CCCC99;
+}
+textarea
+{
+	border-style:solid; font-style: normal;
+	font-family: 新細明體;
+	
+}
+th
+{
+	font-family: 新細明體;
+	font-style: bold
+}
+tr.ms-imglibselectedrow
+{
+	background-color: #CCCC99;
+}

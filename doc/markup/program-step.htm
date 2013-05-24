@@ -1,0 +1,1136 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>標記組常用程式執行步驟</title>
+<style>
+<!--
+h3
+	{margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:Arial;
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+.style2 {	font-size: 12pt;
+	color: #FF6699;
+	font-weight: bold;
+}
+.style3 {color: #FF3399}
+-->
+</style>
+</head>
+
+<body background="figure/10.gif">
+
+<font FACE="標楷體" SIZE="6" color="#800080">
+<p ALIGN="CENTER"><b>標記組常用程式執行步驟</b></p></font>
+<p ALIGN="right"><font FACE="Times New Roman" color="#008000">20080401 by eva</font></p>
+<p><font FACE="Webdings" color="#0000FF">4</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">
+<a href="#跑 juan">跑 </a></font><font COLOR="#0000ff"><a href="#跑 juan">juan</a><br>
+<font FACE="Webdings">4</font> </font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff"><a href="#跑 hh3">跑</a></font><font COLOR="#0000ff"><a href="#跑 hh3"> 
+hh3</a><u><br>
+</u><font FACE="Webdings">4</font> </font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff"><a href="#跑 cbent">跑</a></font><font COLOR="#0000ff"><a href="#跑 cbent"> 
+cbent</a><br>
+<font FACE="Webdings">4</font> <a href="#跑 parsevol.bat，parseall.bat">跑 
+parsevol.bat，parseall.bat</a></font><br>
+<font COLOR="#0000ff"><font FACE="Webdings">4</font> <a href="#connectx">
+connectx</a><br>
+<font FACE="Webdings">4</font> </font><font color="#0000FF"> 
+<a href="#xml 轉 normal">xml 轉 normal</a> </font>
+<font COLOR="#0000ff"><br>
+<font FACE="Webdings">4</font> <a href="#簡單標記版(SM) 轉 normal">簡單標記版(BM) 轉 normal</a><br>
+<font FACE="Webdings">4</font> 
+<a href="#CBR文字正確度比對">CBR文字正確度比對 (cutxml.pl 切卷，cbr2t_one.bat 轉 normal)</a><br>
+<font FACE="Webdings">4</font> <font face="新細明體"><a href="#跑 Rtf 版">跑 Rtf 版</a></font><br>
+<font FACE="Webdings">4</font> <font FACE="新細明體"><a href="#跑 App 版">跑 App 版</a></font><font FACE="Webdings"><br>
+4</font> </font><font color="#0000FF"><span lang="zh-tw"><font face="新細明體">
+<a href="#跑 HTML Help 版">跑 HTML Help 版</a></font></span><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font> <a href="#compile">
+compile</a></font><font color="#0000FF"><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font> </font>
+<font color="#0000FF"><font face="新細明體"><a href="#跑 HTML 版">跑 HTML 版</a></font><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font> <a href="#period.pl"> 
+period.pl</a></font><font color="#0000FF"><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font>
+</font><font color="#0000FF"><font face="新細明體"><a href="#basicx.bat">BM-&gt;XML 
+標記檢測</a></font><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font> <a href="#cutxml.pl">
+cutxml.pl</a></font><font color="#0000FF"><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font>
+<a href="#checkxml.pl">checkxml.pl</a></font><font color="#0000FF"><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font>
+<a href="#zip-xml.pl">zip-xml.pl</a></font><font FACE="Arial" color="#0000FF"><a href="#zip-xml.pl">、<font LANG="ZH-TW">zip.py</font></a></font><font color="#0000FF"><br>
+</font><font COLOR="#0000ff"><font FACE="Webdings">4</font> <font FACE="新細明體"><a href="#新舊XML批次檔案比對">新舊XML批次檔案比對</a></font><font FACE="Webdings"><br>
+4</font> </font>
+<font FACE="新細明體" LANG="ZH-TW" color="#0000FF">
+<a NAME="_Toc124319723" href="#大比對批次檔案比對">卍續藏 normal 批次檔案比對</a></font><br>
+<font COLOR="#0000ff"><font FACE="Webdings">4</font> </font>
+<font FACE="新細明體" LANG="ZH-TW" color="#0000FF">
+<a NAME="_Toc124319723" href="#XML p5 上網比對">XML P5 上網比對</a></font><br>
+<font FACE="Webdings" COLOR="#0000ff">4</font><span class="826171003-18122007"><font face="新細明體" color="#0000FF"><a href="#Cbeta-bdc cd1 內容">「'Cbeta-bdc' 
+的 cd1-200x」內容</a></font></span><br>
+<font COLOR="#0000ff"><font FACE="Webdings">4 </font></font><a href="P4vsP5.html" target="_blank">P4 vs P5 比對步驟</a>　</p>
+<p><font color="#0000FF">
+&nbsp;</font></p>
+<hr><b><font FACE="Arial" SIZE="5">
+<p><a NAME="跑 juan"><font FACE="Webdings">4</font> </a></font>
+<a NAME="_Toc124319703"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑</font><font FACE="Arial" SIZE="5"> 
+juan</font></a><font size="2" color="#FF00FF">　</font><a href="program-step.htm"><font color="#800080" size="1">▲</font><font size="2" color="#800080">
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>juan.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：檢查</font>XML<font FACE="新細明體" LANG="ZH-TW">檔中的卷首資訊。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\xml <font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Xxx</p>
+<p>C:\cbwork\xml\Xxx&gt;juan Xxx</p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">根據</font>dos<font FACE="新細明體" LANG="ZH-TW">執行狀況修改</font>XML<font FACE="新細明體" LANG="ZH-TW">檔。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">
+若執行到一半便停止的檔案，即表示該檔有錯誤。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">檢查不會中斷的訊息：</font>”<font FACE="新細明體" LANG="ZH-TW">可能是</font>…<font FACE="新細明體" LANG="ZH-TW">請留意</font>”<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="跑 hh3"><font FACE="Webdings">4</font> </a></font>
+<a NAME="_Toc124319704"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑 </font>
+<font FACE="Arial" SIZE="5">hh3</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="1">▲</font><font size="2" color="#800080">
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>hh3.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：檢查</font>XML<font FACE="新細明體" LANG="ZH-TW">檔中的目錄資訊。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\xml <font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Xxx</p>
+<p>C:\cbwork\xml\Xxx&gt;hh3 Xxx</p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">根據產生的</font>XxxToc.hhc<font FACE="新細明體" LANG="ZH-TW">檔，檢查目錄及目錄層次。</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="跑 cbent"><font FACE="Webdings">4</font> </a></font>
+<a NAME="_Toc124319705"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑</font><font FACE="Arial" SIZE="5"> 
+cbent</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>cbent.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：把整冊的缺字資料跑出</font> .ent <font FACE="新細明體" LANG="ZH-TW">檔。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\xml<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Xxx</p>
+<p>C:\cbwork\xml\Xxx&gt;cbent</p>
+<b>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑大正藏</font>56<font FACE="新細明體" LANG="ZH-TW">冊</font>cbent<font FACE="新細明體" LANG="ZH-TW">指令：</font>pancbent<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑卍續藏</font>cbent<font FACE="新細明體" LANG="ZH-TW">指令：</font>xcbent<font FACE="新細明體" LANG="ZH-TW">。
+在
+</font><a href="file:///C:/cbwork/work/bin">C:\cbwork\work\bin</a> 直接執行<font FACE="新細明體" LANG="ZH-TW">。</font></p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑全部冊數</font>cbent<font FACE="新細明體" LANG="ZH-TW">指令：</font>allcbent<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font><font FACE="Arial" SIZE="5">
+<p><a NAME="跑 parsevol.bat，parseall.bat"><font FACE="Webdings">4</font> </a>
+</font><a NAME="_Toc124319706"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑</font><font FACE="Arial" SIZE="5"> 
+parsevol.bat</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5">，</font><font FACE="Arial" SIZE="5">parseall.bat</font></a><font size="2" color="#FF00FF">　</font><a href="program-step.htm"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>parsevol.bat<font FACE="新細明體" LANG="ZH-TW">，</font>parseall.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：跑單冊或跑全部的</font>parser<font FACE="新細明體" LANG="ZH-TW">。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\xml <font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Xxx</p>
+<p>C:\cbwork\xml\Xxx&gt;parsevol</p>
+<b>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑全部的指令：</font>parseall.pl 
+(<font FACE="新細明體" LANG="ZH-TW">直接點兩下，輸出在</font> c:\temp\</b> <b>parseall.out )</p>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="connectx"><font FACE="Webdings">4</font> connect</a></font><font FACE="Arial" SIZE="2" color="#FF00FF">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲
+</font></a>
+</font> <a href="#top"><font color="#800080" FACE="Arial">top</font></a><font FACE="Arial"></p>
+</font></b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>connectx.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：連結整冊的</font>xml<font FACE="新細明體" LANG="ZH-TW">檔。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\xml <font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Xxx</p>
+<p>C:\cbwork\xml\Xxx&gt;connectx</p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">輸出檔</font>allxml.txt<font FACE="新細明體" LANG="ZH-TW">在該冊</font>xml<font FACE="新細明體" LANG="ZH-TW">檔所在的資料夾。</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="xml 轉 normal"><font FACE="Webdings">4</font> xml</a></font><font FACE="新細明體" LANG="ZH-TW" SIZE="5">
+<a NAME="_Toc124319708">轉</a></font><font FACE="Arial" SIZE="5">
+<a NAME="_Toc124319708">normal</a></font><font SIZE="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="1">▲</font><font size="2" color="#800080">
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>xml2txt.bat<font FACE="新細明體" LANG="ZH-TW">，</font>connect.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將</font>xml<font FACE="新細明體" LANG="ZH-TW">檔轉成普及版。</p>
+<p>程式步驟：</p>
+</font>
+<p>Step1. <font FACE="新細明體" LANG="ZH-TW">產生普及版</p>
+</font>
+<p>C:\&gt;xml<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml\Xxx&gt;xml2txt –v Xxx –u</p>
+<p>Step2. <font FACE="新細明體" LANG="ZH-TW">連結小檔</p>
+</font>
+<p>C:\&gt;rel<font FACE="Wingdings 3">8</font> </p>
+<p>C:\release\normal\Xxx&gt;connect</p>
+<p><font FACE="Wingdings 3">_</font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#7f0000">xml2txt 是會產生一個暫存檔(</font><font COLOR="#7f0000">c:\cbwork\err.txt)</font><font FACE="新細明體" LANG="ZH-TW">，</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#7f0000">正常結束會刪除暫存檔。如果 
+xml2txt 結束了，暫存檔卻還在，就表示不正常結束。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">
+不同需求請加入不同的參數。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑</font>56<font FACE="新細明體" LANG="ZH-TW">冊</font>normal<font FACE="新細明體" LANG="ZH-TW">指令：</font>(1) 
+pannormal—<font FACE="新細明體" LANG="ZH-TW">有檔頭資訊</font> (2) hnormal—<font FACE="新細明體" LANG="ZH-TW">無檔頭資訊，再執行</font> 
+connect<font FACE="新細明體" LANG="ZH-TW">。</font> </p>
+<b><font FACE="Arial" SIZE="5">
+<p><a NAME="_Toc124319709"><font FACE="Webdings">4</font> </a></font>
+<a NAME="簡單標記版(SM) 轉 normal"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">簡單標記版</font><font FACE="Arial" SIZE="5">(BM)
+</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5">轉</font><font FACE="Arial" SIZE="5"> 
+normal</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="1">▲</font><font size="2" color="#800080">
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>pre_one.bat<font FACE="新細明體" LANG="ZH-TW">，</font>nor_one.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\simple\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將簡單標記版轉成普及版。</p>
+<p>程式步驟：</p>
+</font>
+<p>Step1. <font FACE="新細明體" LANG="ZH-TW">產生</font>new4.txt</p>
+<p>C:\cbwork\simple\bin&gt;pre_one Xxx<font FACE="新細明體" LANG="ZH-TW">（不要經文資訊：pre_one_nohead 
+X</font>xx<font FACE="新細明體" LANG="ZH-TW">）</p>
+</font>
+<p>Step2. <font FACE="新細明體" LANG="ZH-TW">產生普及版</p>
+</font>
+<p>C:\cbwork\simple\bin&gt;nor_one Xxx<font FACE="新細明體" LANG="ZH-TW">（不要經文資訊：nor_one_nohead 
+X</font>xx<font FACE="新細明體" LANG="ZH-TW">）</p>
+</font>
+<p>Step3. <font FACE="新細明體" LANG="ZH-TW">連結小檔</p>
+</font>
+<p>C:\&gt;simco<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\simple\release\normal\Xxx&gt;connect</p>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">
+<p>備註：</p>
+<p>加 &quot;nohead&quot; , 結果是沒有 &quot;通用字&quot;.<br>
+若移除 &quot;nohead&quot; , 結果就是有 &quot;通用字&quot;.<br>
+如果又要組字式, 又要有卷首, 等於是要這樣執行<br>
+pre_one_h.bat T01 (或 pre_one.bat T01 nohead)<br>
+nor_one.bat T01</p>
+<p>第一個要加 nohead , 其實只是不用通用字.<br>
+第二個不加 nohead , 就是呈現卷首資訊.</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="CBR文字正確度比對"><font FACE="Webdings">4</font> CBR</a></font><a NAME="_Toc124319710"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">文字正確度比對</font><font FACE="Arial" SIZE="5"> 
+(cutxml.pl</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 切卷，</font><font FACE="Arial" SIZE="5">cbr2t_one.bat</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 
+轉</font><font FACE="Arial" SIZE="5"> normal)</font></a><font face="Arial" size="5">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>cutxml.pl<font FACE="新細明體" LANG="ZH-TW">，</font>cbr2t_one.bat<br>
+<br>
+<font FACE="新細明體" LANG="ZH-TW">程式位置：下載位置</font>c:\cbwork\work\cbreader<font FACE="新細明體" LANG="ZH-TW">，</font>cbr2t.pl<font FACE="新細明體" LANG="ZH-TW">、</font>cbr2t_one.bat<font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">下載後放在</font><font COLOR="#ff0000">c:\cbcheck\cbr_comp&gt;</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">裡。<br>
+<br>
+</font><font FACE="新細明體" LANG="ZH-TW">
+程式用途：重新切卷，將</font>CBReader<font FACE="新細明體" LANG="ZH-TW">產生的</font>html<font FACE="新細明體" LANG="ZH-TW">轉成文字檔。<br>
+</font><br>
+<font FACE="新細明體" LANG="ZH-TW">程式步驟：</p>
+</font><b>
+<p>(1) CBR→normal</p>
+</b>
+<p>1. <font FACE="新細明體" LANG="ZH-TW">更新</font>CVS<font FACE="新細明體" LANG="ZH-TW">產生最新的</font>XML<font FACE="新細明體" LANG="ZH-TW">及</font>ent<font FACE="新細明體" LANG="ZH-TW">。</font>(X:)</p>
+<p>2. <font FACE="新細明體" LANG="ZH-TW">重新用新版</font> cutxml.pl
+<font FACE="新細明體" LANG="ZH-TW">切卷。</font>(<font FACE="新細明體" LANG="ZH-TW">輸出位置</font>E:\work\cbreader-no-source\XML)<br>
+&nbsp;&nbsp;&nbsp; <font FACE="新細明體" LANG="ZH-TW">．切卷完記得</font>copy<font FACE="新細明體" LANG="ZH-TW">至</font>X:\xml<font FACE="新細明體" LANG="ZH-TW">資料夾裡，</font><font FACE="細明體" LANG="ZH-TW" COLOR="#0000ff">覆蓋時不需要的舊檔要刪除。</font><font FACE="新細明體" LANG="ZH-TW">。</font>(<a href="file:///X:/xml/dtd也要最新的">X:\xml\dtd<font FACE="新細明體" LANG="ZH-TW">也要最新的</font></a>)<br>
+&nbsp;<font LANG="ZH-TW">&nbsp;&nbsp; </font><font FACE="新細明體" LANG="ZH-TW">．</font>XML<font FACE="新細明體" LANG="ZH-TW">有任何修訂都要重跑這個動作。</font><font COLOR="#0000ff">(*.ent</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">不用重切，但是</font><font COLOR="#0000ff">ent</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">若有改，也要更新</font><font COLOR="#0000ff">)<br>
+</font>&nbsp;<font LANG="ZH-TW">&nbsp;&nbsp;
+</font>
+<font FACE="新細明體" LANG="ZH-TW">．指令</p>
+</font>
+<blockquote>
+	<p><a href="file:///C:/cutxml"><span style="text-decoration: none">
+	<font color="#000000">C:\cutxml</font></span></a><u><br>
+	</u>C:\&gt;cbwork\work\cbreader&gt;perl cutxml.pl Txx (<font FACE="新細明體" LANG="ZH-TW">跑單經</font> 
+perl cutxml.pl Txxnxxxx.xml )</p>
+</blockquote>
+<p>3. <font FACE="新細明體" LANG="ZH-TW">用最新的</font> CBR
+<font FACE="新細明體" LANG="ZH-TW">產生</font> html<font FACE="新細明體" LANG="ZH-TW">。</font>
+<font COLOR="#ff0000">(</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">記得要勾選我們要的「選項設定」：依原書格式切行打勾、加上頁欄行資訊打勾、組字式排第一、悉曇字選使用</font><font COLOR="#ff0000">&amp;SD</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">碼、修訂格式選修訂用字</font><font COLOR="#ff0000">)</p>
+<blockquote>
+	<p><font FACE="Wingdings 3">_</font> </font>
+	<font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">通關密語在</font><font COLOR="#ff0000">CBR”</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">目錄</font><font COLOR="#ff0000">/</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">目錄搜尋</font><font COLOR="#ff0000">”</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">欄位打：</font><font COLOR="#ff0000">debug 
+(</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">執行冊數時要勾選</font><font COLOR="#ff0000">”</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">顯示經文</font><font COLOR="#ff0000">”)</p>
+	<p><font FACE="Wingdings 3">_</font> </font>
+	<font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">產生</font><font COLOR="#ff0000">html</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">批次指令：</p>
+	</font><font COLOR="#ff0000">
+	<p>3.1. </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">打開批次檔</font><font COLOR="#ff0000">Q.bat</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">輸入要產生的冊數</font><font COLOR="#ff0000"> 
+(</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">例如：</font><font COLOR="#ff0000">cbreader 
+out X78)</p>
+	<p>3.2. </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">將</font><font COLOR="#ff0000"> 
+Q.bat copy </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">到自己電腦上的</font><font COLOR="#ff0000">CBReader</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">作業資料夾裡</p>
+	</font><font COLOR="#ff0000">
+	<p>3.3. </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">直接執行</font><font COLOR="#ff0000"> 
+Q.bat (</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">點二下，不用開啟</font><font COLOR="#ff0000">CBReader)</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">，輸出檔在</font><font COLOR="#ff0000">C:\Release\cbr_out\</p>
+	<p>3.4. </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">強迫中止指令：</font><font COLOR="#ff0000">Ctrl+Alt+Del
+	</p>
+</blockquote>
+</font>
+<p>4. <font FACE="新細明體" LANG="ZH-TW">用最新的</font> cbr2t_one.bat
+<font FACE="新細明體" LANG="ZH-TW">轉成文字檔</font>(CBReader<font FACE="新細明體" LANG="ZH-TW">轉</font>normal)<font FACE="新細明體" LANG="ZH-TW">，</font>cbr2t.pl<font FACE="新細明體" LANG="ZH-TW">、</font>cbr2t_one.bat<font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">下載後要放在</font><font COLOR="#ff0000">c:\cbcheck\cbr_comp&gt;</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">裡。</p>
+</font>
+<p>　<font FACE="新細明體" LANG="ZH-TW">．指令</p>
+</font>
+<blockquote>
+	<p>C:\cbreader</p>
+	<p>C:\cbcheck\cbr_comp&gt;cbr2t_one.bat Txx (<font FACE="新細明體" LANG="ZH-TW">輸出檔名</font> 
+Txx_cbr.txt)</p>
+</blockquote>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑全部或個人的批次檔：</font>cbr2t_all.bat<font FACE="新細明體" LANG="ZH-TW">、</font>cbr2t_eva.bat
+<font COLOR="#ff0000">(</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">放在</font><font COLOR="#ff0000">c:\cbcheck\cbr_comp&gt;
+</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">資料夾執行</font><font COLOR="#ff0000">)</p>
+	</font><b>
+	<p>(2) XML→normal　<u><br></u></b><font FACE="新細明體" LANG="ZH-TW">指令：</font>xml2txt -v Txx -u -h -k -z 
+	-x　 <font COLOR="#ff0000">(-x: </font>
+	<font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">以</font><font COLOR="#ff0000"> 
+	&amp;SD-xxxx; </font><font FACE="新細明體" LANG="ZH-TW" COLOR="#ff0000">顯示悉曇字</font><font COLOR="#ff0000">)</font>　</p>
+<p><font FACE="新細明體" LANG="ZH-TW">批次檔：</font>cbrnormal.bat</p>
+<b>
+<p>(3) <font FACE="新細明體" LANG="ZH-TW">比對二個</font>normal<font FACE="新細明體" LANG="ZH-TW">檔。</p>
+</font><font SIZE="5">
+<p>CBReader</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5">檢測作業步驟：</p>
+</font></b>
+<p><font FACE="Wingdings">&Oslash;</font> <font FACE="新細明體" LANG="ZH-TW">先複製</font>X:\<font FACE="新細明體" LANG="ZH-TW">下列有更新的項目到自己電腦上的</font>CBReader</p>
+<dir>
+	<p>cbreader.exe<br>
+	juanline<br>
+	toc<br>
+	js<br>
+	language<br>
+	help</p>
+		<font FACE="新細明體" LANG="ZH-TW">
+</dir>
+<blockquote>
+	<p>取消</font> cbreader.ini <font FACE="新細明體" LANG="ZH-TW">唯讀屬性</p>
+	<p>修改</font>CBR<font FACE="新細明體" LANG="ZH-TW">設定裡的路徑</font>(<font FACE="新細明體" LANG="ZH-TW">加上</font>X:\<font FACE="新細明體" LANG="ZH-TW">，儲存後按重整</font>)<br>
+	</p>
+</blockquote>
+<p><font FACE="Wingdings">&Oslash;</font> <font FACE="新細明體" LANG="ZH-TW">更新</font>CVS<font FACE="新細明體" LANG="ZH-TW">，產生最新的</font>xml
+<font FACE="新細明體" LANG="ZH-TW">及</font>ent</p>
+<p><font FACE="Wingdings">&Oslash;</font> <font FACE="新細明體" LANG="ZH-TW">重新用新版</font>cutxml<font FACE="新細明體" LANG="ZH-TW">切卷</p>
+</font>
+<p><font FACE="Wingdings">&Oslash;</font><font LANG="ZH-TW"> </font>
+<font FACE="新細明體" LANG="ZH-TW">記得下載最新的</font>dtd<font FACE="新細明體" LANG="ZH-TW">，</font>copy
+<font FACE="新細明體" LANG="ZH-TW">到</font>X:\xml\dtd<font FACE="新細明體" LANG="ZH-TW">，保留</font><font FACE="細明體" LANG="ZH-TW">cbeta.ent、cbeta.xsl、cbetaxml.dtd、jap.ent<br>
+<font FACE="Wingdings">&Oslash;</font></font><font LANG="ZH-TW"> </font><font FACE="新細明體" LANG="ZH-TW">檢測</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="_Toc124319711"><font FACE="Webdings">4</font> </a></font>
+<a NAME="跑 Rtf 版"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑 </font>
+<font FACE="Arial" SIZE="5">Rtf</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 版</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲</font><font color="#800080"> top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>x2rtf.pl</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將</font>xml<font FACE="新細明體" LANG="ZH-TW">轉成</font>Rtf<font FACE="新細明體" LANG="ZH-TW">版。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\rtf<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\work\bin&gt;</p>
+<p>C:\cbwork\work\bin&gt;perl x2rtf.pl –v –t Txx<font FACE="新細明體" LANG="ZH-TW">（單經：</font>perl 
+x2rtf.pl –n Txxnxxxx.xml -t<font FACE="新細明體" LANG="ZH-TW">）</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="_Toc124319712"><font FACE="Webdings">4</font> </a></font>
+<a NAME="跑 App 版"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑 </font>
+<font FACE="Arial" SIZE="5">App</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 版</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>app1.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將</font>xml<font FACE="新細明體" LANG="ZH-TW">轉成</font>App<font FACE="新細明體" LANG="ZH-TW">版。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\ xml<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\xml&gt;cd Txx</p>
+<p>C:\cbwork\xml\Txx&gt;app1 –v Txx<font FACE="新細明體" LANG="ZH-TW">（單經：</font>app1 
+–n Txxnxxxx.xml<font FACE="新細明體" LANG="ZH-TW">）</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="_Toc124319713"><font FACE="Webdings">4</font> </a></font>
+<a NAME="跑 HTML Help 版"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑</font><font FACE="Arial" SIZE="5"> 
+HTML Help</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 版</font></a>　<font size="2" color="#FF00FF">
+</font> <a href="#top"><font color="#800080" size="2">▲ </font>
+<font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>hh4-jk<font FACE="新細明體" LANG="ZH-TW">，</font>hh5-jk</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將</font>xml<font FACE="新細明體" LANG="ZH-TW">轉成</font>HH<font FACE="新細明體" LANG="ZH-TW">版。</p>
+<p>程式步驟：</p>
+</font>
+<p>Step 1<font FACE="新細明體" LANG="ZH-TW">：下載</font> CVS
+<font FACE="新細明體" LANG="ZH-TW">的</font>C:\cbwork\work\bin</p>
+<p>Step 2<font FACE="新細明體" LANG="ZH-TW">：打開</font>C:\cbwork\work\bin cbeta.cfg
+<font FACE="新細明體" LANG="ZH-TW">修改</font>out<font FACE="新細明體" LANG="ZH-TW">路徑：</font>hh_out_root=u:/release/HH-JK-work</p>
+<p>Step 3<font FACE="新細明體" LANG="ZH-TW">：在</font> Dos
+<font FACE="新細明體" LANG="ZH-TW">下執行</font>perl<font FACE="新細明體" LANG="ZH-TW">程式：</p>
+<dir>
+	<dir>
+		</font>
+		<p>C:\cbwork\work\bin&gt;hh4-jk 1 <font FACE="新細明體" LANG="ZH-TW">←</font>
+		<font FACE="新細明體" LANG="ZH-TW">有關「目錄」部份</p>
+		</font>
+		<p>C:\cbwork\work\bin&gt;hh5-jk 1 <font FACE="新細明體" LANG="ZH-TW">←</font>
+		<font FACE="新細明體" LANG="ZH-TW">有關「經文」部份</p>
+	</dir>
+</dir>
+</font><b>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="compile"><font FACE="Webdings">4</font> compile</a></font><font FACE="Arial" SIZE="2" color="#FF00FF">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲
+</font></a></font> <a href="#top"><font color="#800080" FACE="Arial">top</font></a><font FACE="Arial"></p>
+</font>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>HTML Help Workshop</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：做成</font> *.chm<font FACE="新細明體" LANG="ZH-TW">檔。</p>
+<p>程式步驟：</p>
+</font>
+<p>1. <font FACE="新細明體" LANG="ZH-TW">打開</font> HTML Help Workshop
+<font FACE="新細明體" LANG="ZH-TW">程式。</p>
+</font>
+<p>2. <font FACE="新細明體" LANG="ZH-TW">開啟舊檔</font>U:\release\HH-JK-work<font FACE="新細明體" LANG="ZH-TW">，選檔案</font> 
+01AHan.hhp<font FACE="新細明體" LANG="ZH-TW">（此為部類</font>compile<font FACE="新細明體" LANG="ZH-TW">）。</p>
+</font>
+<p>3. <font FACE="新細明體" LANG="ZH-TW">按工具列</font> compile HTML file (<font FACE="新細明體" LANG="ZH-TW">漏斗</font>)
+<font FACE="新細明體" LANG="ZH-TW">→</font> <font FACE="新細明體" LANG="ZH-TW">再按</font>compile<font FACE="新細明體" LANG="ZH-TW">鍵。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> 23<font FACE="新細明體" LANG="ZH-TW">部類全文檢索連結，打開</font>HTML 
+Help Workshop<font FACE="新細明體" LANG="ZH-TW">，開啟舊檔</font>U:\release\HH-JK-work<font FACE="新細明體" LANG="ZH-TW">，選檔案</font> 
+cbeta.hhp <font FACE="新細明體" LANG="ZH-TW">→</font> <font FACE="新細明體" LANG="ZH-TW">
+按</font>compile<font FACE="新細明體" LANG="ZH-TW">鍵。（若直接執行</font>HH_total.bat<font FACE="新細明體" LANG="ZH-TW">，就可以不用執行此步驟）。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">大正藏</font>56<font FACE="新細明體" LANG="ZH-TW">冊跑</font>HH&amp;compile<font FACE="新細明體" LANG="ZH-TW">指令：直接點選</font>HH_total.bat<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="_Toc124319715"><font FACE="Webdings">4</font> </a></font>
+<a NAME="跑 HTML 版"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">跑 </font>
+<font FACE="Arial" SIZE="5">HTML</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 
+版</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>html-jk.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將</font>xml<font FACE="新細明體" LANG="ZH-TW">轉成</font>HTML<font FACE="新細明體" LANG="ZH-TW">版。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\jk<font FACE="Wingdings 3">8</font> </p>
+<p>C:\cbwork\work\bin&gt;html-jk Txx</p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">每冊資料夾內須有</font> 
+jk.htm<font FACE="新細明體" LANG="ZH-TW">，</font>foot.htm<font FACE="新細明體" LANG="ZH-TW">，</font>tool.htm<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">輸出資料夾外須有</font> 
+script<font FACE="新細明體" LANG="ZH-TW">，</font>cbeta.ccs
+<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">大正藏</font>56<font FACE="新細明體" LANG="ZH-TW">冊跑</font>HTML<font FACE="新細明體" LANG="ZH-TW">指令：直接點選</font>HTML_total.bat<font FACE="新細明體" LANG="ZH-TW">。</p>
+</font><b>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="period.pl"><font FACE="Webdings">4</font> period.pl</a></font><font FACE="Arial" SIZE="2" color="#FF00FF">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲</font></a></font><a href="#top"><font FACE="Arial" color="#800080"> top</font></a><font FACE="Arial" SIZE="5"></p>
+</font>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>period.pl</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>C:\</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：將簡單標記版段末加上句號。</p>
+<p>程式步驟：</p>
+</font>
+<p>C:\perl period.pl Xxx<font FACE="Wingdings 3">8</font> </p>
+<b><font FACE="Arial" SIZE="5">
+<p><a NAME="basicx.bat"><font FACE="Webdings">4</font> </a></font>
+<a NAME="_Toc124319717"><font FACE="Arial" SIZE="5">BM-&gt;XML</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 標記檢測</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>basicx.bat</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>c:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：B</font>M<font FACE="新細明體" LANG="ZH-TW">轉成</font>XML<font FACE="新細明體" LANG="ZH-TW">檔</p>
+<p>程式步驟：</p>
+<p><font color="#0000FF">1</font></font><font color="#0000FF">.<font FACE="新細明體" LANG="ZH-TW"> </font>
+</font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000FF">先下載 cvs 裏的 work/bin/basicx.bat<br>
+2. 到DOS 底下，輸入指令 </font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#7f0000"><a href="file:///c:/xml">c:\xml</a></font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000FF"><br>
+3. 跳回根目錄 c:\<br>
+4. 輸入指令c:\temp&gt;basicx x11 ←直接輸入冊數<br>
+5. 就會在c:\temp&gt;目錄下產生新的 
+xml 檔. (一經一檔)</p>
+</font><b>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="cutxml.pl"><font FACE="Webdings">4</font> cutxml.pl</a></font><font FACE="Arial" SIZE="2" color="#FF00FF">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲
+</font></a></font> <a href="#top"><font color="#800080" FACE="Arial">top</font></a><font FACE="Arial"></p>
+</font>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>cutxml.pl</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>c:\cbwork\work\cbreader (<font FACE="新細明體" LANG="ZH-TW">輸出位置 </font>
+E:\cutxml\)</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：重新切卷</p>
+<p>程式步驟：</p>
+</font>
+<p>c:\&gt;cutxml</p>
+<p>c:\&gt;cbwork\work\cbreader&gt;</p>
+<p>c:\&gt;cbwork\work\cbreader&gt;perl cutxml.pl X80 (<font FACE="新細明體" LANG="ZH-TW">跑單經</font> 
+perl cutxml.pl X83n1557.xml)</p>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">先修改參數檔 </font>cutxml_cfg.pl<font FACE="新細明體" LANG="ZH-TW"> 輸出路徑。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> err<font FACE="新細明體" LANG="ZH-TW">訊息：</p>
+</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">
+<p>若是在切 X78 時，它會先產生 cutxml_X78_err.txt</font><font FACE="新細明體" LANG="ZH-TW">，</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">切成功後就會自動刪除，若失敗就會留著。</p>
+<p>若是切單經，例如 X78n1546.xml，它會先產生 cutxml_X78n1546.xml_err.txt，切成功後就會自動刪除，若失敗就會留著。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">將輸出檔複製到</font>CBReader
+<font FACE="新細明體" LANG="ZH-TW">的</font>XML<font FACE="新細明體" LANG="ZH-TW">檔裡。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">跑全部的</font>xml<font FACE="新細明體" LANG="ZH-TW">檔重新切卷批次檔：</font>cutxml-all.bat&nbsp;
+<span style="font-size: 12.0pt; font-family: 細明體; color: blue">位置：<span lang="EN-US">C:\cbwork\work\cbreader</span></span></p>
+<p>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">
+跑批次檔若有錯誤訊息，要記得將</font><font COLOR="#0000ff"> cutxml_*_err.txt </font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">清除。</font></p>
+<div>
+	<font FACE="Wingdings 3">_</font><b><span class="187015205-02112007"><font face="細明體"> 
+	計算光碟經文確實容量：</font></span></b></div>
+<div>
+	<span class="187015205-02112007"></span>&nbsp;</div>
+<div>
+	<span class="187015205-02112007"><font face="細明體">執行步驟如下：</font></span></div>
+<ol>
+	<li><span class="187015205-02112007"><font face="細明體">parse：<br>
+	對所有的 C:\cbwork\xml XML 經文檔進行 parse。有問題的，予以解決。 </font></span></li>
+	<li><span class="187015205-02112007"><font face="細明體">cutxml：<br>
+	透過 CVS 更新 C:\cbwork\work\cbreader 裡面的 cutxml-all.bat、cutxml_cfg.pl，然後執行 
+	cutxml-all.bat。產生的一卷一檔 xml 會輸出到 C:\Release\cutxml。</font></span> 
+	</li>
+	<li><font face="細明體"><span class="187015205-02112007">7-Zip：<br>
+	附件是可以將 C:\Release\cutxml 裡面的所有 XML 壓縮成一冊一檔的 7z 批次檔。將附件解壓縮後放到安裝 7-Zip 
+	的資料夾裡，一般是在這裡：</span>C:\Program Files\7-Zip。然後執行<span class="187015205-02112007"> 
+	7z-xml(all).bat，壓縮完成的 XML&nbsp;7z 檔會輸出到 C:\Release\7z-out。&nbsp;</span></font> 
+	</li>
+	<li><font face="細明體">統計<span class="187015205-02112007"> </span>
+	C:\Release\7z-out<span class="187015205-02112007"> 裡面的檔案總體積就大功告成了。</span></font></li>
+</ol>
+<b>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="checkxml.pl"><font FACE="Webdings">4</font> checkxml.pl</a></font><font FACE="Arial" SIZE="2" color="#FF00FF">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲
+</font></a></font> <a href="#top"><font color="#800080" FACE="Arial">top</font></a><font FACE="Arial"></p>
+</font>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>程式名稱：</font>checkxml.pl</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>c:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：檢查</font>XML<font FACE="新細明體" LANG="ZH-TW">不正常折行標記</font>
+<font FACE="新細明體" LANG="ZH-TW">及</font> <font FACE="新細明體" LANG="ZH-TW">檢查</font>XML<font FACE="新細明體" LANG="ZH-TW">裏的組字式是否轉出正確等等。</p>
+<p>程式步驟：</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">參數請修改</font> 
+c:\cbwork\work\bin\config.pl<font FACE="新細明體" LANG="ZH-TW">，全部冊數直接執行程式即可。</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">檢查單冊 </font>
+c:\cbwork\work\bin&gt;<font FACE="新細明體" LANG="ZH-TW">checkxml.pl x75 (路徑 key bin)</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">指定大正藏或卍續藏：執行</font> 
+checkxml.pl t <font FACE="新細明體" LANG="ZH-TW">或</font> checkxml.pl x
+<font FACE="新細明體" LANG="ZH-TW">就可以了。</p>
+</font><b>
+<font FACE="Arial" SIZE="5">
+<p><a NAME="zip-xml.pl"><font FACE="Webdings">4</font> zip-xml.pl</a>、<font LANG="ZH-TW">zip.py</font></font><font FACE="Arial" SIZE="2" color="#FF00FF" LANG="ZH-TW">　</font><font FACE="Arial" SIZE="5"><a href="#top"><font color="#800080" size="2">▲
+</font></a></font> <a href="#top"><font color="#800080" FACE="Arial">top</font></a><font FACE="Arial"></p>
+</font>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p><b>(一) zip-xml.pl</b></p>
+<p>程式名稱：</font><font COLOR="#7f0000">zip-xml.pl</p>
+</font><font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font>c:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>程式用途：</font>xml<font FACE="新細明體" LANG="ZH-TW">檔備份用，可以把所有的</font> xml
+<font FACE="新細明體" LANG="ZH-TW">分冊壓縮，減少一些備份空間。</p>
+<p>程式步驟：</p>
+</font>
+<p><font FACE="Wingdings 3">_</font> <font FACE="新細明體" LANG="ZH-TW">參數請修改</font> 
+c:\cbwork\work\bin\config.pl</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>在</font> <b>$xml_in_dir=&quot;c:/cbwork/xml&quot;;　　　　　 # xml
+<font FACE="新細明體" LANG="ZH-TW">輸入目錄</font> </b><font FACE="新細明體" LANG="ZH-TW">
+的下面一列加上：</font><br>
+<b>$xml_out_dir=&quot;e:/temp/xml&quot;; # xml <font FACE="新細明體" LANG="ZH-TW">輸出目錄</font>
+</p>
+</b><font FACE="新細明體" LANG="ZH-TW">
+<p>然後到</font> e <font FACE="新細明體" LANG="ZH-TW">碟手動新增</font> temp
+<font FACE="新細明體" LANG="ZH-TW">資料夾，</p>
+<p>再到</font> DOS <font FACE="新細明體" LANG="ZH-TW">模式下，</p>
+<p>進到：</font>c:\cbwork\work\bin</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>輸入指令：</font>perl zip-xml.pl<br>
+<font FACE="新細明體" LANG="ZH-TW">輸出檔位置：</font>e:\temp\xml\</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>備份存放位置：</font><u><font COLOR="#0000ff">\\Cbeta-bdc\xml </font>
+<font FACE="新細明體" LANG="ZH-TW" COLOR="#0000ff">重大修訂前備份</font><font COLOR="#0000ff">\</p>
+</font></u><font FACE="新細明體" LANG="ZH-TW">
+<p><b>(二)&nbsp; zip.py：(執行 perl 還要裝一個 zip 模組，可用python)</b></p>
+<p>程式名稱：</font><font COLOR="#7f0000">zip.py, zip.bat (</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#7f0000">.bat 
+檔 前面有加 rem 的 表示那一行不執行)</p>
+</font><font FACE="新細明體" LANG="ZH-TW">
+<p>程式位置：</font><font COLOR="#7f0000">cbwork/bin/p5</p>
+</font><font FACE="新細明體" LANG="ZH-TW">
+<p>程式步驟：</p>
+</font><font FACE="新細明體" LANG="ZH-TW" COLOR="#7f0000">
+<p>dos 命令跟參數之間以空格分開</p>
+<p>zip.py 是命令, 後面跟參數</p>
+<p>zip.py 參數1 參數2</p>
+<p>參數1 是輸入目錄</p>
+<p>參數2 是輸出目錄</p>
+</font><font FACE="新細明體" LANG="ZH-TW">
+<p>輸入指令：</font>c:\cbwork\bin\p5&gt;zip.py c:\cbwork\xml e:\temp\xml</p>
+<b><font FACE="Arial" SIZE="5">
+<p><a NAME="新舊XML批次檔案比對"><font FACE="Webdings">4</font> </a></font>
+<a NAME="_Toc124319721"><font FACE="新細明體" LANG="ZH-TW" SIZE="5">新舊</font><font FACE="Arial" SIZE="5">XML</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5">批次檔案比對</font></a><font size="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>一、批次檔比對程式</font><br>
+</p>
+<dir>
+	<p>FGFC.EXE</b><font FACE="新細明體" LANG="ZH-TW">：</font>DOS
+	<font FACE="新細明體" LANG="ZH-TW">版檔案比對程式，適合批次執行。</font><br>
+	<b>FGFCSIGN.TXT</b><font FACE="新細明體" LANG="ZH-TW">：比對忽略字元參考檔，可將欲忽略字元打在這個文字檔案裡面。</p>
+	</font><b>
+	<p>FGFC-allxml.BAT</b><font FACE="新細明體" LANG="ZH-TW">：比對全部</font>XML<font FACE="新細明體" LANG="ZH-TW">的批次檔</p>
+	</font>
+</dir>
+<font FACE="新細明體" LANG="ZH-TW"><b>
+<p>二、批次檔案比對流程：</p>
+		</b>
+		<p>1. 上</font> CVS update XML <font FACE="新細明體" LANG="ZH-TW">最新資料夾。</font>
+</p><font FACE="新細明體" LANG="ZH-TW">
+<p>2. 備份</font> XML<font FACE="新細明體" LANG="ZH-TW">，使用</font> zip-xml.pl <br>
+<br><font FACE="新細明體" LANG="ZH-TW">程式步驟：</font><br><font FACE="Wingdings 3">_</font>
+<font FACE="新細明體" LANG="ZH-TW">參數請修改</font> 
+		c:\cbwork\work\bin\config.pl<br><font FACE="新細明體" LANG="ZH-TW">在</font>
+<b>$xml_in_dir=&quot;c:/cbwork/xml&quot;;　　　　　 
+		# xml <font FACE="新細明體" LANG="ZH-TW">輸入目錄</font> </b>
+<font FACE="新細明體" LANG="ZH-TW">的下面一列加上：</font><br><b>$xml_out_dir=&quot;e:/temp/xml&quot;; # xml
+<font FACE="新細明體" LANG="ZH-TW">輸出目錄</font> <br></b>
+<font FACE="新細明體" LANG="ZH-TW">然後到</font> e
+		<font FACE="新細明體" LANG="ZH-TW">碟手動新增</font> temp
+		<font FACE="新細明體" LANG="ZH-TW">資料夾，</font><br>
+<font FACE="新細明體" LANG="ZH-TW">再到</font> DOS
+		<font FACE="新細明體" LANG="ZH-TW">模式下，</font><br>
+<font FACE="新細明體" LANG="ZH-TW">進到：</font>c:\cbwork\work\bin<br>
+<font FACE="新細明體" LANG="ZH-TW">輸入指令：</font>perl zip-xml.pl<br>
+<font FACE="新細明體" LANG="ZH-TW">輸出檔位置：</font>c:\temp\xml\<br>
+<font FACE="新細明體" LANG="ZH-TW">備份位置：</font>\\Cbeta-bdc\xml
+		<font FACE="新細明體" LANG="ZH-TW">重大修訂前備份</font>\</p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>3. 執行</font> Ray <font FACE="新細明體" LANG="ZH-TW">程式。</font> </p>
+<font FACE="新細明體" LANG="ZH-TW">
+<p>4. 把原存在於</font> &quot;c:/cbwork/xml&quot;　<font FACE="新細明體" LANG="ZH-TW">裡的</font> 
+		xml <font FACE="新細明體" LANG="ZH-TW">合併成一冊一檔。</font><br>
+<font FACE="新細明體" LANG="ZH-TW">透過批次檔：</font>connectx_all.bat
+		<font FACE="新細明體" LANG="ZH-TW">←「比對檔案一」</p>
+<p>5. 把輸出檔</font> &quot;c:/release/new-xml&quot; <font FACE="新細明體" LANG="ZH-TW">裡的</font> 
+		xml <font FACE="新細明體" LANG="ZH-TW">合併成一冊一檔。</font><br>
+<font FACE="新細明體" LANG="ZH-TW">透過批次檔：</font>connectx_all_new.bat
+		<font FACE="新細明體" LANG="ZH-TW">←「比對檔案二」</p>
+<p>6. 然後將</font>FGFC<font FACE="新細明體" LANG="ZH-TW">及</font>
+<font FACE="新細明體" LANG="ZH-TW">批次檔</font> <font FACE="新細明體" LANG="ZH-TW">放在同一個資料夾，開始進行檔案比對</font> (<font FACE="新細明體" LANG="ZH-TW">透過批次檔：</font>FGFC-allxml.BAT)<font FACE="新細明體" LANG="ZH-TW">。</font>
+</p><font FACE="新細明體" LANG="ZH-TW">
+<p>7. 再用「特殊標記頻次統計」程式統計有發生差異的冊數及其差異類型。</p></font> <font FACE="新細明體" LANG="ZH-TW">
+<p>8. 如果差異都屬正常，進行程式轉出的</font>XML<font FACE="新細明體" LANG="ZH-TW">標記檢測。</p>
+<p>9. 檢測無誤，再把</font> &quot;c:/release/new-xml&quot; 
+<font FACE="新細明體" LANG="ZH-TW">裡的檔案覆蓋到</font>　&quot;/cbwork/xml&quot;　<font FACE="新細明體" LANG="ZH-TW">中。</font>
+</p><font FACE="新細明體" LANG="ZH-TW">
+<p>10. 上</font> CVS commit <font FACE="新細明體" LANG="ZH-TW">所有</font> XML
+		<font FACE="新細明體" LANG="ZH-TW">經文。</p></font><b><font FACE="Arial" SIZE="5">
+<p><a NAME="大比對批次檔案比對"><font FACE="Webdings">4</font> </a></font>
+<font FACE="新細明體" LANG="ZH-TW" SIZE="5">卍續藏 normal <a NAME="_Toc124319722">批次檔案比對</a></font><font LANG="ZH-TW" SIZE="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+<div>
+	[參考]<br>
+	※大比對1-- 採「無檔頭、有校勘、不要通用字」模式，忽略全型空白 normal 大比對。</div>
+<div>
+	※大比對2-- 採「有檔頭、無校勘、採通用字」模式，忽略全型空白的 normal 大比對。<font face="細明體" color="#800080"><blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+		<div dir="ltr" align="left">
+			<font face="細明體" color="#800080" size="+0">
+			<span class="328102305-05012006">Ａ.</span></font><font face="細明體"><font face="細明體" color="#800080" size="+0"><span class="328102305-05012006">&nbsp;[xml→normal] 
+			使用</span>參數：</font><font face="細明體" color="#800080">-h -k -u -v -x 2 
+			-z</font></font></div>
+		<div dir="ltr" align="left">
+			&nbsp;&nbsp;&nbsp; [sm→normal]&nbsp; 使用&nbsp;&nbsp;&nbsp; ：pre_one_nohead、nor_one_nohead</div>
+		<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+			<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+				<div dir="ltr" align="left">
+					<font face="細明體" color="#0000ff">#&nbsp; -h 不要檔頭資訊<br>
+					#&nbsp; -k 顯示校勘符號、＊、◎<br>
+					#&nbsp; -u 一卷一檔, 預設是一經一檔<br>
+					#&nbsp; -v 要執行的冊數, 例：c:\cbwork\xml\T01&gt;xml2txt -v T01<br>
+					<font color="#c0c0c0">#&nbsp; -x 悉曇字呈現方法: (預設使用轉寫)<br>
+					#&nbsp;&nbsp;&nbsp;&nbsp; -x 1 使用 entity &amp;SD-xxxx;<br>
+					</font>#&nbsp;&nbsp;&nbsp;&nbsp; -x 2 使用 ◇【◇】 <br>
+					#&nbsp; -z 不使用通用字</font></div>
+			</blockquote>
+		</blockquote>
+		<div>
+			Ｂ. [xml→normal] 使用參數：-u -v -x 2<br>
+&nbsp;&nbsp;&nbsp; [sm→normal]&nbsp; 使用&nbsp;&nbsp;&nbsp; ：pre_one_nohead、nor_one_nohead</div>
+	</blockquote>
+	</font></div>
+		<font FACE="新細明體" LANG="ZH-TW">
+		<p align="left">一、批次檔比對程式存放位置</p>
+<dir>
+		</font></b>
+	<font FACE="新細明體" LANG="ZH-TW">
+	<p>批次檔存放位置</font><b>&nbsp; </b>\\cbeta-bdc\common<font face="新細明體">\[標記組]卍續藏標記作業相關資料\批次指令檔\normal批次檔比對</font></p>
+</dir>
+<p></p>
+<dir>
+	<font FACE="新細明體" LANG="ZH-TW">
+	<p><b><span style="background-color: #C0C0C0">資料夾：</span></b></font><b><span style="background-color: #C0C0C0">00_<font FACE="新細明體" LANG="ZH-TW">跑 </font>cbent<font FACE="新細明體" LANG="ZH-TW"> 與</font> parseall</span></b></p>
+	<b>
+	<p>xcbent.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="新細明體" LANG="ZH-TW">跑所有卍續藏冊數的</font> 
+	.ent <font FACE="新細明體" LANG="ZH-TW">檔。</font><b><font FACE="新細明體" LANG="ZH-TW">在
+</font>
+</b><a href="file:///C:/cbwork/work/bin">C:\cbwork\work\bin</a><b>
+	直接執行 xcbent.bat<font FACE="新細明體" LANG="ZH-TW">。</font></b></p>
+	<b>
+	<p>parseall.pl<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="新細明體" LANG="ZH-TW">跑全部</font>(<font FACE="新細明體" LANG="ZH-TW">大正與卍續</font>)<font FACE="新細明體" LANG="ZH-TW">的</font> 
+	parser<font FACE="新細明體" LANG="ZH-TW">。</font><b><font FACE="新細明體" LANG="ZH-TW">在
+</font>
+</b><a href="file:///C:/cbwork/work/bin">C:\cbwork\work\bin</a><b>
+	直接執行 parseall.pl 
+(<font FACE="新細明體" LANG="ZH-TW">直接點兩下，輸出在</font> c:\temp\</b> <b>parseall.out )</b><font FACE="新細明體" LANG="ZH-TW"></p>
+	<p><b><span style="background-color: #C0C0C0">資料夾</span></b></font><b><span style="background-color: #C0C0C0">: 01_跑 normal-bat</span></b></p>
+	<b>
+</dir>
+<blockquote>
+	<ul>
+		<li><span style="background-color: #C0C0C0"><font face="細明體">XML轉normal</font></span></li>
+	</ul>
+	<blockquote>
+		<p><font FACE="細明體" LANG="ZH-TW">all(卍) for 大比對參數只有-v -u.bat</font><font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="新細明體" LANG="ZH-TW">跑所有卍續藏的</font> 
+	XML<font FACE="新細明體" LANG="ZH-TW">轉</font>normal<font FACE="新細明體" LANG="ZH-TW">。</p>
+		</font>
+	<b>
+		<p>cont-all-X.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">連接所有xmlsm單卷小經為一冊一檔(all.txt)。</p>
+		</font>
+	<b>
+		<p>ren-all-X.bat <font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">將 
+	all.txt 改檔名。</p></font>
+	<b>
+		<p>copy-all-X.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">將改好檔名的一冊一檔 
+	copy 到指定資料夾。</p>
+	</blockquote>
+	</font><b>
+	<ul>
+		<li><span style="background-color: #C0C0C0"><font face="細明體">SM轉normal</font></span></li>
+	</ul>
+	</b>
+	<dir><b>
+		<p>pre_all(X).bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="新細明體" LANG="ZH-TW">跑所有</font>SM
+		<font FACE="新細明體" LANG="ZH-TW">轉</font> normal<font FACE="新細明體" LANG="ZH-TW">的步驟</font> 
+	1<font FACE="新細明體" LANG="ZH-TW">。</p></font><b>
+		<p>nor_all(X).bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="新細明體" LANG="ZH-TW">跑所有</font>SM
+		<font FACE="新細明體" LANG="ZH-TW">轉</font> normal<font FACE="新細明體" LANG="ZH-TW">的步驟</font> 
+	2<font FACE="新細明體" LANG="ZH-TW">。</font></p>
+	<b>
+		<p>cont-all-X.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">連接所有sm單卷小經為一冊一檔(all.txt)。</font></p>
+	<b>
+		<p>ren-all-X.bat <font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">將 
+	all.txt 改檔名。</p></font><b>
+		<p>copy-all-X.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">將改好檔名的一冊一檔 
+	copy 到指定資料夾。</font></p>
+		<p><b><font face="細明體">pre_all_nohead(X54-88).bat</font><font FACE="新細明體" LANG="ZH-TW">：</font></b><font face="細明體">「沒檔頭、有校勘數字、缺字採用組字、採用修訂後的用字」</font><font FACE="新細明體" LANG="ZH-TW">步驟</font> 
+	1<font face="細明體">。</font></p>
+		<p><b><font face="細明體">nor_all_nohead(X54-88).bat</font><font FACE="新細明體" LANG="ZH-TW">：</font></b><font face="細明體">「沒檔頭、有校勘數字、缺字採用組字、採用修訂後的用字」</font><font FACE="新細明體" LANG="ZH-TW">步驟</font> 
+		2<font face="細明體">。</font></p>
+	</dir><font FACE="新細明體" LANG="ZH-TW">
+	<p><b><span style="background-color: #C0C0C0">資料夾：</span></b></font><b><span style="background-color: #C0C0C0">02_<font FACE="新細明體" LANG="ZH-TW">批次檔案比對</font>-bat</span></b></p>
+	<b>
+	<p>FGFC.EXE</b><font FACE="新細明體" LANG="ZH-TW">：</font>DOS
+		<font FACE="新細明體" LANG="ZH-TW">版檔案比對程式，適合批次執行。</font><br><b>FGFCSIGN.TXT</b><font FACE="新細明體" LANG="ZH-TW">：比對忽略字元參考檔，可將欲忽略字元打在這個文字檔案裡面。<br>
+	</font><b>FGFC-all-X.bat<font FACE="新細明體" LANG="ZH-TW">：</font></b><font FACE="細明體" LANG="ZH-TW">比對 
+	sm、xml</font><font FACE="新細明體" LANG="ZH-TW">的批次檔</p></font>
+</blockquote>
+<font FACE="新細明體" LANG="ZH-TW"><b>
+<p>二、批次檔案比對流程</p>
+		</b>
+		<blockquote>
+			<p><b><span style="background-color: #FFFF00">上</span></b></font><b><span style="background-color: #FFFF00"> CVS update XML 
+			</span></b><font FACE="新細明體" LANG="ZH-TW"><b>
+			<span style="background-color: #FFFF00">最新資料夾。</span></b></p>
+</blockquote>
+<ul>
+	<li>執行</font> xcbent.bat<font FACE="新細明體" LANG="ZH-TW">，跑全部卍續藏</font> 
+		cbent (<font FACE="新細明體" LANG="ZH-TW">程式位置</font>c:\<font FACE="新細明體" LANG="ZH-TW">，點選</font>2<font FACE="新細明體" LANG="ZH-TW">下直接執行</font>)</li>
+	<font FACE="新細明體" LANG="ZH-TW">
+	<li>執行</font> parseall.pl<font FACE="新細明體" LANG="ZH-TW">，跑大正藏及卍續藏</font> 
+		parse (<font FACE="新細明體" LANG="ZH-TW">程式位置</font>c:\cbwork\work\bin<font FACE="新細明體" LANG="ZH-TW">點選</font>2<font FACE="新細明體" LANG="ZH-TW">下直接執行，輸出在</font> 
+		c:\temp\ parseall.out) PS. <font FACE="新細明體" LANG="ZH-TW">檔案大小</font>0KB
+		<font FACE="新細明體" LANG="ZH-TW">表示無任何錯誤</li>
+</ul>
+<dir></font><font FACE="細明體" LANG="ZH-TW">
+	<p><b><span style="background-color: #FFFF00">XML =&gt; normal (</span></b></font><b><span style="background-color: #FFFF00"><font FACE="新細明體" LANG="ZH-TW">卍續</font></span></b><font FACE="細明體" LANG="ZH-TW"><b><span style="background-color: #FFFF00">藏)</span></b></p>
+	</font><font FACE="新細明體" LANG="ZH-TW">
+	<p>執行步驟：</font>(<font FACE="新細明體" LANG="ZH-TW">以下批次檔均點選</font>2<font FACE="新細明體" LANG="ZH-TW">下直接執行</font>)</p>
+</dir>
+<blockquote>
+	<p>1. <font FACE="新細明體" LANG="ZH-TW">執行 all(卍) for 大比對參數只有-v -u .bat</font>
+	<font FACE="新細明體" LANG="ZH-TW">&nbsp;批次檔位置</font>C:\cbwork\xml\&nbsp;&nbsp;&nbsp; (<font FACE="新細明體" LANG="ZH-TW">輸出檔在</font>C:\release\normal\ 
+			) </p>
+</blockquote>
+<dir>
+	<p>2. <font FACE="新細明體" LANG="ZH-TW">執行 </font>cont-all-X.bat
+		<font FACE="新細明體" LANG="ZH-TW">批次檔位置</font>C:\release\normal\</p>
+	<p>3. <font FACE="新細明體" LANG="ZH-TW">執行</font> ren-all-X.bat
+		<font FACE="新細明體" LANG="ZH-TW">批次檔位置</font>C:\release\normal</p>
+	<p>4. <font FACE="新細明體" LANG="ZH-TW">執行 </font>copy-all-X.bat
+	<font FACE="新細明體" LANG="ZH-TW">&nbsp;批次檔位置</font>C:\release\normal\&nbsp;&nbsp;&nbsp; (<font FACE="新細明體" LANG="ZH-TW">輸出檔在</font>E:\q\<font FACE="新細明體" LANG="ZH-TW">，</font><font FACE="細明體" LANG="ZH-TW">自己設定的資料夾</font>)
+</p><b><font FACE="細明體" LANG="ZH-TW">
+	<p><span style="background-color: #FFFF00">SM =&gt; normal (</span></font><span style="background-color: #FFFF00"><font FACE="新細明體" LANG="ZH-TW">卍續</font></span><font FACE="細明體" LANG="ZH-TW"><span style="background-color: #FFFF00">藏) </span></p>
+	<div dir="ltr" align="left">
+		<span style="background-color: #00FFFF">
+		<font face="細明體" color="#0000ff">※ <strong>
+		X27, </strong>X32 ~ X53 用 fgformat.pl , 其它用 
+		fgformat_old.pl。</font></span><div dir="ltr" align="left">
+　</font></b><font FACE="細明體" LANG="ZH-TW"><p><font face="細明體" color="#0000ff"><u><b>nor_all.bat 裡面有二種格式</b></u>.</font></div>
+		<div dir="ltr" align="left">
+	  　</div>
+		<div dir="ltr" align="left">
+			<font face="細明體" color="#0000ff">X32~X53 使用 call nor_one.bat X32 , 
+			nor_ona.bat 是呼叫 fgformat.pl</font></div>
+		<div dir="ltr" align="left">
+			<font face="細明體" color="#0000ff">其他則使用 call nor_one_old.bat T01 , 
+			nor_one_old.bat 是呼叫 fgfomat_old.pl </font>&nbsp;</div>
+		<div dir="ltr" align="left">
+	  　</div>
+		<div dir="ltr" align="left">
+			<font face="細明體" color="#0000ff">fgformat_old.pl 是用在舊的 BM 版, 不支援 &lt;mj&gt; 
+			標記, X32~X53 使用支援 &lt;mj&gt; 標記的 fgformat.pl</font><div dir="ltr" align="left">
+				<font color="#0000ff">
+				<div dir="ltr" align="left">
+					<font face="細明體" color="#800080"><font color="#0000ff">
+					<font color="#800080"><br>
+					沒有使用 &lt;mj&gt; 標記的版本，在 </font><strong><em>BM→nor</em></strong></font> 
+					時要改用這個 <font color="#0000ff">fgformat_old.pl<span class="890224504-14122007"><font color="#800080">&nbsp;（檔名要記得改成 
+					</font><strong>fgformat.pl</strong><font color="#800080">）</font></span></font></font></div>
+				<div dir="ltr" align="left">
+					<font face="細明體" color="#800080">所以我剛剛再用這個 
+					<font color="#0000ff">fgformat_old.pl </font>
+					<font color="#800080">來測試，就可以了。<br>
+　</font></font></div>
+				</font></div>
+		</div>
+	</div>
+</dir></font><font FACE="新細明體" LANG="ZH-TW">
+<blockquote>
+	<p>執行步驟：</font>(<font FACE="新細明體" LANG="ZH-TW">以下批次檔均點選</font>2<font FACE="新細明體" LANG="ZH-TW">下直接執行</font>)</p>
+</blockquote>
+<dir>
+	<p>1. <font FACE="新細明體" LANG="ZH-TW">執行</font>pre_all(X).bat
+		<font FACE="新細明體" LANG="ZH-TW">批次檔位置 </font>C:\cbwork\simple\bin\</p>
+	<p>2. <font FACE="新細明體" LANG="ZH-TW">執行</font>nor_all(X).bat<font FACE="新細明體" LANG="ZH-TW">批次檔位置 
+	</font>C:\cbwork\simple\bin\</p>
+	<p>3. <font FACE="新細明體" LANG="ZH-TW">執行</font>cont-all-X.bat
+		<font FACE="新細明體" LANG="ZH-TW">批次檔位置 </font>C:\cbwork\simple\release\normal\</p>
+	<p>4. <font FACE="新細明體" LANG="ZH-TW">執行</font>ren-all-X.bat<font FACE="新細明體" LANG="ZH-TW">批次檔位置 
+	</font>C:\cbwork\simple\release\normal\</p>
+	<p>5. <font FACE="新細明體" LANG="ZH-TW">執行</font>copy-all-X.bat
+		<font FACE="新細明體" LANG="ZH-TW">批次檔位置 </font>C:\cbwork\simple\release\normal\
+</p>
+	<p>(<font FACE="新細明體" LANG="ZH-TW">輸出檔在</font>E:\q\<font FACE="新細明體" LANG="ZH-TW">，</font><font FACE="細明體" LANG="ZH-TW">自己設定的資料夾)</p>
+	</font><b><font FACE="新細明體" LANG="ZH-TW">
+	<p><span style="background-color: #FFFF00">進行</span></font><span style="background-color: #FFFF00">
+	<font FACE="細明體" LANG="ZH-TW">XML =&gt; normal</font>
+	<font FACE="新細明體" LANG="ZH-TW">與</font> SM<font FACE="細明體" LANG="ZH-TW"> 
+		=&gt; </font>normal <font FACE="新細明體" LANG="ZH-TW">批次檔比對作業</font> </span>
+	</p>
+</dir></b><font FACE="新細明體" LANG="ZH-TW">
+<blockquote>
+	<p>批次檔位置：</font>E:\q\FGFC-all-X.bat<font FACE="新細明體" LANG="ZH-TW"> (將 FGFC.EXE、FGFC-all-X.bat 
+放到資料夾 q 裡)</font></p><font FACE="新細明體" LANG="ZH-TW">
+	<p>1. 執行步驟：</font>FGFC-all-X.bat (<font FACE="新細明體" LANG="ZH-TW">點選</font>2<font FACE="新細明體" LANG="ZH-TW">下直接執行</font>)<font FACE="新細明體" LANG="ZH-TW">，在</font> 
+			E:\q<font FACE="新細明體" LANG="ZH-TW">會產生比對差異結果檔</font> *-dif.txt<font FACE="新細明體" LANG="ZH-TW">。</p>
+	<p>2. 在</font> E:\q <font FACE="新細明體" LANG="ZH-TW">底下新增一個資料夾</font> dif<font FACE="新細明體" LANG="ZH-TW">，把所有比對差異結果檔都搬到</font> 
+			E:\q\dif<font FACE="新細明體" LANG="ZH-TW">，也把</font>
+	<font FACE="新細明體" LANG="ZH-TW">特殊標記頻次統計程式</font> SPCL2_4.EXE
+			<font FACE="新細明體" LANG="ZH-TW">放在</font> E:\Q\dif
+			<font FACE="新細明體" LANG="ZH-TW">裡面，執行</font> SPCL2_4.EXE
+	<font FACE="新細明體" LANG="ZH-TW"><u>多檔統計</u>，有差異才會產生</font> .sum
+			<font FACE="新細明體" LANG="ZH-TW">檔，沒差異的就不會看到</font> .sum
+			<font FACE="新細明體" LANG="ZH-TW">檔。然後再分析有差異的冊數。</p>
+</blockquote>
+<p><b>三、補充說明</b></font></p>
+<dir>
+		<font FACE="新細明體" LANG="ZH-TW">
+		<li>開始作業前要檢查所有批次檔內容裡的冊數，是否合乎需求</font>(<font FACE="新細明體" LANG="ZH-TW">增加或減少</font>)<font FACE="新細明體" LANG="ZH-TW">。</li>
+		<li>要</font><font FACE="細明體" LANG="ZH-TW">比對「帶檔頭、採用通用字、無校勘符號」的標準 
+		normal(普及版)。<br>執行批次檔 <b>all(卍) for 大比對參數只有-v -u.bat，</b>xml2txt的</font><font FACE="新細明體" LANG="ZH-TW">參數：</font><br>
+		<font FACE="細明體" LANG="ZH-TW" COLOR="#0000ff">xml2txt -v X01 -u -x 2</font></li>
+	<b>
+</dir>
+
+<p><u>all(<font FACE="新細明體" LANG="ZH-TW">卍續</font>) for
+		<font FACE="新細明體" LANG="ZH-TW">大比對</font>.bat<font FACE="細明體" LANG="ZH-TW">，</font></u></b><font FACE="細明體" LANG="ZH-TW"><u>xml2txt 是採用下面參數：</u><br>
+</font><font FACE="細明體" LANG="ZH-TW" COLOR="#0000ff">-h 不要檔頭資訊<br>-k 顯示校勘符號、＊、◎<br>-u 一卷一檔, 預設是一經一檔<br>-v 要執行的冊數, 例：c:\cbwork\xml\X01&gt;xml2txt -v 
+		X01</font><font FACE="細明體" LANG="ZH-TW"><br></font>
+<font FACE="細明體" LANG="ZH-TW" COLOR="#0000ff">-x 2 使用 ◇【◇】 <br>-z 不使用通用字</li></font></p>
+<p>　</p>
+
+<b><font FACE="Arial" SIZE="5">
+<p><a NAME="XML p5 上網比對"><font FACE="Webdings">4</font> </a></font>
+<font face="Tahoma" size="5">XML P5</font><font FACE="新細明體" LANG="ZH-TW" SIZE="5"> 
+上網 -- P4 及 P5 normal <a NAME="_Toc124319724">比對</a></font><font LANG="ZH-TW" SIZE="2" color="#FF00FF">　</font><a href="#top"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></p>
+</b>
+		<font FACE="新細明體" LANG="ZH-TW">
+</font>
+		<p class="MsoNormal style2"><font face="新細明體" lang="ZH-TW"><span class="style3">* 完整的操作步驟，請看這個檔案：<a href="P4vsP5.html" target="_blank">P4 vs P5 normal 比對</a></span></font></p>
+		<font FACE="新細明體" LANG="ZH-TW">
+		<p class="MsoNormal">　</p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">程式名稱：</span><span lang="EN-US">(1)</span><span style="font-family: 新細明體">　</span><span lang="EN-US">p5totxt-dir.py</span><span style="font-family: 新細明體">　</span><span lang="EN-US">(2)</span><span style="font-family: 新細明體">　</span><span lang="EN-US">u8-b5.py</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">程式位置：</span><span lang="EN-US">(1) 
+		  C:\cbwork\bin\p5totxt-dir.py</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">　　　　　</span><span lang="EN-US">(2) 
+		  C:\cbwork\bin\p5\u8-b5.py</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">程式用途：</span><span lang="EN-US">XML 
+		  P5 </span><span style="font-family: 新細明體">上網</span><span lang="EN-US"> -- P4
+  </span><span style="font-family: 新細明體">及</span><span lang="EN-US"> P5 normal
+</span><span style="font-family: 新細明體">比對</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">程式步驟：</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">一、執行　</span><span lang="EN-US" style="color:maroon">p5totxt-dir.py</span><span style="font-family: 新細明體; color: maroon">，將</span><span style="color:maroon">
+  <span lang="EN-US">P5 XML </span></span>
+  <span style="font-family: 新細明體; color: maroon">轉成</span><span lang="EN-US" style="color:maroon"> 
+    P5 Normal</span><span style="font-family: 新細明體; color: maroon">（</span><span lang="EN-US" style="color:maroon">u8</span><span style="font-family: 新細明體; color: maroon">的格式）</span></b></p>
+		<p class="MsoNormal"><span lang="EN-US">p5totxt-dir.py </span>
+  <span style="font-family: 新細明體">裏有兩個參數：</span></p>
+		<p class="MsoNormal"><span lang="EN-US">dir_in = '/release/cbeta-p5'</span><span style="font-family: 新細明體">　</span>
+  <span style="font-family: 新細明體">　　<span style="color:blue">→來源檔（將</span></span><span lang="EN-US" style="color:blue">Ray
+  </span><span style="font-family: 新細明體; color: blue">的</span><span lang="EN-US" style="color:blue">P5 
+    XML</span><span style="font-family: 新細明體; color: blue">檔放在此）</span></p>
+		<p class="MsoNormal"><span lang="EN-US">dir_out = '/release/p5-normal'</span><span style="font-family: 新細明體">　　<span style="color:blue">→輸出檔</span></span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">直接點選</span><span lang="EN-US">p5totxt-dir.py</span><span style="font-family: 新細明體">，執行它就會轉出</span><span lang="EN-US"> 
+		  normal</span><span style="font-family: 新細明體">（是</span><span lang="EN-US">u8</span><span style="font-family: 新細明體">的格式），</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">再將輸出檔手動移到</span><span lang="EN-US">c:/in_u8</span><span style="font-family: 新細明體">　底下。</span></p>
+		<p class="MsoNormal"><span lang="EN-US" style="color:red">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體; color: red">重點提示：</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">這支程式</span><span style="color:red">
+  </span><span lang="EN-US">p5totxt-dir.py </span><span style="font-family: 新細明體">
+    有個地方要改，底下的</span><b><span lang="EN-US" style="font-family:細明體;
+color:blue">'</span><span lang="EN-US" style="font-family:細明體;color:red">X</span><span lang="EN-US" style="font-family:細明體;color:blue">01'
+  </span></b><span style="font-family:細明體">要改成<b><span style="color:blue">
+  <span lang="EN-US">'</span></span><span lang="EN-US" style="color:red">T</span><span lang="EN-US" style="color:blue">01'</span></b></span></p>
+		<p class="MsoNormal"><span lang="EN-US" style="font-family:細明體;color:blue">if 
+		  os.path.isdir(source+'/'+s):<br>
+  &nbsp;&nbsp; <b>if s&gt;='</b></span><b><span lang="EN-US" style="font-family:細明體;color:red">X</span><span lang="EN-US" style="font-family:細明體;color:blue">01':&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><span lang="EN-US" style="font-family: Wingdings; color: fuchsia">&egrave;</span></b><span style="font-family:細明體;color:fuchsia">要改成<b>
+  <span lang="EN-US">'</span></b></span><b><span lang="EN-US" style="font-family:細明體;color:red">T</span><span lang="EN-US" style="font-family:細明體;color:blue">01</span></b><span lang="EN-US" style="font-family:細明體;color:blue"><br>
+  &nbsp;&nbsp;&nbsp; do_dir(source+'/'+s, dest+'/'+s)</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">二、執行</span><span lang="EN-US" style="color:maroon"> 
+		  u8-b5.bat</span><span style="font-family: 新細明體; color: maroon">，將</span><span lang="EN-US" style="color:maroon">P5 
+		    normal</span><span style="font-family: 新細明體; color: maroon">（</span><span lang="EN-US" style="color:maroon">u8</span><span style="font-family: 新細明體; color: maroon">的格式）轉成</span><span lang="EN-US" style="color:maroon">P5 
+		      normal</span><span style="font-family: 新細明體; color: maroon">（</span><span lang="EN-US" style="color:maroon">b5</span><span style="font-family: 新細明體; color: maroon">的格式）</span></b></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">處理前，先更新</span><span lang="EN-US"> 
+		  gaiji-m.mdb</span><span style="font-family: 新細明體">。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">先將路徑設定好、資料放置好，直接執行</span>
+  <b><span lang="EN-US" style="color:maroon">u8-b5.bat</span></b><span lang="EN-US">
+</span><span style="font-family: 新細明體">就可以了。</span></p>
+		<p class="MsoNormal"><span lang="EN-US">u8-b5.bat </span>
+  <span style="font-family: 新細明體">只有一行：</span><span lang="EN-US" style="color:blue">u8-b5.py 
+    c:/in_u8 c:/out_b5</span><span style="font-family: 新細明體">　</span></p>
+		<p class="MsoNormal"><span lang="EN-US">c:/in_u8</span><span style="font-family: 新細明體">　<span style="color:blue">→來源檔</span>，</span><span lang="EN-US">c:/out_b5</span><span style="font-family: 新細明體">　<span style="color:blue">→結果輸出檔</span>，路徑名稱可以自己定義。</span></p>
+		<p class="MsoNormal"><span lang="EN-US" style="color:red">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體; color: red">重點提示：</span></p>
+		<p class="MsoNormal" style="text-indent: -18.0pt; margin-left: 18.0pt">
+  <span lang="EN-US" style="color: red">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span lang="EN-US">P5 normal(u8) </span>
+  <span style="font-family: 新細明體">是利用</span><span lang="EN-US"> C:\cbwork\bin\p5\u8-b5.py
+</span><span style="font-family: 新細明體">來轉換成</span><span lang="EN-US"> b5</span><span style="font-family: 新細明體">。</span></p>
+		<p class="MsoNormal" style="text-indent: -18.0pt; margin-left: 18.0pt">
+  <span lang="EN-US" style="color: red">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style="font-family: 新細明體">當執行</span> <b>
+  <span lang="EN-US" style="color:maroon">u8-b5.bat </span></b>
+  <span style="font-family: 新細明體">會呼叫</span> <span lang="EN-US">u8-b5.py </span>
+  <span style="font-family: 新細明體">這支程式，</span><span lang="EN-US"><br>
+  </span><span style="font-family: 新細明體">會把</span><span lang="EN-US"> c:/in_u8
+  </span><span style="font-family: 新細明體">裡面的所有</span><span lang="EN-US"> u8 </span>
+  <span style="font-family: 新細明體">檔案</span><span lang="EN-US">(</span><span style="font-family: 新細明體">包括次目錄裡的檔案</span><span lang="EN-US">)</span><span style="font-family: 新細明體">，轉換為</span><span lang="EN-US"> 
+    b5</span><span style="font-family: 新細明體">。</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">三、順利轉成的</span><span lang="EN-US" style="color:maroon"> 
+		  p5 normal b5 </span><span style="font-family: 新細明體; color: maroon">再跟</span><span lang="EN-US" style="color:maroon"> 
+		    xml-&gt;normal </span><span style="font-family: 新細明體; color: maroon">或</span><span lang="EN-US" style="color:maroon"> 
+		      sm-&gt;normal </span><span style="font-family: 新細明體; color: maroon">比對。</span></b></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">比對條件：忽略全形空格。</span><span lang="EN-US">
+</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">產生</span><span lang="EN-US"> 
+		  xml normal </span><span style="font-family: 新細明體">的程式參數是這樣：</span><span lang="EN-US">xml2txt 
+		    -v X11 -h -z -x 1</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">不產生校勘符號，不使用通用字</span><span lang="EN-US">....</span></p>
+		<p class="MsoNormal"><span lang="EN-US">(-h: </span>
+  <span style="font-family: 新細明體">不要檔頭資訊</span><span lang="EN-US">, -z: </span>
+  <span style="font-family: 新細明體">不使用通用字</span><span lang="EN-US">, -x 1: </span>
+  <span style="font-family: 新細明體">悉曇字使用</span><span lang="EN-US"> entity &amp;SD-xxxx;)</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">四、比對差異再執行</span><span lang="EN-US" style="font-family:細明體;color:maroon">ctgrep.bat</span><span style="font-family:細明體;color:maroon">，</span><span style="font-family: 新細明體; color: maroon">將含有搜尋字串的前後行予以輸出。</span></b></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">程式有三支：</span><span lang="EN-US" style="font-family:新細明體;color:maroon">ctgrep.bat</span><span style="font-family:新細明體;color:maroon">、</span><span lang="EN-US" style="color:maroon">CWSDPMI.EX</span><span lang="EN-US" style="font-family:新細明體;color:maroon">E</span><span style="font-family:新細明體;color:maroon">、<span lang="EN-US">CTGREP.EXE</span>、</span></b></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">在</span><span lang="EN-US"> 
+		  E:\q\dif </span><span style="font-family: 新細明體">下，除了執行</span><span lang="EN-US"> 
+		    SPCL2_4.EXE </span><u><span style="font-family: 新細明體">多檔統計</span></u><span style="font-family: 新細明體">，還可再作另一種搜尋。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">它是一個</span><span lang="EN-US"> 
+		  DOS </span><span style="font-family: 新細明體">版搜尋程式，可以指定搜尋字串，並將含有搜尋字串的前後行予以輸出。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">使用時，將三個檔案放在有比對差異檔的資料夾裡面。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">執行檔是</span><span lang="EN-US"> 
+		  ctgrep.bat</span><span style="font-family: 新細明體">，請按實際狀況修改其內容。</span></p>
+		<p class="MsoNormal"><span lang="EN-US">ctgrep.bat </span>
+  <span style="font-family: 新細明體">內容格式舉例如下：</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><span lang="EN-US">ctgrep -A1 -B1 &quot;{{&quot; T01-dif.txt &gt; 
+		  T01-dif-line.txt</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">內容解釋：</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <span style="color:blue">-A1</span>
+</span><span style="font-family: 新細明體">　　　　→包括前一行</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <span style="color:blue">-B1</span>
+</span><span style="font-family: 新細明體">　　　　→包括後一行</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <span style="color:blue">&quot;{{&quot;</span>
+</span><span style="font-family: 新細明體">　　　　→所搜尋的字串是</span><span lang="EN-US"> {{</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <span style="color:blue">T01-dif.txt</span></span><span style="font-family: 新細明體">　　→所搜尋的檔案</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <b><span style="color:blue">&gt;</span></b>
+</span><span style="font-family: 新細明體">　　　　　→將搜尋結果輸出到某個檔案</span></p>
+		<p class="MsoNormal"><span lang="EN-US"># <span style="color:blue">
+		  T01-dif-line.txt</span> </span><span style="font-family: 新細明體">搜尋結果的檔案名稱</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal"><b><span style="font-family: 新細明體; color: maroon">其他注意事項：</span></b></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">１</span><span lang="EN-US">.</span><span style="font-family: 新細明體">　</span><span lang="EN-US">u8-b5.py
+</span><span style="font-family: 新細明體">缺字處理方式如下：</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">查</span><span lang="EN-US"> 
+		  cbeta gaiji-m.mdb, </span><span style="font-family: 新細明體">以組字式呈現，如果沒有組字式</span><span lang="EN-US">,
+  </span><span style="font-family: 新細明體">例如轉寫字</span><span lang="EN-US">, </span>
+  <span style="font-family: 新細明體">就以通用字</span><span lang="EN-US"> nor </span>
+  <span style="font-family: 新細明體">欄位呈現。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">２．不影響　</span><span lang="EN-US">P5 
+		  XML</span><span style="font-family: 新細明體">　的差異類型，可以不管它。比如組字式及日文字，因為</span><span lang="EN-US"> 
+		    P5 </span><span style="font-family: 新細明體">是直接用</span><span lang="EN-US"> Unicode</span><span style="font-family: 新細明體">，那些字在</span><span lang="EN-US"> 
+		      P5 XML</span><span style="font-family: 新細明體">都沒有問題。</span></p>
+		<p class="MsoNormal"><span style="font-family: 新細明體">例如：</span></p>
+		<p class="MsoNormal"><strong>
+  <span style="font-size:10.0pt;font-family:細明體;
+color:purple">１．</span></strong><b><span lang="EN-US" style="font-size:10.0pt;
+color:blue">{{</span></b><span lang="EN-US" style="font-size:10.0pt;color:blue">[</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">罩</span><span lang="EN-US" style="font-size:10.0pt;color:blue">-</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">卓</span><span lang="EN-US" style="font-size:10.0pt;
+color:blue">+</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">弟</span><span lang="EN-US" style="font-size:10.0pt;color:blue">]||
+  </span><span lang="EN-US" style="font-size:10.0pt;color:red">&amp;#x7F64;</span><b><span lang="EN-US" style="font-size:10.0pt;color:blue">}}</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">、</span><span lang="EN-US" style="font-size:
+10.0pt;color:blue">{{[</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">藹</span><span lang="EN-US" style="font-size:10.0pt;color:blue">-</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">言</span><span lang="EN-US" style="font-size:10.0pt;color:blue">+</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">月</span><span lang="EN-US" style="font-size:10.0pt;color:blue">]||}}</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">、</span><span lang="EN-US" style="font-size:10.0pt;color:blue">{{</span></b><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">【</span><span lang="EN-US" style="font-size:10.0pt;color:blue">SU</span><span style="font-size: 10.0pt; font-family: 新細明體; color: blue">】</span><span lang="EN-US" style="font-size:10.0pt;
+color:blue">|| </span>
+  <span style="font-size: 10.0pt; font-family: New Gulim; color: blue">ス</span><b><span lang="EN-US" style="font-size:10.0pt;color:blue">}}</span></b></p>
+		<p class="MsoNormal"><strong>
+  <span style="font-size:10.0pt;font-family:細明體;color:purple">２． 
+  <span lang="EN-US">CB18788 </span>在<span lang="EN-US"> P5b5normal </span>轉出為<span lang="EN-US"> 
+    [</span>利<span lang="EN-US">-</span>禾<span lang="EN-US">+</span>辛<span lang="EN-US">]</span>，可是<span lang="EN-US"> 
+      CB18788 </span>對應的組字式應為<span lang="EN-US"> [</span>剖<span lang="EN-US">-</span>口<span lang="EN-US">+</span>木<span lang="EN-US">]</span>。</span></strong></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">P5b5 
+    normal</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">X53n0839_p0127a19</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">║者</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">利<span lang="EN-US">-</span>禾<span lang="EN-US">+</span>辛<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">肉舌手足大道小道及心平等根也。我若受用</span></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">SM</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">X53n0839_p0127a19_##</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">者</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">剖<span lang="EN-US">-</span>口<span lang="EN-US">+</span>木<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">肉舌手足大道小道及心平等根也。我若受用</span></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">P5 
+    XML</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">&lt;lb 
+      ed=&quot;X&quot; n=&quot;0127a19&quot;/&gt;&lt;lb ed=&quot;R083&quot; n=&quot;0807b02&quot;/&gt;</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">者<span lang="EN-US">&lt;g 
+        ref=&quot;#</span></span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">CB18788</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">&quot;/&gt;</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">肉舌手足大道小道及心平等根也。我若受用</span></p>
+		<p class="MsoNormal"><b>
+  <span style="font-size: 10.0pt; font-family: 細明體; color: purple">３．底下的<span lang="EN-US"> 
+  &quot;</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: red">&#20766;</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: purple">&quot;
+  </span><span style="font-size: 10.0pt; font-family: 細明體; color: purple">字在<span lang="EN-US"> 
+    P5 XML</span>、<span lang="EN-US">P5u8 </span>時轉出是正確的，不過在<span lang="EN-US"> P5b5 
+      normal&nbsp;</span>轉出為 </span>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">蠢<span lang="EN-US">-</span>春<span lang="EN-US">+</span>原<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: purple">，其組字式正確應為 
+  </span>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">仁<span lang="EN-US">-</span>二<span lang="EN-US">+</span>爾<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: purple">。</span></b></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">P4 
+    xml normal</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">X79n1557_p0207b23║</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">云。</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">仁<span lang="EN-US">-</span>二<span lang="EN-US">+</span>爾<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">諸人。各自努力。</span></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">P5 
+    xml</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">&lt;lb 
+      ed=&quot;X&quot; n=&quot;0207b23&quot;/&gt;&lt;lb ed=&quot;R136&quot; n=&quot;0828a12&quot;/&gt;</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">云。</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">&#20766;</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">諸人。各自努力。<span lang="EN-US">&lt;/p&gt;</span></span></p>
+		<p class="MsoNormal"><b><i>
+  <span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">P5b5 
+    normal</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">：</span></i></b><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: blue">X79n1557_p0207b23║</span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">云。</span><span lang="EN-US" style="font-size: 10.0pt; font-family: 細明體; color: red">[</span><span style="font-size: 10.0pt; font-family: 細明體; color: red">蠢<span lang="EN-US">-</span>春<span lang="EN-US">+</span>原<span lang="EN-US">]</span></span><span style="font-size: 10.0pt; font-family: 細明體; color: blue">諸人。各自努力。</span></p>
+		<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+		<p class="MsoNormal">
+		  
+  <b>
+  <font FACE="Webdings" SIZE="5"><a NAME="Cbeta-bdc cd1 內容">4</a></font><span class="826171003-18122007"><font size="5">「'Cbeta-bdc' 
+    的 cd1-200x」內容</font></span><font LANG="ZH-TW" SIZE="2" color="#FF00FF">　</font><a href="program-step.htm"><font color="#800080" size="2">▲
+</font><font color="#800080">top</font></a></b></p>
+		<div dir="ltr" align="left">
+	<font face="細明體"><span class="889511303-18122007"># 更新所有 CVS 資料<br>
+	# 利用 Windows Commander 執行三類圖檔(gaiji-cb、figures、sd-gif、rj-gif)本機與區域網路(<a title="file://cbeta-bdc/common/gaiji-cb" href="file://Cbeta-bdc/common/gaiji-cb"><font title="file://cbeta-bdc/common/gaiji-cb">\\Cbeta-bdc\common\gaiji-cb</font></a>)同步檢查<br>
+	# parse 檢查：<br>
+	&nbsp;&nbsp;&nbsp; 執行程式：parseall.pl 位置：C:\cbwork\work\bin<br>
+	# xml 相關圖檔檢查<br>
+	&nbsp;&nbsp;&nbsp; 執行程式：checkxml.pl 路徑設定檔：config.pl 位置：C:\cbwork\work\bin<br>
+	# xml 切成一卷一檔<br>
+	&nbsp;&nbsp;&nbsp; 主程式：cutxml.pl 路徑設定檔：cutxml_cfg.pl 執行批次檔：cutxml-all.bat 位置：C:\cbwork\work\cbreader<br>
+	# 產生 normal 版 for index<br>
+	&nbsp;&nbsp;&nbsp; 主程式：xml2txt.bat 位置：C:\cbwork\work\bin<br>
+	&nbsp;&nbsp;&nbsp; 執行批次檔：ALL(大正+續) for index.BAT 位置：C:\cbwork\xml<br>
+	# 產生 normal 版 for xml-cbr 比對<br>
+	&nbsp;&nbsp;&nbsp; 主程式：xml2txt.bat 位置：C:\cbwork\work\bin<br>
+	&nbsp;&nbsp;&nbsp; 執行批次檔：ALL(大正+續) for xml-cbr 大比對.BAT 位置：C:\cbwork\xml<br>
+	<font color="#ff0000"># 產生 Juanline<br>
+	&nbsp;&nbsp;&nbsp; 主程式：getjuan1line.pl 執行批次檔：getjuanline.bat 位置：C:\cbwork\work\cbreader<br>
+	# 產生 js<br>
+	&nbsp;&nbsp;&nbsp; 執行程式：js.pl 位置：C:\cbwork\work\cbreader<br>
+	</font># cbr-&gt;htm<br>
+	&nbsp;&nbsp;&nbsp; 執行批次檔：cbr2htm-all.bat 位置：C:\cbwork\work\cbreader<br>
+	&nbsp;&nbsp;&nbsp; ★在 H:\cbeta200604\CBReader\index 將 buildlist.txt 另存新檔作 creathtml.txt<br>
+	# htm-&gt;txt<br>
+	&nbsp;&nbsp;&nbsp; 主程式：cbr2t.pl 執行批次檔：cbr2t_all.bat 位置：C:\cbwork\work\cbreader<br>
+	# xml-cbr normal 比對<br>
+	# 製作 index<br>
+	&nbsp;&nbsp;&nbsp; 在任一資料夾內放入 build.pl buildlist.txt，然後執行 build.pl。<br>
+	&nbsp;&nbsp;&nbsp; 注意：buildlist.txt 裡面的檔案路徑即是「normal 版 for index」的存放位置。<br>
+	<br>
+	<br>
+　</span></font><hr>
+		</div>
+		</font>
+
+</body>
+
+</html>

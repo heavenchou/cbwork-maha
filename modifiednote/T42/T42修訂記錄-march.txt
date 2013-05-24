@@ -1,0 +1,28 @@
+hh 比對修訂：
+修訂日期：2003/4/18 
+
+修訂前：
+乃至十月<note n="0324008" resp="Taisho" type="orig" place="foot text">云云＝云【甲】</note><app n="0324008"><lem><note place="inline">云云</note></lem><rdg wit="【甲】" resp="Taisho"><note place="inline">云</note></rdg></app>。又羯羅藍
+
+修訂後：
+乃至十月<note place="inline"><note n="0324008" resp="Taisho" type="orig" place="foot text">云云＝云【甲】</note><app n="0324008"><lem>云云</lem><rdg wit="【甲】" resp="Taisho"><note place="inline">云</note></rdg></app></note>。又羯羅藍
+
+修訂前：
+<note n="0476011" resp="Taisho" type="orig" place="foot text">初點反急＝初急反【甲】</note><app n="0476011"><lem><note place="inline">初點反急</note></lem><rdg wit="【甲】" resp="Taisho"><note place="inline">初急反</note></rdg></app>如世言
+
+修訂後：
+<note place="inline"><note n="0476011" resp="Taisho" type="orig" place="foot text">初點反急＝初急反【甲】</note><app n="0476011"><lem>初點反急</lem><rdg wit="【甲】" resp="Taisho"><note place="inline">初急反</note></rdg></app></note>如世言
+
+
+程式抓錯＊校勘，原應對應到 <note> 校勘：
+修訂日期：2003/06/27 
+
+修訂前：
+<lb n="0185b04"/>亦從二因生。當知即是無<note n="0185004" resp="Taisho" type="orig" place="foot text">原本冠註曰論無無字＊</note><note n="0185004" resp="CBETA" type="mod"><todo type="＊"/>原本冠註曰論無無字＊</note>無性<note place="inline">二因者所作因共有因</note><app type="＊" source="0183011"><lem>無</lem><rdg resp="【原】" wit="【？】">無所</rdg></app>
+
+修訂後：
+<lb n="0185b04"/>亦從二因生。當知即是無<note n="0185004" resp="Taisho" type="orig" place="foot text">原本冠註曰論無無字＊</note><note n="0185004" resp="CBETA" type="mod"><todo type="＊"/>原本冠註曰論無無字＊</note>無性<note place="inline">二因者所作因共有因</note><anchor id="fxT40p0185b01"/>無
+
+修訂前：
+
+修訂後：

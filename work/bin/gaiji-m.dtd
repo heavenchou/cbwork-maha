@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!ELEMENT gaijis  (gaiji)*>
+<!ELEMENT gaiji   (cb, mojikyo, entity, uni, des, nor, ref, note)>
+<!ELEMENT cb      (#PCDATA)>
+<!ELEMENT mojikyo (#PCDATA)>
+<!ELEMENT entity  (#PCDATA)>
+<!ELEMENT uni     (#PCDATA)>
+<!ELEMENT des     (#PCDATA)>
+<!ELEMENT nor     (#PCDATA)>
+<!ELEMENT ref     (#PCDATA)>
+<!ELEMENT note     (#PCDATA)>

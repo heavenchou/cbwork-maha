@@ -1,0 +1,54 @@
+
+hh 比對修訂：
+修訂日期：2003/4/18
+
+修訂前：
+<note place="inline"><note n="0726002" resp="Taisho" type="orig" place="foot text">本＋（論本第三第四）夾註【甲】</note><app n="0726002"><lem>本</lem><rdg wit="【甲】" resp="Taisho">本<note place="inline">論本第三第四</note></rdg></app></note>
+
+修訂後：
+<note n="0726002" resp="Taisho" type="orig" place="foot text">本＋（論本第三第四）夾註【甲】</note><app n="0726002"><lem><note place="inline">本</note></lem><rdg wit="【甲】" resp="Taisho">本<note place="inline">論本第三第四</note></rdg></app>
+
+
+cvs 修復前比對修訂：
+修訂日期：2003/5/30
+
+n1829.xml的ュ全部取代為&M062403;
+n1830.xml 內容全部 copy 自 2003/4/ eva 的備份檔
+
+修訂前：
+<lb n="0654c10"/><note n="0654006" resp="Taisho" type="orig" place="foot text">折＝祈【丁】，欣？</note><note n="0654006" resp="CBETA" type="mod"><todo type="i"/>折＝祈【丁】，欣？</note><app n="0654006"><lem>折</lem><rdg wit="【丁】" resp="Taisho">祈</rdg></app>
+
+修訂後：
+<lb n="0654c10"/><note n="0654006" resp="Taisho" type="orig" place="foot text">折＝祈【丁】，欣？</note><note n="0654006" resp="CBETA" type="mod">折＝祈【丁】，<todo type="i"/>欣？</note><app n="0654006"><lem>折</lem><rdg wit="【丁】" resp="Taisho">祈</rdg></app>
+
+修訂前：
+<note n="0917002" resp="CBETA" type="mod"><todo type="i"/>取尚＝所當&M062403;【原】，所向？</note><app n="0917002"><lem>取尚</lem><rdg wit="【？】" resp="【原】">所當</rdg></app>不
+<lb n="0917a28"/>同
+
+修訂後：
+<note n="0917002" resp="Taisho" type="orig" place="foot text">取尚＝所當&M062403;【原】，所向？</note><note n="0917002" resp="CBETA" type="mod">取尚＝所當&M062403;【原】，<todo type="i"/>所向？</note><app n="0917002"><lem>取尚</lem><rdg wit="【？】" resp="【原】">所當</rdg></app>不
+<lb n="0917a28"/>同
+
+修訂前：
+<lb n="0972a16"/>　六智所<anchor id="fxT43p0972a01"/>住持者。
+
+修訂後：
+<lb n="0972a16"/>　六智所<note n="0972001" resp="Taisho" type="orig" place="foot text">住＝任【甲】</note><app n="0972001"><lem>住</lem><rdg wit="【甲】" resp="Taisho">任</rdg></app>持者。
+
+修訂前：
+<note n="0978006" resp="Taisho" type="orig" place="foot text">開＝聞【甲】，閱？</note><note n="0978006" resp="CBETA" type="mod"><todo type="i"/>開＝聞【甲】，閱？</note><app n="0978006"><lem>開</lem><rdg wit="【甲】" resp="Taisho">聞</rdg></app>而靡
+<lb n="0978c16"/>
+
+修訂後：
+<note n="0978006" resp="Taisho" type="orig" place="foot text">開＝聞【甲】，閱？</note><note n="0978006" resp="CBETA" type="mod">開＝聞【甲】，<todo type="i"/>閱？</note><app n="0978006"><lem>開</lem><rdg wit="【甲】" resp="Taisho">聞</rdg></app>而靡
+<lb n="0978c16"/>
+
+修訂前：
+<lb n="1001c20"/>此名<note n="1001008" resp="Taisho" type="orig" place="foot text">難＝離【甲】，義？</note><note n="1001008" resp="CBETA" type="mod"><todo type="i"/>難＝離【甲】，義？</note><app n="1001008"><lem>難</lem><rdg wit="【甲】" resp="Taisho">離</rdg></app>如餘處辨。
+
+修訂後：
+<lb n="1001c20"/>此名<note n="1001008" resp="Taisho" type="orig" place="foot text">難＝離【甲】，義？</note><note n="1001008" resp="CBETA" type="mod">難＝離【甲】，<todo type="i"/>義？</note><app n="1001008"><lem>難</lem><rdg wit="【甲】" resp="Taisho">離</rdg></app>如餘處辨
+
+修訂前：
+
+修訂後：

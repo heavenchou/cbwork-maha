@@ -1,0 +1,9 @@
+perl cbr2t.pl W01
+perl cbr2t.pl W02
+perl cbr2t.pl W03
+perl cbr2t.pl W04
+perl cbr2t.pl W05
+perl cbr2t.pl W06
+perl cbr2t.pl W07
+perl cbr2t.pl W08
+perl cbr2t.pl W09

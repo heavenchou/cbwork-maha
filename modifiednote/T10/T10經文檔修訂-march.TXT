@@ -1,0 +1,112 @@
+hh 比對修訂：
+修訂日期：2003/5/08
+
+修訂前：
+<lb n="0469a13"/>念有難<note n="0469006" resp="Taisho" type="orig" place="foot text">唯思＝思惟【宮】</note><app n="0469006"><lem><anchor id="fxT10p0469a02"/>唯思</lem><rdg wit="【宮】" resp="Taisho">思惟</rdg></app>法師。
+
+修訂後：
+<lb n="0469a13"/>念有難<note n="0469006" resp="Taisho" type="orig" place="foot text">唯思＝思惟【宮】</note><app n="0469006"><lem><anchor id="fxT10p0469a02"/>唯思</lem><rdg wit="【宮】" resp="Taisho">思惟</rdg></app>法師。
+
+修訂前：
+<lb n="0705b23"/><anchor id="fxT10p0705b17"/>怛囉。伽麼<anchor id="fxT10p0705b18"/>怛囉伽麼<anchor id="fxT10p0705b19"/>怛囉為一那麼<anchor id="fxT10p0705b20"/>怛
+
+修訂後：
+<lb n="0705b23"/><anchor id="fxT10p0705b17"/>怛囉。伽麼<anchor id="fxT10p0705b18"/>怛囉伽麼<corr resp="march" sic="＊"></corr><anchor id="fxT10p0705b19"/>怛囉為一那麼<anchor id="fxT10p0705b20"/>怛
+
+
+cvs 修復後比對修訂：
+修訂日期：2003/5/30
+
+修訂前：
+<lb n="0532a17"/><note n="0532005" resp="Taisho" type="orig" place="foot text">焰＋（慧）【三】＊</note><note n="0532005" resp="CBETA" type="mod">焰＋（慧）【宋】＊【元】＊【明】＊</note><app n="0532005"><lem><anchor id="fxT10p0532a01"/>焰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">焰慧</rdg></app>地中。
+
+修訂後：
+<lb n="0532a17"/><note n="0532005" resp="Taisho" type="orig" place="foot text">焰＋（慧）【三】＊</note><note n="0532005" resp="CBETA" type="mod">焰＋（慧）【宋】＊【元】＊【明】＊</note><app n="0532005"><lem>焰</lem><rdg wit="【宋】【元】【明】" resp="Taisho">焰慧</rdg></app>地中。
+
+
+n.0287.xml的`s全部取代成&sacute;
+
+修訂前：
+<note n="0892002" resp="Taisho" type="orig" place="foot text">◇＝◇【三】</note><note n="0892002" resp="CBETA" type="mod">◇＝◇【宋】【元】【明】</note>&SD-A5FD;</t><t lang="chi">冷</t></tt><tt><t lang="san-sd">&SD-A559;</t><t lang="chi">帝</t></tt><tt><t lang="san-sd"><note n="0892003" resp="Taisho" type="orig" place="foot text">◇＝◇【三】</note><note n="0892003" resp="CBETA" type="mod">◇＝◇【宋】【元】【明】</note>&SD-A67B;</t><t lang="chi"><yin><zi>薩&CB00085;</zi><sg>二合引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><yin><zi>賀</zi><sg>引</sg></yin></t></tt>
+<lb n="0892c10"/>
+
+修訂後：
+<note n="0892002" resp="Taisho" type="orig" place="foot text">&SD-A5FD;＝&SD-A644;【三】</note><note n="0892002" resp="CBETA" type="mod">&SD-A5FD;＝&SD-A644;【宋】【元】【明】</note><app n="0892002"><lem>&SD-A5FD;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&SD-A644;</rdg></app></t><t lang="chi">冷</t></tt><tt><t lang="san-sd">&SD-A559;</t><t lang="chi">帝</t></tt><tt><t lang="san-sd"><note n="0892003" resp="Taisho" type="orig" place="foot text">&SD-A67B;＝&SD-AFB8;【三】</note><note n="0892003" resp="CBETA" type="mod">&SD-A67B;＝&SD-AFB8;【宋】【元】【明】</note><app n="0892003"><lem>&SD-A67B;</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&SD-AFB8;</rdg></app></t><t lang="chi"><yin><zi>薩&CB00085;</zi><sg>二合引</sg></yin></t></tt><tt><t lang="san-sd">&SD-A6A9;</t><t lang="chi"><yin><zi>賀</zi><sg>引</sg></yin></t></tt>
+<lb n="0892c10"/>
+
+修訂前：
+<lb n="0907a22"/>獨乞&CB00141;。菩薩皆應悲哀攝受。乃至自身血肉。
+
+修訂後：
+<lb n="0907a22"/>獨乞&CB00456;。菩薩皆應悲哀攝受。乃至自身血肉。
+
+
+<corr resp="march" sic="＊">修訂為<corr resp="march" sic="[＊]">
+修訂日期：2003/06/13
+
+修訂前：
+<lb n="0705b23"/><anchor id="fxT10p0705b17"/>怛囉。伽麼<anchor id="fxT10p0705b18"/>怛囉伽麼<corr resp="march" sic="＊"></corr>
+
+修訂後：
+<lb n="0705b23"/><anchor id="fxT10p0705b17"/>怛囉。伽麼<anchor id="fxT10p0705b18"/>怛囉伽麼<corr resp="march" sic="[＊]"></corr>
+
+
+執行 corr2app 後與 simple 轉 normal 比對：
+修訂日期：2003/06/24
+
+
+修訂前：
+<lb n="0237b21"/>阿婆<note n="0237002" resp="Taisho" type="orig" place="foot text">上＋（聲）夾註【明】＊</note><app n="0237002"><lem><note place="inline">上</note></lem><rdg wit="【明】" resp="Taisho"><note place="inline">上聲</note></rdg></app>羅。阿婆羅阿婆羅。為一多婆<note place="inline"><anchor id="fxT10p0237b05"/>上</note>羅。
+
+修訂後：
+<lb n="0237b21"/>阿婆<note n="0237002" resp="Taisho" type="orig" place="foot text">上＋（聲）夾註【明】＊</note><app n="0237002"><lem><note place="inline">上</note></lem><rdg wit="【明】" resp="Taisho"><note place="inline">上聲</note></rdg></app>羅。阿婆羅阿婆羅。為一多婆<anchor id="fxT10p0237b05"/><note place="inline">上</note>羅。
+
+修訂前：
+<lb n="0237b24"/>婆<note place="inline">上</note>鈐。阿婆鈐阿婆鈐。為一彌伽<note place="inline">上<anchor id="fxT10p0237b06"/></note>婆。彌伽
+
+修訂後：
+<lb n="0237b24"/>婆<note place="inline">上</note>鈐。阿婆鈐阿婆鈐。為一彌伽<anchor id="fxT10p0237b06"/><note place="inline">上</note>婆。彌伽
+
+修訂前：
+<lb n="0237b26"/>毘伽<note place="inline"><anchor id="fxT10p0237b07"/>上</note>婆。
+
+修訂後：
+<lb n="0237b26"/>毘伽<anchor id="fxT10p0237b07"/><note place="inline">上</note>婆。
+
+修訂前：
+<lb n="0237c06"/>毘&CB00418;羅毘&CB00418;羅。為一奚婆<note place="inline"><anchor id="fxT10p0237c01"/>上</note>羅。
+
+修訂後：
+<lb n="0237c06"/>毘&CB00418;羅毘&CB00418;羅。為一奚婆<anchor id="fxT10p0237c01"/><note place="inline">上</note>羅。
+
+修訂前：
+<lb n="0238a10"/>訶婆婆。為一毘婆<note place="inline"><anchor id="fxT10p0238a03"/>上</note>羅。
+
+修訂後：
+<lb n="0238a10"/>訶婆婆。為一毘婆<anchor id="fxT10p0238a03"/><note place="inline">上</note>羅。
+
+修訂前：
+<lb n="0238a11"/>那婆<note place="inline"><anchor id="fxT10p0238a04"/>上</note>羅。
+
+修訂後：
+<lb n="0238a11"/>那婆<anchor id="fxT10p0238a04"/><note place="inline">上</note>羅。
+
+修訂前：
+<lb n="0238a12"/><app type="＊" source="0238001"><lem>&CB00256;</lem><rdg resp="Taisho" wit="【宮】">欏</rdg></app>羅摩<app type="＊" source="0238001"><lem>&CB00256;</lem><rdg resp="Taisho" wit="【宮】">欏</rdg></app>羅。為一娑婆<note place="inline"><anchor id="fxT10p0238a08"/>上</note>羅。
+
+修訂後：
+<lb n="0238a12"/><app type="＊" source="0238001"><lem>&CB00256;</lem><rdg resp="Taisho" wit="【宮】">欏</rdg></app>羅摩<app type="＊" source="0238001"><lem>&CB00256;</lem><rdg resp="Taisho" wit="【宮】">欏</rdg></app>羅。為一娑婆<anchor id="fxT10p0238a08"/><note place="inline">上</note>羅。
+
+
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0824b11"/>丈夫。為被四流漂汨者。造大法船。為被見泥
+
+修訂後：
+<lb n="0824b11"/>丈夫。為被四流漂汩者。造大法船。為被見泥
+
+
+
+

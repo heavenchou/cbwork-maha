@@ -1,0 +1,599 @@
+# $Id: cutxml.pl,v 1.10 2006/01/09 13:15:09 heaven Exp $
+# 使用方法
+#
+# perl cutxml.pl T01 [T01n0001.xml]
+#
+# ★★★ 請注意, 若有不連續卷, 要先處理不連續卷資料
+#
+# 將 XML 切成一卷一檔, 這是由 getjuanpos.pl 修改而來的, 
+# 也就是將 getjuanpls 的資料去組合成一卷一檔
+#
+# 底下是以前 getjuanpos 的說明
+#
+# ===============================================================
+#
+# 由 xml 取得各經各卷的位置, 並單獨存成一檔, 以利日後快速取出單卷
+#
+# 檔名:T01n0013.2
+# 內容:
+# ==================
+# 1506
+# 19372
+# 43944
+# <div1 type="jing">
+# </body></text></tei.2>
+# ================
+#
+# 也就是當我想讀 T01n0013 的第2卷時,
+# 會將臨時產生一個檔
+# 
+# 該臨時檔的內容是
+# 
+# T01n0013.xml 前 1506 個位元 (也就是到 <text><body> 為止)
+# 再加上
+# <div1 type="jing">
+# 再加上
+# T01n0013.xml  檔案絕對位置 19372 ~ 43944 (也就是第二卷的內容)
+# 再加上
+# </body></text></tei.2>
+# 
+# 就是一個第二卷的 xml 了
+
+# command line parameters
+
+use File::Copy;
+
+$vol = shift;
+$inputFile = shift;
+
+if($inputFile eq "" and $vol =~ /^[TX]\d\dn.*?\.xml$/)
+{
+	$inputFile = $vol;
+}
+
+$vol = uc($vol);
+$vol = substr($vol,0,3);
+
+unless($vol)
+{
+	print "perl cutxml.pl T01 [T01n0001.xml]\n";
+	exit;
+}
+
+my $errlog = "cutxml_${vol}_err.txt";
+
+# 取參數
+
+require "cutxml_cfg.pl";
+
+local @lines = ();
+
+# 取得所有 xml 的檔案名稱
+
+opendir (INDIR, $sourcePath);
+@allfiles = grep(/\.xml$/i, readdir(INDIR));
+die "No files to process\n" unless @allfiles;
+
+mkdir($outPath, MODE);
+
+use XML::DOM;
+my $parser = new XML::DOM::Parser;
+
+if ($inputFile eq "") 
+{
+	my $killfile = "$outPath/*.*";
+	$killfile =~ s/\//\\/g;
+	$rmfile = unlink <${killfile}>;
+	print "remove $killfile ($rmfile files removed)\n";
+
+	open ERRLOG, ">$errlog" || die "open error log $errlog error!";
+	close ERRLOG;
+	for $file (sort(@allfiles)) 
+	{
+		print "$file\n";
+		$file =~ /[TX](..)n(.{4,5})/;
+		print STDERR "$1$2 ";
+		do1file($file);
+	}
+	unlink $errlog;
+} 
+else
+{
+	my $killfile = "$outPath/$inputFile";
+	$killfile =~ s/\//\\/g;
+	$killfile =~ s/\.xml$/*.*/;
+	$rmfile = unlink <${killfile}>;
+	print "remove $killfile ($rmfile files removed)\n";
+
+	$file = $inputFile;
+	print "$file\n";
+	$file =~ /[TX](..)n(.{4,5})/;
+	print STDERR "$1$2 ";
+	
+	$errlog = "cutxml_${file}_err.txt";
+	open ERRLOG, ">$errlog" || die "open error log $errlog error!";
+	close ERRLOG;
+	do1file($file);
+	unlink $errlog;
+}
+
+#################################################
+
+sub do1file 
+{
+	my $file = shift;
+	my $infile = "$sourcePath/$file";	# 來源檔
+	my $outfile;
+	my $filelen;	# xml 檔的長度
+	my $alldata;	# 本檔所有的內容
+	
+	my @juan_start = ();
+	my @juan_end = ();
+	local @lbn = ();
+	local @start_tag = ();
+	local @end_tag = ();
+	
+	open (IN, $infile) or die "open $infile error!$!";
+	binmode IN;	# 二進位檔
+	
+	seek IN, 0, 2;
+	$filelen = tell IN;	# 取得檔案長度
+	seek IN, 0, 0;
+	
+	read IN, $alldata, $filelen;	#讀入變數中
+	
+	##########################################
+	# 找 xml 前面的大小 (至 <text><body> 為止)
+	##########################################
+	
+	my $pos1 = index($alldata, "<body>", 0);
+	
+	if ($pos1 < 0)			# 找不到
+	{
+		print "$infile pos1 = $pos1\n";
+		print STDERR "$infile pos1 = $pos1\n";
+	}
+	
+	if(substr ($alldata, $pos1, 8) eq "<body>\x0d\x0a"){
+		$pos1 += 8;	# 包含二個換行 0d 0a
+	}
+	else{
+		$pos1 += 6;
+	}
+	
+	##############################################
+	# 要逐卷找 <milestone 了
+	#########################
+	
+	my $juannum = 0;
+	my $milestonepos = -1;
+	
+	# <lb n="0875b02"/>
+	# <milestone unit="juan" n="1"/>
+	
+	$alldata =~ s/(<milestone)(.*?)( unit=".*?")(.*?>)/$1$3$2$4/g;
+	while(($milestonepos = index($alldata, "<milestone unit", 0)) > 0)
+	#while(($milestonepos = index($alldata, "<milestone ", 0)) > 0)
+	{
+		# 在 <body 之前的不要, 因為可能是在註解中
+		
+		if($milestonepos < $pos1)
+		{
+			substr($alldata, $milestonepos, 3) = "<--";	
+			next;
+		}
+		
+		# 找到 milestone
+		
+		$juannum++;
+		
+		# 將 <milestone 換成 <--lestone, 以免重覆找到
+		substr($alldata, $milestonepos, 3) = "<--";	
+		
+		if(substr ($alldata, $milestonepos - 19, 3) eq "<lb"){
+			$milestonepos -= 19;	# <lb n="0107a16"/>\n<milestone unit="juan" n="17"/>
+		} elsif (substr ($alldata, $milestonepos - 17, 3) eq "<lb"){
+			$milestonepos -= 17;	# milestone 和 lb 之間沒有換行
+		} elsif (substr ($alldata, $milestonepos - 26, 3) eq "<lb"){
+			$milestonepos -= 26;	# <lb ed="X" n="0691a08"/><milestone unit="juan" n="7"/>
+		} elsif (substr ($alldata, $milestonepos - 24, 3) eq "<lb"){
+			$milestonepos -= 24;	# milestone 和 lb 之間沒有換行
+		} else {
+			
+			# 唉, 還是乖乖找吧!
+			# <lb n="0666c16"/><div1 type="other">\n<milestone unit="juan" n="38"/>
+			
+			my $lbpos = 0;
+			
+			for(my $i=0; $i<100; $i++)
+			{
+				if(substr ($alldata, $milestonepos - 20 - $i, 3) eq "<lb")
+				{
+					$lbpos = 20 + $i;
+					$milestonepos -= $lbpos;
+					last;
+				}
+			}
+
+			if($lbpos == 0)		# 唉, 真的找不到了
+			{
+				print "$juannum Error!";
+				print STDERR "$juannum Error!";
+				exit 1;
+			}
+		}
+
+		# 新版的, 取出 lb 的資料
+
+		my $lbn = substr ($alldata, $milestonepos, 50);
+		$lbn =~ /^.*?n="(\d\d\d\d.\d\d)"/;
+		$lbn[$juannum] = $1;
+
+		# <lb 之前若有 <pb , 也一併吃下來
+		#<pb ed="X" id="X78.1553.0431b" n="0431b"/>\n<lb ed="X" n="0431b01"/><milestone unit="juan" n="3"/>
+		if(substr ($alldata, $milestonepos - 44, 3) eq "<pb"){
+			$milestonepos -= 44;
+		}
+			
+		$juan_start[$juannum] = $milestonepos;
+		if($juannum > 0){
+			$juan_end[$juannum-1] = $juan_start[$juannum]-1;
+		}
+	}
+	
+	$endpos = index($alldata, "</body>", 0);
+	$juan_end[$juannum] = $endpos - 1;
+	
+	################################################
+	#
+	# 要 paser xml 了
+	#
+	##################
+
+	ParserXML($file);
+
+	##############################################
+	# copy ent 檔
+	#########################
+	
+	$entfile = $file;
+	$entfile =~ s/\.xml/\.ent/;
+	
+	copy("$sourcePath/$entfile", "$outPath/$entfile");
+	
+	################################################
+	#
+	# 輸出結果
+	#
+	##################
+
+	print STDERR "juannum=$juannum\n";
+	for($i=1; $i<= $juannum; $i++)
+	{
+		my $ii = sprintf("%03d",$i);
+		
+		#處理特殊檔名 ###########################################
+		
+		if($file eq "T06n0220b.xml")
+		{
+			$ii = sprintf("%03d",$i+200);
+		}
+		if($file eq "T07n0220c.xml")
+		{
+			$ii = sprintf("%03d",$i+400);
+		}
+		if($file eq "T07n0220d.xml")
+		{
+			$ii = sprintf("%03d",$i+537);
+		}
+		if($file eq "T07n0220e.xml")
+		{
+			$ii = sprintf("%03d",$i+565);
+		}
+		if($file eq "T07n0220f.xml")
+		{
+			$ii = sprintf("%03d",$i+573);
+		}
+		if($file eq "T07n0220g.xml")
+		{
+			$ii = sprintf("%03d",$i+575);
+		}
+		if($file eq "T07n0220h.xml")
+		{
+			$ii = sprintf("%03d",$i+576);
+		}
+		if($file eq "T07n0220i.xml")
+		{
+			$ii = sprintf("%03d",$i+577);
+		}
+		if($file eq "T07n0220j.xml")
+		{
+			$ii = sprintf("%03d",$i+578);
+		}
+		if($file eq "T07n0220k.xml")
+		{
+			$ii = sprintf("%03d",$i+583);
+		}
+		if($file eq "T07n0220l.xml")
+		{
+			$ii = sprintf("%03d",$i+588);
+		}
+		if($file eq "T07n0220m.xml")
+		{
+			$ii = sprintf("%03d",$i+589);
+		}
+		if($file eq "T07n0220n.xml")
+		{
+			$ii = sprintf("%03d",$i+590);
+		}
+		if($file eq "T07n0220o.xml")
+		{
+			$ii = sprintf("%03d",$i+592);
+		}
+		#T19n0946.xml 沒有第三卷, 只有 1, 2, 4, 5 卷
+		if($file eq "T19n0946.xml" and $i > 2)
+		{
+			$ii = sprintf("%03d",$i+1);
+		}
+		# T54
+		if($file eq "T54n2139.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",10);
+		}
+		# T85
+		if($file eq "T85n2742.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",2);
+		}
+		if($file eq "T85n2744.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",2);
+		}
+		if($file eq "T85n2748.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2754.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2757.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2764B.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",4);
+		}
+		if($file eq "T85n2769.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",4);
+		}
+		if($file eq "T85n2772.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2772.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",6);
+		}
+		if($file eq "T85n2799.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2803.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",4);
+		}
+		if($file eq "T85n2805.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",5);
+		}
+		if($file eq "T85n2805.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",7);
+		}
+		if($file eq "T85n2809.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",4);
+		}
+		if($file eq "T85n2814.xml")
+		{
+			$ii = sprintf("%03d",$i+2);
+		}
+		if($file eq "T85n2820.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",12);
+		}
+		if($file eq "T85n2825.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",3);
+		}
+		if($file eq "T85n2827.xml")
+		{
+			$ii = sprintf("%03d",$i+1);
+		}
+		if($file eq "T85n2880.xml")
+		{
+			$ii = sprintf("%03d",$i+1);
+		}
+		#X55n0882.xml 有三卷, 分別為 4,7,8
+		if($file eq "X55n0882.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",4);
+		} 
+		if($file eq "X55n0882.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",7);
+		}
+		if($file eq "X55n0882.xml" and $i == 3)
+		{
+			$ii = sprintf("%03d",8);
+		} 
+		#X57n0952.xml 只有卷 10
+		if($file eq "X57n0952.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",10);
+		} 
+		#X57n0966.xml 由卷 2 開始 (2,3,4,5)
+		if($file eq "X57n0966.xml")
+		{
+			$ii = sprintf("%03d",$i+1);
+		}
+		#X57n0967.xml 由卷 3 開始 (3,4)
+		if($file eq "X57n0967.xml")
+		{
+			$ii = sprintf("%03d",$i+2);
+		}
+		#X58n1015.xml 只有二卷, 分別為 14,22
+		if($file eq "X58n1015.xml" and $i == 1)
+		{
+			$ii = sprintf("%03d",14);
+		} 
+		if($file eq "X58n1015.xml" and $i == 2)
+		{
+			$ii = sprintf("%03d",22);
+		}
+		#X72n1435.xml 由卷13 接著卷 16
+		if($file eq "X72n1435.xml" and $i > 13)
+		{
+			$ii = sprintf("%03d",$i+2);
+		}
+		#X73n1456.xml 由卷44~55, 不是 41~52 (沒有 41,42,43)
+		if($file eq "X73n1456.xml" and $i > 40)
+		{
+			$ii = sprintf("%03d",$i+3);
+		}
+		#X81n1568b.xml 由卷10~卷25, 不是1~16
+		if($file eq "X81n1568b.xml")
+		{
+			$ii = sprintf("%03d",$i+9);
+		}
+		#X82n1571b.xml 由卷 34~120 不是 1~ 87
+		if($file eq "X82n1571b.xml")
+		{
+			$ii = sprintf("%03d",$i+33);
+		}
+		#X85n1587.xml 由卷 2~16 不是 1~ 15
+		if($file eq "X85n1587.xml")
+		{
+			$ii = sprintf("%03d",$i+1);
+		}		
+		#處理特殊檔名 ###########################################
+		
+		
+		$outfile = "$outPath/$file";	# 輸出檔
+		$outfile =~ s/\.xml$/_$ii.xml/;	# 檔名變成 T01n0001_001.xml
+		
+		$outfile =~ s/(T0[5-7]n0220)[a-z]/$1/;		# 專門為大般若經寫的
+		$outfile =~ s/(X8[01]n1568)[ab]/$1/;
+		$outfile =~ s/(X8[12]n1571)[ab]/$1/;
+
+		print STDERR ">$outfile\n";
+		open OUT, ">$outfile" or die "Open $outfile error!$!";
+		binmode OUT;	# 二進位檔		
+		
+		#print OUT "$pos1\n";
+		#print OUT "$juan_start[$i]\n";
+		#print OUT "$juan_end[$i]\n";
+		#print OUT "$start_tag[$i]\n";
+		#print OUT "${end_tag[$i]}</body></text></tei.2>";
+		
+		my $out = substr ($alldata, 0, $pos1);
+		$out =~ s/<--lestone/<milestone/;
+		print OUT "$out";
+		
+		print OUT "$start_tag[$i]\x0d\x0a" unless ($start_tag[$i] eq "");
+		
+		$out = substr ($alldata, $juan_start[$i], $juan_end[$i]-$juan_start[$i]+1);
+		$out =~ s/<--lestone/<milestone/;
+		print OUT "$out";
+		
+		print OUT "${end_tag[$i]}</body></text></TEI.2>";
+		
+		close OUT;
+	}
+	
+	close IN;
+
+}
+
+sub ParserXML()
+{	
+
+	my $file = shift;
+	$newdir = "$sourcePath/";
+	chdir "$newdir";
+	print STDERR "parse $file\n";
+	my $doc = $parser->parsefile($file);
+	chdir "$myPath";
+	
+	my $root = $doc->getDocumentElement();
+	
+	local $milestoneNum = 0;
+	
+	parseNode($root);	# 進行分析
+	$root->dispose;
+}
+
+sub parseNode
+{
+	my $node = shift;
+	my $nodeTypeName = $node->getNodeTypeName;
+	if ($nodeTypeName eq "ELEMENT_NODE") {
+		start_handler($node);
+		for my $kid ($node->getChildNodes) {
+			parseNode($kid);
+		}
+		#end_handler($node);
+	}
+	# elsif ($nodeTypeName eq "TEXT_NODE") {text_handler($node);}	# 我不做這個
+}
+
+sub start_handler 
+{       
+	my $node = shift;
+	my $parentnode;
+	
+	local $el = $node->getTagName;
+	
+	if ($el eq "lb")
+	{
+		my $lb_attmap = $node->getAttributes;
+		my $bingo = 0;
+		
+		for my $lb_attr ($lb_attmap->getValues) 
+		{
+			my $attrName = $lb_attr->getName;
+			my $attrValue = $lb_attr->getValue;
+			
+			if ($attrName eq "n" and $attrValue eq $lbn[$milestoneNum+1])
+			{
+				$bingo = 1;
+				last;
+			}
+		}
+		
+		return if($bingo == 0);
+
+		$milestoneNum++;	# 第 N 個
+		
+		$parentnode = $node->getParentNode();
+		while(($pnName = $parentnode->getTagName()) ne "body")
+		{
+			my $map = $parentnode->getAttributes;
+			my $attrs = "<$pnName";
+			for my $attr ($map->getValues) 
+			{
+				my $attrName = $attr->getName;
+				my $attrValue = $attr->getValue;
+				$attrValue =~ s/($pattern)/$utf8out{$1}/g;
+				$attrs .= " $attrName=\"$attrValue\"";
+			}
+	
+			$start_tag[$milestoneNum] = "${attrs}>" . $start_tag[$milestoneNum];
+			$end_tag[$milestoneNum-1] .= "</${pnName}>";
+			$parentnode = $parentnode->getParentNode();
+		}
+	}
+}

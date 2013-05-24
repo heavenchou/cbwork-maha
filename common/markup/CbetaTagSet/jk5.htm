@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>CBETA XML 校勘標記</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1>五種校勘基本類型</h1>
+
+<p align="right">作者：<a href="mailto:ray.chou@url.com.tw">周邦信</a>　最近更新日期：<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%Y-%m-%d" startspan -->2003-06-01<!--webbot bot="Timestamp" endspan i-checksum="12364" --></p>
+<ul>
+  <li>
+  <p align="left"><a href="#app">不同版本的不同用字 &lt;app&gt;</a></li>
+  <li>
+  <p align="left"><a href="#tt">漢、梵、巴對照 &lt;tt&gt;</a></li>
+  <li>
+  <p align="left"><a href="#foreign">單純梵巴文 &lt;foreign&gt;</a></li>
+  <li>
+  <p align="left"><a href="#sic">疑誤字 &lt;sic&gt;</a></li>
+  <li>
+  <p align="left"><a href="#note">註解式校勘 &lt;note&gt;</a></li>
+</ul>
+<hr>
+<h2 align="left"><a name="app"></a>不同版本的不同用字 &lt;app&gt;</h2>
+<blockquote>
+  <p align="left">T01, No. 1, p. 1</p>
+  <h3 align="left">大正藏原文</h3>
+  <blockquote>
+    <p align="left">T01n0001_p0001a14║言法歸。法歸者。蓋是萬善之淵府。總持之林<br>
+    T01n0001_p0001a15║苑。其為典也。淵博弘富。<b>[05]</b>韞而彌廣。明宣禍</p>
+  </blockquote>
+  <h3 align="left">校勘條目</h3>
+  <blockquote>
+    <p align="left">[05] 韞＝溫【宋】【元】</p>
+    <p align="left">表示此處大正藏作「韞」字，而宋本、元本作「溫」字。</p>
+  </blockquote>
+  <h3 align="left">XML</h3>
+  <blockquote>
+    <p align="left">&lt;lb n=&quot;0001a15&quot;/&gt;苑。其為典也。淵博弘富。<br>
+    &lt;note n=&quot;0001005&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot 
+    text&quot;&gt;韞＝溫【宋】【元】&lt;/note&gt;<br>
+    <b>&lt;app n=&quot;0001005&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;lem&gt;韞&lt;/lem&gt;</b>&lt;!-- 大正藏用字 --&gt;<b><br>
+&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【宋】【元】&quot; resp=&quot;Taisho&quot;&gt;溫&lt;/rdg&gt;</b>&lt;!-- 其他版用字 --&gt;<b><br>
+    &lt;/app&gt;</b>而彌廣。明宣禍</p>
+  </blockquote>
+</blockquote>
+<hr>
+<h2 align="left"><a name="tt"></a>漢、梵、巴對照 &lt;tt&gt;</h2>
+<blockquote>
+  <p>註：&lt;tt&gt; 是 CBETA 自訂標記.</p>
+  <p>T18, no. 885, p. 469 </p>
+  <h3>校勘條目</h3>
+  <blockquote>
+    <p>[08] 金剛身 Kaaya-vajra. </p>
+  </blockquote>
+  <h3>XML</h3>
+  <blockquote>
+    <p>&lt;note type=”orig” n=&quot;0469008&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;金剛身 Kaaya-vajra.&lt;/note&gt;<br>
+    &lt;tt n=&quot;0469008&quot; type=&quot;app&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;chi&quot; resp=&quot;Taisho&quot;&gt;金剛身&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;san&quot; resp=&quot;Taisho&quot; place=”foot”&gt;K&amp;amacron;ya-vajra.&lt;/t&gt;<br>
+    &lt;/tt&gt; </p>
+  </blockquote>
+  <p>&lt;t&gt; 的 lang 屬性參考 <a href="globalattr.htm">Global Attributes</a>.</p>
+</blockquote>
+<hr>
+<h2><a name="foreign"></a>單純梵巴文 &lt;foreign&gt;</h2>
+<blockquote>
+  <p>T18, No. 885, p. 470</p>
+  <h3>校勘條目</h3>
+  <blockquote>
+    <p>[18] Maamakii. </p>
+  </blockquote>
+  <h3>XML</h3>
+  <p>&lt;note type=”orig” n=&quot;0470018&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;Maamakii.&lt;/note&gt;<br>
+  <b>&lt;foreign n=&quot;0470018&quot; lang=&quot;san&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;</b>Maamakii.<b>&lt;/foreign&gt;
+  </b></p>
+</blockquote>
+<hr>
+<h2><a name="sic"></a>疑誤字 &lt;sic&gt;</h2>
+<blockquote>
+  <p>T44, No. 1840, p. 137</p>
+  <h3>校勘條目</h3>
+  <blockquote>
+    <p>[11] 狹＝挾？ </p>
+  </blockquote>
+  <h3>XML </h3>
+  <blockquote>
+    <p>&lt;note n=&quot;0137011&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot text&quot;&gt;狹＝挾？&lt;/note&gt;<br>
+    <b>&lt;sic n=&quot;0137011&quot; resp=&quot;Taisho&quot; cert=&quot;?&quot; corr=&quot;挾&quot;&gt;</b>狹<b>&lt;/sic&gt;</b></p>
+  </blockquote>
+  <p>cert=&quot;?&quot; 表示不確定 (cert means certainty)</p>
+</blockquote>
+<hr>
+<h2><a name="note"></a>註解式校勘 &lt;note&gt;</h2>
+<blockquote>
+  <p>T01, No. 1, p. 1</p>
+  <p>&lt;note n=&quot;0001001&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot text&quot;&gt;此序依宋元明三本&#x30cb;依&#x30c6;載&#x30b9;&lt;/note&gt;</p>
+</blockquote>
+
+</body>
+
+</html>

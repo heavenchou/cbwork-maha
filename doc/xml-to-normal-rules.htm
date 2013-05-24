@@ -1,0 +1,236 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>XML 轉 Normal 規則</title>
+<style>
+<!--
+body         { font-family: Times New Roman }
+-->
+</style>
+</head>
+
+<body>
+
+<h1 align="center">XML 轉 Normal 規則</h1>
+<p align="right">$Date: 2005/12/27 06:51:09 $</p>
+<ul>
+	<li><a href="#juan-file">按卷分檔</a></li>
+	<li><a href="#anchor">anchor</a></li>
+	<li><a href="#byline">byline</a></li>
+	<li><a href="#div">div</a></li>
+	<li><a href="#entry">entry</a></li>
+	<li><a href="#head">head</a></li>
+	<li><a href="#list">list, item</a></li>
+	<li><a href="#lg">lg</a><ul>
+		<li>type=”normal”</li>
+		<li>指定 rend</li>
+		<li>type=&quot;abnormal&quot;</li>
+		<li>place=&quot;inline&quot;</li>
+	</ul>
+	</li>
+	<li><a href="#juan">juan</a></li>
+	<li><a href="#p">p</a></li>
+	<li><a href="#table">table</a></li>
+	<li><a href="#tt">tt</a></li>
+	<li><a href="#sd">悉曇字</a></li>
+	<li><a href="#other">其他</a></li>
+</ul>
+<h2><a name="juan-file"></a>按卷分檔</h2>
+<ul>
+	<li>T19n0946沒有第 3 卷</li>
+	<li>X84n1579在卷1前多了一個卷首</li>
+	<li>跨冊<ul>
+		<li>T0220, X1568, X1571 產生的一卷一檔Normal版檔名之後不跟a,b,c…</li>
+	</ul>
+	</li>
+</ul>
+<h2><a name="anchor"></a>anchor</h2>
+<p>卍續藏的重覆校勘在ID屬性加上A、B, 在 xml→normal 時不呈現 A、B</p>
+<h2><a name="byline"></a>byline</h2>
+<p>1. 普及版輸出規則：預設空四格，若在&lt;item&gt;下則只空一格</p>
+<h2><a name="div"></a>div</h2>
+<p>1. &lt;div1 type=”w”&gt; 附文在輸出普及版時，為區別正文，一律內縮一格。<br>
+2. &lt;div1 type=”xu”&gt; 序在輸出普及版時，原則上不內縮。但若大正藏有內縮，若無暇考證，則維持大正藏編排，在XML中以 &lt;p 
+rend=”margin-left:1”&gt; 表示。(1表示空一格)</p>
+<h2><a name="entry"></a>entry</h2>
+<p><!--行首空一格, 行中空三格. 即使 rend 有指定 margin-left, 仍然空三格.-->
+行首不空格, 行中空三格. 即使 rend 有指定 margin-left, 仍然空三格.
+</p>
+<h2><a name="head"></a>head</h2>
+<ul>
+	<li>上層是&lt;div&gt;<ul>
+		<li>不管 div 的 type 屬性, 一律依 div 的層次空格. <br>
+		div1 的 head 空2格, div2 的 head 空 3格, div3 的 head 空 4 格,<br>
+		div4 的 haed 空2格, ....依此類推.</li>
+	</ul>
+	</li>
+	<li>上層是&lt;juan&gt;<ul>
+		<li>不空格, 除非是 &lt;head type=”ping”&gt;才空2格</li>
+	</ul>
+	</li>
+</ul>
+<h2><a name="list"></a>list, item</h2>
+<p>第1層 &lt;list&gt; 的 &lt;head&gt; 不空格, &lt;item&gt; 空1格. <br>
+第2層 &lt;list&gt; 的 &lt;head&gt; 空1格, &lt;item&gt; 空2格. <br>
+依此類推.<br>
+行中 &lt;list&gt; 一樣依層次空格, 例如在行中開始第二層 list, 那就空2格...<br>
+行中同層次的 &lt;item&gt; 與 &lt;item&gt; 之間一律只空1格.</p>
+<blockquote>
+	<h3>&lt;item&gt; 表列中的一項</h3>
+	<ul>
+		<li>不標示 rend 屬性時, &lt;list&gt;與&lt;item&gt;之間預設空一格，&lt;item&gt;與&lt;item&gt;之間預設空一格。</li>
+		<li>&lt;list&gt;的第二行開始，如果&lt;item&gt;正好在行首開始，則多空一格。</li>
+		<li>若第一層的項目不空, 就要特別標示, 例如：&lt;item rend=&quot;&quot;&gt;。</li>
+		<li>&lt;list&gt;&lt;item&gt;內的&lt;byline&gt;，normal版輸出不空格。</li>
+		<li>&lt;item&gt;行中之&lt;byline&gt;，normal版輸出只空一格。</li>
+	</ul>
+</blockquote>
+<h2><a name="lg"></a>lg</h2>
+<p>&lt;lg&gt;內的&lt;head&gt;不空格。<br>
+type屬性預設為normal</p>
+<blockquote>
+	<h3>type=”normal”</h3>
+	<blockquote>
+		<p>預設每行第一個 &lt;l&gt; 作 &lt;l rend=&quot;text-indent:0&quot;&gt;。<br>
+		預設每行第二個or第三個or第四個 &lt;l&gt; 作 &lt;l rend=&quot;text-indent:2&quot;&gt;。<br>
+		有 rend 的 &lt;l&gt; 則依 rend 處理.</p>
+		<p>預設 margin-left:1</p>
+		<p>a. XML<br>
+		&lt;lb n=&quot;0293c10&quot;/&gt;&lt;lg&gt;&lt;l&gt;香嚴真杜撰&lt;/l&gt;&lt;l&gt;惡毒無盡限&lt;/l&gt;<br>
+		&lt;lb n=&quot;0293c11&quot;/&gt;&lt;l&gt;啞&amp;CB00230;衲僧口&lt;/l&gt;&lt;l&gt;通身迸鬼眼&lt;/l&gt;&lt;/lg&gt;</p>
+		<p>b. Normal<br>
+		T48n2005_p0293c10║　香嚴真杜撰　　惡毒無盡限<br>
+		T48n2005_p0293c11║　啞?衲僧口　　通身迸鬼眼</p>
+	</blockquote>
+	<h3>指定 rend</h3>
+	<blockquote>
+		<p>XML</p>
+		<blockquote>
+			<p>&lt;lb n=&quot;0027c28&quot;/&gt;&lt;lg 
+			rend=&quot;margin-left=3;text-indent:-2&quot;&gt;&lt;l&gt;１０初遍行觸等&lt;/l&gt;&lt;l&gt;次別境謂欲&lt;/l&gt;<br>
+			&lt;lb n=&quot;0027c29&quot;/&gt;&lt;l&gt;勝解念定慧&lt;/l&gt;&lt;l&gt;所緣事不同&lt;/l&gt;&lt;/lg&gt;</p>
+		</blockquote>
+		<p>Normal</p>
+		<blockquote>
+			<p>T31n1585_p0027c28║　１０初遍行觸等　　次別境謂欲<br>
+			T31n1585_p0027c29║　　　勝解念定慧　　所緣事不同</p>
+		</blockquote>
+	</blockquote>
+	<h3>type=&quot;abnormal&quot;</h3>
+	<blockquote>
+		<p>&lt;l&gt; 預設皆不空格, 有 rend 的 &lt;l&gt; 依 rend 處理.</p>
+		<ul>
+			<li>XML<br>
+			&lt;lb n=&quot;0082b03&quot;/&gt;&lt;lg 
+			type=&quot;abnormal&quot;&gt;&lt;l&gt;木老春遲。&lt;/l&gt;&lt;l&gt;山寒雪早。&lt;/l&gt;&lt;l&gt;潮退珊瑚林。&lt;/l&gt;&lt;l&gt;霽空明月<br>
+			&lt;lb n=&quot;0082b04&quot;/&gt;曉。&lt;/l&gt;&lt;l&gt;守默自如。&lt;/l&gt;&lt;l&gt;對緣恰好。&lt;/l&gt;&lt;l&gt;得往得來。&lt;/l&gt;&lt;l&gt;隨起隨<br>
+			&lt;lb n=&quot;0082b05&quot;/&gt;倒。&lt;/l&gt;&lt;l&gt;龍潭覷破天皇。&lt;/l&gt;&lt;l&gt;馬祖踏著水潦&lt;/l&gt;&lt;/lg&gt;</li>
+			<li>Normal<br>
+			T48n2001_p0082b03║木老春遲。山寒雪早。潮退珊瑚林。霽空明月<br>
+			T48n2001_p0082b04║曉。守默自如。對緣恰好。得往得來。隨起隨<br>
+			T48n2001_p0082b05║倒。龍潭覷破天皇。馬祖踏著水潦</li>
+			<li>&lt;l&gt; 指定 rend<ul>
+				<li>XML<br>
+				&lt;lb n=&quot;0292b24&quot;/&gt;&lt;lg type=&quot;abnormal&quot; 
+				rend=&quot;margin-left:1&quot;&gt;&lt;l&gt;大道無門&lt;/l&gt;&lt;l 
+				rend=&quot;text-indent:1&quot;&gt;千差有路&lt;/l&gt;&lt;l rend=&quot;text-indent:1&quot;&gt;透得此關&lt;/l&gt;&lt;l 
+				rend=&quot;text-indent:1&quot;&gt;乾坤<br>
+				&lt;lb n=&quot;0292b25&quot;/&gt;獨步&lt;/l&gt;&lt;/lg&gt;</li>
+				<li>Normal<br>
+				T48n2005_p0292b24║　大道無門　千差有路　透得此關　乾坤<br>
+				T48n2005_p0292b25║　獨步</li>
+			</ul>
+			</li>
+		</ul>
+	</blockquote>
+	<h3>place=&quot;inline&quot;</h3>
+	<blockquote>
+		<p>如果rend=&quot;margin-left:0&quot;, 且 &lt;lg&gt; 前面的文字不是空格時, 偈頌前自動加一個空格 .</p>
+		<ul>
+			<li>XML<br>
+			&lt;lb n=&quot;0125b28&quot;/&gt;&lt;p&gt;婦言&lt;/p&gt;&lt;lg 
+			place=&quot;inline&quot;&gt;&lt;l&gt;兒孫無量數&lt;/l&gt;&lt;l&gt;因緣和合生&lt;/l&gt;<br>
+			&lt;lb n=&quot;0125b29&quot;/&gt;&lt;l&gt;長夜遷過去&lt;/l&gt;&lt;l&gt;我與君亦然&lt;/l&gt;<br>
+			&lt;pb ed=&quot;T&quot; id=&quot;T53.2121.0125c&quot; n=&quot;0125c&quot;/&gt;<br>
+			&lt;lb n=&quot;0125c01&quot;/&gt;&lt;l&gt;彼所生處處&lt;/l&gt;&lt;l&gt;更互相殘食&lt;/l&gt;<br>
+			&lt;lb n=&quot;0125c02&quot;/&gt;&lt;l&gt;若知生要者&lt;/l&gt;&lt;l&gt;何足復為憂&lt;/l&gt;<br>
+			&lt;lb n=&quot;0125c03&quot;/&gt;&lt;l&gt;我已識出離&lt;/l&gt;&lt;l&gt;是故不復惱&lt;/l&gt;&lt;/lg&gt;</li>
+			<li>Normal<br>
+			T53n2121_p0125b28║婦言　兒孫無量數　　因緣和合生<br>
+			T53n2121_p0125b29║　長夜遷過去　　我與君亦然<br>
+			T53n2121_p0125c01║　彼所生處處　　更互相殘食<br>
+			T53n2121_p0125c02║　若知生要者　　何足復為憂<br>
+			T53n2121_p0125c03║　我已識出離　　是故不復惱</li>
+			<li>&lt;l&gt; 指定 rend<ul>
+				<li>XML<br>
+				&lt;lb n=&quot;0140a09&quot;/&gt;說偈言&lt;/p&gt;&lt;lg type=&quot;abnormal&quot; 
+				place=&quot;inline&quot;&gt;&lt;l&gt;一切行無常&lt;/l&gt;&lt;l rend=&quot;text-indent:1&quot;&gt;生者皆有苦&lt;/l&gt;&lt;l 
+				rend=&quot;text-indent:1&quot;&gt;五<br>
+				&lt;lb n=&quot;0140a10&quot;/&gt;陰空無相&lt;/l&gt;&lt;l rend=&quot;text-indent:1&quot;&gt;無有我我所&lt;/l&gt;&lt;/lg&gt;</li>
+				<li>Normal<br>
+				T53n2121_p0140a09║說偈言　一切行無常　生者皆有苦　五<br>
+				T53n2121_p0140a10║陰空無相　無有我我所</li>
+			</ul>
+			</li>
+		</ul>
+	</blockquote>
+</blockquote>
+<h2><a name="juan"></a>juan</h2>
+<p>1. normal版輸出規則：包在&lt;juan&gt;裡面的&lt;head&gt;不會空格(因為被當作卷首經文資訊來看)，但遇到&quot;品之餘&quot;等狀況，則要標 &lt;head 
+type=&quot;ping&quot;&gt;，此時會空兩格。</p>
+<h2><a name="p"></a>p</h2>
+<blockquote>
+	<h3>type=&quot;dharani&quot;</h3>
+	<blockquote>
+		<p>咒語段落，輸出普及版時加空格。</p>
+	</blockquote>
+	<h3>place=&quot;inline&quot;</h3>
+	<blockquote>
+		<p>若 &lt;p ... type=&quot;inline&quot;&gt; 前沒空格，加一個空格.</p>
+		<ul>
+			<li>緊跟&lt;/lg&gt;之後<br>
+			如果 &lt;p place=&quot;inline&quot;&gt; 緊跟在 &lt;/lg&gt; 之後、沒有空格, 那麼就加二個空格.<ul>
+				<li>XML<br>
+				&lt;lb n=&quot;0228a09&quot;/&gt;&lt;lg&gt;&lt;l&gt;不以戒為最&lt;/l&gt;&lt;/lg&gt;&lt;p place=&quot;inline&quot;&gt;不以戒為足故。</li>
+				<li>Normal<br>
+				T26n1523_p0228a09║　不以戒為最　　不以戒為足故。　亦不貴</li>
+			</ul>
+			</li>
+			<li>上層是 &lt;sp&gt;<br>
+			本來說不空, 2004-09-24 說仍然要空.</li>
+		</ul>
+	</blockquote>
+	<h3>rend=&quot;nopunc&quot;</h3>
+	<blockquote>
+		<p>表示這整個段落都沒有標點符號，在輸出App版時按原經文格式斷行。</p>
+	</blockquote>
+	<h3>type=&quot;winline&quot;</h3>
+	<blockquote>
+		<p>大正藏附文中未分段的小段落。輸出普及版時轉為圈點，輸出HTML Help版時另起新的內縮段落。</p>
+	</blockquote>
+	<h3>rend=&quot;nopunc&quot; type=&quot;W&quot;</h3>
+	<blockquote>
+		<p>表示附文且沒標點，例如：T30n1579_p0881c29－此處為附文且沒標點，輸出app版時按原經文格式斷行。</p>
+	</blockquote>
+</blockquote>
+<h2><a name="table"></a>table</h2>
+<blockquote>
+	<p>每行第一個 &lt;cell&gt; 前空一格，&lt;cell&gt;與&lt;cell&gt;之間會空三格.</p>
+</blockquote>
+<h2><a name="tt"></a>tt</h2>
+<h2><a name="sd"></a>悉曇字</h2>
+<blockquote>
+	<p>如果選擇以◇呈現悉曇字, 有一個例外, &amp;SD-E347;這個悉曇字要轉成 <font face="新細明體">□</font></p>
+</blockquote>
+<h2><a name="other"></a>其他</h2>
+<p>1.在 &lt;note type=&quot;inline&quot;&gt; 內加 &lt;list&gt;&lt;item&gt;。normal版輸出時夾註前空一格，其餘格式同&lt;list&gt;&lt;item&gt;。<br>
+出處：T50n2054.xm &lt;lb n=&quot;0286b20&quot;/&gt;&lt;note 
+type=&quot;inline&quot;&gt;&lt;list&gt;&lt;item&gt;首座師雅&lt;/item&gt;&lt;/list&gt;<br>
+normal 版：<br>
+T50n2054_p0286b20║(　首座師雅　監院會真　維那妙智　梵全　書記法慧　副院從悟　知客如穎　典座　釋懷</p>
+
+</body>
+
+</html>

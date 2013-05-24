@@ -1,0 +1,22 @@
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:c:\bin\w32\sp\pubtext\xml.dcl:1:W: SGML declaration was not implied
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:2:0:E: character "h" not allowed in prolog
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:7:0:E: no document type declaration; will parse without validation
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:7:140:E: document type does not allow element "note" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:8:16:E: document type does not allow element "lb" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:8:19:E: document type does not allow element "l" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:10:0:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:11:2:E: document type does not allow element "l" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:12:16:E: document type does not allow element "lb" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:12:19:E: document type does not allow element "l" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:14:0:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:15:29:E: document type does not allow element "anchor" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:17:0:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:18:27:E: document type does not allow element "anchor" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:18:28:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:21:29:E: document type does not allow element "anchor" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:23:0:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:24:27:E: document type does not allow element "anchor" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:24:28:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:27:33:E: document type does not allow element "anchor" here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:C:\CBWORK\MODIFI~1\T12\T12~7.TXT:27:34:E: character data is not allowed here
+C:\BIN\W32\SP\BIN\NSGMLS.EXE:I: maximum number of errors (20) reached; change with -E option

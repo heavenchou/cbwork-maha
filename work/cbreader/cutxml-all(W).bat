@@ -1,0 +1,9 @@
+perl cutxml.pl W01
+perl cutxml.pl W02
+perl cutxml.pl W03
+perl cutxml.pl W04
+perl cutxml.pl W05
+perl cutxml.pl W06
+perl cutxml.pl W07
+perl cutxml.pl W08
+perl cutxml.pl W09

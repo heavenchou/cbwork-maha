@@ -1,0 +1,245 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>參數</title>
+</head>
+
+<body>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td>　</td>
+    <td align="center" nowrap>編碼</td>
+    <td>　</td>
+    <td>參數</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td>app1.bat</td>
+    <td align="center" nowrap>utf8</td>
+    <td>xml =&gt; app format<br>   
+      一經一檔</td>
+    <td>-z 不使用通用字<br>    
+      -m 使用 M 碼<br>    
+      -c 內碼轉換表路徑</td>    
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>basicx.bat</td>
+    <td align="center" nowrap>big5</td>
+    <td>簡單標記版 =&gt; xml</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>BuLei.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>惠敏法師的部類目錄 =&gt; BuLei.txt</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>cbetaSub.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td><span class="919252401-03092001"><font face="細明體">cbeta內的共用副程式<br>
+      參考: sub.pl</font></span></td> 
+    <td>
+      　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>checknote.pl</td>
+    <td align="center" nowrap>　</td>
+    <td>　</td>
+    <td>
+      <div>
+        <font face="細明體" color="#0000ff"><span class="919252401-03092001">my   
+        $vol = &quot;T01&quot;;</span></font>  
+      </div>
+      <div>
+        <font face="細明體" color="#0000ff"><span class="919252401-03092001">my   
+        $xmlout = &quot;${vol}xml.txt&quot;;&nbsp;&nbsp;&nbsp;# xml 輸出檔</span></font>  
+      </div>
+      <div>
+        &nbsp;&nbsp;
+      </div>
+      <div>
+        <font face="細明體" color="#800080"><span class="919252401-03092001">若研發組在處理時,   
+        不想與簡單標記版比對 (因為只想處理 xml 時,   
+        可以省下一點點時間)</span></font>
+      </div>
+      <div>
+        <font face="細明體" color="#800080"><span class="919252401-03092001">就將這二行加上   
+        # , 如下:</span></font>  
+      </div>
+      <div>
+        &nbsp;
+      </div>
+      <div>
+        <font face="細明體" color="#0000ff"><span class="919252401-03092001">#check_with_sutra();&nbsp;#   
+        配合經文做簡單分析</span></font><span class="919252401-03092001"><br>
+        <font face="細明體" color="#0000ff">#check_lose_note();&nbsp;#   
+        檢查有沒有校勘配不到經文的&nbsp;</font>
+        </div>
+        <div>
+          <div>
+            &nbsp;
+          </div>
+          <div>
+            <font face="細明體" color="#800080">我在輸出時,&nbsp;   
+            有時也只想看到 error 的訊息, 不想看到沒問題的 xml   
+            , 就將這行加上 #</font>  
+          </div>
+          <div>
+            <font face="細明體" color="#800080">&nbsp;&nbsp;</font>
+          </div>
+          <div>
+            <font face="細明體" color="#0000ff">#print XMLOUT   
+            &quot;$note_xml{$ID}\n&quot;;</font>
+          </div>
+        </div>
+      </span></td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>cbent.bat</td>
+    <td align="center" nowrap>big5</td>
+    <td>*.xml =&gt; *.ent</td>
+    <td>　</td>
+    <td>c:\cbwork\xml\T01&gt;cbent</td>
+  </tr>
+  <tr>
+    <td>connectx.bat</td>
+    <td align="center" nowrap>　</td>
+    <td>把目前工作目錄下的 *.xml 合成一個 allxml.txt</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>getmgif.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>到 mojikyo 網站捉缺字圖檔</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>hh1.bat</td>
+    <td align="center" nowrap>big5</td>
+    <td>輸出單經 hh 版<br> 
+      輸出目錄: U:/work/hh2001/單經版/hh</td>   
+    <td>xml 檔名</td>  
+    <td>c:\cbwork\xml\T54&gt;hh1 T54n2128.xml</td>  
+  </tr>
+  <tr>
+    <td>hh4.bat</td>
+    <td align="center" nowrap>utf8</td>
+    <td>產生 hh版 *.hhp, *.hhc, T??n????.htm(各經目錄)</td>    
+    <td>%1 部類編號<br>   
+      -e 編碼, 預設是big5</td>   
+    <td>c:\cbwork\work\bin&gt;hh4 1 -e gbk</td>
+  </tr>
+  <tr>
+    <td>hh5.bat</td>
+    <td align="center" nowrap>utf8</td>
+    <td>產生 hh版右邊經文區</td>   
+    <td>%1 部類編號<br>   
+      -e 編碼, 預設是big5</td>   
+    <td>c:\cbwork\work\bin&gt;hh4 1 -e gbk</td>
+  </tr>
+  <tr>
+    <td>html1.bat</td>
+    <td align="center" nowrap>big5</td>
+    <td>一卷一檔</td>
+    <td>%1 冊數<br>   
+      %2 xml 檔名</td>   
+    <td>c:\cbwork\xml\T01&gt;html1 T01<br>   
+      c:\cbwork\xml\T01&gt;html1 T01 T01n0001.xml</td>   
+  </tr>
+  <tr>
+    <td>html-jk.bat</td>
+    <td align="center" nowrap>utf8</td>
+    <td>校勘版; 一卷一檔</td>
+    <td>　</td>    
+    <td>　</td>    
+  </tr>
+  <tr>
+    <td>normal.bat</td>
+    <td align="center" nowrap>utf8</td>
+    <td>xml =&gt; normal format<br>   
+      一卷一檔</td>
+    <td>-v 冊數<br>    
+      -n 經號<br>    
+      -e output encoding<br>    
+      -i input directory<br>    
+      -o output directory<br>    
+      -s 精簡版<br>    
+      -d 以經為目錄單位, 目錄名稱使用中文長檔名<br>    
+      -z 不使用通用字<br>    
+      -m 使用 M 碼<br>    
+      -c 內碼轉換表路徑</td>    
+    <td>c:\cbwork\xml\T01&gt;normal -n T01n0001.xml</td>    
+  </tr>
+  <tr>
+    <td>sm2xml.pl</td>
+    <td align="center" nowrap>　</td>
+    <td>從簡單標記版 插入 &quot;◎&quot; 到 xml 版</td> 
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>sub.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>共用的副程式<br>
+      (cbeta以外也可以用的)<br>
+      參考 cbetaSub.pl</td> 
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>toc_t.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>產生hh版用的大正藏經目</td>
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>toc_t_h.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>產生 html 版的經目</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>toc_t_r.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>產生 rtf 版的經目</td>   
+    <td>　</td>
+    <td>　</td>
+  </tr>
+  <tr>
+    <td>x2rtf.pl</td>
+    <td align="center" nowrap>big5</td>
+    <td>xml =&gt; rtf format<br>   
+      一經一檔</td>
+    <td>-v 冊數<br>    
+ -n 經號 例：<br>    
+ -e output encoding<br>    
+ -i input directory<br>    
+ -o output directory<br>    
+ -s 精簡版<br>    
+ -d 以經為目錄單位, 目錄名稱使用中文長檔名<br>    
+ -t 產生標記 如 &lt;p>, &lt;lb>, &lt;gaiji> 等<br>    
+ -x 缺字不使用Unicode<br>    
+ -z 缺字不使用通用字<br>    
+ -y 缺字不使用 Mojikyo TTF<br>    
+ -m 缺字使用M碼</td>    
+    <td>c:\cbwork\work\bin&gt;perl x2rtf.pl -n T01n0001.xml</td>    
+  </tr>
+</table>
+
+</body>
+
+</html>

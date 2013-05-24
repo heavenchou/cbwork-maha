@@ -1,0 +1,255 @@
+hh 比對修訂：
+修訂日期：2003/4/18 
+
+
+修訂前：
+<note n="0038019" resp="Taisho" type="orig" place="foot text">甲子＋（二）【宮】</note><app n="0038019"><lem><note type="inline">甲子</note></lem><rdg wit="【宮】" resp="Taisho"><note place="inline">甲子二</note></rdg></app>
+
+修訂後：
+<note type="inline"><note n="0038019" resp="Taisho" type="orig" place="foot text">甲子＋（二）【宮】</note><app n="0038019"><lem>甲子</lem><rdg wit="【宮】" resp="Taisho"><note place="inline">甲子二</note></rdg></app>
+
+修訂前：
+<app n="0048035" word-count="32"><lem><note type="inline">佛本行集經凡六十卷。七年七月起<anchor id="fxT49p0048a2"/>首至此<note n="0048036" resp="Taisho" type="orig" place="foot text">〔年〕－【宮】</note><app n="0048036"><lem>年</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>得十卷<note n="0048037" resp="Taisho" type="orig" place="foot text">〔善恭…出〕十一字－【宮】</note><app n="0048037" word-count="11"><lem>善恭敬善巧咒等經崛多出</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></note></lem><rdg wit="【宋】【元】【明】" resp="Taisho"><note place="inline">善恭敬師經一卷闍那崛多所出</note></rdg></app>
+
+修訂後：
+<note type="inline"><note n="0048035" resp="Taisho" type="orig" place="foot text">（（佛本…出））三十二字＝（（善恭敬師經一卷闍那崛多所出））十三字【三】</note><note n="0048035" resp="CBETA" type="mod">（（佛本…出））三十二字＝（（善恭敬師經一卷闍那崛多所出））十三字【宋】【元】【明】</note><app n="0048035" word-count="32"><lem>佛本行集經凡六十卷。七年七月起<anchor id="fxT49p0048a2"/>首至此<note n="0048036" resp="Taisho" type="orig" place="foot text">〔年〕－【宮】</note><app n="0048036"><lem>年</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app>得十卷<note n="0048037" resp="Taisho" type="orig" place="foot text">〔善恭…出〕十一字－【宮】</note><app n="0048037" word-count="11"><lem>善恭敬善巧咒等經崛多出</lem><rdg wit="【宮】" resp="Taisho">&lac;</rdg></app></lem><rdg wit="【宋】【元】【明】" resp="Taisho"><note place="inline">善恭敬師經一卷闍那崛多所出</note></rdg></app></note>
+
+修訂前：
+<note n="0048040" resp="Taisho" type="orig" place="foot text">（（佛本…五卷））十一字＝（（命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子））五十三字【三】，而第四十二字百字明本缺</note><note n="0048040" resp="CBETA" type="mod">（（佛本…五卷））十一字＝（（命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子））五十三字【宋】【元】【明】，而第四十二字百字明本缺</note><app n="0048040" word-count="11"><lem><note type="inline">佛本行集經又出一十五卷</note></lem><rdg wit="【宋】【元】" resp="Taisho"><note place="inline">命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四萬戶五十萬口二百萬窮子</note></rdg></app>
+
+修訂後：
+<note type="inline"><note n="0048040" resp="Taisho" type="orig" place="foot text">（（佛本…五卷））十一字＝（（命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子））五十三字【三】，而第四十二字百字明本缺</note><note n="0048040" resp="CBETA" type="mod">（（佛本…五卷））十一字＝（（命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子））五十三字【宋】【元】【明】，而第四十二字百字明本缺</note><app n="0048040" word-count="11"><lem>佛本行集經又出一十五卷</lem><rdg wit="【宋】【元】" resp="Taisho"><note place="inline">命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四百萬戶五十萬口二百萬窮子</note></rdg><rdg wit="【明】" resp="Taisho"><note place="inline">命上柱國晉王為元帥統八十總管水陸並驅平蕩江左應時生擒偽陳叔寶悉獲某州四十郡一百縣四萬戶五十萬口二百萬窮子</note></rdg></app></note>
+
+
+cvs 修復後比對修訂：
+修訂日期：2003/4/18 
+
+修訂前：
+<lb n="0158c20"/>光讚</cell></row>
+<row><cell/>
+<cell>第三會鷲&CB00123;山五十九卷<note place="inline"><note n="0158012" resp="Taisho" type="orig" place="foot text">二十二＝三十一【甲】</note><app n="0158012"><lem>二十二</lem><rdg wit="【甲】" resp="Taisho">三十一</rdg></app>品單譯</note></cell></row>
+<row><cell>
+<lb n="0158c21"/>小　品<note place="inline">羅什</note></cell>
+<cell rows="4">第四會鷲&CB00123;山說十八卷<note place="inline"><note n="0158013" resp="Taisho" type="orig" place="foot text">二十五＝二十四【甲】</note><app n="0158013"><lem>二十五</lem><rdg wit="【甲】" resp="Taisho">二十四</rdg></app>品重譯</note></cell></row><row><cell>
+<lb n="0158c22"/>道　行<note place="inline">竺朔</note></cell></row><row><cell>
+<lb n="0158c23"/>新道行<note place="inline">支讖</note></cell></row><row><cell>
+<lb n="0158c24"/>大明度</cell></row><row><cell/><cell>
+<lb n="0158c25"/>第五會鷲&CB00123;山說十卷<note place="inline"><note n="0158014" resp="Taisho" type="orig" place="foot text">二十一＝二十四【甲】</note><app n="0158014"><lem>二十一</lem><rdg wit="【甲】" resp="Taisho">二十四</rdg></app>品單譯</note></cell></row><row><cell>
+<lb n="0158c26"/>勝天王</cell><cell>第六會鷲&CB00123;山說八卷<note place="inline">十七品重譯</note></cell></row><row><cell>
+<lb n="0158c27"/>文殊</cell><cell>第七會給孤獨園說二卷<note place="inline">無品重譯</note></cell></row><row><cell/><cell>
+<lb n="0158c28"/>第八會給孤獨園說一卷<note place="inline">單譯</note></cell></row><row><cell>
+<lb n="0158c29"/>金剛<note place="inline">羅什</note></cell><cell>第九會給孤獨園說一卷<note place="inline">重譯</note></cell></row><row><cell/><cell>
+<pb ed="T" id="T49.2035.a" n="0159a"/>
+<lb n="0159a01"/>第十會他化天宮說一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a02"/>十一會給孤獨園說五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a03"/>十二會給孤獨園說戒五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a04"/>十三會給孤獨園說忍一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a05"/>十四會給孤獨園說勤二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a06"/>十五會鷲&CB00123;山說定二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a07"/>十六會竹林園說慧八卷<note place="inline">單譯</note></cell></row>
+</table></p><p><table cols="2">
+<row><cell><lb n="0158c18"/>大品<note place="inline">晉羅什譯</note></cell><cell rows="2">第一會鷲&CB00123;山說四百卷<note place="inline">七十七品單譯</note></cell></row>
+<row><cell><lb n="0158c19"/>放光<note place="inline">晉羅叉譯</note></cell></row>
+<row><cell><lb n="0158c20"/>光讚</cell><cell>第二會鷲&CB00123;山七十八卷<note place="inline">八十五品重譯</note></cell></row>
+<row>
+<cell><list><item><lb n="0158c21"/>小　品<note place="inline">羅什</note></item>
+<item><lb n="0158c22"/>道　行<note place="inline">竺朔</note></item>
+<item><lb n="0158c23"/>新道行<note place="inline">支讖</note></item>
+<item><lb n="0158c24"/>大明度</item></list></cell>
+<cell><list><item>第三會鷲&CB00123;山五十九卷<note place="inline"><anchor n="fnT49p0158c12"/>二十二品單譯</note></item>
+<item>第四會鷲&CB00123;山說十八卷<note place="inline"><anchor n="fnT49p0158c13"/>二十五品重譯</note></item></list></cell>
+</row>
+<row><cell/><cell>
+<lb n="0158c25"/>第五會鷲&CB00123;山說十卷<note place="inline"><anchor n="fnT49p0158c14"/>二十一品單譯</note></cell></row><row><cell>
+<lb n="0158c26"/>勝天王</cell><cell>第六會鷲&CB00123;山說八卷<note place="inline">十七品重譯</note></cell></row><row><cell>
+<lb n="0158c27"/>文殊</cell><cell>第七會給孤獨園說二卷<note place="inline">無品重譯</note></cell></row><row><cell/><cell>
+<lb n="0158c28"/>第八會給孤獨園說一卷<note place="inline">單譯</note></cell></row><row><cell>
+<lb n="0158c29"/>金剛<note place="inline">羅什</note></cell><cell>第九會給孤獨園說一卷<note place="inline">重譯</note></cell></row><row><cell/><cell>
+<pb ed="T" id="T49.2035.0159a" n="0159a"/>
+<lb n="0159a01"/>第十會他化天宮說一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a02"/>十一會給孤獨園說五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a03"/>十二會給孤獨園說戒五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a04"/>十三會給孤獨園說忍一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a05"/>十四會給孤獨園說勤二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a06"/>十五會鷲&CB00123;山說定二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a07"/>十六會竹林園說慧八卷<note place="inline">單譯</note></cell></row>
+</table></p>
+
+修訂後：
+<lb n="0158c17"/>
+<p><table cols="2">
+<row><cell/><cell>第一會鷲&CB00123;山說四百卷<note place="inline">七十七品單譯</note></cell></row><row><cell>
+<lb n="0158c18"/>大品<note place="inline">晉羅什譯</note></cell><cell rows="3">第二會鷲&CB00123;山七十八卷<note place="inline">八十五品重譯</note></cell></row><row><cell>
+<lb n="0158c19"/>放光<note place="inline">晉羅叉譯</note></cell></row><row><cell>
+<lb n="0158c20"/>光讚</cell></row>
+<row><cell/>
+<cell>第三會鷲&CB00123;山五十九卷<note place="inline"><note n="0158012" resp="Taisho" type="orig" place="foot text">二十二＝三十一【甲】</note><app n="0158012"><lem>二十二</lem><rdg wit="【甲】" resp="Taisho">三十一</rdg></app>品單譯</note></cell></row>
+<row><cell>
+<lb n="0158c21"/>小　品<note place="inline">羅什</note></cell>
+<cell rows="4">第四會鷲&CB00123;山說十八卷<note place="inline"><note n="0158013" resp="Taisho" type="orig" place="foot text">二十五＝二十四【甲】</note><app n="0158013"><lem>二十五</lem><rdg wit="【甲】" resp="Taisho">二十四</rdg></app>品重譯</note></cell></row><row><cell>
+<lb n="0158c22"/>道　行<note place="inline">竺朔</note></cell></row><row><cell>
+<lb n="0158c23"/>新道行<note place="inline">支讖</note></cell></row><row><cell>
+<lb n="0158c24"/>大明度</cell></row><row><cell/><cell>
+<lb n="0158c25"/>第五會鷲&CB00123;山說十卷<note place="inline"><note n="0158014" resp="Taisho" type="orig" place="foot text">二十一＝二十四【甲】</note><app n="0158014"><lem>二十一</lem><rdg wit="【甲】" resp="Taisho">二十四</rdg></app>品單譯</note></cell></row><row><cell>
+<lb n="0158c26"/>勝天王</cell><cell>第六會鷲&CB00123;山說八卷<note place="inline">十七品重譯</note></cell></row><row><cell>
+<lb n="0158c27"/>文殊</cell><cell>第七會給孤獨園說二卷<note place="inline">無品重譯</note></cell></row><row><cell/><cell>
+<lb n="0158c28"/>第八會給孤獨園說一卷<note place="inline">單譯</note></cell></row><row><cell>
+<lb n="0158c29"/>金剛<note place="inline">羅什</note></cell><cell>第九會給孤獨園說一卷<note place="inline">重譯</note></cell></row><row><cell/><cell>
+<pb ed="T" id="T49.2035.a" n="0159a"/>
+<lb n="0159a01"/>第十會他化天宮說一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a02"/>十一會給孤獨園說五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a03"/>十二會給孤獨園說戒五卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a04"/>十三會給孤獨園說忍一卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a05"/>十四會給孤獨園說勤二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a06"/>十五會鷲&CB00123;山說定二卷<note place="inline">單譯</note></cell></row><row><cell/><cell>
+<lb n="0159a07"/>十六會竹林園說慧八卷<note place="inline">單譯</note></cell></row>
+</table></p>
+
+修訂前：
+<lb n="0731c29"/>歸長安。公以弟子於師義猶君父。父師之
+
+修訂後：
+<lb n="0731c29"/>歸長安。公以弟子於師義猶君父。父師之<note n="0731006" resp="Taisho" type="orig" place="foot">壬音丑韋</note><note n="0731006" resp="CBETA" type="mod">CBETA按：大正藏校勘欄有「06 壬音丑韋」之校勘條目，但此頁內文中缺相對應之校勘符號 "[06]"，故將此校勘條目置於本頁內文最後。</note>
+
+修訂前：
+<lb n="0887b01"/><p><note n="0887005" resp="Taisho" type="orig" place="foot text">遼亡</note>遼甲辰秋七月。
+
+修訂後：
+<lb n="0887b01"/><p><note n="0887005" resp="Taisho" type="orig" place="foot text">遼亡</note><note n="0887005" resp="CBETA" type="mod">CBETA按：大正藏校勘欄有 "[05]"之校勘條目，但依其內容「遼亡」判斷，不應為此條校勘條目之內容。</note>遼甲辰秋七月。
+
+
+修訂日期：2003/4/18 
+
+修訂前：
+<lb n="0082b12"/>為南<note n="0082008" resp="Taisho" type="orig" place="foot text">單＝禪【三】【宮】【禪】</note><note n="0082008" resp="CBETA" type="mod">單＝禪【宋】【元】【明】【宮】【禪】</note><app n="0082008"><lem>單</lem><rdg wit="【宋】【元】【明】【宮】【禪】" resp="Taisho">禪</rdg></app>于
+
+修訂後：
+<lb n="0082b12"/>為南<note n="0082008" resp="Taisho" type="orig" place="foot text">單＝禪【三】【宮】【聖】</note><note n="0082008" resp="CBETA" type="mod">單＝禪【宋】【元】【明】【宮】【聖】</note><app n="0082008"><lem>單</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">禪</rdg></app>于
+
+修訂前：
+<lb n="0473c14"/><p>魏吳主孫<note n="0473003" resp="Taisho" type="orig" place="foot text">&CB00152;＝皓【甲】</note><app n="0473003"><lem>&CB00152;</lem><rdg wit="【甲】" resp="Taisho">皓</rdg></app>皓。
+
+修訂後：
+<lb n="0473c14"/><p>魏吳主孫<note n="0473003" resp="Taisho" type="orig" place="foot text">&CB00152;＝皓【甲】</note><app n="0473003"><lem>&CB00152;</lem><rdg wit="【甲】" resp="Taisho">皓</rdg></app>。
+
+修訂前：
+<lb n="0748b19"/>敬王四十二年　陳為楚滅</cell><cell></cell><cell></cell></row></table></p></div3>
+<lb n="0748b19"/><div3 type="other"><mulu type="其他" level="3" label="齊"/><head>齊</head>
+<lb n="0748b20"/><p rend="margin-left:1">太公望生冀州。其先出於神農氏。&CB00573;為四
+<lb n="0748b21"/>嶽伯益佐禹治水有功。賜姓姜氏封於呂。
+<lb n="0748b22"/>至太公望為文王武王師。號尚父。封於齊。
+<lb n="0748b23"/>都營丘<note place="inline">今山東益都路古青州也</note>。武王命太公曰。五侯九
+<lb n="0748b24"/>伯汝得征之。齊由此得征伐為上國。自尚
+<lb n="0748b25"/>父七世至獻公年不可考。獻公子武公立
+<lb n="0748b26"/>年始可紀。始武王元年己卯至安王二十
+<lb n="0748b27"/>
+
+修訂後：
+<lb n="0748b19"/>敬王四十二年　陳為楚滅</cell><cell></cell><cell></cell></row></table></p></div3>
+<lb n="0748b20"/><div3 type="other"><mulu type="其他" level="3" label="齊"/><head>齊</head>
+<lb n="0748b21"/><p rend="margin-left:1">太公望生冀州。其先出於神農氏。&CB00573;為四
+<lb n="0748b22"/>嶽伯益佐禹治水有功。賜姓姜氏封於呂。
+<lb n="0748b23"/>至太公望為文王武王師。號尚父。封於齊。
+<lb n="0748b24"/>都營丘<note place="inline">今山東益都路古青州也</note>。武王命太公曰。五侯九
+<lb n="0748b25"/>伯汝得征之。齊由此得征伐為上國。自尚
+<lb n="0748b26"/>父七世至獻公年不可考。獻公子武公立
+<lb n="0748b27"/>年始可紀。始武王元年己卯至安王二十
+<lb n="0748b28"/>
+
+修訂前：
+<lb n="0773a20"/>稽王。迎立&CI0010;王休。琳復有怨言。休&CB03458;之。密
+修訂後：
+<lb n="0773a20"/>稽王。迎立&CI0015;王休。琳復有怨言。休&CB03458;之。密
+
+修訂前：
+<lb n="0887b08"/>之。明年乙巳殂<note n="0887006" resp="Taisho" type="orig" place="foot text">侵宋</note>遼國亡。
+
+修訂後：
+<lb n="0887b08"/>之。明年乙巳殂<note n="0887006" resp="Taisho" type="orig" place="foot text">侵宋</note><note n="0887006" resp="CBETA" type="mod">侵宋。CBETA按：依大正藏校勘欄 "[05]"之內容「遼亡」判斷，應為此處[06]校勘條目之內容。</note>遼國亡
+
+修訂前：
+<lb n="0887b17"/><p>大金十二月。斡離不粘罕分道入<corr resp="march" sic="[07]"></corr>侵宋。
+
+修訂後：
+<lb n="0887b17"/><p>大金十二月。斡離不粘罕分道入<note n="0887007" resp="Taisho" type="orig" place="text"></note><note n="0887007" resp="CBETA" type="mod">侵宋。CBETA按：依大正藏校勘欄 "[06]"之內容「侵宋」判斷，應為此處[07]校勘條目之內容。</note>侵宋
+
+
+執行 corr2app.pl v.0.3.1 後與 simple 轉 normal 比對：
+修訂日期：2003/06/25
+
+修訂前：
+<lb n="0906a08"/>雜然賦流形。末云。顧彼耿耿在。仰視浮雲白
+
+修訂後：
+<lb n="0906a08"/>雜然賦流形。末云。顧彼耿耿在。仰視浮雲白。
+
+
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0627b01"/>汨沒世途。如短販人。有少希求而忘大果。
+
+修訂後：
+<lb n="0627b01"/><app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒世途。如短販人。有少希求而忘大果。
+
+修訂前：
+<lb n="0706a08"/>今吾乃汨沒為刀筆吏乎。丈夫不得志於
+
+修訂後：
+<lb n="0706a08"/>今吾乃<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒為刀筆吏乎。丈夫不得志於
+
+修訂前：
+<lb n="0995c11"/>纏結。成無上道。豈宜汨沒風塵。與俗輩無異
+
+修訂後：
+<lb n="0995c11"/>纏結。成無上道。豈宜<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒風塵。與俗輩無異
+
+修訂前：
+<lb n="0641a29"/>汨羅之客。有負石之夫。人人愁怨也。夫釋
+
+修訂後：
+<lb n="0641a29"/><app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>羅之客。有負石之夫。人人愁怨也。夫釋
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+Heaven 版的簡單標記也改好上傳了。
+ 
+　eva
+-----Original Message-----
+From: maha [mailto:maha@tpts1.seed.net.tw]
+Sent: Wednesday, October 16, 2002 2:19 PM
+To: pancbeta; saywhat; march; eva_lu; maha_home; heaven; Ray Chou
+Subject: 回覆: 關於缺字[糴-入+田]
+
+
+OK，我這邊改好了。
+ 
+maha
+-----原始郵件-----
+寄件者: pancbeta [mailto:pancbeta@yahoo.com.tw]
+寄件日期: 2002年10月16日 PM 01:39
+收件者: saywhat; march; eva_lu; maha_home; heaven; Ray Chou
+主旨: Re: 關於缺字[糴-入+田]
+
+
+據：
+T47n1994A.xml <lb n="0641c15"/>有不受人瞞底。便道。雲蓋和[麥*夫]糶麵。然雖如
+
+而：
+T47n1999.xml <lb n="0969a02"/>穴老和尚。將白&CB03475;和[麥*夫]殼糶了。引得後來人。
+
+所以T47n2000_p1006b18[糴-入+田]似應勘誤作－－[[糴-入+田]>糶]
+建議勘誤
+ 
+--pan
+ 
+----- Original Message ----- 
+From: maha 
+To: pancbeta 
+Sent: Wednesday, October 16, 2002 12:56 PM
+Subject: 回覆: 關於缺字[糴-入+田]
+
+
+出處只有一處，在這裡：
+ 
+T47n2000_p1006b18_##║孤頂大歇老人。和[麥*夫][糴-入+田]麵。起中[山/夆]已墜之宗。
+
+因為大正藏原版印得跟「田」比較接近，如果確定[糴-入+田]並不適當，可以給它這樣修訂：
+ 
+T47n2000_p1006b18_##║孤頂大歇老人。和[麥*夫][[糴-入+田]>糶]麵。起中[山/夆]已墜之宗。
+
+maha
+-----原始郵件-----
+寄件者: pancbeta [mailto:pancbeta@yahoo.com.tw]
+寄件日期: 2002年10月16日 AM 11:53
+收件者: maha_home
+主旨: 關於缺字[糴-入+田]
+
+
+寶原：
+ 
+05319 [糴-入+田] 　 　 　  　 
+
+ 
+以上圖來看，好像是糶字，從出不從田。
+－－pan

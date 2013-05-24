@@ -1,0 +1,116 @@
+
+
+敘述性文字改 app
+修訂日期：2003/4/24
+
+修訂前：
+<note n="0483004" resp="Taisho" type="orig" place="foot text">不分卷【三】【宮】，（一）＋答【三】【宮】＊</note><note n="0483004" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】，（一）＋答【宋】【元】【明】【宮】＊</note>
+
+修訂後：
+<note n="0483004" resp="Taisho" type="orig" place="foot text">不分卷【三】【宮】，（一）＋答【三】【宮】＊</note><note n="0483004" resp="CBETA" type="mod"><todo type="i"/>不分卷【宋】【元】【明】【宮】，（一）＋答【宋】【元】【明】【宮】＊</note><app n="0483004"><lem>答</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">一答</rdg></app>
+
+
+cvs 修復前比對差異：
+
+修訂前：
+<lb n="0144c16"/><div4 type="other"><mulu type="其他" level="4" label="2 年號差舛者"/><head>二年號差舛
+
+修訂後：
+<lb n="0144c16"/><div4 type="other"><mulu type="其他" level="4" label="2 年號差舛者"/><head><note n="0144017" resp="Taisho" type="orig" place="foot text">〔二〕－【明】</note><app n="0144017"><lem>二</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg></app>年號差舛
+
+修訂前：
+<lb n="0163c12"/><p>對曰。案史記歷<note n="0163021" resp="Taisho" type="orig" place="foot text">帝＋（記）【元】，紀【明】</note><note n="0163021" resp="CBETA" type="mod"><todo type="i"/>帝＋（記）【元】，紀【明】</note>
+
+修訂後：
+<lb n="0163c12"/><p>對曰。案史記歷<note n="0163021" resp="Taisho" type="orig" place="foot text">帝＋（記）【元】，紀【明】</note><note n="0163021" resp="CBETA" type="mod">帝＋（記）【元】，<todo type="i"/>紀【明】</note>
+
+修訂前：
+<lb n="0188a11"/><list><note n="0188007" resp="Taisho" type="orig" place="foot text">〔一惑…和〕六十字－【明】，目錄上宋本宮本俱無一二等記數並惑字</note><note n="0188007" resp="CBETA" type="mod"><todo type="i"/>〔一惑…和〕六十字－【明】，目錄上宋本宮本俱無一二等記數並惑字</note>
+
+修訂後：
+<lb n="0188a11"/><list><note n="0188007" resp="Taisho" type="orig" place="foot text">〔一惑…和〕六十字－【明】，目錄上宋本宮本俱無一二等記數並惑字</note><note n="0188007" resp="CBETA" type="mod">〔一惑…和〕六十字－【明】，<todo type="i"/>目錄上宋本宮本俱無一二等記數並惑字</note>
+
+修訂前：
+<lb n="0195b14"/><div1 type="other"><mulu type="其他" level="1" label="佛德篇目錄"/><list><item>初序梁弘明集序佛德目
+
+修訂後：
+<lb n="0195b14"/><div1 type="other"><mulu type="其他" level="1" label="佛德篇目錄"/><list><item><note n="0195011" resp="Taisho" type="orig" place="foot text">明本目錄無</note>初序梁弘明集序佛德目
+
+修訂前：
+<note n="0235012" resp="Taisho" type="orig" place="foot text">講＋（啟）【明】，講下明本有梁簡文帝四字</note><note n="0235012" resp="CBETA" type="mod"><todo type="i"/>講＋（啟）【明】，講下明本有梁簡文帝四字</note>
+
+修訂後：
+<note n="0235012" resp="Taisho" type="orig" place="foot text">講＋（啟）【明】，講下明本有梁簡文帝四字</note><note n="0235012" resp="CBETA" type="mod"><todo type="a"/>講＋（啟）【明】，講下明本有梁簡文帝四字</note>
+
+修訂前：
+<lb n="0264a17"/>遺。識者彌<note n="0264008" resp="Taisho" type="orig" place="foot text">了＋（其二）【元】，（其一）細註【明】，下至九准之</note><note n="0264008" resp="CBETA" type="mod"><todo type="i"/>了＋（其二）【元】，（其一）細註【明】，下至九准之</note>
+
+修訂後：
+<lb n="0264a17"/>遺。識者彌<note n="0264008" resp="Taisho" type="orig" place="foot text">了＋（其二）【元】，（其一）細註【明】，下至九准之</note><note n="0264008" resp="CBETA" type="mod">了＋（其二）【元】，（其一）細註【明】，<todo type="i"/>下至九准之</note>
+
+修訂前：
+<lb n="0289c02"/>戰惕。<note n="0289021" resp="Taisho" type="orig" place="foot text">〔一〕－【宋】【元】【宮】，（（一三…拜））十字＝（（建議））二字【三】</note><note n="0289021" resp="CBETA" type="mod"><todo type="i"/>〔一〕－【宋】【元】【宮】，（（一三…拜））十字＝（（建議））二字【宋】【元】【明】</note>
+
+修訂後：
+<lb n="0289c02"/>戰惕。<note n="0289021" resp="Taisho" type="orig" place="foot text">〔一〕－【宋】【元】【宮】，（（一三…拜））十字＝（（建議））二字【三】</note><note n="0289021" resp="CBETA" type="mod"><todo type="a"/>〔一〕－【宋】【元】【宮】，（（一三…拜））十字＝（（建議））二字【宋】【元】【明】</note>
+
+
+折行修訂：
+修訂日期：2003/06/09
+
+修訂前：
+<lb n="0325a10"/><div2 type="other"><mulu type="其他" level="2" label="11 （謝CB00330CB01327袈裟啟）(梁簡文)(二八)
+"/><div3 type="other">
+
+修訂後：
+<lb n="0325a10"/><div2 type="other"><mulu type="其他" level="2" label="11 （謝CB00330CB01327袈裟啟）(梁簡文)(二八)"/><div3 type="other">
+
+
+缺字修訂：CBc0034 改為 CBa0021
+修訂日期：2003/6/16
+
+修訂前：
+<lb n="0478c12"/>帝元狩中。霍去病討凶奴。至<note n="0478041" resp="Taisho" type="orig" place="foot text">&CBc0034;＝&CB04439;【宮】</note><note n="0478041" resp="CBETA" type="mod"><corr sic="＆CBc0034；" resp="CBETA.Maha">&CB06535;</corr>＝&CB04439;【宮】</note><app n="0478041"><lem>&CB06535;</lem><rdg wit="【宮】" resp="Taisho">&CB04439;</rdg></app>蘭過居延
+
+修訂後：
+<lb n="0478c12"/>帝元狩中。霍去病討凶奴。至<note n="0478041" resp="Taisho" type="orig" place="foot text">&CBa0021;＝&CB04439;【宮】</note><note n="0478041" resp="CBETA" type="mod"><corr sic="＆CBa0021；" resp="CBETA.Maha">&CB06535;</corr>＝&CB04439;【宮】</note><app n="0478041"><lem>&CB06535;</lem><rdg wit="【宮】" resp="Taisho">&CB04439;</rdg></app>蘭過居延
+
+
+修訂前：
+
+修訂後：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

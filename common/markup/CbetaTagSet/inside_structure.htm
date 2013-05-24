@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Language" content="zh-tw">
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <meta http-equiv="Content-Type" content="text/html; charset=big5">
+  <title>CBETA XML 檔內容架構</title>
+  <link rel="stylesheet" type="text/css" href="ray.css">
+  <style type="text/css">
+<!--
+.style3 {
+	color: #808000;
+	font-style: italic;
+}
+.style4 {color: #808000}
+-->
+  </style>
+</head>
+<body>
+<h1>CBETA XML 檔內容架構</h1>
+<p align="right">
+  <!--webbot bot="Timestamp" startspan S-Type="EDITED"     S-Format="%Y/%m/%d" -->
+  2008/01/31
+  <!--webbot bot="Timestamp" i-CheckSum="12375"     endspan -->
+<!--webbot bot="Timestamp" endspan i-checksum="12303" --></p>
+<ul>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#header">Header</a>
+    <ul>
+      <li><a href="#filedesc">File Description</a></li>
+      <li><a href="#encodingdesc">Encoding Description</a></li>
+      <li><a href="#profiledesc">Profile Description</a></li>
+      <li><a href="#revisiondesc">Revision Description</a></li>
+    </ul>
+  </li>
+  <li><a href="#text">Text</a>
+    <ul>
+      <li><a href="#pb">頁碼、行號</a></li>
+      <li><a href="#juan">分卷</a></li>
+      <li><a href="#div">章節架構</a></li>
+    </ul>
+  </li>
+</ul>
+<h2><a name="overview"></a>Overview</h2>
+<p>一個 CBETA XML 檔內部架構分為 <a href="#header">Header</a> 及 <a href="#text">Text</a>
+兩部份：</p>
+<blockquote>
+  <p>&lt;TEI.2&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;teiHeader&gt;&nbsp;&nbsp;&nbsp;
+........&nbsp;&nbsp;&nbsp; &lt;/teiHeader&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;text&gt; .....&nbsp;&nbsp; &lt;/text&gt;<br>
+&lt;/TEI.2&gt;</p>
+</blockquote>
+<h2><a name="header"></a>TEI Header</h2>
+<p>teiHeader 分成 fileDesc, encodingDesc, profileDesc, revisionDesc 四大部份,
+記錄本經相關資訊：</p>
+<blockquote>
+  <p><code>&lt;<a href="http://www.tei-c.org/P4X/ref-TEIHEAD.html">teiHeader</a>&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-FILDESC.html">fileDesc</a>&gt;....&lt;/fileDesc&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-ENCDESC.html">encodingDesc</a>&gt;....&lt;/encodingDesc&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-PROFDESC.html">profileDesc</a>&gt;....&lt;/profileDesc&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-REVDESC.html">revisionDesc</a>&gt;....&lt;/revisionDesc&gt;<br>
+&lt;/teiHeader&gt;</code></p>
+  <h2><a name="filedesc"></a>File Description</h2>
+  <p><code>&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-FILDESC.html">fileDesc</a>&gt;<span style="color: #808000"><i>&lt;!-- File Description --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-TITSTMT.html">titleStmt</a>&gt;<span style="color: #808000"><i>&lt;!-- title statement --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;title&gt;Taisho Tripitaka, Electronic version, No. 0001
+    長阿含經&lt;/title&gt;<span style="color: #808000"><i>&lt;!-- 經名 --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;author&gt;後秦 佛陀耶舍共竺佛念譯&lt;/author&gt;<span style="color: #808000"><i>&lt;!--
+    作者、譯者 --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-RESP.html">respStmt</a>&gt;<span class="style3">&lt;!--
+    statement of responsibility --&gt;</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;resp&gt;Electronic Version by&lt;/resp&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;name&gt;CBETA&lt;/name&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;/respStmt&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/titleStmt&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;editionStmt&gt;<span class="style3">&lt;!--
+    edition statement --&gt;</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;edition&gt;$Revision: 1.4 $ (Big5)&lt;/edition&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/editionStmt&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;extent&gt;22卷&lt;/extent&gt;<span class="style3">&lt;!-- 卷數 --&gt;</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-PUBSTMT.html">publicationStmt</a>&gt;<span class="style4">&lt;!--
+    publication statement --&gt;</span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;distributor&gt;<span class="style4"><i>&lt;!-- 發行者 --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;name&gt;中華電子佛典協會 (CBETA)&lt;/name&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;address&gt;&lt;addrLine&gt;cbeta@ccbs.ntu.edu.tw&lt;/addrLine&gt;&lt;/address&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;/distributor&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;availability&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;p&gt;Available for non-commercial use when distributed with this
+    header intact.&lt;/p&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;/availability&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;date&gt;$Date: 2009/01/07 01:35:12 $&lt;/date&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/publicationStmt&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-SOUSTMT.html">sourceDesc</a>&gt;<span class="style4"><i>&lt;!--
+    source description --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;bibl&gt;Taisho Tripitaka Vol. 1, No. 001 &amp;desc;&lt;/bibl&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/sourceDesc&gt;<br>
+  &nbsp;&nbsp;&nbsp; &lt;/fileDesc&gt;</code></p>
+  <h2><a name="encodingdesc"></a>Encoding Description</h2>
+  <p>&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-ENCDESC.html">encodingDesc</a>&gt;<span class="style4"><i>&lt;!--
+    Encoding description --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;projectDesc&gt;<span class="style4"><i>&lt;!--
+    原始電子版提供者 --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;p lang="eng" type="ly"&gt;Text as provided by Mr. Hsiao Chen-Kuo,
+    Text as provided by Mr. Chang Wen-Ming&lt;/p&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;p lang="chi" type="ly"&gt;蕭鎮國大德提供，張文明大德提供&lt;/p&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/projectDesc&gt;<br>
+  &nbsp;&nbsp;&nbsp; &lt;/encodingDesc&gt;</p>
+  <h2><a name="profiledesc"></a>Profile Description</h2>
+  <p>&nbsp;&nbsp;&nbsp; &lt;<a
+ href="http://www.tei-c.org/P4X/ref-PROFDESC.html">profileDesc</a>&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;langUsage&gt;<span class="style4"><i>&lt;!--
+    本經所使用語言 --&gt;</i></span><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;language id="pli"&gt;Pali&lt;/language&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;language id="san"&gt;Sanskrit&lt;/language&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;language id="eng"&gt;English&lt;/language&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;language id="chi"&gt;Chinese&lt;/language&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;/langUsage&gt;<br>
+  &nbsp;&nbsp;&nbsp; &lt;/profileDesc&gt;</p>
+  <h2><a name="revisiondesc"></a>Revision Description 修訂記錄</h2>
+  <p>&lt;<a
+ href="http://www.tei-c.org/P4X/ref-REVDESC.html">revisionDesc</a>&gt;<br>
+    &nbsp;&nbsp;&nbsp; &lt;change&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;date&gt;19990810/22:31:27&lt;/date&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;respStmt&gt;&lt;name&gt;CW&lt;/name&gt;&lt;resp&gt;ed.&lt;/resp&gt;&lt;/respStmt&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;item&gt;Created initial TEI XML version with BASICX.BAT
+    (99/8/10)&lt;/item&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/change&gt;<br>
+  &nbsp;&nbsp;&nbsp; <span class="style4">&lt;!-- CVS 修訂記錄 --&gt;</span><br>
+  &nbsp;&nbsp;&nbsp; &lt;/revisionDesc&gt;</p>
+</blockquote>
+<h2><a name="text"></a>Text</h2>
+<p>本經內文</p>
+<blockquote>
+  <p>&lt;text&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp; ........<br>
+&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
+&lt;/text&gt;</p>
+</blockquote>
+<h2><a name="pb"></a>頁碼、行號</h2>
+<p>以 &lt;pb&gt; 記錄頁碼 (Page Break), &lt;lb&gt; 記錄行號 (Line Break)</p>
+<blockquote>
+  <p>&lt;text&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;pb ed="T"
+id="T01.0001.0001a" n="0001a"/&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;lb n="0001a01"/&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lb n="0001a02"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lb n="0001a03"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ........<br>
+&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
+&lt;/text&gt;</p>
+</blockquote>
+<p>其中 &lt;pb&gt; 的屬性 ed="T", 表示 Taisho edition, 大正藏一頁有三欄, n="0001a"
+表示第一頁上欄.</p>
+<h2><a name="juan"></a>分卷</h2>
+<p>分卷處加 &lt;milestone&gt; 標記.</p>
+<blockquote>
+  <p>&lt;text&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;pb ed="T"
+id="T01.0001.0001a" n="0001a"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lb n="0001a01"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;milestone
+unit="juan" n="1"/&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lb n="0001a02"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lb n="0001a03"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ........<br>
+&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
+&lt;/text&gt;</p>
+</blockquote>
+<p>大正藏的卷首資訊、卷末資訊, 格式不一, 時有時無, 以 CBETA 自訂標記 &lt;juan&gt; 記錄:</p>
+<blockquote>
+  <p>&lt;text&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;juan fun="open"
+n="001"&gt;</b><span class="style4"><i>&lt;!-- fun="open" 是卷首 --&gt;</i></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;jhead&gt;&lt;title&gt;佛說長阿含經&lt;/title&gt;卷第一&lt;/jhead&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;/juan&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ..... <span class="style4">&lt;!-- 本卷內容 --&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;juan fun="close"
+n="001"&gt;</b><span class="style4"><i>&lt;!-- fun="close" 是卷末 --&gt;</i></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;jhead&gt;&lt;title&gt;佛說長阿含經&lt;/title&gt;卷第一<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;/juan&gt;</b><br>
+&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
+&lt;/text&gt;</p>
+</blockquote>
+<h2><a name="div"></a>章節架構</h2>
+<p>本文章節架構以 &lt;div1&gt;, &lt;div2&gt;.... 標記, 章節標題以 &lt;head&gt; 標記.</p>
+<blockquote>
+  <p>&lt;text&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;div1 type="xu"&gt;</b><i>&lt;!--
+type="xu" 表示這是一個序 --&gt;</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ....<b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div1
+type="fen"&gt;&lt;head&gt;（一）第一分初&lt;/head&gt;</b><span class="style4"><i>&lt;!-- type="fen"
+表示本經第一層架構 "分" --&gt;</i></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+........<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;/div1&gt;</b><br>
+&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
+&lt;/text&gt;</p>
+</blockquote>
+<p>如果 &lt;div1&gt; 之下還有第二層標題：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div1
+type="fen"&gt;&lt;head&gt;（一）第一分初&lt;/head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;div2
+type="jing"&gt;&lt;head&gt;</b>大本經第一<b>&lt;/head&gt;</b><span class="style4"><i>&lt;!--
+type="jing" 表示本層架構是 "經" --&gt;</i></span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+........<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&nbsp;&lt;/div2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;div2 type="jing"&gt;</b>遊行經第二<b>&lt;/head&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ....<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;/div2&gt;</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div1&gt;</p>
+<p>目前最深使用到 &lt;div8&gt;, 但在各別的研究專案, 例如瑜伽專案, 使用到 &lt;div33&gt;.</p>
+<p>大正藏章節標題格式不一, 時有時無, CBETA 自訂 &lt;mulu&gt; 標記, 記錄全經目錄架構：</p>
+<blockquote>
+  <p>T01n0001.xml<br>
+&lt;div1 type="xu"&gt;<b><br>
+&nbsp;&nbsp;&nbsp; &lt;mulu type="序" level="1" label="序"/&gt;<br>
+&nbsp;&nbsp;&nbsp; </b>&lt;head&gt;&lt;title&gt;長阿含經&lt;/title&gt;序&lt;
+/head&gt;<br>
+&lt;/div1&gt;<br>
+&lt;div1&gt;<br>
+&nbsp;&nbsp;&nbsp; <b>&lt;mulu type="分" level="1" n="1" label="1
+分"/&gt;</b>&lt;head&gt;（一）第一分初&lt;/head&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;div2 type="jing"&gt;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;mulu type="經"
+level="2" n="1" label="1 大本經(一)"/&gt;</b>&lt;head&gt;大本經第一&lt;/head&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/div2&gt;<br>
+&nbsp;&nbsp;&nbsp; .....<br>
+&lt;/div1&gt;<br>
+  <br>
+　</p>
+</blockquote>
+</body>
+</html>

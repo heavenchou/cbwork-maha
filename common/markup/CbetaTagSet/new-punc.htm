@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;entry&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">新式標點 </h1>   
+<p align="right">$Date: 2006/04/03 03:19:55 $</p>
+<h2>檔頭宣告</h2>
+<p>採用新式標點的 XML 檔在 檔頭 中作如下標示:</p>
+<p class="code">&lt;editionStmt&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;edition&gt;$Revision: 1.2 $ (Big5)&lt;date&gt;$Date: 2005/02/20 
+15:15:51 $&lt;/date&gt;<b>新式標點版</b>&lt;/edition&gt;<br>
+&lt;/editionStmt&gt;</p>
+<p class="code">&lt;encodingDesc&gt;<br>
+&nbsp;&nbsp;&nbsp;
+&lt;projectDesc&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;p lang=&quot;eng&quot; type=&quot;ly&quot;&gt;Text as provided by Mr. Hsiao Chen-Kuo, Text as provided 
+by Mr. Chang Wen-Ming, Text as provided by Anonymous, USA, <b>Punctuated by Maha 
+Studio originally</b>&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;p lang=&quot;chi&quot; type=&quot;ly&quot;&gt;蕭鎮國大德提供，張文明大德提供，北美某大德提供，<b>摩訶工作室提供新式標點</b>&lt;/p&gt;<br>
+&nbsp;&nbsp;&nbsp;
+&lt;/projectDesc&gt;<br>
+&lt;/encodingDesc&gt;</p>
+   
+<h2>引號</h2>
+<h3>偈頌引號</h3>
+<p>可能的標示方式：</p>
+<ul>
+	<li>以文字記錄引號<ul>
+		<li>引號放 &lt;l&gt; 裏面：&lt;lg&gt;&lt;l&gt;<font color="#FF0000">「</font>.....&lt;/l&gt;....&lt;l&gt;.....<font color="#FF0000">」</font>&lt;/l&gt;&lt;/lg&gt;</li>
+		<li>引號放 &lt;lg&gt; 外面：<font color="#FF0000">「</font><lg&gt;....&lt;/lg&gt;」</P>
+		&lt;lg&gt;....&lt;/lg&gt;<font color="#FF0000">」</font></li>
+	</ul>
+	</li>
+	<li>以標記記錄引號<ul>
+		<li>&lt;lg <font color="#FF0000">rend=&quot;before='「';after='」'&quot;</font>&gt;&lt;l&gt;.....&lt;/l&gt;....&lt;l&gt;.....&lt;/l&gt;&lt;/lg&gt;</li>
+		<li>&lt;lg <font color="#FF0000">rend=&quot;quotes&quot;</font>&gt;&lt;l&gt;.....&lt;/l&gt;....&lt;l&gt;.....&lt;/l&gt;&lt;/lg&gt;</li>
+		<li><font color="#FF0000">&lt;q&gt;</font>&lt;lg&gt;&lt;l&gt;恒河沙數等佛剎，&lt;/l&gt;&lt;l&gt;佛界圓滿如芥子，&lt;/l&gt;&lt;l&gt;能受佛剎般若力，&lt;/l&gt;&lt;l&gt;如是了知般若已，&lt;/l&gt;&lt;l&gt;此界云何不供養？&lt;/l&gt;&lt;/lg&gt;<font color="#FF0000">&lt;/q&gt;</font></li>
+		<li>以 stylesheet 顯示引號的方式:
+		<a href="http://www.w3.org/TR/CSS21/generate.html#quotes-specify">
+		http://www.w3.org/TR/CSS21/generate.html#quotes-specify</a> </li>
+	</ul>
+	</li>
+</ul>
+   
+</body>   
+   
+</html>

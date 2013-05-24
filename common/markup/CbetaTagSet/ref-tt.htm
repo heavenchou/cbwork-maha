@@ -1,0 +1,247 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;tt&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;tt> 詞組對照</h1>  
+<p align="right">
+<!--webbot bot="Timestamp" S-Type="EDITED"  
+S-Format="%Y/%m/%d" startspan -->2008/03/03<!--webbot bot="Timestamp" endspan i-checksum="12504" -->  
+</p>  
+<h2 align="left">Attributes</h2>
+<blockquote>
+  <h3 align="left">n</h3> 
+  <blockquote>
+  <p align="left">如果這個勘誤資訊是大正藏校勘欄提供的, n 屬性的前四碼是校勘出處的頁碼, 後三碼是校勘編號.</p> 
+  </blockquote>
+  <h3 align="left">rend</h3> 
+  <ul>
+    <li> 
+  inline: 行中對照, 例：T36n1736_p0435b23, T54n2135_p1223a27</li>
+    <li> 
+normal: 按原大正藏分行對照. 例：T54n2133A</li>
+  </ul>
+  <h3 align="left">type  </h3> 
+  <ul>
+    <li> 
+  app: 由校勘資訊轉成的 &lt;tt&gt;
+    </li>
+    <li> 
+  inline: 改用 rend=&quot;inline&quot;
+    </li>
+    <li> 
+tr: translation 翻譯對照.例：T20n1168B</li>
+  </ul>
+  <h3>word-count: </h3>
+  <blockquote>
+    <p>type=&quot;app&quot; 時的字數<br>
+　</p>
+  </blockquote>
+</blockquote> 
+<h2 align="left">May contain (可以包含的子元素)</h2>
+<blockquote> 
+  <p align="left">&lt;<a href="ref-t.htm">t</a>&gt;<br>
+  </p>
+</blockquote>
+  
+<h2 align="left">Examples</h2>
+<ul>
+  <li>
+  
+<p align="left"><a href="#inline">行中對照</a></li>
+<li>
+  
+<p align="left"><a href="#line2line">一行漢字、一行悉曇字</a></li>
+<li>
+  
+<p align="left"><a href="#term2term">雙行單詞對照</a></li>
+<li>
+  
+<p align="left"><a href="#3line">三行整行對照</a></li>
+<li>
+  
+<p align="left"><a href="#app">校勘的 &lt;tt&gt;</a> (type=&quot;app&quot;)</li>
+<li>
+  
+<p align="left"><a href="#app2">&lt;tt&gt; 下含 &lt;app&gt;</a></li>
+	<li>
+  
+<p align="left"><font face="Verdana"><a href="#word-count">word-count</a></font></li>
+</ul>
+  
+<h3 align="left"><a name="inline"></a>行中對照</h3>
+<blockquote>
+<p align="left">T18, No. 849.<br>
+&lt;lb n=&quot;0058a10&quot;/&gt;迦牟尼佛者。彼蓮華座想一<br>
+&lt;tt rend=&quot;inline&quot;&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5D8;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;婆&lt;/t&gt;&lt;/tt&gt;(上)字。具一</p>
+<p>一般上悉曇與中文字之間都沒空格, 但如果<t&gt;的屬性加上rend=&quot;　&quot;，就要空一格。</p />&lt;t&gt;的屬性加上 
+rend=&quot;　&quot;，就要空一格。</p>
+<p>T54n2135 </p>
+<p>&lt;lb n=&quot;1223a27&quot;/&gt;&lt;p&gt;&lt;tt rend=&quot;inline&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;chi&quot;&gt;天&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;chi-yy&quot; <b>rend=&quot;　&quot;</b>&gt;泥&amp;CB02389;又素羅&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;san-sd&quot; 
+rend=&quot;　&quot;&gt;&amp;SD-A575;&amp;SD-A656;&amp;SD-E3BA;&amp;SD-E0BC;&amp;SD-A5FD;&lt;/t&gt;<br>
+&lt;/tt&gt;&lt;/p&gt;</p>
+</blockquote>
+  <h3 align="left"><a name="line2line"></a>一行漢字、一行悉曇字</h3>
+<blockquote>
+  <p align="left">&lt;tt><br>
+  　&lt;t lang="sk-sd">….&lt;/t><br> 
+  　&lt;t lang="zh">….&lt;/t><br> 
+  &lt;/tt></p> 
+</blockquote> 
+<h3 align="left"><a name="term2term"></a>雙行單詞對照</h3>
+<blockquote>
+  <p align="left">T18, No. 859</p>
+  <h3 align="left">原書圖檔</h3>
+  <blockquote>
+    <p align="left">
+    <img border="1" src="images/18-178.gif" width="126" height="374"></p>
+  </blockquote>
+  <h3 align="left">XML</h3>
+  <blockquote>
+    <p align="left"><b>&lt;lb n=&quot;0178c01&quot;/&gt;</b>&lt;p type=&quot;dharani&quot;&gt;<br>
+    <b>&lt;tt&gt;</b>&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5A9;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;南&lt;/t&gt;<b>&lt;/tt&gt;<br>
+    </b>&lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5F0;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;麼&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A67A;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;薩&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-B7A3;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;婆&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A557;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;怛&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A564;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;他&lt;/zi&gt;&lt;sg&gt;引&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A458;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;CB00617;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A55D;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;帝&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A8A5;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;CB03329;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A658;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;微&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-E0AB;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;濕&amp;CB00085;&lt;/zi&gt;&lt;sg&gt;二合&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    <b>&lt;lb n=&quot;0178c02&quot;/&gt;</b><br>
+    <b>&lt;lb n=&quot;0178c03&quot;/&gt;</b>&lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-E043;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;目&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-E07D;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;契&lt;/zi&gt;&lt;sg&gt;二合&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A8A5;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;弊&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-DA42;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;唵&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-CFC5;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;阿&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A67A;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;三&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5EB;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;迷&lt;note 
+    place=&quot;inline&quot;&gt;二&lt;/note&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-AA60;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;怛履&lt;/zi&gt;&lt;sg&gt;二合&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    <b>&lt;lb n=&quot;0178c04&quot;/&gt;</b></p>
+  </blockquote>
+  <h3 align="left">Normal 版</h3>
+  <blockquote>
+    <p align="left">T18n0859_p0178c01║【◇】<br>
+    T18n0859_p0178c02║[29]南　麼　薩　婆　怛　他(引)　[薛/木]　帝　[30][口*驃]　微　濕[口*縛](二合)<br>
+    T18n0859_p0178c03║【◇】<br>
+    T18n0859_p0178c04║目　契(二合)　弊　唵　阿　三　迷(二)　怛[31]履(二合)</p>
+  </blockquote>
+</blockquote>
+<h3 align="left"><a name="3line"></a>三行整行對照</h3>
+<blockquote>
+  <p align="left">T54, No. 2133A<br>
+  &lt;lb n=&quot;1194c17&quot;/&gt;&lt;p&gt;&lt;tt <b>rend=&quot;normal&quot;</b>&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-CBA7;....&amp;SD-A5B5;<b>&lt;/t&gt;</b><br>
+  &lt;lb n=&quot;1194c18&quot;/&gt;&lt;t lang=&quot;chi&quot;&gt;作　阿闍梨多　聞　三藏　法師　勝&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c19&quot;/&gt;&lt;t lang=&quot;san-tr&quot;&gt;K&amp;rdotblw;tir ....bhadanta-param:&lt;/t&gt;&lt;/tt&gt;<br>
+  &lt;lb n=&quot;1194c20&quot;/&gt;&lt;tt rend=&quot;normal&quot;&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5FD;....&amp;SD-A5B7;&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c21&quot;/&gt;&lt;t lang=&quot;chi&quot;&gt;義天　之　福　生　母　父&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c22&quot;/&gt;&lt;t lang=&quot;san-tr&quot;&gt;&amp;amacron;rthadevasya .... tad bhavatu m&amp;amacron;t&amp;amacron;pi:&lt;/t&gt;&lt;/tt&gt;<br>
+  &lt;lb n=&quot;1194c23&quot;/&gt;&lt;tt rend=&quot;normal&quot;&gt;&lt;t lang=&quot;san-sd&quot; 
+  rend=&quot;&quot;&gt;&amp;SD-AA5F;....&amp;SD-D1B8;&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c24&quot;/&gt;&lt;t lang=&quot;chi&quot;&gt;師　和上　先　行　一切　有情　無上&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c25&quot;/&gt;&lt;t lang=&quot;san-tr&quot;&gt;tr&amp;amacron;....&amp;amacron;nuttarasa:&lt;/t&gt;&lt;/tt&gt;<br>
+  &lt;lb n=&quot;1194c26&quot;/&gt;&lt;tt rend=&quot;normal&quot;&gt;&lt;t lang=&quot;san-sd&quot; 
+  rend=&quot;&quot;&gt;&amp;SD-A8A6;....&amp;SD-A5F1;&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c27&quot;/&gt;&lt;t lang=&quot;chi&quot;&gt;正等正覺　精進天　寫　有情利益&lt;/t&gt;<br>
+  &lt;lb n=&quot;1194c28&quot;/&gt;&lt;t lang=&quot;san-tr&quot;&gt;myaksa&amp;mdotabv;bodhaye .... sattvahite&lt;/t&gt;&lt;/tt&gt;</p>
+</blockquote>
+<h3 align="left"><a name="app"></a>校勘的 &lt;tt&gt;</h3>
+<blockquote>
+  <p align="left">T01, No. 1<br>
+  &lt;lb n=&quot;0001b08&quot;/&gt;&lt;juan fun=&quot;open&quot; n=&quot;001&quot;&gt;&lt;mulu type=&quot;卷&quot; n=&quot;001&quot;/&gt;&lt;jhead&gt;&lt;title&gt;佛說<br>
+  &lt;note n=&quot;0001011&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot text&quot;&gt;長阿含經 D&amp;imacron;rgha-&amp;amacron;gama～D&amp;imacron;gha-nik&amp;amacron;ya&lt;/note&gt;<br>
+  &lt;tt n=&quot;0001011&quot; type=&quot;app&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;chi&quot; resp=&quot;Taisho&quot;&gt;長阿含經&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;san&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;D&amp;imacron;rgha-&amp;amacron;gama&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;pli&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;D&amp;imacron;gha-nik&amp;amacron;ya&lt;/t&gt;<br>
+  &lt;/tt&gt;&lt;/title&gt;卷第一&lt;/jhead&gt;&lt;/juan&gt;</p>
+</blockquote>
+  
+<h3 align="left"><a name="app2"></a>&lt;tt&gt; 下含 &lt;app&gt;</h3>
+<blockquote>
+  <div align="left">
+    <p align="left">T18n0894b<br>
+    <br>
+    &lt;lb n=&quot;0705a08&quot;/&gt;<br>
+    &lt;p type=&quot;dharani&quot;&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-E074;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;唵&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A94F;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;句&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A57B;&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;chi&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;note n=&quot;0705002&quot; resp=&quot;Taisho&quot; 
+    type=&quot;orig&quot; place=&quot;foot text&quot;&gt;路＝&amp;CB00080;【乙】&lt;/note&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;app n=&quot;0705002&quot;&gt;&lt;lem&gt;路&lt;/lem&gt;&lt;rdg 
+    wit=&quot;【乙】&quot; resp=&quot;Taisho&quot;&gt;&amp;CB00080;&lt;/rdg&gt;&lt;/app&gt;</b><br>
+&nbsp;&nbsp;&nbsp; &lt;/t&gt;<br>
+    &lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5A9;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;&amp;CB00243;曩&lt;/zi&gt;&lt;sg&gt;上聲&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-DA74;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;CB00292;&lt;/t&gt;&lt;/tt&gt;<br>
+    &lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&lt;note n=&quot;0705001&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot 
+    text&quot;&gt;&amp;SD-E1B2;＝&amp;SD-A4C1;【甲】【乙】&lt;/note&gt;&lt;app n=&quot;0705001&quot;&gt;&lt;lem&gt;&amp;SD-E1B2;&lt;/lem&gt;&lt;rdg 
+    wit=&quot;【甲】【乙】&quot; resp=&quot;Taisho&quot;&gt;&amp;SD-A4C1;&lt;/rdg&gt;&lt;/app&gt;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;若&lt;/t&gt;&lt;/tt&gt;&lt;/p&gt;<br>
+    &lt;lb n=&quot;0705a09&quot;/&gt;</div>
+</blockquote>
+<div align="left">
+	<p align="left"><b><font size="4" face="Times New Roman">
+	<a name="word-count"></a>word-count </font></b></div>
+<blockquote>
+  <div align="left">
+	<p align="left">T01n0001_p0004c01<br>
+	&lt;lb n=&quot;0004c01&quot; ed=&quot;T&quot;/&gt;七步。無人扶&lt;note n=&quot;0004012&quot; resp=&quot;Taisho&quot; place=&quot;foot 
+	text&quot; type=&quot;orig&quot;&gt;侍＝持【三】&lt;/note&gt;&lt;note n=&quot;0004012&quot; resp=&quot;CBETA&quot; 
+	type=&quot;mod&quot;&gt;侍＝持【宋】【元】【明】&lt;/note&gt;&lt;app n=&quot;0004012&quot;&gt;&lt;lem wit=&quot;【大】&quot;&gt;侍&lt;/lem&gt;&lt;rdg 
+	resp=&quot;Taisho&quot; wit=&quot;【宋】【元】【明】&quot;&gt;持&lt;/rdg&gt;&lt;/app&gt;。遍觀四方。舉手而言。&lt;note n=&quot;0004013&quot; resp=&quot;Taisho&quot; 
+	place=&quot;foot text&quot; type=&quot;orig&quot;&gt;天上…尊～&quot;Aggo 'ham asmi lokassa, je&amp;tdotblw;&amp;tdotblw;ho 
+	'ham asmi lokassa, se&amp;tdotblw;&amp;tdotblw;ho 'ham asmi lokassa.&quot;&lt;/note&gt;<font color="#FF0000">&lt;tt 
+	word-count=&quot;8&quot; n=&quot;0004013&quot; type=&quot;app&quot;&gt;</font>&lt;t resp=&quot;Taisho&quot; lang=&quot;chi&quot;&gt;天<br>
+	&lt;lb n=&quot;0004c02&quot; ed=&quot;T&quot;/&gt;上天下唯我為尊&lt;/t&gt;&lt;t resp=&quot;Taisho&quot; lang=&quot;pli&quot; 
+	place=&quot;foot&quot;&gt;&quot;Aggo 'ham asmi lokassa, je&amp;tdotblw;&amp;tdotblw;ho 'ham asmi 
+	lokassa, se&amp;tdotblw;&amp;tdotblw;ho 'ham asmi lokassa.&quot;&lt;/t&gt;&lt;/tt&gt;。要度眾生生老病死。此</div>
+	<div align="left">
+	<p align="left">　</div>
+</blockquote>
+  
+<div align="left">
+	<p align="left"><strong>●悉漢隔行對照 &lt;tt <font color="#ff00ff">type=&quot;tr&quot;</font>&gt;&lt;t 
+	lang=&quot;&quot;&gt;...&lt;/t&gt;&lt;t lang=&quot;&quot;&gt;...&lt;/t&gt;&lt;/tt&gt;</strong></div>
+<blockquote>
+	<div align="left">
+		<p align="left">T20n1168Bp0676c16</div>
+	<div align="left">
+		<p align="left"><strong><u>P4 XML:</u></strong><br>
+		&lt;lb n=&quot;0676c16&quot; ed=&quot;T&quot;/&gt;&lt;div1 type=&quot;jing&quot;&gt;&lt;p id=&quot;pT20p0676c1601&quot;&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5A9;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5F0;&lt;/t&gt;&lt;/tt<strong>&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;</strong>如<strong>&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;</strong>SD-CFCF<strong>;&lt;/t&gt;&lt;/tt&gt;&lt;</strong>tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;是&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A660;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5E5;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;我&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5F2;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-AB62;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A557;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;一&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5EB;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A440;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-E261;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A67A;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5E5;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;&amp;lac;&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5F7;&lt;/t&gt;&lt;/tt&gt;&lt;tt 
+		type=&quot;tr&quot;&gt;&lt;t lang=&quot;chi&quot;&gt;婆&lt;/t&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A5D9;&lt;/t&gt;&lt;/tt&gt;<br>
+		&lt;lb n=&quot;0676c17&quot; ed=&quot;T&quot;/&gt;<br>　</div>
+</blockquote>
+  
+</body>  
+  
+</html>

@@ -1,0 +1,1 @@
+fc c:\release\htmlhelp\t31\t31.htm c:\release\htmlhelp\all\t31.htm > c:\temp\temp.txt

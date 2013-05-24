@@ -1,0 +1,104 @@
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0007b13"/>儀嗟乎。此子闇與理諧。激揚清波。恥汨
+
+修訂後：
+<lb n="0007b13"/>儀嗟乎。此子闇與理諧。激揚清波。恥<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>
+
+修訂前：
+<lb n="0293b10"/>也。示人剋的。若是何汨沒於此乎。時眾愕然。
+
+修訂後：
+<lb n="0293b10"/>也。示人剋的。若是何<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒於此乎。時眾愕然。
+
+修訂前：
+<lb n="0444c06"/>愛利汨沒世途。如短販人有少希求而忘大
+
+修訂後：
+<lb n="0444c06"/>愛利<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒世途。如短販人有少希求而忘大
+
+修訂前：
+<lb n="0458a03"/>嘗不遍。思惟轉昏汨亂精魂。將心止動轉止
+
+修訂後：
+<lb n="0458a03"/>嘗不遍。思惟轉昏<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>亂精魂。將心止動轉止
+
+修訂前：
+<lb n="0462b25"/>戒三毒瘡痍幾時<note n="0462005" resp="Taisho" type="orig" place="foot text">瘥＝差【明】</note><app n="0462005"><lem>瘥</lem><rdg wit="【明】" resp="Taisho">差</rdg></app>。若覓禪我自縱橫汨碖
+
+修訂後：
+<lb n="0462b25"/>戒三毒瘡痍幾時<note n="0462005" resp="Taisho" type="orig" place="foot text">瘥＝差【明】</note><app n="0462005"><lem>瘥</lem><rdg wit="【明】" resp="Taisho">差</rdg></app>。若覓禪我自縱橫<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>碖
+
+修訂前：
+<lb n="0583c20"/>汨沒四生。致使正見不明觸途成滯。若也是
+
+修訂後：
+<lb n="0583c20"/><app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒四生。致使正見不明觸途成滯。若也是
+
+修訂前：
+<lb n="0624a11"/>教我背眾而食。所不願也。師既汨沒於土木。
+
+修訂後：
+<lb n="0624a11"/>教我背眾而食。所不願也。師既<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒於土木。
+
+修訂前：
+<lb n="0730b27"/>證今果。至此思報其往德。恐大士汨沒於俗
+
+修訂後：
+<lb n="0730b27"/>證今果。至此思報其往德。恐大士<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒於俗
+
+修訂前：
+<lb n="0871a04"/>帶青黑味兼鹹苦。洪濤浩<note n="0871002" resp="Taisho" type="orig" place="foot text">汗＝污【甲】</note><app n="0871002"><lem>汗</lem><rdg wit="【甲】" resp="Taisho">污</rdg></app>驚波汨
+
+修訂後：
+<lb n="0871a04"/>帶青黑味兼鹹苦。洪濤浩<note n="0871002" resp="Taisho" type="orig" place="foot text">汗＝污【甲】</note><app n="0871002"><lem>汗</lem><rdg wit="【甲】" resp="Taisho">污</rdg></app>驚波<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>
+
+修訂前：
+<lb n="0871b22"/>河出&CB00024;嶺北原。西北而流。浩汗渾濁汨&CB04420;漂
+
+修訂後：
+<lb n="0871b22"/>河出&CB00024;嶺北原。西北而流。浩汗渾濁<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>
+
+修訂前：
+<lb n="0884b25"/>鏡汨
+
+修訂後：
+<lb n="0884b25"/>鏡<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>
+
+修訂前：
+<lb n="0885c02"/>雕石為岸殊形異類。激水清流汨
+
+修訂後：
+<lb n="0885c02"/>雕石為岸殊形異類。激水清流<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>
+
+修訂前：
+<lb n="0676b06"/>中留不住。又吹漁笛汨羅灣。上堂。九月二十
+
+修訂後：
+<lb n="0676b06"/>中留不住。又吹漁笛<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>羅灣。上堂。九月二十
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

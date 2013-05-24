@@ -1,0 +1,26 @@
+cvs 修復前比對修訂：
+修訂日期：2003/5/30
+
+修訂前：
+<lb n="0821b04"/>應親近。來為說法不悕親<note n="0821005" resp="Taisho" type="orig" place="foot text">俠＝狹【甲】＊，狎？＊</note><note n="0821005" resp="CBETA" type="mod"><todo type="i"/>俠＝狹【甲】＊，＝狎？＊</note><app n="0821005"><lem>俠</lem><rdg wit="【甲】" resp="Taisho">狹</rdg></app>
+
+修訂後：
+<lb n="0821b04"/>應親近。來為說法不悕親<note n="0821005" resp="Taisho" type="orig" place="foot text">俠＝狹【甲】＊，狎？＊</note><note n="0821005" resp="CBETA" type="mod">俠＝狹【甲】＊，<todo type="i"/>＝狎？＊</note><app n="0821005"><lem>俠</lem><rdg wit="【甲】" resp="Taisho">狹</rdg></app>
+
+修訂前：
+
+修訂後：
+
+
+
+
+
+
+
+
+
+
+
+
+
+

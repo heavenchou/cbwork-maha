@@ -1,0 +1,78 @@
+cvs 修訂前比對修訂：
+修訂日期：2003/6/3
+
+修訂前：
+<lb n="0335a26"/><p>　　　├┤</p>
+
+修訂後：
+<lb n="0335a26"/><p>　　　├┤　　　　　　　　　　　　<figure entity="FigT40033501"/></p>
+
+修訂前：
+<lb n="0335a28"/><p>十六句┘└自作止犯通四行<note place="inline">自起不學</note>　　　止犯<note place="inline">不乞造<note n="0335007" resp="Taisho" type="orig" place="foot text">居＝房【甲】</note><app n="0335007"><lem>居</lem><rdg wit="【甲】" resp="Taisho">房</rdg></app></note></p><p><figure entity="FigT40033501"/></p>
+
+修訂後：
+<lb n="0335a28"/><p>十六句┘└自作止犯通四行<note place="inline">自起不學</note>　　　止犯<note place="inline">不乞造<note n="0335007" resp="Taisho" type="orig" place="foot text">居＝房【甲】</note><app n="0335007"><lem>居</lem><rdg wit="【甲】" resp="Taisho">房</rdg></app></note></p>
+
+修訂前：
+<lb n="0335b11"/><p>　　　├┤</p>
+修訂後：
+<lb n="0335b11"/><p>　　　├┤　　　　　　　　　　　　<figure entity="FigT40033502"/></p>
+
+修訂前：
+<lb n="0335b13"/><p>十六句┘└後修止犯通四行<note place="inline">作意斷學</note>　　　止犯<note place="inline">現不與欲</note></p><p><figure entity="FigT40033502"/></p>
+
+修訂後：
+<lb n="0335b13"/><p>十六句┘└後修止犯通四行<note place="inline">作意斷學</note>　　　止犯<note place="inline">現不與欲</note></p>
+
+修訂前：
+<lb n="0799c26"/><p><note n="0799021" resp="Taisho" type="orig" place="foot text">〔方便品…安詳而起〕三十字－【聖】，已下經文準之</note><note n="0799021" resp="CBETA" type="mod"><todo type="i"/>〔方便品…安詳而起〕三十字－【聖】，已下經文準之</note>
+
+修訂後：
+<lb n="0799c26"/><p><note n="0799021" resp="Taisho" type="orig" place="foot text">〔方便品…安詳而起〕三十字－【聖】，已下經文準之</note><note n="0799021" resp="CBETA" type="mod">〔方便品…安詳而起〕三十字－【聖】，<todo type="i"/>已下經文準之</note>
+
+
+
+「找不到對應的校勘」作業：
+修訂日期：2003/06/11
+
+
+修訂前：
+<lb n="0574a29"/>疑有僻等同上。<anchor id="fxT40p0574a01"/>三隔瞋心者。不欲和解犯
+
+修訂後：
+<lb n="0574a29"/>疑有僻等同上。三<anchor id="fxT40p0574a01"/>隔瞋心者。不欲和解犯
+
+
+程式抓錯＊校勘，原應對應到 <note> 校勘：
+修訂日期：2003/06/27 
+
+修訂前：
+<lb n="0724a14"/>提智皆不能斷。<note n="0724015" resp="Taisho" type="orig" place="foot text">或＝惑【甲】＊</note><app n="0724015"><lem>或</lem><rdg wit="【甲】" resp="Taisho">惑</rdg></app>障<app type="＊" source="0722012"><lem>雖</lem><rdg resp="Taisho" wit="【甲】">&lac;</rdg></app>
+
+修訂後：
+<lb n="0724a14"/>提智皆不能斷。<note n="0724015" resp="Taisho" type="orig" place="foot text">或＝惑【甲】＊</note><app n="0724015"><lem>或</lem><rdg wit="【甲】" resp="Taisho">惑</rdg></app>障<anchor id="fxT40p0724a07"/>雖
+
+修訂前：
+
+
+修訂後：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

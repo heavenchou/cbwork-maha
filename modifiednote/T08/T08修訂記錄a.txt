@@ -1,0 +1,19 @@
+T08 修訂記錄
+
+
+T08n0222 屬性中 M 碼
+<lb n="0198c19"/>詣諸佛樹。其樹則為根莖枝<corr resp="maha" cf1="K05_p0605a15 &M031108;" cf2="G05_p0148b07 葉" sic="棄">葉</corr>華實。皆為七
+改為
+<lb n="0198c19"/>詣諸佛樹。其樹則為根莖枝<corr resp="maha" cf1="K05_p0605a15 M031108" cf2="G05_p0148b07 葉" sic="棄">葉</corr>華實。皆為七
+Modified By Ray 1999/11/11 10:52AM
+
+n0223
+<note type="sk"n="024405a">以上大般若第二會第十一譬喻品.梵.iti Sarvasattv&amacron; grat&amacron;citta mahatva&mdotblw;.</note>
+改為
+<note type="sk" n="024405a">以上大般若第二會第十一譬喻品.梵.iti Sarvasattv&amacron; grat&amacron;citta mahatva&mdotblw;.</note>
+Modified by Ray 1999/11/11 10:58AM
+
+n0223
+<note type="sk"n="025908">以上大般若第二會第十八修治品.梵.iti Bh&umacron;mi sambh&amacron;ra&hdotblw;.</note></p>
+->
+<note type="sk" n="025908">以上大般若第二會第十八修治品.梵.iti Bh&umacron;mi sambh&amacron;ra&hdotblw;.</note></p>

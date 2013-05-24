@@ -1,0 +1,10 @@
+call comp.bat ahan
+call comp.bat benyuan
+call comp.bat boruo
+call comp.bat FaHua
+call comp.bat HuaYan
+call comp.bat BaoJi
+call comp.bat Vinaya
+call comp.bat ZhonGuan
+call comp.bat YogaCara
+call comp.bat LunJi

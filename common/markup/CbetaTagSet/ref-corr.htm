@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>新網頁1</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;corr> 修訂 －－ 取消此標記，修訂改用 &lt;<a href="ref-app.htm">app</a>&gt;</h1> 
+<p align="right"><!--webbot bot="Timestamp" startspan S-Type="EDITED"
+S-Format="%Y/%m/%d" -->2008/02/21<!--webbot bot="Timestamp" I-CheckSum="12438"
+endspan -->
+</p>
+<p align="left"><br>
+一般使用大正藏的使用者，所用有新文豐、世樺、白馬等出版社的所印的大正藏影印本。而這些大正藏影印本，在處理經文的用字上，常常有貼錯等現象。另一情形是日本原版大正藏已經是錯別字了。</p>
+<p align="left">CBETA 在校對這一方面，是收集三處他人所輸入的電子檔進行比對，在比對當中所出現的差異字，經過校勘相關版本後，以&lt;corr resp="?" sic="?">…&lt;/corr>標記訂正該差異字。在&lt;corr>中"sic"的屬性是錯的原文字，有"resp"屬性則記錄該訂正者的名字，有"cert"屬性可以記錄它的確實性。</p> 
+<h2 align="left">Attributes</h2>
+<blockquote>
+  <p align="left">resp(負責人), cf1(參考資訊), cf2(參考資訊), sic(原文), cert(確定程度)</p> 
+  <p align="left">cert</p>
+  <blockquote>
+    <p align="left">cert 屬性不是 100 時，普及版不採用這個 &lt;corr></p>
+  </blockquote>
+</blockquote>
+<h2 align="left">範例</h2>
+<blockquote>
+  <p align="left">如《大方廣佛華嚴經》卷第三（T09.278.411a）的「依止處空住」的「處」字，經過"maha"君回查高麗藏及蹟砂藏時，校勘出「處」字應為「虛」字才對，因此以</p>
+  <p align="left">&lt;corr resp="maha" cf1="K08_p0019c05 虛" cf2="  G07_p0361c20 虛" sic="處">虛&lt;/corr></p> 
+  <p align="left">標記該「處」字。<br><br>【大正藏】：T09n0278_p0411a10</p>
+	<blockquote>
+		<p align="left">經文</p>
+		<p align="left">或勝光明起		清淨暉焰照<br>眾妙莊嚴剎		依止處空住<br>或有光明剎		依止光明住</p>
+	</blockquote>
+	<p align="left">【XML電子檔】：</p>
+	<blockquote>
+		<p align="left">&lt;lb n="0411a10"/>&lt;l>或勝光明起&lt;/l>&lt;l>清淨暉焰照&lt;/l><br>&lt;lb n="0411a11"/>&lt;l>眾妙莊嚴剎&lt;/l>&lt;l>依止<br>&lt;corr resp="maha" cf1="K08_p0019c05 虛" cf2="  G07_p0361c20 虛"&nbsp;<br>sic="處">虛&lt;/corr><br>空住&lt;/l><br>&lt;lb n="0411a12"/>&lt;l>或有光明剎&lt;/l>&lt;l>依止光明住&lt;/l></p>
+	</blockquote>
+</blockquote> 
+<h2 align="left">範例 (找不到＊)</h2> 
+<blockquote> 
+  <p align="left">大正藏的某字，以「＊經」表示，可是查不到「＊經」的第一筆校勘條目，此時將「＊」以&lt;corr sic="＊">&amp;lac;&lt;/corr>標記即可。</p> 
+  <p align="left">【大正藏】：T08n0225_p0508b13</p>
+	<blockquote>
+    <p align="left">經文</p>
+	<p align="left">[26]佛說明度[27][[＊]&gt;]經卷第[28]六</p>
+	<p align="left">校勘條目<br>
+	[<a id="f0508026" onblur="abc(&quot;f0508026&quot;,&quot;white&quot;)" style="BACKGROUND-COLOR: white" onfocus="abc(&quot;f0508026&quot;,&quot;lightblue&quot;)" onclick="return footOnClick(&quot;0508026&quot;)">0508026</a>] 
+	佛說＝大【宋】【元】【明】【宮】【聖】<br>
+	[<a id="f0508027" onblur="abc(&quot;f0508027&quot;,&quot;white&quot;)" onfocus="abc(&quot;f0508027&quot;,&quot;lightblue&quot;)" onclick="return footOnClick(&quot;0508027&quot;)">0508027</a>] 
+	（無極）＋經【明】【聖】<br>
+	[<a id="f0508028" onblur="abc(&quot;f0508028&quot;,&quot;white&quot;)" onfocus="abc(&quot;f0508028&quot;,&quot;lightblue&quot;)" onclick="return footOnClick(&quot;0508028&quot;)">0508028</a>] 
+	六＝四【聖】<br>
+　</p> 
+  </blockquote>
+	<p align="left">【XML電子檔】：</p>
+  <blockquote>
+    <p align="left">&lt;corr sic="＊">&amp;lac;&lt;/corr>經卷第<br> 
+    </p> 
+  </blockquote> 
+</blockquote> 
+ 
+</body> 
+ 
+</html>

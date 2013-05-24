@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;div1&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;div1> 品、會、分等大段落</h1> 
+<p align="right">$Date: 2006/03/06 03:04:44 $ 
+</p> 
+<p align="left">Div1可以跨多卷</p>
+<h2 align="left">Attributes</h2>
+<blockquote>
+  <p align="left">type</p>
+  <blockquote>
+    <p align="left">dharani(咒), hui(會), jing(經), pin(品), toc(目次), w(卷末附文), dummy(空的), xu(序), other(其他)<br> 
+    lg, 例: T29n1561<br>
+    廣釋, 例: T21n1361<br> 
+    梵文, 例: T21n1392<br> 
+    續補, 例: T21n1419</p> 
+  </blockquote> 
+</blockquote> 
+<h2 align="left">可包含的子元素</h2>
+<blockquote>
+  <p align="left">juan, head, title, trailer</p> 
+  <p align="left">最好至少有一個head，原TEI只能有一個head，CBETA允許多個head</p>
+</blockquote>
+<h2 align="left">普及版輸出規則</h2>
+<blockquote>
+  <p align="left">附文 &lt;div1 type="w"></p> 
+  <blockquote> 
+    <p align="left">附文在輸出普及版時，為區別正文，一律內縮一格。</p>
+  </blockquote>
+  <p align="left">後序 &lt;div1 type="xu"></p> 
+  <blockquote> 
+    <p align="left">後序在輸出普及版時，原則上不內縮。但若大正藏有內縮，如：</p>
+    <p align="left">T15n0620_p0342b06║後序<br>
+    T15n0620_p0342b07║　河西王從弟優婆塞大沮渠安陽侯。於于<br>
+    T15n0620_p0342b08║　填國。衢摩帝大寺。金剛阿練若住處。天竺</p>
+  </blockquote>
+  <p align="left">若無暇考證，則維持大正藏編排，在XML中以&lt;p rend="　">表示：</p>
+  <p align="left">&lt;lb n="0342b06"/>&lt;div1 type="xu">&lt;head>後序&lt;/head><br> 
+  &lt;lb n="0342b07"/>&lt;p rend="　">河西王從弟優婆塞大沮渠安陽侯。於于<br>
+  &lt;lb n="0342b08"/>填國。衢摩帝大寺。金剛阿練若住處。天竺<br> 
+  ‧‧‧&lt;/p>&lt;/div1></p> 
+</blockquote> 
+<h2 align="left">範例一</h2>
+<blockquote>
+  <p align="left">&lt;div1 type="jing"><br> 
+  &lt;title>般若波羅蜜多心經&lt;/title><br> 
+  ……<br> 
+  &lt;trailer>&lt;title>般若波羅蜜多心經&lt;/title>&lt;/trailer><br> 
+  &lt;/div1></p> 
+</blockquote> 
+<h2 align="left">範例</h2>
+<blockquote>
+  <p align="left">&lt;div1 type="jing"><br> 
+  &lt;juan fun="open">佛臨涅槃記法住經&lt;/juan><br> 
+  ……<br> 
+  &lt;juan fun="close" n="006">佛臨涅槃記法住經&lt;/juan><br> 
+  &lt;/div1></p> 
+</blockquote> 
+<h2 align="left">範例 (div1跨卷)</h2> 
+<blockquote> 
+  <p align="left">&lt;div1 type="jing"><br> 
+  &lt;juan fun="open" n="001">&lt;title>等集眾德三昧經&lt;/title>卷上&lt;/juan><br> 
+  ……<br> 
+  &lt;juan fun="close" n="001">&lt;title>等集眾德三昧經&lt;/title>卷上&lt;/juan><br> 
+  &lt;juan fun="open" n="002">&lt;title>等集眾德三昧經&lt;/title>卷中&lt;/juan><br> 
+  ……<br> 
+  &lt;juan fun="close" n="002">&lt;title>等集眾德三昧經&lt;/title>卷中&lt;/juan><br> 
+  &lt;juan fun="open" n="003">&lt;title>等集眾德三昧經&lt;/title>卷下&lt;/juan><br> 
+  ……<br> 
+  &lt;juan fun="close" n="003">&lt;title>等集眾德三昧經&lt;/title>卷下&lt;/juan><br> 
+  &lt;/div1></p> 
+</blockquote> 
+<h2 align="left">範例 (品跨卷)</h2> 
+<blockquote> 
+  <p align="left">一經論多卷多品時以「品」為div1<br>
+  &lt;div1 type="pin"><br> 
+  &lt;juan fun="open" n="001"><br> 
+    &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第一&lt;/jhead><br> 
+  &lt;/juan><br> 
+  &lt;byline>．．．&lt;/byline><br> 
+  &lt;head>世間淨眼品第一&lt;/head><br> 
+  ．．．<br> 
+  &lt;juan fun="open" n="002"><br> 
+    &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第二&lt;/jhead><br> 
+    &lt;byline>東晉天竺三藏佛馱跋陀羅譯&lt;/byline><br> 
+    &lt;head>世間淨眼品第一之二&lt;/head><br> 
+  &lt;/juan><br> 
+  ．．．<br> 
+  &lt;/div1></p> 
+</blockquote> 
+<h2 align="left">範例 (缺卷)</h2> 
+<blockquote> 
+  <p align="left">T19, n0946<br> 
+  &lt;lb n="0165c15"/><br> 
+  &lt;div1 type="dummy"><br> 
+  &lt;juan n="003">&lt;/juan>&lt;!--原經文卷三缺--><br> 
+  &lt;/div1><br> 
+  </p> 
+</blockquote> 
+ 
+</body> 
+ 
+</html>

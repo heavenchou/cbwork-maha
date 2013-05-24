@@ -1,0 +1,226 @@
+%PDF-1.2
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+ BT /F2 40 Tf 231.68 426 Td (法鼓全集) Tj ET
+ BT /F1 20 Tf 264.44 396 Td (聖嚴法師 著) Tj ET
+endstream
+endobj
+
+8 0 obj
+93
+endobj
+
+10 0 obj
+<<
+/Length 11 0 R
+>>
+stream
+0 0 m 612 792 l S
+0 792 m 612 0 l S
+endstream
+endobj
+
+11 0 obj
+36
+endobj
+
+14 0 obj
+<<
+/Length 15 0 R
+>>
+stream
+ BT /F1 20 Tf 147.76 300 Td (by Fabien Tassin <fta@oleane.net>) Tj ET
+endstream
+endobj
+
+15 0 obj
+70
+endobj
+
+3 0 obj
+<<
+/Title (Title of TOC)
+/Last 12 0 R
+/First 4 0 R
+/Count 3
+/Dest [2 0 R /Fit null null null]
+/Next 13 0 R
+/Parent 16 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Title (Section 1)
+/Dest [2 0 R /Fit null null null]
+/Next 5 0 R
+/Parent 3 0 R
+>>
+endobj
+
+5 0 obj
+<<
+/Title (Section 2)
+/Last 6 0 R
+/First 6 0 R
+/Prev 4 0 R
+/Count -1
+/Dest [2 0 R /Fit null null null]
+/Next 12 0 R
+/Parent 3 0 R
+>>
+endobj
+
+6 0 obj
+<<
+/Title (Subsection 1)
+/Dest [2 0 R /Fit null null null]
+/Parent 5 0 R
+>>
+endobj
+
+12 0 obj
+<<
+/Title (Section 3)
+/Prev 5 0 R
+/Dest [9 0 R /Fit null null null]
+/Parent 3 0 R
+>>
+endobj
+
+13 0 obj
+<<
+/Title (Summary)
+/Prev 3 0 R
+/Dest [9 0 R /Fit null null null]
+/Parent 16 0 R
+>>
+endobj
+
+16 0 obj
+<<
+/Last 13 0 R
+/Count 5
+/First 3 0 R
+/Type /Outlines
+>>
+endobj
+
+17 0 obj
+<<
+/PageMode /UseOutlines
+/Outlines 16 0 R
+/Type /Catalog
+/Pages 18 0 R
+>>
+endobj
+
+18 0 obj
+<<
+/Count 2
+/Type /Pages
+/Kids [1 0 R]
+>>
+endobj
+
+19 0 obj
+<<
+/Subtype /Type1
+/Type /Font
+/Encoding /WinAnsiEncoding
+/Name /F1
+/BaseFont /Helvetica
+>>
+endobj
+
+20 0 obj
+<<
+/Subtype /Type1
+/Type /Font
+/Encoding /WinAnsiEncoding
+/Name /F2
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+1 0 obj
+<<
+/MediaBox [0 0 612 792]
+/Count 2
+/Type /Pages
+/Kids [2 0 R 9 0 R]
+/Parent 18 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Contents [7 0 R 14 0 R]
+/Type /Page
+/Resources <<
+/ProcSet [/PDF /Text]
+/Font <<
+/F1 19 0 R
+/F2 20 0 R
+>>
+>>
+/Parent 1 0 R
+>>
+endobj
+
+9 0 obj
+<<
+/Contents [10 0 R]
+/Type /Page
+/Parent 1 0 R
+>>
+endobj
+
+21 0 obj
+<<
+/Creator (CBETA)
+/Title (CBETA PDF Version)
+/Author (Ray Chou)
+/Keywords (Sutra, Tripitaka)
+/Subject (Buddhism)
+/Type /Info
+/Producer (PDF::Create version 0.01)
+>>
+endobj
+
+xref
+0 22
+0000000000 65535 f 
+0000001564 00000 n 
+0000001667 00000 n 
+0000000430 00000 n 
+0000000571 00000 n 
+0000000672 00000 n 
+0000000821 00000 n 
+0000000009 00000 n 
+0000000155 00000 n 
+0000001813 00000 n 
+0000000174 00000 n 
+0000000265 00000 n 
+0000000913 00000 n 
+0000001015 00000 n 
+0000000285 00000 n 
+0000000410 00000 n 
+0000001116 00000 n 
+0000001190 00000 n 
+0000001282 00000 n 
+0000001341 00000 n 
+0000001450 00000 n 
+0000001880 00000 n 
+trailer
+<<
+/Size 22
+/Root 17 0 R
+/Info 21 0 R
+>>
+startxref
+2064
+%%EOF

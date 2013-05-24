@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>milestone</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;milestone&gt;</h1>   
+<p align="right">$Date: 2005/11/23 03:40:18 $</p>   
+<p align="left">marks the boundary between sections of a text, as indicated by 
+changes in a standard reference system.</p> 
+   
+<h2 align="left">Attributes</h2> 
+   
+<blockquote>
+<h3 align="left">unit</h3> 
+   
+  <blockquote>
+<p align="left">單位, unit=&quot;juan&quot; 表示分卷.</p> 
+   
+  </blockquote>
+<h3 align="left">n</h3> 
+   
+  <blockquote>
+<p align="left">n=&quot;1&quot; 表示第一卷.</p> 
+   
+  </blockquote>
+</blockquote>
+   
+<h2>卷、頁、行的順序</h2>
+<blockquote>
+	<p>&lt;pb ed=&quot;T&quot; id=&quot;T01.0024.0310a&quot; n=&quot;0310a&quot;/&gt;<br>
+	&lt;lb n=&quot;0310a01&quot;/&gt;<br>
+	&lt;milestone unit=&quot;juan&quot; n=&quot;1&quot;/&gt;<br>
+	&lt;head type=&quot;no&quot;&gt;No. 24 [No. 1(30), Nos. 23, 25]&lt;/head&gt;</p>
+</blockquote>
+   
+<h2 align="left">範例</h2>
+<blockquote>
+  <h3>卷數不連續</h3>
+  <blockquote>
+    <p>T19n0946 沒有卷三. </p>
+    <p>&lt;milestone unit=&quot;juan&quot; n=&quot;<b>4</b>&quot;/&gt;&lt;lb n=&quot;0165c16&quot;/&gt;&lt;div1 type=&quot;pin&quot;&gt;<br>
+    &lt;lb n=&quot;0165c17&quot;/&gt;&lt;juan fun=&quot;open&quot; n=&quot;004&quot;&gt;&lt;mulu type=&quot;卷&quot; n=&quot;004&quot;/&gt;&lt;jhead&gt;大佛頂廣聚陀羅尼經卷第四&lt;/jhead&gt;&lt;/juan&gt;<br>
+    ......... <br>
+    ......... <br>
+    &lt;milestone unit=&quot;juan&quot; n=&quot;<b>5</b>&quot;/&gt; <br>
+    &lt;lb n=&quot;0172b06&quot;/&gt;&lt;div1 type=&quot;pin&quot;&gt; <br>
+    &lt;lb n=&quot;0172b07&quot;/&gt;&lt;juan fun=&quot;open&quot; n=&quot;005&quot;&gt;&lt;mulu type=&quot;卷&quot; n=&quot;005&quot;/&gt;&lt;jhead&gt;大佛頂廣聚陀羅尼經卷第五&lt;/jhead&gt;&lt;/juan&gt;
+    </p>
+  </blockquote>
+	<h3>大正藏卷首資訊標多卷, 其實只有一卷</h3>
+	<blockquote>
+		<p>X72n1435</p>
+		<p>&lt;milestone unit=&quot;juan&quot; n=&quot;<b>13</b>&quot;/&gt;<br>
+		&lt;juan fun=&quot;open&quot; n=&quot;013&quot;&gt;&lt;mulu type=&quot;卷&quot; n=&quot;13&quot;/&gt;&lt;jhead&gt;無異禪師廣錄卷第<b>十三之十五</b>&lt;/jhead&gt;&lt;/juan&gt;
+		<br>
+		.. ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+		... ... ... ... <br>
+		&lt;milestone unit=&quot;juan&quot; n=&quot;<b>14</b>&quot;/&gt;<br>
+		&lt;juan fun=&quot;open&quot; n=&quot;014&quot;&gt;&lt;mulu type=&quot;卷&quot; n=&quot;16&quot;/&gt;&lt;jhead&gt;無異禪師廣錄卷第<b>十六</b>&lt;/jhead&gt;&lt;/juan&gt;</p>
+	</blockquote>
+</blockquote>
+   
+</body>   
+   
+</html>

@@ -1,0 +1,85 @@
+
+cvs 修復前比對修訂：
+修訂日期：2003/5/30
+
+修訂前：
+<note n="0109020" resp="Taisho" type="orig" place="foot text">十誦律卷第十六第三誦之三＝十誦律第三誦卷第十六【聖】【聖乙】卷末題同之，以下諸卷皆同</note><note n="0109020" resp="CBETA" type="mod"><todo type="i"/>十誦律卷第十六第三誦之三＝十誦律第三誦卷第十六【聖】【聖乙】，卷末題同之，以下諸卷皆同</note><app n="0109020"><lem><title>十誦律</title>卷第十六<note place="inline">第三誦之三</note></lem><rdg wit="【聖】【聖乙】" resp="Taisho">十誦律第三誦卷第十六</rdg></app>
+
+修訂後： 
+<note n="0109020" resp="Taisho" type="orig" place="foot text">十誦律卷第十六第三誦之三＝十誦律第三誦卷第十六【聖】【聖乙】卷末題同之，以下諸卷皆同</note><note n="0109020" resp="CBETA" type="mod">十誦律卷第十六第三誦之三＝十誦律第三誦卷第十六【聖】【聖乙】，<todo type="i"/>卷末題同之，以下諸卷皆同</note><app n="0109020"><lem><title>十誦律</title>卷第十六<note place="inline">第三誦之三</note></lem><rdg wit="【聖】【聖乙】" resp="Taisho">十誦律第三誦卷第十六</rdg></app>
+
+修訂前：
+<lb n="0208a15"/>徐徐作。久<note n="0208006" resp="Taisho" type="orig" place="foot text">〔久〕－【聖】【聖乙】＊，〔久不…若〕百九十一字－【宮】</note><note n="0208006" resp="CBETA" type="mod"><todo type="i"/>〔久〕－【聖】【聖乙】＊，〔久不…若〕百九十一字－【宮】</note><app n="0208006"><lem>久</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>
+
+修訂後： 
+<lb n="0208a15"/>徐徐作。久<note n="0208006" resp="Taisho" type="orig" place="foot text">〔久〕－【聖】【聖乙】＊，〔久不…若〕百九十一字－【宮】</note><note n="0208006" resp="CBETA" type="mod">〔久〕－【聖】【聖乙】＊，<todo type="i"/>〔久不…若〕百九十一字－【宮】</note><app n="0208006"><lem>久</lem><rdg wit="【聖】【聖乙】" resp="Taisho">&lac;</rdg></app>
+
+修訂前：
+<lb n="0221a04"/>比丘。有比丘<note n="0221001" resp="Taisho" type="orig" place="foot text">〔僧〕－【三】【官】＊</note><note n="0221001" resp="CBETA" type="mod">〔僧〕－【宋】【元】【明】【官】＊</note><app n="0221001"><lem>僧</lem><rdg wit="【宋】【元】【明】【官】" resp="Taisho">&lac;</rdg></app>
+
+修訂後： 
+<lb n="0221a04"/>比丘。有比丘<note n="0221001" resp="Taisho" type="orig" place="foot text">〔僧〕－【三】【宮】＊</note><note n="0221001" resp="CBETA" type="mod">〔僧〕－【宋】【元】【明】【宮】＊</note><app n="0221001"><lem>僧</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修訂前：
+<lb n="0229b06"/>竟。僧當與我出罪。憐愍故。<note n="0229005" resp="Taisho" type="orig" place="foot text">〔第二我更說〕－【宋】【元】【宮】，（（第二…故））二百八十二字＝（（如是三說））四字【聖】</note><note n="0229005" resp="CBETA" type="mod"><todo type="i"/>〔第二我更說〕－【宋】【元】【宮】，（（第二…故））二百八十二字＝（（如是三說））四字【聖】</note><app n="0229005"><lem>第二我更說</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修訂後： 
+<lb n="0229b06"/>竟。僧當與我出罪。憐愍故。<note n="0229005" resp="Taisho" type="orig" place="foot text">〔第二我更說〕－【宋】【元】【宮】，（（第二…故））二百八十二字＝（（如是三說））四字【聖】</note><note n="0229005" resp="CBETA" type="mod">〔第二我更說〕－【宋】【元】【宮】，<todo type="i"/>（（第二…故））二百八十二字＝（（如是三說））四字【聖】</note><app n="0229005"><lem>第二我更說</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修訂前：
+<lb n="0258a04"/><p><note n="0258001" resp="Taisho" type="orig" place="foot text">此亦復如是五字宋元明宮四本作偈文，此＝比【宋】【元】</note><note n="0258001" resp="CBETA" type="mod"><todo type="i"/>此＝比【宋】【元】，此亦復如是五字宋元明宮四本作偈文</note><app n="0258001"><lem>此</lem><rdg wit="【宋】【元】" resp="Taisho">比</rdg></app>
+
+修訂後： 
+<lb n="0258a04"/><p><note n="0258001" resp="Taisho" type="orig" place="foot text">此亦復如是五字宋元明宮四本作偈文，此＝比【宋】【元】</note><note n="0258001" resp="CBETA" type="mod">此＝比【宋】【元】，<todo type="i"/>此亦復如是五字宋元明宮四本作偈文</note><app n="0258001"><lem>此</lem><rdg wit="【宋】【元】" resp="Taisho">比</rdg></app>
+
+修訂前：
+<lb n="0395c04"/>他比丘。不得<note n="0395036" resp="Taisho" type="orig" place="foot text">波逸提＝波夜提【三】【宮】下同，但宋元二本混用</note><note n="0395036" resp="CBETA" type="mod"><todo type="i"/>波逸提＝波夜提【宋】【元】【明】【宮】下同，但宋元二本混用</note><app n="0395036"><lem>波逸提</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">波夜提</rdg></app>
+
+修訂後： 
+<lb n="0395c04"/>他比丘。不得<note n="0395036" resp="Taisho" type="orig" place="foot text">波逸提＝波夜提【三】【宮】下同，但宋元二本混用</note><note n="0395036" resp="CBETA" type="mod">波逸提＝波夜提【宋】【元】【明】【宮】下同，<todo type="i"/>但宋元二本混用</note><app n="0395036"><lem>波逸提</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">波夜提</rdg></app>
+
+修訂前：
+<note n="0402016" resp="Taisho" type="orig" place="foot text">卷第五十四第九誦之四首【宋】【元】【宮】，卷第五十九第九誦之四首【明】，〔問〕－【三】【宮】</note><note n="0402016" resp="CBETA" type="mod"><todo type="i"/>〔問〕－【宋】【元】【明】【宮】，卷第五十四第九誦之四首【宋】【元】【宮】，卷第五十九第九誦之四首【明】</note>
+
+修訂後： 
+<note n="0402016" resp="Taisho" type="orig" place="foot text">卷第五十四第九誦之四首【宋】【元】【宮】，卷第五十九第九誦之四首【明】，〔問〕－【三】【宮】</note><note n="0402016" resp="CBETA" type="mod">〔問〕－【宋】【元】【明】【宮】，<todo type="i"/>卷第五十四第九誦之四首【宋】【元】【宮】，卷第五十九第九誦之四首【明】</note>
+
+修訂前：
+<note n="0410001" resp="Taisho" type="orig" place="foot text">第五十六＝第五十五【宋】【元】【宮】，第六十【明】下至五十七准之</note><note n="0410001" resp="CBETA" type="mod"><todo type="i"/>第五十六＝第五十五【宋】【元】【宮】，＝第六十【明】，下至五十七准之</note>
+
+修訂後： 
+<note n="0410001" resp="Taisho" type="orig" place="foot text">第五十六＝第五十五【宋】【元】【宮】，第六十【明】下至五十七准之</note><note n="0410001" resp="CBETA" type="mod">第五十六＝第五十五【宋】【元】【宮】，＝第六十【明】，<todo type="i"/>下至五十七准之</note>
+
+修訂前：
+<lb n="0467b11"/>若語餘人起。得突吉羅<anchor id="fxT23p0467b01"/>罪。從今日&CB00308;<note n="0467011" resp="Taisho" type="orig" place="foot text">&CB01770;＝陛【宋】，&CB00170;【光】【明】＊</note><note n="0467011" resp="CBETA" type="mod">&CB01770;＝陛【宋】，＝&CB00170;【光】【明】＊</note><app n="0467011"><lem>&CB01770;</lem><rdg wit="【宋】" resp="Taisho">陛</rdg><rdg wit="【光】【明】" resp="Taisho">&CB00170;</rdg></app>長
+
+修訂後： 
+<lb n="0467b11"/>若語餘人起。得突吉羅<anchor id="fxT23p0467b01"/>罪。從今日&CB00308;<note n="0467011" resp="Taisho" type="orig" place="foot text">&CB01770;＝陛【宋】，&CB00170;【元】【明】＊</note><note n="0467011" resp="CBETA" type="mod">&CB01770;＝陛【宋】，＝&CB00170;【元】【明】＊</note><app n="0467011"><lem>&CB01770;</lem><rdg wit="【宋】" resp="Taisho">陛</rdg><rdg wit="【元】【明】" resp="Taisho">&CB00170;</rdg></app>長
+
+修訂前：
+<lb n="0490a25"/><div1 type="other"><mulu type="其他" level="1" n="8" label="8 波利婆沙磨那埵羯磨"/><head>波利婆沙<note n="0490004" resp="Taisho" type="orig" place="foot text">磨＝摩【二】【宮】＊</note><app n="0490004"><lem>磨</lem><rdg wit="【二】【宮】" resp="Taisho">摩</rdg></app>
+
+修訂後： 
+<lb n="0490a25"/><div1 type="other"><mulu type="其他" level="1" n="8" label="8 波利婆沙磨那埵羯磨"/><head>波利婆沙<note n="0490004" resp="Taisho" type="orig" place="foot text">磨＝摩【三】【宮】＊</note><app n="0490004"><lem>磨</lem><rdg wit="【三】【宮】" resp="Taisho">摩</rdg></app>
+
+修訂前：
+<lb n="0597c21"/><juan fun="open" n="006"><mulu type="卷" n="006"/><title><note n="0597012" resp="Taisho" type="orig" place="foot text">〔薩婆多部〕－【聖】，〔薩…羅〕九百三十九字－【知】</note><note n="0597012" resp="CBETA" type="mod"><todo type="i"/>〔薩婆多部〕－【聖】，〔薩…羅〕九百三十九字－【知】</note><app n="0597012"><lem>薩婆多部</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
+
+修訂後： 
+<lb n="0597c21"/><juan fun="open" n="006"><mulu type="卷" n="006"/><title><note n="0597012" resp="Taisho" type="orig" place="foot text">〔薩婆多部〕－【聖】，〔薩…羅〕九百三十九字－【知】</note><note n="0597012" resp="CBETA" type="mod">〔薩婆多部〕－【聖】，<todo type="i"/>〔薩…羅〕九百三十九字－【知】</note><app n="0597012"><lem>薩婆多部</lem><rdg wit="【聖】" resp="Taisho">&lac;</rdg></app>
+
+修訂前：
+<lb n="0802c15"/>醍醐上味持無用<note n="0802008" resp="Taisho" type="orig" place="foot text">酥＝蘇【束】【元】【宮】</note><app n="0802008"><lem>酥</lem><rdg wit="【束】【元】【宮】" resp="Taisho">蘇</rdg></app>
+
+修訂後： 
+<lb n="0802c15"/>醍醐上味持無用<note n="0802008" resp="Taisho" type="orig" place="foot text">酥＝蘇【宋】【元】【宮】</note><app n="0802008"><lem>酥</lem><rdg wit="【宋】【元】【宮】" resp="Taisho">蘇</rdg></app>
+
+修訂前：
+
+修訂後： 
+
+
+
+
+
+

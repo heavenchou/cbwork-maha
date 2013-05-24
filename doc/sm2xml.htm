@@ -1,0 +1,149 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SM 轉 XML 規則</title>
+<style>
+<!--
+h1           { font-family: Times New Roman }
+h2           { font-family: Times New Roman }
+body         { font-family: Verdana }
+-->
+</style>
+</head>
+
+<body>
+
+<h1 align="center">SM 轉 XML 規則</h1>
+<p align="right">$Date: 2006/09/14 08:39:09 $</p>
+<p align="left">行首標記：<a href="#q">Q</a>, <a href="#w">W</a></p>
+<p align="left">行中標記：<a href="#i_c">&lt;c&gt;</a>, <a href="#i_i">&lt;i&gt;</a>, 
+&lt;<a href="#i_mj">mj</a>&gt;, <a href="#ip">&lt;p=h1&gt;</a>, <a href="#iq">&lt;Q&gt;</a></p>
+<h1><a name="i_c"></a>&lt;c&gt; cell</h1>
+<p>&lt;c2&gt; =&gt; &lt;cell cols=&quot;2&quot;&gt;</p>
+<p>&lt;c r2&gt; =&gt; &lt;cell rows=&quot;2&quot;&gt;</p>
+<h1><a name="i_i"></a>&lt;i&gt; 側註</h1>
+<p>SM</p>
+<blockquote>
+	<p>&lt;i&gt;(....)&lt;/i&gt;</p>
+</blockquote>
+<p>XML</p>
+<blockquote>
+	<p>&lt;note place=&quot;interlinear&quot;&gt;....&lt;/note&gt;</p>
+</blockquote>
+<p>SM</p>
+<blockquote>
+	<p>X62n1193_p0529c14W##眾生皆劇苦何不且沈吟<b>&lt;i&gt;</b>(平心之論)<b>&lt;/i&gt;</b>　消落心兵成慧用不煩</p>
+</blockquote>
+<p>XML</p>
+<blockquote>
+	<p>&lt;lb ed=&quot;X&quot; n=&quot;0529c14&quot;/&gt;眾生皆劇苦何不且沈吟<b>&lt;note place=&quot;interlinear&quot;&gt;</b>平心之論<b>&lt;/note&gt;</b>　消落心兵成慧用不煩</p>
+</blockquote>
+<h1><a name="i_mj"></a>&lt;mj&gt; 開始新的一卷</h1>
+<p>milestone unit=&quot;juan&quot;</p>
+<p>2006-09-14 新增</p>
+<h1><a name="ip"></a>&lt;p=h1&gt;</h1>
+<p>&lt;p=h1&gt; 表示一個段落性的重複標題，標題層次為1, XML 轉成 &lt;p type=&quot;head1&quot;&gt;</p>
+<h1><a name="q"></a>Q</h1>
+
+<h2>標題之間允許空白行</h2>
+<blockquote>
+	<p># X01n0026_p0417c07Q#1大梵天王問佛決疑經 <br># X01n0026_p0417c08Q=1<br># X01n0026_p0417c09Q=1凡例</p>
+</blockquote>
+<h2>標題含夾註</h2>
+<blockquote>
+	<p>標題本身是夾註，轉出的 XML mulu label 裡的半形括號要拿掉。 </p>
+	<p>SM: X59n1084_p0336b13Q#1<b>(</b>入禪定偈<b>)</b><br>
+	</p>
+	<p>XML: &lt;mulu type=&quot;其他&quot; level=&quot;1&quot; label=&quot;<b>入禪定偈</b>&quot;/&gt;&lt;head&gt;&lt;note 
+	place=&quot;inline&quot;&gt;入禪定偈&lt;/note&gt;&lt;/head&gt;<br>
+	</p>
+	<p>但是夾註本身是標題的一部份，這種的半形括號就要保留。 </p>
+	<p>&lt;mulu type=&quot;其他&quot; level=&quot;2&quot; label=&quot;(附)略法界觀門頌&quot;/&gt;&lt;head&gt;&lt;note place=&quot;inline&quot;&gt;附 
+	</p>
+</blockquote>
+
+<h1><a name="iq"></a>&lt;Q&gt;</h1>
+<p>1. Q#1ＡＢＣ (原來的標題) <br>
+&lt;div1 type=&quot;other&quot;&gt;&lt;mulu type=&quot;其他&quot; level=&quot;1&quot; label=&quot;ＡＢＣ&quot;/&gt;&lt;head&gt;ＡＢＣ&lt;/head&gt;<br>
+<br>
+2. _##&lt;Q1 m=ＤＥＦ&gt;ＡＢＣ (標題更換目錄名) <br>
+&lt;div1 type=&quot;other&quot;&gt;&lt;mulu type=&quot;其他&quot; level=&quot;1&quot; label=&quot;ＤＥＦ&quot;/&gt;&lt;head&gt;ＡＢＣ&lt;/head&gt;<br>
+<br>
+3. _##&lt;Q1 m=&gt;ＡＢＣ (標題取消目錄)<br>
+&lt;div1 type=&quot;other&quot;&gt;&lt;head&gt;ＡＢＣ&lt;/head&gt;<br>
+<br>
+4. _##&lt;Q1 m=ＤＥＦ&gt;&lt;p&gt;ＡＢＣ.... (插入標題層次及目錄)<br>
+&lt;div1 type=&quot;other&quot;&gt;&lt;mulu type=&quot;其他&quot; level=&quot;1&quot; label=&quot;ＤＥＦ&quot;/&gt;&lt;p&gt;ＡＢＣ....<br>
+<br>
+5. _##&lt;Q1 m=&gt;&lt;p&gt;ＡＢＣ.... (插入層次不作目錄)<br>
+&lt;div1 type=&quot;other&quot;&gt;&lt;p&gt;ＡＢＣ....<br>
+<br>
+6. _##&lt;p=h1&gt;ＡＢＣ.... (表示一個段落性的重複標題，標題層次為1)<br>
+&lt;p id=&quot;pX55p0723a1401&quot; type=&quot;head1&quot;&gt;ＡＢＣ.... &lt;/p&gt;<br>
+<br>
+※ sm-&gt;normal 時，&lt;Qn....&gt;、&lt;p=h1&gt; 依 Qn 的層次空格，&lt;Qn....&gt;&lt;xx&gt; 先變成 &lt;xx&gt;，依 &lt;xx&gt; 格式空格。 <br>
+※ sm 要用到 m= 的，統一用 &lt;Qn....&gt; 不用 Q#1，而原來標記欄位的標記改標在 &lt;Qn....&gt; 後面。</p>
+
+<h1><a name="w"></a>W</h1>
+<p>1. 遇到 W, 會往下開一層 div. 如果希望它開 div2, 那就加 &lt;/Q2&gt; 把目前 div2 結束, 回到 div1, 遇到 W 就會開 
+div2. </p>
+<p>2. W 開始了新 div, 遇到沒有 W 了, div 就會結束, 不用特別加 div 結束標記, 如 &lt;/Q2&gt;.</p>
+<blockquote>
+	<p>X03n0221_p0636c06_##會竟。<b>&lt;/Q2&gt;</b><br>
+	X03n0221_p0636c07_##<br>
+	X03n0221_p0636c08<b>W</b>P#卍按。如來名號品及四聖諦品之記恐不傳歟。<br>
+	X03n0221_p0636c09_##<br>
+	X03n0221_p0636c10_##<br>
+	X03n0221_p0636c11_##<br>
+	X03n0221_p0636c12J##續華嚴略疏刊定記卷第四(本末合)(盡賢首品)<br>
+	X03n0221_p0636c13A##靜法寺沙門慧苑述<br>
+	X03n0221_p0636c14Q#2光明覺品第九Ｐ將釋此品。四門同前。</p>
+	<p>=&gt;</p>
+	<p>&lt;lb ed=&quot;X&quot; n=&quot;0636c06&quot;/&gt;會竟。&lt;/p&gt;&lt;/div2&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c07&quot;/&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c08&quot;/&gt;<b>&lt;div2 type=&quot;w&quot;&gt;</b>&lt;p 
+	id=&quot;pX03p0636c0801&quot;&gt;卍按。如來名號品及四聖諦品之記恐不傳歟。&lt;/p&gt;&lt;/div2&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c09&quot;/&gt;&lt;milestone unit=&quot;juan&quot; n=&quot;4&quot;/&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c10&quot;/&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c11&quot;/&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c12&quot;/&gt;&lt;juan fun=&quot;open&quot; n=&quot;4&quot;&gt;&lt;mulu type=&quot;卷&quot; 
+	n=&quot;4&quot;/&gt;&lt;jhead&gt;續華嚴略疏刊定記卷第四&lt;note place=&quot;inline&quot;&gt;本末合&lt;/note&gt;&lt;note 
+	place=&quot;inline&quot;&gt;盡賢首品&lt;/note&gt;&lt;/jhead&gt;&lt;/juan&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c13&quot;/&gt;&lt;byline type=&quot;author&quot;&gt;靜法寺沙門慧苑述&lt;/byline&gt;&lt;div1&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0636c14&quot;/&gt;&lt;div2 type=&quot;pin&quot;&gt;&lt;mulu type=&quot;品&quot; level=&quot;2&quot; 
+	label=&quot;光明覺品第九&quot;/&gt;&lt;head&gt;光明覺品第九&lt;/head&gt;&lt;p id=&quot;pX03p0636c1407&quot; 
+	place=&quot;inline&quot;&gt;將釋此品。四門同前。&lt;/p&gt;<br>
+&nbsp;</p>
+</blockquote>
+<p>如果希望它開 div3, 那就維持目前 div2, 遇到 W 就會往下開 div3. </p>
+<blockquote>
+	<p>X03n0221_p0725a20Q#2十地品第二十六Ｐ將釋此品。四門同前。<br>
+	X03n0221_p0725a21P##初釋名中[03]二□□□辨[04]品□□前中他化自在天會。<br>
+	----------------------------------------------------<br>
+	X03n0221_p0744b07_##復云何通。Ｐ答彼文但說十山依海。不說大海即是<br>
+	X03n0221_p0744b08_##十山。上來明第六大段請分了。<br>
+	X03n0221_p0744b09_##<br>
+	X03n0221_p0744b10<b>W</b>P#卍按。大段第七說分[巳&gt;已]下。約半卷散逸。<br>
+	X03n0221_p0744b11_##</p>
+	<p>=&gt;</p>
+	<p>&lt;lb ed=&quot;X&quot; n=&quot;0725a20&quot;/&gt;&lt;div2 type=&quot;pin&quot;&gt;&lt;mulu type=&quot;品&quot; level=&quot;2&quot; 
+	label=&quot;十地品第二十六&quot;/&gt;&lt;head&gt;十地品第二十六&lt;/head&gt;&lt;p id=&quot;pX03p0725a2008&quot; 
+	place=&quot;inline&quot;&gt;將釋此品。四門同前。&lt;/p&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0725a21&quot;/&gt;&lt;p id=&quot;pX03p0725a2101&quot;&gt;初釋名中&lt;anchor 
+	id=&quot;fnX03p0725a03&quot;/&gt;二□□□辨&lt;anchor id=&quot;fnX03p0725a04&quot;/&gt;品□□前中他化自在天會。<br>
+	...<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0744b07&quot;/&gt;復云何通。&lt;/p&gt;&lt;p id=&quot;pX03p0744b0705&quot; 
+	place=&quot;inline&quot;&gt;答彼文但說十山依海。不說大海即是<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0744b08&quot;/&gt;十山。上來明第六大段請分了。&lt;/p&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0744b09&quot;/&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0744b10&quot;/&gt;<b>&lt;div3 type=&quot;w&quot;&gt;</b>&lt;p 
+	id=&quot;pX03p0744b1001&quot;&gt;卍按。大段第七說分&lt;app&gt;&lt;lem wit=&quot;【CBETA】&quot; 
+	resp=&quot;CBETA.maha&quot;&gt;已&lt;/lem&gt;&lt;rdg wit=&quot;【卍續】&quot;&gt;巳&lt;/rdg&gt;&lt;/app&gt;下。約半卷散逸。&lt;/p&gt;&lt;/div3&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0744b11&quot;/&gt;&lt;milestone unit=&quot;juan&quot; n=&quot;10&quot;/&gt;</p>
+</blockquote>
+
+</body>
+
+</html>

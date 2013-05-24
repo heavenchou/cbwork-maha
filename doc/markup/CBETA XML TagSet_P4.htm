@@ -1,0 +1,4209 @@
+<html>
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=big5" />
+  <title>CBETA XML TagSet</title>
+  <style>
+<!--
+p.MsoNormal
+{margin:0cm;
+margin-bottom:.0001pt;
+font-size:12.0pt;
+font-family:"Times New Roman";}
+ol
+{margin-bottom:0cm;}
+ul
+{margin-bottom:0cm;}
+table.MsoNormalTable
+{mso-style-parent:"";
+font-size:10.0pt;
+font-family:"Times New Roman";
+}
+a:link {
+	color: #0033FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF00FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #33FF66;
+}
+a {
+	font-size: 12pt;
+}
+h1 {
+	font-size: 14pt;
+	color: #FF6600;
+}
+.style4 {color: #000000}
+.style5 {color: #333333; }
+.style11 {
+	font-size: 12pt;
+	font-family: "新細明體";
+}
+.style12 {font-family: "新細明體"}
+body {
+	background-image: url(images/63.gif);
+}
+-->
+  </style>
+  <script language="JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0609101326_0) return;
+        window.mm_menu_0609101326_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609101326_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-FILDESC.html', '_blank');");
+  mm_menu_0609101326_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-fileDesc.html', '_blank');");
+   mm_menu_0609101326_0.hideOnMouseOut=true;
+   mm_menu_0609101326_0.bgColor='#CCCCCC';
+   mm_menu_0609101326_0.menuBorder=1;
+   mm_menu_0609101326_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609101326_0.menuBorderBgColor='#FFFFFF';
+
+  window.mm_menu_0609112403_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609112403_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-REVDESC.html', '_blank');");
+  mm_menu_0609112403_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-revisionDesc.html', '_blank');");
+   mm_menu_0609112403_0.hideOnMouseOut=true;
+   mm_menu_0609112403_0.bgColor='#CCCCCC';
+   mm_menu_0609112403_0.menuBorder=1;
+   mm_menu_0609112403_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609112403_0.menuBorderBgColor='#FFFFFF';
+
+  window.mm_menu_0609112836_0 = new Menu("root",67,18,"",12,"#CC33FF","#FFFFFF","#FFCC99","#CC6600","center","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_0609112836_0.addMenuItem("TEI&nbsp;P4","window.open('http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-ENCDESC.html', '_blank');");
+  mm_menu_0609112836_0.addMenuItem("TEI&nbsp;P5","window.open('http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-encodingDesc.html', '_blank');");
+   mm_menu_0609112836_0.hideOnMouseOut=true;
+   mm_menu_0609112836_0.bgColor='#CCCCCC';
+   mm_menu_0609112836_0.menuBorder=1;
+   mm_menu_0609112836_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0609112836_0.menuBorderBgColor='#FFFFFF';
+
+  
+                              
+                    
+  mm_menu_0609112836_0.writeMenus();
+} // mmLoadMenus()
+//-->
+  </script>
+  <script language="JavaScript" src="mm_menu.js"></script></head>
+<body lang=ZH-TW>
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<div class=Section1>
+<h1 class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US style='font-size:20.0pt;color:#FF6600'>
+CBETA XML
+</span>
+<span style='font-size:20.0pt;font-family:新細明體;color:#FF6600'>
+P4 標籤集
+</span>
+</b>
+</h1>
+<p class=MsoNormal align=center style='text-align:right'>
+<b>
+<span lang=EN-US
+style='font-size:20.0pt;color:#333399'>
+&nbsp;
+</span>
+</b>
+最近更新日期：
+<!-- #BeginDate format:IS1 -->2009-04-24<!-- #EndDate -->
+</p><p class=MsoNormal align=center style='text-align:right'>
+</p><p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>
+CBETA XML
+</span>
+<span
+style='font-family:新細明體'>
+文件目前使用
+</span>
+<span lang=EN-US>
+Big5 Encoding，
+</span>
+<span
+style='font-family:新細明體'>
+標記採用國際標準
+</span>
+<span lang=EN-US>
+TEI，
+</span>
+<span
+style='font-family:新細明體'>
+在
+</span>
+<span lang=EN-US>
+TEI
+</span>
+<span
+style='font-family:新細明體'>
+裏找不到合適的才會自訂標記
+</span>
+<span lang=EN-US>
+，
+</span>
+<span
+style='font-family:新細明體'>
+或自定標記屬性
+</span>
+<span lang="en-us">
+。
+</span>
+<span style='font-family:新細明體'>
+一個
+</span>
+<span lang=EN-US>
+CBETA XML
+</span>
+<span style='font-family:新細明體'>
+檔內部架構分為
+</span>
+<span lang=EN-US>
+檔頭（Header）
+</span>
+<span style='font-family:新細明體'>
+及
+</span>
+<span lang=EN-US>
+本文（Text）
+</span>
+<span
+style='font-family:新細明體'>
+兩部份：
+</span>
+</p><p class=MsoNormal> 　 </p>
+<h1 class=MsoNormal style1>
+<span lang=EN-US>
+一、
+&nbsp;
+</span>
+<b>
+<span lang=EN-US>
+XML
+</span>
+<span
+style='font-family:新細明體'>
+經文檔的整體架構介紹
+</span>
+</b>
+</h1>
+<p class=MsoNormal>
+<b>
+<span lang=EN-US style='color:blue'>
+&nbsp;
+</span>
+</b>
+</p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse'>
+<tr style='height:19.3pt'>
+<td width=369 colspan=3 style='width:277.1pt;border:solid black 1.0pt;
+background:#FFFF99;padding:0cm 0cm 0cm 0cm;height:19.3pt'>
+<p class=MsoNormal align=center style='text-align:center'>
+<span lang=EN-US>
+Element
+</span>
+<span style='font-family:新細明體'>
+元素
+</span>
+</p></td>
+<td width=529 style='width:14.0cm;border:solid black 1.0pt;border-left:none;
+background:#FFFF99;padding:0cm 0cm 0cm 0cm;height:19.3pt'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span
+style='font-family:新細明體'>
+範例
+</span>
+</b>
+</p></td>
+</tr>
+<tr style='height:34.0pt'>
+<td width=369 colspan=3 style='width:277.1pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                TEI.2
+                &gt;
+</span>
+</p></td>
+<td width=529 rowspan=4 style='width:14.0cm;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+?xml version=
+&quot;
+                1.0
+                &quot; 
+                encoding=
+&quot;
+                big5
+                &quot; 
+                ?
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+?xml:stylesheet type=
+                &quot;
+                text/xsl
+                &quot;
+                href=
+                &quot;
+                ../dtd/cbeta.xsl
+                &quot; 
+                ?
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+!DOCTYPE TEI.2 SYSTEM 
+&quot;
+../dtd/cbetaxml.dtd”
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+TEI.2
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　</span>
+<span lang=EN-US>
+&lt;
+teiHeader
+&gt;
+</span>
+<span
+style='font-family:新細明體'>
+…
+</span>
+<span lang=EN-US>
+&lt;
+/teiHeader
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　</span>
+<span lang=EN-US>
+&lt;
+text
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　　</span>
+<span lang=EN-US>
+&lt;
+body
+&gt;
+</span>
+<span
+style='font-family:新細明體'>
+…
+</span>
+<span lang=EN-US>
+&lt;
+/body
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　
+</span>
+<span lang=EN-US>
+&lt;
+                /text
+&gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                /TEI.2
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:34.0pt'>
+<td width=60 style='width:45.0pt;border:solid black 1.0pt;border-top:none;
+padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=309 colspan=2 style='width:232.1pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                teiHeader
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:34.0pt'>
+<td width=60 style='width:45.0pt;border:solid black 1.0pt;border-top:none;
+padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=309 colspan=2 style='width:232.1pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                text
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:34.0pt'>
+<td width=60 style='width:45.0pt;border:solid black 1.0pt;border-top:none;
+padding:0cm 0cm 0cm 0cm;height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=72 style='width:54.0pt;border-top:none;border-left:none;border-bottom:
+solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=237 style='width:178.1pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:34.0pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                body
+                &gt;
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p>
+<h1 class=MsoNormal style1>
+<b>
+<span lang=EN-US>
+二、依檔頭、本文兩大類介紹 CBETA 目前所使用的標記
+</span>
+</b>
+</h1>
+<blockquote>
+<h1 class=MsoNormal style1>
+<b>
+<span lang="en-us">
+1. 檔頭（Header）
+</span>
+</b>
+</h1>
+<blockquote>
+<p class=MsoNormal>
+<span lang="en-us">
+檔頭標籤集分成以下三類：
+</span>
+</p>
+<ul>
+<li>
+<p class=MsoNormal>
+<span lang="en-us">
+<a href="#fileDesc"> File Description </a>
+本電子檔書目資訊描述
+</span>
+</p></li>
+<li>
+<p class=MsoNormal>
+<span lang="en-us">
+<a href="#encodingDesc"> Encoding Description </a>
+電子版與來源之間的關係描述
+</span>
+</p></li>
+<li>
+<p class=MsoNormal>
+<span lang="en-us">
+<a href="#revisionDesc"> Revision Description </a>
+修訂摘要記錄
+</span>
+</p></li>
+</ul>
+</blockquote>
+</blockquote>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse'>
+<tr style='height:18.95pt'>
+<td width=373 colspan=6 style='border-left:1px solid black; border-right:1px solid black; border-bottom:1px solid black; width:279.75pt;border-top:1px solid #E6E6E6;background:#FFFF99;padding:0cm;
+height:18.95pt' valign="middle">
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+<span style='font-family:新細明體'>
+元素
+</span>
+</b>
+</p></td>
+<td width=529 style='width:14.0cm;border-top:1px solid #E6E6E6;border-left:
+1px solid;border-bottom:1px solid black;border-right:1px solid black;
+background:#FFFF99;padding:0cm;height:18.95pt' valign="middle">
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span
+style='font-family:新細明體'>
+範例
+</span>
+</b>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border-left:
+1.0pt solid black;border-bottom:medium none;border-right:1.0pt solid black;
+padding:0cm;height:1.0cm; border-top-color:inherit'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=348 colspan=5 valign=middle style='width:261.0pt;border-left:medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+padding:0cm;height:1.0cm; border-top-color:inherit'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                teiHeader
+                &gt;
+</span>
+</p></td>
+<td width=529 valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+padding:0cm;height:1.0cm; border-top-color:inherit'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=324 colspan=4 valign=middle style='width:243.0pt;border:solid black 1.0pt;
+border-left:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=style11>
+<a name="fileDesc"></a>
+&lt;
+fileDesc
+&gt; 
+檔案描述</p>
+</td>
+<td width=529 rowspan=18 valign=middle style='width:14.0cm;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='line-height:110%'>
+<span lang=EN-US>
+&lt;
+                fileDesc
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                titleStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                title
+                &gt;
+</span>
+<span style='font-family:新細明體'>
+卍
+</span>
+<span
+lang=EN-US>
+Xuzangjing, Electronic version, No. 001
+</span>
+<span
+style='font-family:新細明體'>
+圓覺經佚文
+</span>
+<span lang=EN-US>
+&lt;
+                /title
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                respStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                resp
+                &gt;
+                Electronic Version by
+                &lt;
+                /resp
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                name
+                &gt;
+                CBETA
+                &lt;
+                /name
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /respStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /titleStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                editionStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                edition
+                &gt;
+                $Revision: 1.2 $ (Big5)
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                date
+                &gt;
+                $Date: 2010/05/10 06:29:37 $
+                &lt;
+                /date
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /edition
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /editionStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                extent
+                &gt;
+                1
+</span>
+<span style='font-family:新細明體'>
+卷
+</span>
+<span
+lang=EN-US>
+&lt;
+                /extent
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                publicationStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                distributor
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                name
+                &gt;
+</span>
+<span style='font-family:新細明體'>
+中華電子佛典協會
+</span>
+<span
+lang=EN-US>
+(CBETA)
+                &lt;
+                /name
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                address
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                addrLine
+                &gt;
+                cbeta@ccbs.ntu.edu.tw
+                &lt;
+                /addrLine
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /address
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /distributor
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                availability
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                p
+                &gt;
+</span>
+<span lang=EN-US style='font-size:11.0pt;
+line-height:110%'>
+Available for non-commercial use when distributed with this header intact
+</span>
+<span lang=EN-US>
+.
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /p
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /availability
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                date
+                &gt;
+                $Date: 2010/05/10 06:29:37 $
+                &lt;
+                /date
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                /publicationStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　
+</span>
+<span
+lang=EN-US>
+&lt;
+                sourceDesc
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span style='font-family:新細明體'>
+　　　
+</span>
+<span
+lang=EN-US>
+&lt;
+                bibl
+                &gt;
+</span>
+<span style='font-family:新細明體'>
+卍
+</span>
+<span
+lang=EN-US>
+Xuzangjing Vol. 01, No. 001
+                &amp;
+                desc;
+                &lt;
+                /bibl
+                &gt;
+<br />
+</span>
+<span style='font-family:新細明體'>
+　
+</span>
+<span lang=EN-US>
+&lt;
+                /sourceDesc
+                &gt;
+</span>
+</p><p class=MsoNormal style='line-height:110%'>
+<span lang=EN-US>
+&lt;
+                /fileDesc
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border:solid black 1.0pt;
+border-left:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+
+<a href="http://www.tei-c.org/release/doc/tei-p4-doc/html/ref-TITSTMT.html" name="link3" target="_blank" id="link2">
+&lt;
+                titleStmt
+                &gt;
+</a>
+</span>
+<span
+style='font-family:新細明體'>
+標題陳述
+</span>
+</p>
+</td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a href="http://www.tei-c.org/P4X/ref-TITLE.html" target="_blank">
+&lt;
+                title
+                &gt;
+</a>
+</span>
+<span
+style='font-family:新細明體'>
+標題
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a href="http://www.tei-c.org/P4X/ref-RESP.html" target="_blank">
+&lt;
+                respStmt
+                &gt;
+</a>
+</span>
+<span
+style='font-family:新細明體'>
+負責人陳述
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>&lt;
+    resp
+    &gt;
+</span>
+
+
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                name
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                editionStmt
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+版本陳述
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                edition
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+版本
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                date
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+日期
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                extent
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+卷數
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                publicationStmt
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+出版描述
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                distributor
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+發行者
+</span>
+<span lang=EN-US>
+/
+</span>
+<span
+style='font-family:新細明體'>
+單位
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                name
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=96 valign=middle style='width:72.3pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                address
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                availability
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+著作權狀態
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                date
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+出版日期
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                sourceDesc
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+來源描述
+</span>
+</p></td>
+</tr>
+<tr style='height:25.5pt'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:25.5pt'>
+<p class=MsoNormal style='margin-top:6.0pt'>
+<span lang=EN-US>&lt;bibl&gt;</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=324 colspan=4 valign=middle style='width:243.0pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal><b><span lang=EN-US><span class="style4">
+<a name="encodingdesc">
+&lt;encodingDesc&gt;
+</a>
+</span>
+</span>
+
+
+<span class="style5"
+style='font-family:新細明體'>來源描述
+</span>
+</b>
+</p>
+</td>
+<td width=529 rowspan=2 valign=middle style='width:14.0cm;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                encodingDesc
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　
+</span>
+<span lang=EN-US>
+&lt;
+                projectDesc
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                p lang=
+                &quot;
+                eng
+                &quot; 
+                type=
+                &quot;
+                ly
+                &quot;
+                &gt;
+                Input by CBETA, OCR by CBETA
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                /p
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                p lang=
+                &quot;
+                chi
+                &quot; 
+                type=
+                &quot;
+                ly
+                &quot;
+                &gt;
+                CBETA
+</span>
+<span
+style='font-family:新細明體'>
+人工輸入，
+</span>
+<span lang=EN-US>
+CBETA
+</span>
+<span
+style='font-family:新細明體'>
+掃瞄辨識
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                /p
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span style='font-family:新細明體'>
+　
+</span>
+<span lang=EN-US>
+&lt;
+                /projectDesc
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                /encodingDesc
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-bottom:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:solid black 1.0pt;
+border-left:none;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border:solid black 1.0pt;
+border-left:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                projectDesc
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+計畫描述
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border:solid black 1.0pt;
+border-left:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=324 colspan=4 valign=middle style='width:243.0pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal><b>
+<a name="revisionDesc" id="revisionDesc"><span class="style4"> &lt;revisionDesc
+&gt;
+</span>
+</a>
+<span class="style4"
+style='font-family:新細明體'>修訂描述
+</span>
+</b>
+
+
+
+</p>
+</td>
+<td width=529 rowspan=5 valign=middle style='width:14.0cm;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal style='layout-grid-mode:char'>
+<span lang=EN-US>
+&lt;
+                revisionDesc
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　
+</span>
+<span lang=EN-US>
+&lt;
+                change
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                date
+                &gt;
+                2005/10/03 09:13:07
+                &lt;
+                /date
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                respStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　　
+</span>
+<span lang=EN-US>
+&lt;
+                name
+                &gt;
+                Zhou Bang-Xin
+                &lt;
+                /name
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　　
+</span>
+<span lang=EN-US>
+&lt;
+                resp
+                &gt;
+                ed.
+                &lt;
+                /resp
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                /respStmt
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                item
+                &gt;
+                Created initial TEI XML version with BASICX.BAT
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=EN-US>
+&lt;
+                /item
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　
+</span>
+<span lang=FR>
+&lt;
+                /change
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=FR>
+&lt;
+                !--
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　　
+</span>
+<span lang=FR>
+$Log: CBETA\040XML\040TagSet_P4.htm,v $
+Revision 1.2  2010/05/10 06:29:37  amtbgrace
+no message
+
+Revision 1.1  2009/05/07 05:50:57  amtbgrace
+no message
+
+Revision 1.11  2009/03/06 02:31:49  amtbgrace
+no message
+
+Revision 1.9  2009/03/06 02:12:44  amtbgrace
+no message
+
+Revision 1.7  2009/01/07 01:31:12  amtbgrace
+no message
+
+Revision 1.6  2008/07/29 07:27:57  amtbgrace
+no message
+
+Revision 1.5  2008/06/12 06:03:21  amtbgrace
+no message
+
+Revision 1.4  2008/06/10 01:19:41  amtbgrace
+no message
+
+Revision 1.3  2008/06/03 07:27:32  amtbgrace
+no message
+
+                新細明體'
+                >
+　　　
+Revision 1.2  2008/05/28 06:36:19  amtbgrace
+                新細明體'
+                >
+　　　
+no message
+                新細明體'
+                >
+　　　
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　　　
+</span>
+<span lang=FR>
+Revision 1.3
+                &nbsp; 
+                2005/10/04 07:12:40
+                &nbsp; 
+                grace
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　　　
+</span>
+<span lang=FR>
+modified:
+</span>
+<span style='font-family:
+新細明體'>
+跑卷檢查
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span style='font-family:
+新細明體'>
+　　
+</span>
+<span lang=FR>
+--
+                &gt;
+</span>
+</p><p class=MsoNormal style='layout-grid-mode:char'>
+<span lang=EN-US>
+&lt;
+                /revisionDesc
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=276 colspan=3 valign=middle style='width:206.65pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                change
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+變更內容
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                date
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+變更日期
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                respStmt
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+負責者敘述
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=25 valign=middle style='width:18.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=24 valign=middle style='width:18.0pt;border-top:none;border-left:none;
+border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 0cm 0cm 0cm;
+height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=48 valign=middle style='width:36.35pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=83 valign=middle style='width:62.05pt;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p></td>
+<td width=193 colspan=2 valign=middle style='width:144.6pt;border-top:none;
+border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                item
+                &gt;
+</span>
+<span
+style='font-family:新細明體'>
+項目
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p>
+<blockquote>
+<h1 class=MsoNormal>
+<b>
+<span lang=EN-US style='color:#FF6600'>
+2. 本文（Text）
+</span>
+<span
+style='font-family:新細明體;color:#FF6600'>
+裡
+</span>
+<span style='color:#FF6600'>
+&nbsp;
+              &lt;
+              body
+              &gt;
+              &nbsp;
+</span>
+<span style='font-family: 新細明體;color:#FF6600'>
+常用標籤與屬性：
+</span>
+</b>
+</h1>
+<blockquote>
+<p class=MsoNormal>
+<span lang="en-us">
+分成以下七類：
+<a name="back">
+</a>
+</span>
+</p>
+<ol>
+<li>
+<p class=MsoNormal>
+<a href="#1._最上層結構標籤集_"> 最上層結構標籤集 </a>
+</p></li>
+<li>
+<p class=MsoNormal>
+<a href="#2._Paragraph_Level_段落層標籤集_">
+<span lang=EN-US>
+Paragraph Level
+</span>
+<span
+style='font-family:新細明體;'>
+段落層標籤集
+</span>
+</a>
+</p></li>
+<li>
+<p class=MsoNormal>
+<a href="#3._Phrase_Level_片語層_">
+<span lang=EN-US>
+Phrase Level
+</span>
+<span style='font-family:
+新細明體;'>
+片語層
+</span>
+</a>
+</p></li>
+<li>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a href="#4._Milestone_tags_里程碑_"> Milestone tags 里程碑 </a>
+</span>
+</p></li>
+<li>
+<p class=MsoNormal>
+<span
+style='font-family:新細明體;'>
+<a href="#5._校勘_"> 校勘 </a>
+</span>
+</p></li>
+<li>
+<p class=MsoNormal>
+<a href="#6._Graphics_圖形_">
+<span lang=EN-US>
+Graphics
+</span>
+<span
+style='font-family:新細明體;'>
+圖形
+</span>
+</a>
+</p></li>
+<li>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a href="#7._表格_"> 表格 </a>
+</span>
+</p></li>
+</ol>
+<p class=MsoNormal> 　 </p><p class=MsoNormal> 　 </p></blockquote>
+</blockquote>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse'>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; background-position: 0% 0%; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll' valign="middle">
+<p class=MsoNormal align="left">
+<b>
+<font color="#000080">
+<a name="1._最上層結構標籤集_"> 1. 最上層結構標籤集 </a>
+</font>
+</b>
+</p><p class=MsoNormal align="left"> 　 </p></td>
+<td width=529 style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll' valign="middle"> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6' valign="middle">
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td width=529 style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6' valign="middle">
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1px solid black; width:279.75pt;border-top:medium none;padding:0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-div1.htm">
+&lt;
+                  div1
+                  &gt;
+</a>
+</span>
+<span
+style='color:black'>
+…
+</span>
+<span lang=EN-US
+style='color:black'>
+&lt;
+                div7
+                &gt;
+</span>
+</p></td>
+<td width=529 valign=middle style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid black;border-right:1.0pt solid black;
+padding:0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                text
+                &gt;
+                &lt;
+                body
+                &gt;
+<br />
+&lt;
+<b> div1 </b>
+type=
+                &quot;
+                fen
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot;
+                &gt;
+</span>
+瑜伽師地論卷第一
+<span
+lang=EN-US>
+<br />
+</span>
+　
+<span lang=EN-US>
+　
+                                                                        &lt;
+                byline type=
+                &quot;
+                Author
+                &quot;
+                &gt;
+</span>
+彌勒菩薩說
+<span
+lang=EN-US>
+&lt;
+                /byline
+                &gt;
+<br />
+</span>
+　
+<span lang=EN-US>
+　
+                                                                        &lt;
+                head
+                &gt;
+</span>
+本地分
+<span lang=EN-US>
+&lt;
+                /head
+                &gt;
+<br />
+</span>
+　
+<span lang=EN-US>
+&lt;
+<b> div2 </b>
+type=
+                &quot;
+                di
+                &quot; 
+                n=”1”
+                &gt;
+                &lt;
+                head
+                &gt;
+</span>
+五識身相應地
+<span lang=EN-US>
+&lt;
+                /head
+                &gt;
+<br />
+&lt;
+<b> div3 </b>
+type=
+                &quot;
+                zhang
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot;
+                &gt;
+                &lt;
+                head
+                &gt;
+</span>
+十七地總說
+<span lang=EN-US>
+&lt;
+                /head
+                &gt;
+<br />
+</span>
+　　
+<span lang=EN-US>
+…
+<br />
+&lt;
+                /div3
+                &gt;
+<br />
+</span>
+　　
+<span lang=EN-US>
+…
+<br />
+</span>
+　
+<span lang=EN-US>
+&lt;
+                /div2
+                &gt;
+<br />
+</span>
+　
+<span lang=EN-US>
+…
+<br />
+&lt;
+                /div1
+                &gt;
+<br />
+&lt;
+                /body
+                &gt;
+                &lt;
+                /text
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='border-left:medium none black; border-right:medium none black; border-bottom:medium none black; width:279.75pt;padding:0cm;height:1.0cm; border-top-color:inherit'> 　 </td>
+<td width=529 valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none black;border-right:medium none black;
+padding:0cm;height:1.0cm; border-top-color:inherit'>
+<p class=MsoNormal align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none">
+<b>
+<font color="#800080"> [Back </font>
+</b>
+</a>
+</span>
+<b>
+<a href="#back" style="text-decoration: none">
+<font color="#800080">
+<span lang=EN-US>
+]
+</span>
+</font>
+</a>
+</b>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal>
+<b>
+<span lang=EN-US style='color:blue'>
+&nbsp;
+</span>
+</b>
+</p><p class=MsoNormal> 　 </p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse'>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; background-position: 0% 0%; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<p class=MsoNormal>
+<b>
+<a name="2._Paragraph_Level_段落層標籤集_"> 2.
+<span lang=EN-US style='color:#000080'>
+Paragraph Level
+</span>
+<span
+style='color:#000080'>
+段落層標籤集
+</span>
+</a>
+</b>
+</p><p> 　 </p></td>
+<td width=529 style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td width=529 style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='width:279.75pt;border-top:none;border-left:
+solid black 1.0pt;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-p.htm">
+&lt;
+                  p
+                  &gt;
+</a>
+</span>
+段落 </p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                p 
+                id=
+                &quot;
+                pT01p0001b1201
+                &quot;
+                &gt;
+                如是我聞。
+                &lt;
+                /p
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                p id=
+                &quot;
+                pT01p0001b1205
+                &quot; 
+                place=
+                &quot;
+                inline
+                &quot;
+                &gt;
+                一時。佛在
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='width:279.75pt;border:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-list.htm">
+&lt;
+                  list
+                  &gt;
+</a>
+</span>
+列表 </p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang="en-us">
+&lt;
+                list
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA XML Elements/ref-item.htm">
+&lt;
+                  item </a>
+</span>
+<span lang="en-us">
+id=
+                &quot;
+                itemX01p0364b0101
+                &quot;
+                &gt;
+                十方三世一切佛
+                &lt;
+                /item
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang="en-us">
+&lt;
+                item 
+                id=
+                &quot;
+                itemX01p0364b0201
+                &quot;
+                &gt;
+                一切菩薩摩訶薩
+                &lt;
+                /item
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang="en-us">
+&lt;
+                item 
+                id=
+                &quot;
+                itemX01p0364b0301
+                &quot;
+                &gt;
+                摩訶般若波羅蜜
+                &lt;
+                /item
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang="en-us">
+.....
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                /list
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1px solid black; width:279.75pt;border-top:medium none;padding:0cm;height:1.0cm'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-lg.htm">
+&lt;
+                  lg
+                  &gt;
+</a>
+</span>
+<span
+style='color:black'>
+偈頌
+</span>
+</p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid black;border-right:1.0pt solid black;
+padding:0cm;height:1.0cm'>
+<p class=MsoNormal style='margin-top:0;layout-grid-mode:char; margin-bottom:0'>
+<span lang="en-us">
+&lt;
+                lg id=
+                &quot;
+                lgX09p0409c1401
+                &quot;
+                &gt;
+</span>
+</p><p class=MsoNormal style='margin-top:0;layout-grid-mode:char; margin-bottom:0'>
+<span lang="en-us">
+　
+</span>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-l.htm">
+&lt;
+                  l
+                  &gt;
+</a>
+</span>
+<span lang="en-us">
+普覺汝當知
+                &lt;
+                /l
+                &gt;
+                &lt;
+                l
+                &gt;
+                末世諸眾生
+                &lt;
+                /l
+                &gt;
+                &lt;
+                l
+                &gt;
+                欲求善知識
+                &lt;
+                /l
+                &gt;
+</span>
+</p><p class=MsoNormal style='margin-top:0;layout-grid-mode:char; margin-bottom:0'>
+<span lang="en-us">
+　
+                                                                        &lt;
+                l
+                &gt;
+                應當求正見
+                &lt;
+                /l
+                &gt;
+                &lt;
+                l
+                &gt;
+                心遠二乘法
+                &lt;
+                /l
+                &gt;
+</span>
+</p><p class=MsoNormal style='margin-top:0;layout-grid-mode:char; margin-bottom:0'>
+<span lang="en-us">
+&lt;
+                /lg
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0cm'>
+<td width=373 valign=middle style='border-left:medium none black; border-right:medium none black; border-bottom:medium none black; width:279.75pt;padding:0cm;height:1.0cm; border-top-color:inherit'> 　 </td>
+<td width=529 valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none black;border-right:medium none black;
+padding:0cm;height:1.0cm; border-top-color:inherit'>
+<p class=MsoNormal align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font color="#800080"> [Back </font>
+</a>
+</span>
+<span style="font-weight: 700">
+<a href="#back" style="text-decoration: none">
+<font color="#800080">
+<span lang=EN-US>
+]
+</span>
+</font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal>
+<b>
+<span lang=EN-US style='color:blue'>
+&nbsp;
+</span>
+</b>
+</p><p class=MsoNormal> 　 </p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse' height="503">
+<tr style='height:1.0pt'>
+<td style='background-position: 0% 0%; border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:17px; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<b>
+<a name="3._Phrase_Level_片語層_">
+<font size="3"> 3.
+<span lang=EN-US
+style='color:#000080'>
+Phrase Level
+</span>
+</font>
+<span style='color:#000080'>
+<font size="3"> 片語層 </font>
+</span>
+</a>
+</b>
+<p> 　 </p></td>
+<td style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:17px; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+</td>
+</tr>
+<tr style='height:1.0pt'>
+<td style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:23px; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:23px; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:1.0pt'>
+<td valign=middle style='width:279.75pt;border:1.0pt solid black;
+padding:0cm;height:101px'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-fan.htm">
+&lt;
+                  fan
+                  &gt;
+</a>
+</span>
+<span
+style='color:black'>
+反切音
+</span>
+</p></td>
+<td valign=middle style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+padding:0cm;height:100px'>
+<p class=MsoNormal style="margin-top: 0; margin-bottom: 0">
+<span lang=EN-US style='color:black'>
+T09, No. 264, p.0189, 
+                c17
+</span>
+</p><p class=MsoNormal style="margin-top: 0; margin-bottom: 0">
+<span lang="en-us">
+&lt;
+                fan
+                &gt;
+</span>
+</p><p class=MsoNormal style="margin-top: 0; margin-bottom: 0">
+<span lang="en-us">
+　
+                                                                        &lt;
+                zi
+                &gt;
+                哆
+                &lt;
+                /zi
+                &gt;
+</span>
+</p><p class=MsoNormal style="margin-top: 0; margin-bottom: 0">
+<span lang="en-us">
+　
+                                                                        &lt;
+                yin
+                &gt;
+                都餓切
+                &lt;
+                /yin
+                &gt;
+</span>
+</p><p class=MsoNormal style="margin-top: 0; margin-bottom: 0">
+<span lang="en-us">
+&lt;
+                /fan
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:1.0pt'>
+<td style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;border-top:medium none;padding:0cm;height:40px'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-note.htm">
+&lt;
+                  note
+                  &gt;
+</a>
+</span>
+<span
+style='color:black'>
+夾註
+</span>
+</p></td>
+<td style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+padding:0cm;height:40px'>
+<p class=MsoNormal>
+<span lang="en-us">
+X
+</span>
+<span lang=EN-US>
+01, No. 
+                001, p.0001, a08
+</span>
+</p><p class=MsoNormal>
+&lt;
+              note 
+              place=
+              &quot;
+              inline
+              &quot;
+              &gt;
+              一行
+              &lt;
+              /note
+              &gt;
+</p></td>
+</tr>
+<tr style='height:1.0pt'>
+<td style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;border-top:medium none;padding:0cm;height:80px'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-tt.htm">
+&lt;
+                  tt
+                  &gt;
+</a>
+</span>
+<span
+style='color:black'>
+悉曇字
+</span>
+</p></td>
+<td style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+padding:0cm;height:80px'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+T07, 
+                No. 220o, p.1110, a26
+</span>
+</p><p class=MsoNormal>
+<span lang="fr">
+&lt;
+                tt place=
+                &quot;
+                inline
+                &quot;
+                &gt;
+</span>
+</p><p class=MsoNormal> 　
+<span lang="fr">
+&lt;
+                t 
+                lang=
+                &quot;
+                san-sd
+                &quot;
+                &gt;
+                &amp;
+                SD-A557;
+                &lt;
+                /t
+                &gt;
+</span>
+</p><p class=MsoNormal> 　
+<span lang="fr">
+&lt;
+                t lang=
+                &quot;
+                chi
+                &quot;
+                &gt;
+                怛
+                &lt;
+                /t
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang="fr">
+&lt;
+                /tt
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr>
+<td width=373 style='width:279.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-entry.htm">
+&lt;
+                entry
+                &gt;
+</a>
+</font>
+<span style="FONT-FAMILY: 新細明體">
+<font size="3"> 辭書 或 註釋書 </font>
+</span>
+</p></td>
+<td width=529 style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              entry
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-form.htm">
+&lt;
+                form
+                &gt;
+</a>
+師資
+              &lt;
+              /form
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-def.htm">
+&lt;
+                def
+                &gt;
+</a>
+&lt;
+              p 
+              id=
+              &quot;
+              pX64p0314b0203
+              &quot; 
+              place=
+              &quot;
+              inline
+              &quot; 
+              rend=
+              &quot;
+              margin-left:1em
+              &quot;
+              &gt;
+              老氏曰。善人。不善人之師。不善人。善人之資。
+              &lt;
+              /p
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+              &lt;
+              /def
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              /entry
+              &gt;
+</font>
+</p></td>
+</tr>
+<tr>
+<td width=373 style='width:279.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-dialog.htm">
+&lt;
+              dialog
+              &gt;
+</a>
+有規則的問答段落 或 陳述、辯證 </font>
+</td>
+<td width=529 style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm;height:1.0cm'>
+<p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              dialog type=
+              &quot;
+              qa
+              &quot;
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-sp.htm">
+&lt;
+                sp </a>
+type=
+              &quot;
+              question
+              &quot;
+              &gt;
+              &lt;
+              p id=
+              &quot;
+              pX63p0009a2001
+              &quot;
+              &gt;
+              問。六趣三界廣大無邊。若唯觀心。何由免無窮之苦。
+              &lt;
+              /p
+              &gt;
+              &lt;
+              /sp
+              &gt;
+<br />
+&lt;
+              sp type=
+              &quot;
+              answer
+              &quot;
+              &gt;
+              &lt;
+              p 
+              id=
+              &quot;
+              pX63p0009a2101
+              &quot;
+              &gt;
+              答。三界業報。唯心所生。本若無心。於三界中。即出三界...
+              &lt;
+              /p
+              &gt;
+              &lt;
+              /sp
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              /dialog
+              &gt;
+</font>
+</p></td>
+</tr>
+<tr style='height:1.0pt'>
+<td valign=middle style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1px solid black; width:279.75pt;border-top:medium none;padding:0cm;height:35px'>
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-annals.htm">
+&lt;
+              annals
+              &gt;
+</a>
+編年史 </font>
+</td>
+<td valign=top style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid black;border-right:1.0pt solid black;
+padding:0cm;height:35px'>
+<p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              annals
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-date.htm">
+&lt;
+                date
+                &gt;
+</a>
+&lt;
+              p 
+              id=
+              &quot;
+              pJ01p0793a2701
+              &quot;
+              &gt;
+              六年辛未
+              &lt;
+              /p
+              &gt;
+              &lt;
+              /date
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3"> 　
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-event.htm">
+&lt;
+                event
+                &gt;
+</a>
+&lt;
+              p 
+              id=
+              &quot;
+              pJ01p0793a2801
+              &quot; 
+              rend=
+              &quot;
+              margin-left:1em
+              &quot;
+              &gt;
+              師三歲...
+              &lt;
+              /p
+              &gt;
+              &lt;
+              /event
+              &gt;
+</font>
+</p><p style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+&lt;
+              /annals
+              &gt;
+</font>
+</p></td>
+</tr>
+<tr style='height:1.0pt'>
+<td valign=middle style='border-left:medium none black; border-right:medium none black; border-bottom:medium none black; width:279.75pt;padding:0cm;height:35px; border-top-color:inherit'> 　 </td>
+<td valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none black;border-right:medium none black;
+padding:0cm;height:35px; border-top-color:inherit'>
+<p align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font color="#800080" size="3"> [Back] </font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal align="right">
+<span lang=EN-US style='color:blue'>
+&nbsp;
+</span>
+</p><p class=MsoNormal>
+<b>
+<span lang=EN-US style='color:blue'>
+&nbsp;
+</span>
+</b>
+</p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse' height="624">
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; background-position: 0% 0%; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<span lang=EN-US style='color:#000080; font-weight:700'>
+<a name="4._Milestone_tags_里程碑_">
+<font size="3"> 4. Milestone tags 里程碑 </font>
+</a>
+</span>
+<p> 　 </p></td>
+<td width=529 style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td width=529 style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='width:279.75pt;border-top:none;border-left:
+solid black 1.0pt;border-bottom:none;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-milestone.htm">
+&lt;
+                  milestone
+                  &gt;
+</a>
+</span>
+</p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                milestone unit=
+                &quot;
+                juan
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot;
+                /
+                &gt;
+</span>
+</p><p class=MsoNormal> … </p><p class=MsoNormal> 佛說長阿含經卷第一 </p><p class=MsoNormal> … </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                milestone unit=
+                &quot;
+                juan
+                &quot; 
+                n=
+                &quot;
+                2
+                &quot;
+                /
+                &gt;
+</span>
+佛說長阿含經卷第二 </p><p class=MsoNormal> … </p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='width:279.75pt;border:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-juan.htm">
+&lt;
+                  juan
+                  &gt;
+</a>
+</span>
+卷 </p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                juan fun=
+                &quot;
+                open
+                &quot; 
+                n=
+                &quot;
+                001
+                &quot;
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-jhead.htm">
+&lt;
+                  jhead
+                  &gt;
+</a>
+</span>
+</p><p class=MsoNormal> 　　
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-title.htm">
+&lt;
+                  title
+                  &gt;
+</a>
+</span>
+佛說長阿含經
+<span lang=EN-US>
+&lt;
+                /title
+                &gt;
+</span>
+卷第一 </p><p class=MsoNormal> 　
+<span lang=EN-US>
+&lt;
+                /jhead
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                /juan
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='width:279.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-pb.htm">
+&lt;
+                  pb
+                  &gt;
+</a>
+</span>
+頁碼 </p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=FR>
+&lt;
+                pb ed=
+                &quot;
+                T
+                &quot; 
+                id=
+                &quot;
+                T02.0099.0001a
+                &quot; 
+                n=
+                &quot;
+                0001a
+                &quot;
+                /
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+No. 99
+</span>
+</p><p class=MsoNormal> 　
+雜阿含經卷第一 </p><p class=MsoNormal> 宋天竺三藏求那跋陀羅譯 </p><p class=MsoNormal> … </p><p class=MsoNormal>
+<span lang=FR>
+&lt;
+                pb ed=
+                &quot;
+                T
+                &quot; 
+                id=
+                &quot;
+                T02.0099.0001b
+                &quot; 
+                n=
+                &quot;
+                0001b
+                &quot;
+                /
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='width:279.75pt;border:solid black 1.0pt;
+border-top:none;padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-lb.htm">
+&lt;
+                  lb
+                  &gt;
+</a>
+</font>
+</span>
+<span style='color:black'>
+<font size="3"> 行號 </font>
+</span>
+</p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:none;border-left:
+none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                lb n=
+                &quot;
+                0001a02
+                &quot;
+                /
+                &gt;
+                No. 99
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                lb n=
+                &quot;
+                0001a03
+                &quot;
+                /
+                &gt;
+</span>
+雜阿含經卷第一 </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                lb n=
+                &quot;
+                0001a04
+                &quot;
+                /
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                lb n=
+                &quot;
+                0001a05
+                &quot;
+                /
+                &gt;
+</span>
+宋天竺三藏求那跋陀羅譯 </p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1px solid black; width:279.75pt;border-top:medium none;padding:0cm; '>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-mulu.htm">
+&lt;
+                  mulu
+                  &gt;
+</a>
+</font>
+</span>
+<span style='color:black'>
+<font size="3"> 目錄 </font>
+</span>
+</p></td>
+<td width=529 valign=middle style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid black;border-right:1.0pt solid black;
+padding:0cm; '>
+<p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                mulu type=
+                &quot;
+</span>
+分
+<span lang=EN-US>
+&quot; 
+                level=
+                &quot;
+                1
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot; 
+                label=
+                &quot;
+                1
+</span>
+本地分
+<span
+lang=EN-US>
+&quot;
+                /
+                &gt;
+</span>
+本地分中五識身相應地第一 </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                mulu type=
+                &quot;
+</span>
+地
+<span lang=EN-US>
+&quot; 
+                level=
+                &quot;
+                2
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot; 
+                label=
+                &quot;
+                1
+</span>
+五識身相應地
+<span
+lang=EN-US>
+&quot;
+                /
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                mulu type=
+                &quot;
+</span>
+章
+<span lang=EN-US>
+&quot; 
+                level=
+                &quot;
+                3
+                &quot; 
+                n=
+                &quot;
+                1
+                &quot; 
+                label=
+                &quot;
+                1
+</span>
+章 十七地總說
+<span lang=EN-US>
+&quot;
+                /
+                &gt;
+</span>
+</p><p class=MsoNormal> … </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                mulu type=
+                &quot;
+</span>
+章
+<span lang=EN-US>
+&quot; 
+                level=
+                &quot;
+                3
+                &quot; 
+                n=
+                &quot;
+                2
+                &quot; 
+                label=
+                &quot;
+                2
+</span>
+章 五識身地總說
+<span lang=EN-US>
+&quot;
+                /
+                &gt;
+</span>
+… </p></td>
+</tr>
+<tr>
+<td width=373 valign=middle style='border-left:medium none black; border-right:medium none black; border-bottom:medium none black; width:279.75pt;padding:0cm; ; border-top-color:inherit'> 　 </td>
+<td width=529 valign=top style='width:14.0cm;border-left:
+medium none;border-bottom:medium none black;border-right:medium none black;
+padding:0cm; ; border-top-color:inherit'>
+<p align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font color="#800080" size="3"> [Back] </font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal align="left"> 　 </p><p class=MsoNormal align="left"> 　 </p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse' height="248">
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; background-position: 0% 0%; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<p class=MsoNormal>
+<span
+style='color:#000080; font-weight:700'>
+<a name="5._校勘_"> 5. 校勘 </a>
+</span>
+</p><p> 　 </p></td>
+<td width=529 style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td width=529 style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:86.6pt'>
+<td width=373 valign=middle style='width:279.75pt;border-top:medium none;border-left:
+1.0pt solid black;border-bottom:1px solid windowtext;border-right:1.0pt solid black;
+padding:0cm;height:86.6pt'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-app.htm">
+<font size="3">
+&lt;
+                  app
+                  &gt;
+</font>
+</a>
+</span>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-app.htm" style="text-decoration: none">
+<span lang=EN-US>
+&nbsp;
+</span>
+</a>
+校勘、修訂 </p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid windowtext;border-right:1.0pt solid black;
+padding:0cm;height:86.6pt'>
+<p class=MsoNormal> 例如
+<span lang=EN-US>
+T8, No. 235, p. 748, c19
+</span>
+第
+<span
+lang=EN-US>
+26
+</span>
+個校勘，
+<span
+lang=EN-US>
+<br />
+</span>
+大正藏作→姚秦 <b> 天竺三藏 </b>
+鳩摩羅什譯
+<span
+lang=EN-US>
+<br />
+</span>
+宮本作　→姚秦 <b> 三藏法師 </b>
+鳩摩羅什譯
+<span
+lang=EN-US style='color:#5F5F5F'>
+<font size="3">
+&shy;
+</font>
+</span>
+</p><p class=MsoNormal>
+<span style='color:black'>
+標記如下：
+</span>
+</p><p class=MsoNormal> 　 </p><p class=MsoNormal> 姚秦 </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                app n=
+                &quot;
+                074826
+                &quot;
+                &gt;
+</span>
+</p><p class=MsoNormal> 　
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-lem.htm">
+&lt;
+                  lem
+                  &gt;
+</a>
+</span>
+天竺三藏
+<span lang=EN-US>
+&lt;
+                /lem
+                &gt;
+</span>
+</p><p class=MsoNormal> 　
+<span lang=EN-US>
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-rdg.htm">
+&lt;
+                  rdg </a>
+wit=
+                &quot;
+</span>
+【宮】
+<span lang=EN-US>
+&quot;
+                &gt;
+</span>
+三藏法師
+<span lang=EN-US>
+&lt;
+                /rdg
+                &gt;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                /app
+                &gt;
+</span>
+鳩摩羅什譯 </p></td>
+</tr>
+<tr style='height:86.6pt'>
+<td width=373 valign=middle style='width:279.75pt;border-left:
+medium none black;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:31px; border-top-color:inherit'>
+</td>
+<td width=529 valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:31px; border-top-color:inherit'>
+<p align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font color="#800080" size="3"> [Back] </font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p class=MsoNormal> 　 </p></blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse' height="166">
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; background-position: 0% 0%; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<b>
+<span lang=EN-US style='color:#000080'>
+<a name="6._Graphics_圖形_">
+<font size="3"> 6. Graphics </font>
+</a>
+</span>
+<a name="6._Graphics_圖形_">
+<span
+style='color:#000080'>
+<font size="3"> 圖形 </font>
+</span>
+</a>
+</b>
+<p> 　 </p></td>
+<td width=529 style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td width=373 style='border-left:1.0pt solid black; border-right:1.0pt solid black; border-bottom:1.0pt solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td width=529 style='width:14.0cm;border-left:
+medium none;border-bottom:1.0pt solid black;border-right:1.0pt solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:86.6pt'>
+<td width=373 valign=middle style='width:279.75pt;border-top:medium none;border-left:
+1.0pt solid black;border-bottom:1px solid windowtext;border-right:1.0pt solid black;
+padding:0cm;height:86.6pt'>
+<p class=MsoNormal>
+<span lang=EN-US style='color:black'>
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-figure.htm">
+&lt;
+                  figure
+                  &gt;
+</a>
+</font>
+</span>
+<span style='color:black'>
+<font size="3">
+&nbsp;
+                插圖 </font>
+</span>
+</p></td>
+<td width=529 valign=top style='width:14.0cm;border-top:medium none;border-left:
+medium none;border-bottom:1px solid windowtext;border-right:1.0pt solid black;
+padding:0cm;height:86.6pt'>
+<p class=MsoNormal>
+<span lang=EN-US>
+T18, p. 178
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                !ENTITY FigT18017801 SYSTEM
+                &quot;
+                figures/18000101.gif
+                &quot;
+                &gt;
+</span>
+</p><p class=MsoNormal> … </p><p class=MsoNormal>
+<span lang=EN-US>
+&lt;
+                lb n=
+                &quot;
+                0178a10
+                &quot;
+                /
+                &gt;
+                &lt;
+                figure entity=
+                &quot;
+                FigT18017801
+                &quot;
+                &gt;
+                &lt;
+                /figure
+                &gt;
+</span>
+</p></td>
+</tr>
+<tr style='height:86.6pt'>
+<td width=373 valign=middle style='width:279.75pt;border-left:
+medium none black;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:26px; border-top-color:inherit'> 　 </td>
+<td width=529 valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:26px; border-top-color:inherit'>
+<p align="right">
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font color="#800080" size="3"> [Back] </font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+<p class=MsoNormal>
+<span lang=EN-US>
+&nbsp;
+</span>
+</p><p class=MsoNormal> 　 </p>
+<div align=center>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='border-collapse:collapse' id="table1" height="242">
+<tr style='height:18.95pt'>
+<td style='background-position: 0% 0%; border-left:medium none black; border-right:medium none black; border-bottom:1px solid black; width:279.75pt;border-top:medium none #E6E6E6;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'>
+<span lang=EN-US style='color:#000080; font-weight:700'>
+<a name="7._表格_">
+<font size="3"> 7. 表格 </font>
+</a>
+</span>
+<p> 　 </p></td>
+<td style='background-position: 0% 0%; width:14.0cm;border-top:medium none #E6E6E6;border-left:
+medium none;border-bottom:1px solid black;border-right:medium none black;
+padding:0cm;height:18.95pt; background-image:none; background-repeat:repeat; background-attachment:scroll'> 　 </td>
+</tr>
+<tr style='height:18.95pt'>
+<td style='border-left:1px solid black; border-right:1px solid black; border-bottom:1px solid black; width:279.75pt;background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b>
+<span lang=EN-US>
+Element
+</span>
+元素 </b>
+</p></td>
+<td style='width:14.0cm;border-left:
+1px solid;border-bottom:1px solid black;border-right:1px solid black;
+background:#FFFF99;padding:0cm;height:18.95pt; border-top-color:#E6E6E6'>
+<p class=MsoNormal align=center style='text-align:center'>
+<b> 範例 </b>
+</p></td>
+</tr>
+<tr style='height:86.6pt'>
+<td valign=middle style='width:279.75pt;border-top:1px solid;border-left:
+1px solid black;border-bottom:1px solid windowtext;border-right:1px solid black;
+padding:0cm;height:196px'>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font size="3">
+<a target="_blank" href="http://w3.cbeta.org/intranet/markup/CBETA%20XML%20Elements/ref-table.htm">
+&lt;
+                table
+                &gt;
+</a>
+&nbsp;
+              表格 </font>
+</p></td>
+<td valign=middle style='width:14.0cm;border-top:1px solid;border-left:
+1px solid;border-bottom:1px solid windowtext;border-right:1px solid black;
+padding:0cm;height:196px'>
+<font size="3">
+&lt;
+            table cols=
+            &quot;
+            3
+            &quot;
+            &gt;
+<br />
+<a target="_blank" href="http://www.tei-c.org/P4X/ref-ROW.html">
+&lt;
+              row
+              &gt;
+</a>
+<br />
+&lt;
+            cell
+            &gt;
+            戒珠淨土往生傳
+            &lt;
+            /cell
+            &gt;
+            &lt;
+            cell
+            &gt;
+            王古寶珠集
+            &lt;
+            /cell
+            &gt;
+            &lt;
+            cell
+            &gt;
+            新修往生傳
+            &lt;
+            /cell
+            &gt;
+<br />
+&lt;
+            /row
+            &gt;
+<br />
+&lt;
+            row
+            &gt;
+<br />
+&lt;
+            cell
+            &gt;
+            卷上一僧顯
+            &lt;
+            /cell
+            &gt;
+            &lt;
+            cell
+            &gt;
+            卷第一二僧顯
+            &lt;
+            /cell
+            &gt;
+            &lt;
+            cell
+            &gt;
+            卷上二僧顯
+            &lt;
+            /cell
+            &gt;
+<br />
+&lt;
+            /row
+            &gt;
+<br />
+.........
+<br />
+&lt;
+            /table
+            &gt;
+</font>
+</td>
+</tr>
+<tr style='height:86.6pt'>
+<td valign=middle style='width:279.75pt;border-left:
+medium none black;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:23px; border-top-color:inherit'> 　 </td>
+<td valign=middle style='width:14.0cm;border-left:
+medium none;border-bottom:medium none windowtext;border-right:medium none black;
+padding:0cm;height:23px; border-top-color:inherit'>
+<p align="right">
+<font size="3">
+&nbsp;
+</font>
+<span lang=EN-US style='color:blue'>
+<a href="#back" style="text-decoration: none; font-weight: 700">
+<font size="3" color="#800080"> [Back] </font>
+</a>
+</span>
+</p></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

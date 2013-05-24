@@ -1,0 +1,292 @@
+
+
+修訂日期：2003/5/09
+
+修訂前：
+<lb n="0387b11"/>佛　南無信戒佛南無樂實佛　南無明法
+
+修訂後：
+<lb n="0387b11"/>佛　南無信戒佛　南無樂實佛　南無明法
+
+cvs 修訂前比對修訂：
+修訂日期：2003/06/05
+
+修訂前：
+<note n="0117020" resp="Taisho" type="orig" place="foot text">〔丹本作陀〕夾註－【三】次下無三本俱夾註</note><note n="0117020" resp="CBETA" type="mod"><todo type="i"/>〔丹本作陀〕夾註－【宋】【元】【明】，次下無三本俱夾註</note>
+
+修訂後：
+<note n="0117020" resp="Taisho" type="orig" place="foot text">〔丹本作陀〕夾註－【三】次下無三本俱夾註</note><note n="0117020" resp="CBETA" type="mod">〔丹本作陀〕夾註－【宋】【元】【明】，<todo type="i"/>次下無三本俱夾註</note>
+
+修訂前：
+<note n="0118010" resp="Taisho" type="orig" place="foot text">〔丹本作聞〕夾註－【三】【宮】【中】次下同無夾註【三】【宮】【中】</note><note n="0118010" resp="CBETA" type="mod"><todo type="i"/>〔丹本作聞〕夾註－【宋】【元】【明】【宮】【中】，次下同無夾註【宋】【元】【明】【宮】【中】</note>
+
+修訂後：
+<note n="0118010" resp="Taisho" type="orig" place="foot text">〔丹本作聞〕夾註－【三】【宮】【中】次下同無夾註【三】【宮】【中】</note><note n="0118010" resp="CBETA" type="mod">〔丹本作聞〕夾註－【宋】【元】【明】【宮】【中】，<todo type="i"/>次下同無夾註【宋】【元】【明】【宮】【中】</note>
+
+修訂前：
+<note n="0123007" resp="Taisho" type="orig" place="foot text">〔丹眼〕夾註－【三】【宮】次下夾註順之</note><note n="0123007" resp="CBETA" type="mod"><todo type="i"/>〔丹眼〕夾註－【宋】【元】【明】【宮】，次下夾註順之</note><app n="0123007"><lem><note place="inline">丹眼</note>
+
+修訂後：
+<note n="0123007" resp="Taisho" type="orig" place="foot text">〔丹眼〕夾註－【三】【宮】次下夾註順之</note><note n="0123007" resp="CBETA" type="mod">〔丹眼〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下夾註順之</note>
+
+修訂前：
+<note n="0132008" resp="Taisho" type="orig" place="foot text">〔丹仙〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0132008" resp="CBETA" type="mod"><todo type="i"/>〔丹仙〕夾註－【宋】【元】【明】【宮】，次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0132008" resp="Taisho" type="orig" place="foot text">〔丹仙〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0132008" resp="CBETA" type="mod">〔丹仙〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0136013" resp="Taisho" type="orig" place="foot text">〔丹本寶〕夾註－【三】【宮】【中】　下無夾註【三】【宮】【中】</note><note n="0136013" resp="CBETA" type="mod"><todo type="i"/>〔丹本寶〕夾註－【宋】【元】【明】【宮】【中】，<corr sic="＆lac-space；" resp="CBETA.say">次</corr>下無夾註【宋】【元】【明】【宮】【中】</note>
+
+修訂後：
+<note n="0136013" resp="Taisho" type="orig" place="foot text">〔丹本寶〕夾註－【三】【宮】【中】　下無夾註【三】【宮】【中】</note><note n="0136013" resp="CBETA" type="mod">〔丹本寶〕夾註－【宋】【元】【明】【宮】【中】，<todo type="i"/><corr sic="＆lac-space；" resp="CBETA.say">次</corr>下無夾註【宋】【元】【明】【宮】【中】</note>
+
+修訂前：
+<note n="0140012" resp="Taisho" type="orig" place="foot text">〔丹幢〕夾註－【三】【宮】以下同無夾註</note><note n="0140012" resp="CBETA" type="mod"><todo type="i"/>〔丹幢〕夾註－【宋】【元】【明】【宮】，以下同無夾註</note>
+
+修訂後：
+<note n="0140012" resp="Taisho" type="orig" place="foot text">〔丹幢〕夾註－【三】【宮】以下同無夾註</note><note n="0140012" resp="CBETA" type="mod">〔丹幢〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>以下同無夾註</note>
+
+修訂前：
+<lb n="0142c03"/><note n="0142014" resp="Taisho" type="orig" place="foot text">〔丹釋〕夾註－【三】【宮】下同無夾註</note><note n="0142014" resp="CBETA" type="mod"><todo type="i"/>〔丹釋〕夾註－【宋】【元】【明】【宮】，下同無夾註</note>
+
+修訂後：
+<lb n="0142c03"/><note n="0142014" resp="Taisho" type="orig" place="foot text">〔丹釋〕夾註－【三】【宮】下同無夾註</note><note n="0142014" resp="CBETA" type="mod">〔丹釋〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>下同無夾註</note>
+
+修訂前：
+<note n="0150009" resp="Taisho" type="orig" place="foot text">〔丹蓋〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0150009" resp="CBETA" type="mod"><todo type="i"/>〔丹蓋〕夾註－【宋】【元】【明】【宮】，次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0150009" resp="Taisho" type="orig" place="foot text">〔丹蓋〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0150009" resp="CBETA" type="mod">〔丹蓋〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0155018" resp="Taisho" type="orig" place="foot text">〔丹持〕夾註－【三】【宮】【宮乙】次下無夾註</note><note n="0155018" resp="CBETA" type="mod"><todo type="i"/>〔丹持〕夾註－【宋】【元】【明】【宮】【宮乙】，次下無夾註</note>
+
+修訂後：
+<note n="0155018" resp="Taisho" type="orig" place="foot text">〔丹持〕夾註－【三】【宮】【宮乙】次下無夾註</note><note n="0155018" resp="CBETA" type="mod">〔丹持〕夾註－【宋】【元】【明】【宮】【宮乙】，<todo type="i"/>次下無夾註</note>
+
+修訂前：
+<note n="0163010" resp="Taisho" type="orig" place="foot text">〔丹大〕夾註－【三】【宮】，次下無夾註【三】【宮】</note><note n="0163010" resp="CBETA" type="mod"><todo type="i"/>〔丹大〕夾註－【宋】【元】【明】【宮】，次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0163010" resp="Taisho" type="orig" place="foot text">〔丹大〕夾註－【三】【宮】，次下無夾註【三】【宮】</note><note n="0163010" resp="CBETA" type="mod">〔丹大〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0168019" resp="Taisho" type="orig" place="foot text">〔餘本熱園〕夾註－【三】下同無夾註【三】</note><note n="0168019" resp="CBETA" type="mod"><todo type="i"/>〔餘本熱園〕夾註－【宋】【元】【明】，下同無夾註【宋】【元】【明】</note>
+
+修訂後：
+<note n="0168019" resp="Taisho" type="orig" place="foot text">〔餘本熱園〕夾註－【三】下同無夾註【三】</note><note n="0168019" resp="CBETA" type="mod">〔餘本熱園〕夾註－【宋】【元】【明】，<todo type="i"/>下同無夾註【宋】【元】【明】</note>
+
+修訂前：
+<note n="0172010" resp="Taisho" type="orig" place="foot text">〔丹本有智〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0172010" resp="CBETA" type="mod"><todo type="i"/>〔丹本有智〕夾註－【宋】【元】【明】【宮】，次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0172010" resp="Taisho" type="orig" place="foot text">〔丹本有智〕夾註－【三】【宮】次下無夾註【三】【宮】</note><note n="0172010" resp="CBETA" type="mod">〔丹本有智〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0173012" resp="Taisho" type="orig" place="foot text">〔丹熱〕夾註－【三】【宮】，次下無夾註【三】【宮】</note><note n="0173012" resp="CBETA" type="mod"><todo type="i"/>〔丹熱〕夾註－【宋】【元】【明】【宮】，次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0173012" resp="Taisho" type="orig" place="foot text">〔丹熱〕夾註－【三】【宮】，次下無夾註【三】【宮】</note><note n="0173012" resp="CBETA" type="mod">〔丹熱〕夾註－【宋】【元】【明】【宮】，<todo type="i"/>次下無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0179002" resp="Taisho" type="orig" place="foot text">〔丹鄉散〕－【三】【宮】，下同無夾註【三】【宮】</note><note n="0179002" resp="CBETA" type="mod"><todo type="i"/>〔丹鄉散〕－【宋】【元】【明】【宮】，下同無夾註【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0179002" resp="Taisho" type="orig" place="foot text">〔丹鄉散〕－【三】【宮】，下同無夾註【三】【宮】</note><note n="0179002" resp="CBETA" type="mod">〔丹鄉散〕－【宋】【元】【明】【宮】，<todo type="i"/>下同無夾註【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0329009" resp="Taisho" type="orig" place="foot text">十三＝十二【三】【宮】次下記數準之</note><note n="0329009" resp="CBETA" type="mod"><todo type="i"/>十三＝十二【宋】【元】【明】【宮】，次下記數準之</note>
+
+修訂後：
+<note n="0329009" resp="Taisho" type="orig" place="foot text">十三＝十二【三】【宮】次下記數準之</note><note n="0329009" resp="CBETA" type="mod">十三＝十二【宋】【元】【明】【宮】，<todo type="i"/>次下記數準之</note>
+
+修訂前：
+<note n="0329014" resp="Taisho" type="orig" place="foot text">十九＝十八【元】【明】【宮】，次下記數準之</note><note n="0329014" resp="CBETA" type="mod"><todo type="i"/>十九＝十八【元】【明】【宮】，次下記數準之</note>
+
+修訂後：
+<note n="0329014" resp="Taisho" type="orig" place="foot text">十九＝十八【元】【明】【宮】，次下記數準之</note><note n="0329014" resp="CBETA" type="mod">十九＝十八【元】【明】【宮】，<todo type="i"/>次下記數準之</note>
+
+修訂前：
+<note n="0333033" resp="Taisho" type="orig" place="foot text">一＝二，以下記數準之【三】【宮】</note><note n="0333033" resp="CBETA" type="mod"><todo type="i"/>一＝二【宋】【元】【明】【宮】，以下記數準之【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0333033" resp="Taisho" type="orig" place="foot text">一＝二，以下記數準之【三】【宮】</note><note n="0333033" resp="CBETA" type="mod">一＝二【宋】【元】【明】【宮】，<todo type="i"/>以下記數準之【宋】【元】【明】【宮】</note>
+
+修訂前：
+<note n="0336024" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百十九同</note><note n="0336024" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百十九同</note>
+
+修訂後：
+<note n="0336024" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百十九同</note><note n="0336024" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百十九同</note>
+
+修訂前：
+<note n="0336025" resp="Taisho" type="orig" place="foot text">（一）＋十【宋】【宮】以下至百十九同</note><note n="0336025" resp="CBETA" type="mod"><todo type="i"/>（一）＋十【宋】【宮】，以下至百十九同</note>
+
+修訂後：
+<note n="0336025" resp="Taisho" type="orig" place="foot text">（一）＋十【宋】【宮】以下至百十九同</note><note n="0336025" resp="CBETA" type="mod">（一）＋十【宋】【宮】，<todo type="i"/>以下至百十九同</note>
+
+修訂前：
+<note n="0336028" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百二十九同</note><note n="0336028" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百二十九同</note>
+
+修訂後：
+<note n="0336028" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百二十九同</note><note n="0336028" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百二十九同</note>
+
+修訂前：
+<note n="0336030" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百三十九準之</note><note n="0336030" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百三十九準之</note>
+
+修訂後：
+<note n="0336030" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百三十九準之</note><note n="0336030" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百三十九準之</note>
+
+修訂前：
+<note n="0337001" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百四十九同</note><note n="0337001" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百四十九同</note>
+
+修訂後：
+<note n="0337001" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百四十九同</note><note n="0337001" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百四十九同</note>
+
+修訂前：
+<note n="0337002" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百六十九同</note><note n="0337002" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百六十九同</note>
+
+修訂後：
+<note n="0337002" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百六十九同</note><note n="0337002" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百六十九同</note>
+
+修訂前：
+<note n="0337006" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百七十九同</note><note n="0337006" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百七十九同</note>
+
+修訂後：
+<note n="0337006" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百七十九同</note><note n="0337006" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百七十九同</note>
+
+修訂前：
+<note n="0337007" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百八十九同</note><note n="0337007" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百八十九同</note>
+
+修訂後：
+<note n="0337007" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百八十九同</note><note n="0337007" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百八十九同</note>
+
+修訂前：
+<note n="0337009" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百九十九同</note><note n="0337009" resp="CBETA" type="mod"><todo type="i"/>〔一百〕－【元】，以下至百九十九同</note>
+
+修訂後：
+<note n="0337009" resp="Taisho" type="orig" place="foot text">〔一百〕－【元】以下至百九十九同</note><note n="0337009" resp="CBETA" type="mod">〔一百〕－【元】，<todo type="i"/>以下至百九十九同</note>
+
+修訂前：
+<note n="0337014" resp="Taisho" type="orig" place="foot text">〔二百一〕－【元】【明】，（一）＋十【宋】以下至二百十九同</note><note n="0337014" resp="CBETA" type="mod"><todo type="i"/>〔二百一〕－【元】【明】，（一）＋十【宋】以下至二百十九同</note>
+
+修訂後：
+<note n="0337014" resp="Taisho" type="orig" place="foot text">〔二百一〕－【元】【明】，（一）＋十【宋】以下至二百十九同</note><note n="0337014" resp="CBETA" type="mod"><todo type="a"/>〔二百一〕－【元】【明】，（一）＋十【宋】以下至二百十九同</note>
+
+修訂前：
+<note n="0337023" resp="Taisho" type="orig" place="foot text">〔二百〕－【元】以下至二百四十九同</note><note n="0337023" resp="CBETA" type="mod"><todo type="i"/>〔二百〕－【元】，以下至二百四十九同</note>
+
+修訂後：
+<note n="0337023" resp="Taisho" type="orig" place="foot text">〔二百〕－【元】以下至二百四十九同</note><note n="0337023" resp="CBETA" type="mod">〔二百〕－【元】，<todo type="i"/>以下至二百四十九同</note>
+
+修訂前：
+<note n="0337029" resp="Taisho" type="orig" place="foot text">（低沙遮跋囉拏毘尸沙泥訶嚧二百七十八）＋真【三】【宮】，以下記號增一數【三】</note><note n="0337029" resp="CBETA" type="mod"><todo type="i"/>（低沙遮跋囉拏毘尸沙泥訶嚧二百七十八）＋真【宋】【元】【明】【宮】，以下記號增一數【宋】【元】【明】</note>
+
+修訂後：
+<note n="0337029" resp="Taisho" type="orig" place="foot text">（低沙遮跋囉拏毘尸沙泥訶嚧二百七十八）＋真【三】【宮】，以下記號增一數【三】</note><note n="0337029" resp="CBETA" type="mod">（低沙遮跋囉拏毘尸沙泥訶嚧二百七十八）＋真【宋】【元】【明】【宮】，<todo type="i"/>以下記號增一數【宋】【元】【明】</note>
+
+修訂前：
+<note n="0349017" resp="Taisho" type="orig" place="foot text">來＋（右三千九百佛）【三】，（右三千九百）【宮】，卷第七終【三】【宮】</note><note n="0349017" resp="CBETA" type="mod"><todo type="i"/>來＋（右三千九百佛）【宋】【元】【明】，＋（右三千九百）【宮】，卷第七終【宋】【元】【明】【宮】</note>
+
+修訂後：
+<note n="0349017" resp="Taisho" type="orig" place="foot text">來＋（右三千九百佛）【三】，（右三千九百）【宮】，卷第七終【三】【宮】</note><note n="0349017" resp="CBETA" type="mod">來＋（右三千九百佛）【宋】【元】【明】，＋（右三千九百）【宮】，<todo type="i"/>卷第七終【宋】【元】【明】【宮】</note>
+
+修訂前：
+東
+<lb n="0362a19"/>　南方轉諸難如來
+
+修訂後：
+東
+<lb n="0362a19"/>南方轉諸難如來
+
+修訂前：
+東
+<lb n="0362a18"/>　南方<note n="0362007" resp="Taisho" type="orig" place="foot text">〔無〕－【宋】【宮】</note><app n="0362007"><lem>無</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>定願如來
+
+修訂後：
+東
+<lb n="0362a18"/>南方<note n="0362007" resp="Taisho" type="orig" place="foot text">〔無〕－【宋】【宮】</note><app n="0362007"><lem>無</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>定願如來
+
+修訂前：
+東
+<lb n="0362a23"/>　南方妙行世界自在天月如來
+
+修訂後：
+東
+<lb n="0362a23"/>南方妙行世界自在天月如來
+
+修訂前：
+西
+<lb n="0362b15"/>　南方網光如來
+
+修訂後：
+西
+<lb n="0362b15"/>南方網光如來
+
+修訂前：
+西
+<lb n="0362b19"/>　南方壞諸怨賊如來
+
+修訂後：
+西
+<lb n="0362b19"/>南方壞諸怨賊如來
+
+修訂前：
+西
+<lb n="0362b23"/>　南方無量覺華光如來
+
+修訂後：
+西
+<lb n="0362b23"/>南方無量覺華光如來
+
+修訂前：
+西
+<pb ed="T" id="T14.0445.0362c" n="0362c"/>
+<lb n="0362c01"/>　南方無邊辯才如來
+
+修訂後：
+西
+<pb ed="T" id="T14.0445.0362c" n="0362c"/>
+<lb n="0362c01"/>南方無邊辯才如來
+
+修訂前：
+<note n="0841001" resp="Taisho" type="orig" place="foot text">陀＝他【三】【宮】，昆用</note><note n="0841001" resp="CBETA" type="mod"><todo type="i"/>陀＝他【宋】【元】【明】【宮】，<corr sic="昆" resp="CBETA.Maha">混</corr>用</note>
+
+修訂後：
+<note n="0841001" resp="Taisho" type="orig" place="foot text">陀＝他【三】【宮】，昆用</note><note n="0841001" resp="CBETA" type="mod">陀＝他【宋】【元】【明】【宮】，<todo type="i"/><corr sic="昆" resp="CBETA.Maha">混</corr>用</note>
+
+
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0832a07"/>汨沒流轉難有出期。汝等今者。親近如來學
+
+修訂後：
+<lb n="0832a07"/><app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒流轉難有出期。汝等今者。親近如來學
+
+修訂前：
+<lb n="0833b29"/><l>縱無明流</l><l>入生死海</l><l>漂沈汨沒</l>
+
+修訂後：
+<lb n="0833b29"/><l>縱無明流</l><l>入生死海</l><l>漂沈<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>沒</l>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

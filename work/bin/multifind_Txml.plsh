@@ -1,0 +1,10 @@
+<file>multigrep.pl
+<name>搜尋程式(大正xml)
+<desc>萬用搜尋程式, 預設參數是搜尋大正藏 xml 版, 詳細用法請看 multifind.pl 程式內的說明
+<default>c:/cbwork/xml/</default>來源目錄 : 搜尋的起始目錄, 請用 / 取代 \ 使用, 若目錄中有空白, 請用雙引號 " " 將目錄名括起來
+<default>"T*.xml"</default>檔名樣式 : 可用多組萬用字元, 分隔請用用半型空格, 外面用雙引號 " " 將目錄名括起來, 例如 : "a*.txt b*.dat"
+<default>find_tx_out.txt</default>輸出檔名 : 輸出的結果檔名, 可配合漢書搜尋.
+搜尋字串檔 (或字串) : 可為單一字串, 或是有多字串的檔名, 檔名要用 -f: 當成開頭, 例如 -f:a.txt
+<default>1</default>是否包含子目錄 : 1 表示搜尋包含子目錄 , 0 表示不包含子目錄
+<default>0</default>是否為正規式搜尋 : 1 表示正規式(regular expression)搜尋,請注意中文問題, 0 表示一般文字搜尋
+<default>0</default>區分大小寫 : 1 表示區分大小寫,但速度比較慢, 0 表示不區分大小寫

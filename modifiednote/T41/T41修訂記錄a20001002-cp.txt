@@ -1,0 +1,15 @@
+-----Original Message-----
+From: heaven [mailto:heaven@ccbs.ntu.edu.tw]
+Sent: Sunday, October 01, 2000 11:25 AM
+To: panw; ray; shaoyun; maha
+Subject: T41 改經名
+
+
+
+依書前目錄, T41n1823 要改 "經" 名, 加上 "論本" 二字.
+
+S4        T1823-41-p0813  V1.0   30  俱舍論頌疏
+改成
+S4        T1823-41-p0813  V1.0   30  俱舍論頌疏論本
+
+  heaven

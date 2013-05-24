@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;anchor&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;anchor> 校勘(校注)符號</h1>   
+<p align="right">
+<!--webbot bot="Timestamp" S-Type="EDITED"   
+S-Format="%Y/%m/%d" startspan -->2008/02/19<!--webbot bot="Timestamp" endspan i-checksum="12453" -->
+</p>
+<p align="left"><b><font face="Times New Roman" size="5">Description</font></b></p>
+<blockquote>
+	<p align="left">校勘(校注)條目尚未插入<font face="Times New Roman"> XML
+	</font>時的符號標記。<br>
+　</p>
+</blockquote>
+<h2 align="left">Attributes</h2>
+<blockquote>
+	<h3 align="left">id</h3>
+	<ul>
+		<li>
+		<p align="left">&lt;anchor id=&quot;fn...&gt;：一般校勘(校注)符號</li>
+		<li>
+		<p align="left">&lt;anchor id=&quot;fx...&gt;：星號[＊]校勘(校注)符號</li>
+	</ul>
+	<p align="left"><b><font face="Times New Roman" size="4">type</font></b></p>
+	<ul>
+		<li>
+		<p align="left">&lt;<font face="Verdana">anchor type=&quot;◎&quot;/</font>&gt;：<font face="Verdana">◎</font> 校勘符號</li>
+	</ul>
+</blockquote>
+<p align="left"><b><font size="5" face="Times New Roman"><br>
+範例：</font></b></p>
+<blockquote>
+	<p align="left">
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Verdana">
+	X68n1315_p0229b14<br>
+	</span><span lang="EN-US" style="font-family: Verdana">&lt;lb ed=&quot;X&quot; 
+	n=&quot;0229b14&quot;/&gt;</span><span style="font-family: Verdana">一切眾生皮</span><span lang="EN-US" style="font-family: Verdana">&lt;anchor 
+	id=&quot;<b>fn</b>X68p0229b01&quot;/&gt;&amp;M034294;</span><span style="font-family: Verdana">骨。這箇眾生為什麼骨</span><span lang="EN-US" style="font-family: Verdana">&lt;anchor 
+	id=&quot;<b>fx</b>X68p0229b01&quot;/&gt;&amp;M034294;</span><span style="font-family: Verdana">皮。　師遂拈<br>
+　</span></p>
+</blockquote>
+<p align="left"><b><font size="5" face="Times New Roman">範例：&lt;anchor 
+type=&quot;◎&quot;/&gt;</font></b></p>
+<blockquote>
+	<p align="left"><font face="Verdana">T01n0008_p0211a21<b><br>
+	</b>
+	</font><font face="Verdana">&lt;lb n=&quot;0211a21&quot; ed=&quot;T&quot;/&gt;即時<font color="#FF0000">&lt;anchor 
+	type=&quot;◎&quot;/&gt;</font>&lt;note n=&quot;0211002&quot; resp=&quot;Taisho&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;（修無…未聞佛）五百六十四字＋合【三】&lt;/note&gt;&lt;note 
+	n=&quot;0211002&quot; resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;&lt;todo 
+	type=&quot;a&quot;/&gt;（修無…未聞佛）五百六十四字＋合【宋】【元】【明】&lt;/note&gt;合掌頂禮說伽陀曰。&lt;/p&gt;</font></p>
+</blockquote>
+<p align="left"><b><font size="5" face="Times New Roman"><br>
+範例：</font></b><span style="font-family: 新細明體; font-weight: 700"><font size="5">校勘(校注)編號重複</font></span></p>
+<blockquote>
+	<p align="left">原本註腳編號用 id 屬性, 例如：</p>
+	<blockquote>
+		<p align="left">&lt;anchor id="fnT30p0010b08"/></p>
+	</blockquote>
+	<p align="left">但是可能重複，例如：<br></p>
+	<blockquote>
+		<p align="left">X81n1568bp0094b21_##處舉前話。隆曰。<font color="#FF0000">[01]</font>〔冷〕如毛粟。<font color="#FF0000">[01]</font>〔細〕如冰雪)李相公特上。山問。如何是祖師西</p>
+	</blockquote>
+	<p align="left">就在 id 最後加 A, B...：</p>
+	<blockquote>
+		<p align="left">&lt;lb ed=&quot;X&quot; n=&quot;0094b21&quot;/&gt;處舉前話。隆曰。&lt;anchor id=&quot;fnX81p0094b01<font color="#FF0000">A</font>&quot;/&gt;〔冷〕如毛粟。&lt;anchor 
+  id=&quot;fnX81p0094b01<font color="#FF0000">B</font>&quot;/&gt;〔細〕如冰雪&lt;/note&gt;李相公特上。山問。如何是祖師西</p>
+	</blockquote>
+	<p align="left">插入校注條目：此例校注條目經過改寫</p>
+	<blockquote>
+		<p align="left">&lt;lb ed=&quot;X&quot; n=&quot;0094b21&quot;/&gt;處舉前話。隆曰。&lt;note n=&quot;<font color="#FF0000">0094001A</font>&quot; 
+		resp=&quot;Xuzangjing&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;冷細疑倒置歟&lt;/note&gt;&lt;note n=&quot;<font color="#FF0000">0094001A</font>&quot; 
+		resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;冷疑作細歟&lt;/note&gt;〔冷〕如毛粟。&lt;note n=&quot;<font color="#FF0000">0094001B</font>&quot; 
+		resp=&quot;Xuzangjing&quot; place=&quot;foot text&quot; type=&quot;orig&quot;&gt;冷細疑倒置歟&lt;/note&gt;&lt;note n=&quot;<font color="#FF0000">0094001B</font>&quot; 
+		resp=&quot;CBETA&quot; type=&quot;mod&quot;&gt;細疑作冷歟&lt;/note&gt;〔細〕如冰雪&lt;/note&gt;李相公特上。山問。如何是祖師西</p>
+		<p align="left">　</p>
+	</blockquote>
+</blockquote>
+   
+</body>   
+   
+</html>

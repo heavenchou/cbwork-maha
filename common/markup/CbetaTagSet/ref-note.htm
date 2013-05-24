@@ -1,0 +1,242 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>CBETA Tag Set -- &lt;note&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;note> 註</h1>   
+<p align="right">
+$Date: 2005/03/24 08:41:51 $</p>   
+<p align="left">有些校勘條目，以注解的方式注明漢梵版本資訊、出處或收藏地（者），而該筆校勘條目，不能以&lt;app>標記定型式來標記，就必須以&lt;note type="foot" n="?" >…&lt;/note>(或&lt;note type="foot">…&lt;/note>)、&lt;note type=" inline " n="?">…&lt;/note>或&lt;note type=" sk " n="?">…&lt;/note>標記該筆校勘條目。<br> 
+&lt;note type="foot"  n="?" >…&lt;/note>有時標記經文的「夾註」字。</p> 
+<ul>
+  <li>   
+<p align="left"><a href="#attr">Attributes</a></p> 
+  </li>
+  <li>   
+範例<ul>
+    <li>   
+<a href="#cbeta">resp=&quot;CBETA&quot;</a>
+    </li>
+    <li>   
+<a href="#inline">type=&quot;inline&quot;</a></li>
+    <li>   
+<a href="#foot">type=&quot;foot&quot;</a></li>
+    <li>   
+<a href="#sk">type=&quot;sk&quot;</a></li>
+    <li>   
+<a href="#lem">&lt;note&gt; 在 &lt;app&gt; 的 &lt;lem&gt; 裏</a></li>
+    <li>   
+<a href="#rdg">&lt;note&gt; 在 &lt;app&gt; 的 &lt;rdg&gt; 裏</a></li>
+  </ul>
+  </li>
+  <li>特例<ul>
+  <li><a href="#orig">一筆校勘兩個 &lt;note type=&quot;orig&quot;&gt;</a></li>
+</ul>
+  </li>
+</ul>
+<h2 align="left"><a name="attr"></a>Attributes</h2>
+<blockquote>
+<h3 align="left">lang</h3>
+<h3 align="left">n</h3>
+  <ul>
+    <li>
+<p align="left">&lt;note type=&quot;orig&quot;&gt; 的 n 屬性通常不會重複, 除非如 T02, No. 99, p. 170, c17, 
+一條校勘在內文有兩處校勘符號, n 屬性的結尾會加 A, B.</li>
+</ul>
+<h3 align="left">place <span lang="zh-tw" style="font-weight: 400">
+<font size="3">註解所在位置 或 校勘數字符號 所在位置</font></span></h3>
+  <ul>
+    <li> 
+<p align="left">inline: 行中雙行夾註</li>
+  <li> 
+<p align="left">foot: 出現在頁尾的註, 也就是大正藏的校勘欄</li>
+<li> 
+<p align="left">interlinear: 側註, 傍註, 行與行之間的註, 出現在續藏</li>
+</ul>
+  <blockquote>
+	<p align="left">如果 type=&quot;orig&quot;, 則 place 屬性表示 校勘數字符號 出現在哪裏</p>
+	<ul>
+		<li>
+		<p align="left">place=&quot;foot text&quot; 表示 頁尾 跟 內文 裏都有校勘數字符號</li>
+		<li>
+		<p align="left">place=&quot;foot&quot; 表示 頁尾 有 校勘數字符號, 但是內文裏沒有對應的. </li>
+		<li>
+		<p align="left">place=&quot;text&quot; 表示 內文 有 校勘數字符號, 但是頁尾裏沒有對應的.</li>
+	</ul>
+</blockquote>
+  <h3 align="left">resp <span style="font-weight: 400"><font size="3">(i.e. 
+  responsible) <span lang="zh-tw">負責人</span></font></span></h3> 
+<ul>
+  <li>&lt;note resp=<b>&quot;Taisho&quot;</b> place=&quot;foot&quot;&gt;....&lt;/note&gt; 記錄大正藏的校勘原文</li>
+  <li>resp=<b>&quot;CBETA&quot;</b><ul>
+  <li>記錄 CBETA按</li>
+	<li>CBETA 修訂過的 note, 例如:<br>
+	T13p0391<br>
+	&lt;lb n=&quot;0391a21&quot;/&gt;來所出家<br>
+	&lt;note n=&quot;0391007&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot 
+	text&quot;&gt;剔＝剃【宋】【明】【宮】，　【元】，【明異】&lt;/note&gt;<br>
+	&lt;note n=&quot;0391007&quot; resp=&quot;CBETA&quot; 
+	type=&quot;mod&quot;&gt;剔＝剃【宋】【明】【宮】，剔＝&amp;lac-space;【元】，【明異】&lt;/note&gt;<br>
+	&lt;app n=&quot;0391007&quot;&gt;&lt;lem&gt;剔&lt;/lem&gt;&lt;rdg wit=&quot;【宋】【明】【宮】&quot; 
+	resp=&quot;Taisho&quot;&gt;剃&lt;/rdg&gt;&lt;/app&gt;<br>
+	&lt;note n=&quot;0391007&quot; resp=&quot;CBETA&quot; 
+	type=&quot;rest&quot;&gt;剔＝&lt;todo/&gt;&amp;lac-space;【元】，【明異】&lt;/note&gt;髮一切諸佛之所住持興三寶 </li>
+</ul>
+  </li>
+</ul>
+  <h3 align="left">type <span lang="zh-tw" style="font-weight: 400">
+  <font size="3">註解的類別</font></span></h3> 
+<ul>
+  <li>
+  <p align="left">inline: 舊的用法, 改用 place=&quot;inline&quot;</p> 
+  </li>
+  <li>
+  <p align="left">foot: 舊的用法, 改用 place=&quot;foot&quot;</p> 
+  </li>
+  <li>
+  <p align="left">mod: modified, 經 CBETA 修訂的大正藏校勘</p> 
+  </li>
+  <li>
+  <p align="left">orig: original, 大正藏校勘原文</p> 
+  </li>
+  <li>
+  <p align="left">rest: 由原大正校勘取出的註解</p> 
+  </li>
+  <li>
+  <p align="left">sk</p> 
+  </li>
+</ul>
+</blockquote>
+<h2 align="left"><a name="cbeta"></a>Example (resp=&quot;CBETA&quot;)</h2> 
+<blockquote>
+<h3 align="left">校勘條目：</h3> 
+  <blockquote>
+<p align="left"><span lang="EN-US">T14p0157<br>
+&nbsp;06 </span>南無大步佛王佛＝南無種種日佛【宮乙】，<span lang="EN-US">&lt;o&gt;CBETA</span>按：大正藏原校勘缺，參校勘<span lang="EN-US">[04]</span>「以下四佛名排列如下<span lang="EN-US">[06][04][09][08]</span>【宮乙】」<span lang="EN-US">&nbsp;</span></p> 
+  </blockquote>
+<h3 align="left">XML</h3> 
+  <blockquote>
+<p align="left"><font color="#0000ff"><span lang="EN-US">&lt;app&gt;<br>
+<span class="730504003-23042002">&nbsp;&nbsp;&nbsp; </span>&lt;lem&gt;</span></font><font color="#0000ff" size="2">南無大步佛王佛</font><font color="#0000ff"><span lang="EN-US">&lt;/lem&gt;<br>
+<span class="730504003-23042002">&nbsp;&nbsp;&nbsp; </span>&lt;rdg wit=”</span>【宮乙】<span lang="EN-US">”&gt;</span>南無種種日佛</font><span lang="EN-US"><font color="#0000ff">&lt;/rdg&gt;<br>
+&lt;/app&gt;<br>
+&lt;note n=&quot;xxxxxxx&quot;</font> <b><span style="COLOR: red">resp=&quot;CBETA&quot;</span></b><font color="#0000ff">&gt;CBETA</font></span><font color="#0000ff">按：大正藏原校勘缺，參校勘<font size="2"><span lang="EN-US">[04]</span>「以下四佛名排列如下<span lang="EN-US">[06][04][09][08]</span>【宮乙】」<span lang="EN-US">&lt;/note&gt;</span></font></font></p> 
+  </blockquote>
+</blockquote>
+<h2 align="left"><a name="inline"></a>範例 (type="inline")</h2> 
+<blockquote> 
+  <p align="left">如《大明度經》卷第一(T08.225.479a)的「性與道俱如合符契也」等字，為經文中的「夾註」。以&lt;note type="inline">性與道俱如合符契也&lt;/note>標記。</p> 
+  <p align="left">&lt;lb n="0479a21"/>不驚不怛不以恐受。以體解而性入<br> 
+  &lt;note type="inline">性與道俱如合符契<br> 
+  &lt;lb n="0479a22"/>也&lt;/note>是為住不退轉。應於無處當以知此。又妙</p> 
+</blockquote> 
+<h2 align="left"><a name="foot"></a>範例 (type="foot")</h2> 
+<blockquote> 
+  <p align="left">如果是校勘條目的注解文，如在T30.1579.478b的第二（[02]）校勘碼注解著「梵本 Bodhisattva-bh&amp;umacron;mi 京都帝國大學所藏」，此時以&lt;note type="foot" n="047802">梵本 Bodhisattva-bh&amp;umacron;mi 京都帝國大學所藏&lt;/note>標記該校勘條目的內容，置放在卷首《瑜伽師地論》卷第三十五之前。<br> 
+  <br> 
+  【大正藏】：</p> 
+  <blockquote> 
+    <p align="left">經文			 [02] 瑜伽師地論卷第三十五<br> 
+    校勘條目 　[02] 梵本 Bodhisattva-bh&amp;umacron;mi 京都帝國大學所藏</p> 
+  </blockquote> 
+  <p align="left">【XML電子檔】：</p>
+  <blockquote>
+    <p align="left">&lt;lb n="0478b06"/>&lt;juan fun="open" n="035"><br> 
+    &lt;note type="foot" n="047802">梵本 Bodhisattva-bh&amp;umacron;mi 京都帝國大學所藏&lt;/note>瑜伽師地論卷第三十五</p> 
+  </blockquote> 
+</blockquote> 
+<h2 align="left"><a name="sk"></a>範例 (type="sk")</h2> 
+<blockquote> 
+  <p align="left">如果是校勘條目的漢梵文句的注解，如T08.223.217a的第三（[03]）校勘碼注解著「自序品第一至遠離品第二十四」，又有梵語文句的說明，如"Abhisamay&amp;amacron;la&amp;ndotblw;k&amp;amacron;r&amp;amacron;nus&amp;amacron;re&amp;ndotblw;asa&amp;mdotblw;&amp;sacute;odhit&amp;amacron;y&amp;amacron;&amp;mdotblw;Sarv&amp;amacron;k&amp;amacron;raj&amp;ntilde;at&amp;amacron;dhik&amp;amacron;ra&amp;hdotblw; Subhuti-Parivata&amp;hdotblw; Prathama&amp;hdotblw;"，此時以&lt;note type="sk" n="047802">…&lt;/note>標記該校勘條目的內容即可。<br> 
+  <br> 
+  【大正藏】：</p> 
+  <p align="left">經文			 [03] 序品第一&nbsp;<br>
+  校勘條目	 [03]自序品第一至遠離品第二十四Abhisamay&amp;amacron;la&amp;ndotblw;k&amp;amacron;r&amp;amacron;nus&amp;amacron;re&amp;ndotblw;a sa&amp;mdotblw;&amp;sacute;odhit&amp;amacron;y&amp;amacron;&amp;mdotblw; Sarv&amp;amacron;k&amp;amacron;raj&amp;ntilde;at&amp;amacron;dhik&amp;amacron;ra&amp;hdotblw; Subhuti-Parivata&amp;hdotblw; Prathama&amp;hdotblw;.（摩訶般若波羅蜜經）＋序【聖】<br> 
+  <br> 
+  【XML電子檔】：</p> 
+  <p align="left">&lt;lb n="0217a06"/>&lt;div1 type="pin"><br> 
+  &lt;head>&lt;note type="sk" n="021703">自序品第一至遠離品第二十四.  梵.  Abhisamay&amp;amacron;la&amp;ndotblw;k&amp;amacron;r&amp;amacron;nus&amp;amacron;re&amp;ndotblw;a sa&amp;mdotblw;&amp;sacute;odhit&amp;amacron;y&amp;amacron;&amp;mdotblw; Sarv&amp;amacron;k&amp;amacron;raj&amp;ntilde;at&amp;amacron;dhik&amp;amacron;ra&amp;hdotblw; Subhuti-Parivata&amp;hdotblw; Prathama&amp;hdotblw;. &lt;/note><br> 
+  &lt;app n="021703"><br> 
+			&lt;lem>&amp;lac;&lt;/lem><br> 
+			&lt;rdg wit="【聖】">摩訶般若波羅蜜經&lt;/rdg><br> 
+		&lt;/app>序品第一&lt;/head></p> 
+</blockquote> 
+<h2 align="left"><a name="lem"></a>範例 (note在app的lem裏)</h2> 
+<blockquote> 
+  <p align="left">假設該筆校勘條目在大正藏是「夾註」，而在校勘條目則注明「作本文」，如《大般涅槃經》卷第十八（T12.375.723c）「是故[18]名為為阿闍世」的「名為」二字，以在宋元明三本是「作本文」則以&lt;lem>&lt;note type="inline">名為&lt;/note>&lt;/lem>標記該二字，&lt;rdg >寫成&lt;rdg wit="【三】">名為&lt;/rdg>即可。<br> 
+  <br> 
+  【標記】：</p> 
+  <p align="left">&lt;app n="?"><br> 
+     	&lt;lem>&lt;note type="inline">…&lt;/note>&lt;/lem><br> 
+     	&lt;rdg wit="【?】">&lt;/rdg><br> 
+  &lt;/app><br> 
+  <br> 
+  【大正藏】：</p> 
+  <p align="left">經文			名不生。是故[18]名為為阿闍世。善男子。阿闍者<br> 
+  校勘條目		[18]名為作本文【三】<br> 
+  <br> 
+  【XML電子檔】：</p> 
+  <p align="left">&lt;lb n="0723c28"/>名不生。是故<br> 
+  &lt;app n="072318"><br> 
+  &lt;lem>&lt;note type="inline">名為&lt;/note>&lt;/lem><br> 
+  &lt;rdg wit="【三】">名為&lt;/rdg><br> 
+  &lt;/app>為阿闍世。善男子。阿闍者</p> 
+</blockquote> 
+<h2 align="left"><a name="rdg"></a>範例 (note在app的rdg裏)</h2> 
+<blockquote> 
+  <p align="left">如果該筆經文是「本文」，校勘條目「作夾註」，如《大般涅槃經》卷第十八（T12.375.727c）的「斷出入息故名為殺」等字，明本「作夾註」。此時在&lt;rdg>以&lt;rdg wit="【明】">&lt;note type="inline">斷出入息故名為殺&lt;/note>&lt;/rdg>標記即可。<br> 
+  <br> 
+  【標記定型式】：</p> 
+  <blockquote> 
+    <p align="left">&lt;app n="?"><br> 
+  &lt;lem>…&lt;/lem ><br> 
+  &lt;rdg wit="【?】">&lt;note type="inline">…&lt;/note>&lt;/rdg><br> 
+    &lt;/app ></p> 
+  </blockquote> 
+  <p align="left">【大正藏】：</p>
+  <blockquote>
+    <p align="left">經文			息。[25]斷出入息故名為殺。諸佛隨俗亦說為<br> 
+    校勘條目		[25] 斷出入息故名為殺作夾註【明】</p> 
+  </blockquote> 
+  <p align="left">【XML電子檔】：</p>
+  <blockquote>
+    <p align="left">&lt;lb n="0727c09"/>息。<br> 
+    &lt;app n="072725"><br> 
+  &lt;lem>斷出入息故名為殺&lt;/lem><br> 
+  &lt;rdg wit="【明】"><br> 
+    &lt;note type="inline">斷出入息故名為殺&lt;/note><br> 
+  &lt;/rdg><br> 
+    &lt;/app>。諸佛隨俗亦說為<br> 
+    </p> 
+  </blockquote> 
+</blockquote> 
+   
+<h2 align="left">特例</h2>
+<h3><a name="orig"></a>一筆校勘兩個 &lt;note type=&quot;orig&quot;&gt;</h3>
+<blockquote>
+  <p>T18n0868_p0272c04_##唵(一)　薩縛(去二合)(二)　婆(去)　縛(<b>[03A]</b>三)　輸　陀(大聲)(四)　薩　嚕縛(去二[&gt;&gt;合)(五)] 
+  T18n0868_p0272c26_##唵(一)　縛(去)　日囉(二合)(二)　曼　陀(<b>[03B]</b>三)　怛喇吒(三合反舌半音)(四) </p>
+  <p></p>
+  <p>T21n1245_p0218a10_##於此經中受持讀誦禮敬<b>[01A]</b>供養廣為人說。彼 <br>
+  T21n1245_p0218a16_##於此經中受持讀誦。禮敬<b>[01B]</b>供養廣為人說。彼 </p>
+  <p></p>
+  <p>T27n1545_p0003a19_##難覺不可尋思非尋思境。[02]唯有微妙聰叡 <br>
+  T27n1545_p0003b05_##作種種異說。然阿毘達磨勝義自性[02]唯無漏 </p>
+  <p>T43n1829_p0066c02_##上。起初禪[01]三識身。亦應許菩薩在色界中。 <br>
+  T43n1829_p0066c04P##[01]三雜染中。第二大段明能對除　修六現觀 </p>
+  <p></p>
+  <p>T43n1833_p0825b03_##義．順義。不[01]相離相資義。由蘊與取更相 <br>
+  T43n1833_p0825b21_##說相應之貪名伴已伏　又云相應行[01]相 </p>
+  <p>T46n1918_p0578b24_##上。橫無儔列故言無[29A]等無等[29B]等。於十方三 </p>
+</blockquote>
+   
+</body>   
+   
+</html>

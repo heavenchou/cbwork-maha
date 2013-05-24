@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="big5" ?>
+<!ENTITY CB00626 "<gaiji cb='CB00626' des='[疊*毛]' mojikyo='M057087' mofont='Mojikyo M111' mochar='572D'/>" >
+<!ENTITY desc "" >
+測試

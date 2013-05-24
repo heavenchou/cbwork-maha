@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=big5">
+	<TITLE>CBETA XML 缺字標記</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.0  (Win32)">
+	<META NAME="CREATED" CONTENT="20040604;15442812">
+	<META NAME="CHANGEDBY" CONTENT="Information Center">
+	<META NAME="CHANGED" CONTENT="20040604;15484836">
+	<META NAME="ProgId" CONTENT="FrontPage.Editor.Document">
+	<META HTTP-EQUIV="Content-Language" CONTENT="zh-tw">
+	<link rel="stylesheet" type="text/css" href="ray.css">
+</HEAD>
+<BODY LANG="zh-TW" DIR="LTR">
+<H1><SPAN LANG="en-US">CBETA XML </SPAN>缺字標記</H1>
+<P ALIGN=RIGHT><SPAN LANG="en-US">$Date: 2004/07/14 01:08:19 $</SPAN></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-US"><A HREF="#ent">Entity</A>
+	</SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#han">漢文缺字</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#sd">悉曇字</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#jap">日文</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#dia">轉寫字</A> 
+	</P>
+	<LI><P><A HREF="#attr">標記屬性裏的缺字</A> 
+	</P>
+</UL>
+<HR>
+<H2><A NAME="ent"></A><SPAN LANG="en-US">Entity</SPAN></H2>
+<P><SPAN LANG="en-US">Big5 </SPAN>字集中沒有的字<SPAN LANG="en-US">,
+</SPAN>在 <SPAN LANG="en-US">CBETA XML </SPAN>檔中以 <SPAN LANG="en-US">entity
+</SPAN>記錄：</P>
+<BLOCKQUOTE><SPAN LANG="en-US">T01n0001.xml<BR>&lt;lb
+n=&quot;0001a15&quot;/&gt;....</SPAN>明宣禍<SPAN LANG="en-US"><BR>&lt;lb
+n=&quot;0001a16&quot;/&gt;</SPAN>福賢愚之<SPAN LANG="en-US"><B>&amp;CB00528;</B></SPAN>。剖判真偽異齊之原。</BLOCKQUOTE>
+<P>前兩碼 <SPAN LANG="en-US">CB </SPAN>表示 <SPAN LANG="en-US">CBETA,
+</SPAN>後五碼是 <SPAN LANG="en-US">CBETA </SPAN>自訂的缺字編號<SPAN LANG="en-US">.</SPAN></P>
+<HR>
+<H2><A NAME="han"></A>漢文缺字</H2>
+<P>在相對應的 <SPAN LANG="en-US">T01n0001.ent </SPAN>中有如下資訊可供程式進一步處理：</P>
+<BLOCKQUOTE><SPAN LANG="en-US">&lt;!ENTITY CB00528 &quot;&lt;gaiji
+cb='CB00528' des='[</SPAN>這<SPAN LANG="en-US">-</SPAN>言<SPAN LANG="en-US">+</SPAN>亦<SPAN LANG="en-US">]'
+uni='8FF9' nor='</SPAN>跡<SPAN LANG="en-US">' mojikyo='M038827'
+mofont='Mojikyo M107' mochar='8151'/&gt;&quot; &gt;</SPAN></BLOCKQUOTE>
+<P><SPAN LANG="en-US">cb='CB00528' </SPAN>是 <SPAN LANG="en-US"><B>CBETA
+</B></SPAN><B>缺字碼</B></P>
+<P><SPAN LANG="en-US">des='[</SPAN>這<SPAN LANG="en-US">-</SPAN>言<SPAN LANG="en-US">+</SPAN>亦<SPAN LANG="en-US">]'
+</SPAN>是<B>組字式</B> <SPAN LANG="en-US">(</SPAN>參考<A HREF="http://w3.cbeta.org/version/loseword-version.htm">組字式規則</A><SPAN LANG="en-US">)</SPAN></P>
+<P><SPAN LANG="en-US">uni='8FF9' </SPAN>是 <SPAN LANG="en-US"><B>Unicode</B>,
+</SPAN>但該缺字不一定有 <SPAN LANG="en-US">Unicode.</SPAN></P>
+<P><SPAN LANG="en-US">nor='</SPAN>跡<SPAN LANG="en-US">' </SPAN>是<B>通用字</B><SPAN LANG="en-US">,
+</SPAN>該字也不一定有通用字<SPAN LANG="en-US">.</SPAN></P>
+<P><SPAN LANG="en-US">mojikyo='M038827' mofont='Mojikyo M107'
+mochar='8151' </SPAN>是「今昔文字鏡」相關資訊<SPAN LANG="en-US">.</SPAN></P>
+<HR>
+<H2><A NAME="sd"></A>悉曇字</H2>
+<P>例：</P>
+<BLOCKQUOTE><SPAN LANG="en-US">T18n0854.xml<BR>&lt;lb n=&quot;0164c06&quot;/&gt;&lt;p
+type=&quot;dharani&quot;
+lang=&quot;san-sd&quot;&gt;&amp;SD-D5B5;&amp;SD-A5A9;&amp;SD-A5F0;......</SPAN></BLOCKQUOTE>
+<P>前兩碼 <SPAN LANG="en-US">SD </SPAN>表示 <SPAN LANG="en-US">Siddam(</SPAN>悉曇<SPAN LANG="en-US">),
+</SPAN>後四碼是對應到悉曇字型 <SPAN LANG="en-US">siddam.ttf </SPAN>的內碼<SPAN LANG="en-US">.</SPAN></P>
+<HR>
+<H2><A NAME="jap"></A>日文</H2>
+<P>以「今昔文字鏡」<SPAN LANG="en-US">(Mojikyo) </SPAN>編碼記錄<SPAN LANG="en-US">.</SPAN></P>
+<P>例：</P>
+<BLOCKQUOTE><SPAN LANG="en-US">T34n1723.xml<BR>&lt;lb
+n=&quot;0744b19&quot;/&gt;</SPAN>左右正或本又<SPAN LANG="en-US">&amp;M062406;&amp;M062473;&amp;M062466;&amp;M062453;</SPAN>字也皆可悉之</BLOCKQUOTE>
+<P>日文字列表在 <SPAN LANG="en-US">xml/dtd/jap.ent, </SPAN>其內容如<SPAN LANG="en-US">:</SPAN></P>
+<BLOCKQUOTE><SPAN LANG="en-US">&lt;!ENTITY M062406 &quot;&lt;gaiji
+des='</SPAN>【<SPAN LANG="en-US">U</SPAN>】<SPAN LANG="en-US">'
+nor='</SPAN>【<SPAN LANG="en-US">U</SPAN>】<SPAN LANG="en-US">'
+uni='30A6' mojikyo='M062406'/&gt;&quot;
+&gt;&lt;!--</SPAN>拼音<SPAN LANG="en-US">=</SPAN>【<SPAN LANG="en-US">U</SPAN>】內碼<SPAN LANG="en-US">=</SPAN>【<SPAN LANG="en-US">C7A2</SPAN>】<SPAN LANG="en-US">big5=</SPAN>【ヨ】<SPAN LANG="en-US">--&gt;</SPAN></BLOCKQUOTE>
+<P>處理軟體可選擇以 <SPAN LANG="en-US">Unicode </SPAN>或拼音顯示<SPAN LANG="en-US">.</SPAN></P>
+<HR>
+<H2><A NAME="dia"></A>轉寫字</H2>
+<P>例如 <SPAN LANG="en-US">a </SPAN>長音以 <SPAN LANG="en-US">&amp;amacron;
+</SPAN>記錄<SPAN LANG="en-US">. </SPAN>相關資訊在 <SPAN LANG="en-US">xml/dtd/cbeta.ent</SPAN></P>
+<HR>
+<H2><A NAME="attr"></A>標記屬性裏的缺字</H2>
+<P>雖然屬性裏允許 <SPAN LANG="en-US">entity reference, </SPAN>但因為缺字
+<SPAN LANG="en-US">entity </SPAN>會取代成 <SPAN LANG="en-US">&lt;gaiji&gt;
+</SPAN>標記，而屬性裏不允許有標記。</P>
+<P>所以，屬性裏的缺字<SPAN LANG="en-US">entity</SPAN>以全形＆開頭，全形；結束，＆<SPAN LANG="en-US">CB....</SPAN>；
+格式記錄<SPAN LANG="en-US">. </SPAN>例： 
+</P>
+<BLOCKQUOTE><SPAN LANG="en-US">T18n0850<BR>&lt;lb
+n=&quot;0068a26&quot;/&gt;....&lt;sic n=&quot;0068015&quot;
+corr=&quot;</SPAN><B>＆</B><SPAN LANG="en-US"><B>CB00062</B></SPAN><B>；</B><SPAN LANG="en-US">&quot;
+resp=&quot;</SPAN>【原】<SPAN LANG="en-US">&quot;&gt;</SPAN>他<SPAN LANG="en-US">&lt;/sic&gt;</SPAN></BLOCKQUOTE>
+</BODY>
+</HTML>

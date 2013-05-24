@@ -1,0 +1,55 @@
+020828/pan
+
+修訂點：在[]中的<note place="inline"></note>，都是原簡單標記版中繁複的組字或原有「( )」造成程式誤判。
+
+如：
+T01n0025_p0420a22"/> D. 33, Sa&ndotabv;g&imacron;ti sutta 法數經名 [No. 1<note place="inline">9</note>]</p>
+
+T45n1877_p0649a26"/>而因成。其猶<anchor id="fnT45p0649a01"/>世[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/米]&CB05063;&CB05063;無別&CB05063;。即聚[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/米]為
+
+應作：
+T01n0025_p0420a22"/> D. 33, Sa&ndotabv;g&imacron;ti sutta 法數經名 [No. 1(9)]</p>
+
+T45n1877_p0649a26"/>而因成。其猶<anchor id="fnT45p0649a01"/>世[((?/(匚@失))*殳)/米]&CB05063;&CB05063;無別&CB05063;。即聚[((?/(匚@失))*殳)/米]為
+
+=============
+T01n0025_p0420a22"/> D. 33, Sa&ndotabv;g&imacron;ti sutta 法數經名 [No. 1<note place="inline">9</note>]</p>
+T01n0025_p0420a25"/> No. 1<note place="inline">11</note>] 三聚 [Trir&amacron;si, No. 1<note place="inline">12</note>] 世記
+T01n0025_p0420a26"/> [Lokapraj&ntilde;apti, No. 1<note place="inline">30</note>] 三經巴本全闕。巴
+T01n0025_p0420c02"/><p id="pT01p0420c0200" type="W">22.Mah&amacron;satipa&tdotblw;&tdotblw;h&amacron;na        念處經[中阿含 <note place="inline">98</note>]</p>
+T01n0025_p0420c10"/><p id="pT01p0420c1000" type="W">30.Lakkha&ndotblw;a                   三十二相經[中阿含 <note place="inline">59</note>]</p>
+T45n1877_p0649a26"/>而因成。其猶<anchor id="fnT45p0649a01"/>世[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/米]&CB05063;&CB05063;無別&CB05063;。即聚[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/米]為
+T45n1877_p0649a27"/>&CB05063;[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/木]無別[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/木]。即散&CB05063;為[<note place="inline"><note place="inline">?/<note place="inline">匚@失</note></note>*殳</note>/米]。應準思之。問。若
+T48n2004_p0232c14"/>朝上人[<note place="inline">厂@?</note>*ㄆ]作鏡心錄。訶南泉輩殺生造罪。文
+T48n2004_p0232c17"/>古人。文公罪重。[<note place="inline">厂@?</note>*ㄆ]公罪輕。南泉依舊。水牯牛
+T54n2128_p0327c13"/><p>顧&CB09802;<note type="inline">上音固鄭云迴首曰顧說文還視也從頁雇聲也雇音同上經作[<note type="inline">厂@?</note>*頁]俗字也下星亦反廣雅&CB09802;愛也楚辭貪也
+T54n2128_p0336a11"/>成王作顧命是也亦作[<note type="inline">厂@?</note>*頁]俗字也</note></p>
+T54n2128_p0338a15"/><p>顧戀<note type="inline">光戶反鄭玄箋毛詩云迴首曰顧又云顧視也念也蒼頡篇云顧旋也廣雅顧向也或作[<note type="inline">厂@?</note>*頁]俗也說文云還視
+T54n2128_p0344a13"/>[<note type="inline">咒-几+?</note>/廾]女耕反從衣案經言浮囊者氣囊也欲渡大海憑此氣囊輕浮之力也</note></p>
+T54n2128_p0388c22"/><p>糞屎<note type="inline">上分悶反俗字也說文作[<note type="inline">白-日+?</note>/土]棄除糞掃也韻英云穢也考聲作&CB01411;或作&CB08124;下音始也</note></p>
+T54n2128_p0398c11"/><p>羹&CB07515;<note type="inline">上更衡反爾雅鹽梅謂之羹顧野王云和調五味曰羹說文從&CB08971;作&CB09166;亦作&CB08503;[<note type="inline">弼-百+?</note>/羊]皆古字也下訶各反王逸注
+T54n2128_p0422c17"/><p>[<note type="inline">臾-臼+?</note>/貝]客<note type="inline">上音古鄭注周禮云通物曰&CB07325;居賣曰[<note type="inline">臾-臼+?</note>/貝]杜注左傳云坐販也鄭注禮記云[<note type="inline">臾-臼+?</note>/貝]物貴賤也爾雅[<note type="inline">臾-臼+?</note>/貝]市也白虎通
+T54n2128_p0422c18"/>云[<note type="inline">臾-臼+?</note>/貝]固也守固物待民來以求利也古今正字坐[<note type="inline">臾-臼+?</note>/貝]賣售也從貝&CB09875;聲&CB09875;音古說文云[<note type="inline">臾-臼+?</note>/貝]從人自癰蔽也左右象蔽形也
+T54n2128_p0423b19"/><p>&CB09054;溢<note type="inline">勞到反考聲云雨落所停水也毛詩傳云行潦者流&CB09054;也禮記季夏水潦成貌也說文雨水也從水&CB09575;聲[<note type="inline">嶚-山+?</note>-小+火]音
+T54n2128_p0428a04"/><p>勸[<note type="inline">?*寸</note>/目]<note type="inline">俗字也正作督東祿反爾雅督正也謂御正之也方言督理也察也</note></p>
+T54n2128_p0494a17"/><p>&CB07424;埌<note type="inline">力[<note type="inline">?*昜</note>/皿]反通俗文丘&CB02943;謂之壙埌</note></p>
+T54n2128_p0497a05"/>擾亂厭蠱也諸經有作[<note type="inline">厂@?</note>*頁]非體也蟲在皿上為蠱字意也蟲音直中反也</note></p>
+T54n2128_p0514b09"/><p>布濩<note type="inline">下胡[<note type="inline">厂@?</note>*頁]反劉良注吳都賦云布濩流布也博雅云遍滿也古今正字從水&CB02910;聲&CB02910;音烏獲反亦從音作頀者也</note></p>
+T54n2128_p0628a13"/><p>溉灌<note type="inline">歌[<note type="inline">臾-臼+?</note>/貝]反說文溉灌也灌注也</note></p></div2>
+T54n2128_p0638a11"/><p>駘足<note type="inline">上代來反[<note type="inline">厂@?</note>*頁]野王云駘駑也楚辭云&CB00230;騏驥而不乘榮駑駘以取路也說文從馬台聲也</note></p>
+T54n2128_p0663c09"/>文從虫從&CB11536;&CB11536;音爪經文作[<note type="inline">夕*?</note>/虫]訛略也</note></p>
+T54n2128_p0680c05"/><p>躓頓<note type="inline">古文&CB08511;&CB11382;二形今作[<note type="inline">孛-子+?</note>/<note type="inline">足-口+田</note>]同陟利反謂挫辱之也</note></p>
+T54n2128_p0761b07"/><p>乘策<note type="inline">古文&CB04693;&CB06874;[<note type="inline">?*<note type="inline">囗@卄</note></note>/日]三形同楚革反策馬撾也所以捶馬&CB00502;馳也</note></p>
+T54n2128_p0788c11"/><p>頷車<note type="inline">又作[<note type="inline">甬-用+?</note>*頁]同胡感反&CB02823;下也釋名頷含也口含物之車也或曰輔車其骨強所以輔持口也或曰牙車牙所載也
+T54n2128_p0792c15"/><p>諸藏<note type="inline">才浪反積蓄也如庫藏也人有五藏謂肝肺脾心腎也經文作[<note type="inline">戊@?</note>/肉]非體也</note></p>
+T54n2128_p0795b08"/><p>蚤起<note type="inline">遭老反案[<note type="inline">夕*?</note>/虫]字經史多作此字也&CB00582;是[<note type="inline">夕*?</note>/虫]蝨之字也今時通用從曰作早也</note></p>
+T54n2128_p0804b17"/><p>聾瞶<note type="inline">古文瞶&CB08535;二形今作[<note type="inline">豕-一+?</note>*頁]又作[<note type="inline">利-禾+?</note>/耳]同牛快反生聾曰瞶聾無識曰瞶也</note></p>
+T54n2128_p0806c20"/>宅介反冕音免卷音厥阮反&CB11956;音丘園反[<note type="inline">中/?</note>*斤]音欣靖音七藥反&CB11762;音責髻音計&CB07152;音覓譜文之中從竹作簀非也</note></p>
+T54n2128_p0838a04"/><p>[<note type="inline">厂@<note type="inline">企-止+?</note></note>*頁]&CB00425;羅衣<note type="inline">上音欽梵語上好衣名纖細羊毛衣也</note></p>
+T54n2128_p0880a12"/><p>樊陽<note type="inline">伐袁反考聲云山邊也地志云古之小國名周地邑&CB00561;也說文從林從爻從[<note type="inline">?*?</note>/八][<note type="inline">?*?</note>/八]音攀也</note></p>
+T54n2128_p0902a20"/><p>哀陴<note type="inline">婢彌反左傳云守陴者皆哭杜云城上埤堄也說文城上垣陴倪也從&CB01353;卑聲&CB07580;文作[<note type="inline">亨-了+?</note>*卑]集本從金作<anchor id="fnT54p0902a06"/>錍非
+T54n2128_p0904a24"/><p>&CB13192;朱<note type="inline">上衫袷反已具釋雜事律中集作[<note type="inline">凵@?</note>*欠]失也</note></p>
+T54n2128_p0913a17"/><p>何&CB02326;<note type="inline">移利反孔注尚書云&CB02326;已退也說文從[?<note type="inline">十*十</note>]已聲正體字也集作&CB02326;俗字[?<note type="inline">十*十</note>]音俱勇反</note></p>
+T54n2130_p0993b24"/><item>尸利崛多<note place="inline">亦云尸[<note place="inline"><note place="inline">木-<note place="inline">企-止</note>+?</note>/大</note>*毛]多　譯曰尸利者吉堀多者藏亦云護也</note>　第三卷</item>
+T54n2128_p0913a17"/><p>何&CB02326;<note type="inline">移利反孔注尚書云&CB02326;已退也說文從[?<note type="inline">十*十</note>]已聲正體字也集作&CB02326;俗字[?<note type="inline">十*十</note>]音俱勇反</note></p>
+T54n2130-p0993b24"/><item>尸利崛多<note place="inline">亦云尸[<note place="inline"><note place="inline">木-<note place="inline">企-止</note>+?</note>/大</note>*毛]多　譯曰尸利者吉堀多者藏亦云護也</note>　第三卷</item>

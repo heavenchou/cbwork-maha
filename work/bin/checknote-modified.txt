@@ -1,0 +1,31 @@
+執行checknote時，要修改下面幾行.
+
+T01note.txt－－改成
+
+－－校勘條目.txt
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+原始經文路徑d:/cbeta.src/T01/new.txt－－改成
+
+－－c:/cbwork/work/maha/${vol}/T01maha.txt
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+xml 經文的目錄路徑c:/cbeta/xml/$vol/－－改成
+
+－－my $xml_dir = "c:/cbwork/xml/$vol/";
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+相對位置如下：
+_________________________________________
+my $vol = "T01";
+my $infile = "${vol}note.txt";				# 校勘條目檔
+my $sutra = "d:/cbeta.src/${vol}/new.txt";	　　　　# 原始經文檔（簡單標記版）
+my $xml_dir = "c:/cbeta/xml/$vol/";			# xml 經文的目錄
+=========================================
+my $vol = "T01";
+my $infile = "${vol}校勘條目.txt";		　　　　# 校勘條目檔
+my $sutra = "c:/cbwork/work/maha/${vol}/T01maha.txt";	# 原始經文檔（簡單標記版）
+my $xml_dir = "c:/cbwork/xml/$vol/";　　　　　　　　　　# xml 經文的目錄
+
+___________________end____________________

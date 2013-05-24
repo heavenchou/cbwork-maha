@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>CBETA XML 標記</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="center">CBETA XML 標記</h1>
+
+<p align="right">
+  <!--webbot bot="Timestamp" startspan S-Type="EDITED"     S-Format="%Y/%m/%d" -->
+2008/01/31</p>
+<p>CBETA XML 文件目前使用 Big5 Encoding, 標記採用國際標準 <a href="http://www.tei-c.org/">TEI</a>, 
+在 TEI 裏找不到合適的才會自訂標記, 或自定標記屬性.</p>
+<ul>
+  <li><a href="cbeta_xml_files.htm">檔案命名原則</a></li>
+  <li><a href="inside_structure.htm">XML檔內容架構</a>
+    <ul>
+      <li><a href="inside_structure.htm#overview">Overview</a></li>
+      <li><a href="inside_structure.htm#header">Header</a>
+        <ul>
+            <li><a href="inside_structure.htm#filedesc">File Description</a>　　　 本電子檔書目資訊描述</li>
+            <li><a href="inside_structure.htm#encodingdesc">Encoding Description</a>　電子版與來源間的關係描述</li>
+            <li><a href="inside_structure.htm#profiledesc">Profile Description</a>　　 </li>
+            <li><a href="inside_structure.htm#revisiondesc">Revision Description</a>　 修訂摘要記錄</li>
+        </ul>
+      </li>
+      <li><a href="inside_structure.htm#text">Text</a>
+          <ul>
+            <li><a href="inside_structure.htm#pb">頁碼、行號</a></li>
+            <li><a href="inside_structure.htm#juan">分卷</a></li>
+            <li><a href="inside_structure.htm#div">章節架構</a></li>
+          </ul>
+      </li>
+    </ul>
+  </li>
+	<li><a href="#juan">分卷資訊</a></li>
+	<li><a href="#toc">目次</a></li>
+	<li><a href="dictionary.htm">辭典、字詞解釋、音釋</a></li>
+  <li>註解<ul>
+  <li><a href="jk.htm">校勘</a></li>
+	<li><a href="div-note.htm">段落後註解</a></li>
+</ul>
+  </li>
+	<li><a href="ref-figure.htm">圖形</a></li>
+  <li><a href="link.htm">連結</a></li>
+  <li><a href="gaizi.htm">缺字標記</a></li>
+  <li><a href="new-punc.htm">新式標點</a></li>
+  <li><a href="elements.htm">Elements</a></li>
+  <li><a href="globalattr.htm">Global Attributes</a></li>
+</ul>
+
+<hr>
+<h1><a name="juan"></a>分卷資訊</h1>
+<p>因為分卷而產生的重複標題, 兩種標法:</p>
+<ul>
+	<li>&lt;juan&gt;&lt;jhead&gt;....&lt;/jhead&gt;&lt;/juan&gt;</li>
+	<li>&lt;p type=&quot;head&quot;?&gt;</li>
+</ul>
+<p>例 X79n1557</p>
+<p class="code">&lt;lb ed=&quot;X&quot; n=&quot;0112c03&quot;/&gt;&lt;p id=&quot;pX79p0112c0301&quot; <b>type=&quot;head3&quot;</b>&gt;南嶽下第十一世&lt;/p&gt;</p>
+<h2>卷首目錄+重複標題</h2>
+<p><font face="細明體"><strong>T21n1340_p0674c02J##大法炬陀羅尼經卷第四</strong><br>
+T21n1340_p0674c03_##<br>
+T21n1340_p0674c04Y##隋[06]天竺三藏法師闍那崛多等譯<br>
+<font color="#0000ff">T21n1340_p0674c05P##　　[07]相好品之餘<br>
+T21n1340_p0674c06P##　　四念處品第八</font><br>
+T21n1340_p0674c07D##<font color="#ff00ff">相好[08]</font><font color="#ff0000">品之[09]餘<font face="新細明體"><span class="750230802-03032006">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font>&nbsp;&nbsp;<span class="750230802-03032006">&nbsp;<strong>←
+</strong><font face="新細明體">可處理成</font>「重複標題」</span></font></font></p>
+
+<hr>
+<h1><a name="toc"></a>目次</h1>
+<p>&lt;div type=&quot;toc&quot;&gt;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;juan&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;juan> 卷首資訊、卷尾資訊</h1>  
+<p align="right">$Date: 2005/02/02 00:49:29 $  
+</p>  
+<p align="left">CBETA 自訂標記.</p>   
+<p align="left">大正藏經文中「卷」可分「卷首」及「卷終」。「卷首」以&lt;juan fun="open" n="?">…&lt;/juan>標記。「卷終」以&lt;juan fun="close" n="?">…&lt;/juan>標記。</p>   
+<p align="left">&lt;jhead>…&lt;/jhead>標記一卷的開頭。&lt;title>…&lt;/title>標記卷名。所以每一經（論）的卷（論）名，以&lt;juan>&lt;jhead>&lt;title>（經名）&lt;/title>（卷數）&lt;/jhead>&lt;/juan>標記。</p> 
+<h2 align="left">Attribute</h2>
+<blockquote>
+	<h3 align="left">n 卷數</h3>
+	<blockquote>
+		<p align="left">通常是數字, 少數卷分上下, 會有 a,b..., 例 T33n1708 &lt;juan fun=&quot;open&quot; 
+		n=&quot;<b>001a</b>&quot;&gt;</p>
+	</blockquote>
+</blockquote>
+<h2 align="left">可包含的子元素</h2> 
+<blockquote> 
+  <p align="left">byline, jhead, title</p>   
+</blockquote>  
+<p align="left"><a href="#13-15">卷第十三之十五</a></p> 
+<h2 align="left">範例</h2> 
+<blockquote> 
+  <p align="left">&lt;juan fun="open" n="005"><br>   
+  &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第五&lt;/jhead><br>  
+  &lt;/juan></p>  
+</blockquote>  
+<h2 align="left">範例</h2> 
+<blockquote> 
+  <p align="left">p401a02<br> 
+  &lt;juan fun="open" n="002"><br>   
+  &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第二&lt;/jhead><br>  
+  &lt;byline>東晉天竺三藏佛馱跋陀羅譯&lt;/byline><br>  
+  &lt;head>世間淨眼品第一之二&lt;/head><br>  
+  &lt;/juan></p>  
+</blockquote>  
+<h2 align="left">範例 (juan在app的lem裏)</h2>   
+<blockquote>  
+  <p align="left">在同一div1裏，大正藏分「卷」，其他版本「不分卷」</p>  
+  <p align="left">T09, No. 278, p. 401a</p>  
+  <p align="left"> 
+  &lt;app n="040014-040101a"><br>   
+  &nbsp;&nbsp;&nbsp; &lt;lem><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;juan fun="close" n="001"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第一&lt;/jhead><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/juan><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;juan fun="open" n="002"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;jhead>&lt;title>大方廣佛華嚴經&lt;/title>卷第二&lt;/jhead><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/juan><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;byline>東晉天竺三藏佛馱跋陀羅譯&lt;/byline><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;head>世間淨眼品第一之二&lt;/head><br>  
+  &nbsp;&nbsp;&nbsp; &lt;/lem><br>  
+  &nbsp;&nbsp;&nbsp; &lt;rdg wit="【三】【宮】【聖】">&amp;lac;&lt;/rdg><br>   
+  &lt;/app></p>  
+</blockquote>  
+<h2 align="left">範例</h2> 
+<blockquote> 
+  <p align="left">大正藏分「卷」，且分div1，其他版本「不分卷」<br> 
+  &lt;div1><br> 
+  &nbsp;&nbsp;&nbsp; ．．．<br> 
+  &nbsp;&nbsp;&nbsp; &lt;app n="?-?a"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lem><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;juan fun="close" n="?"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  &lt;jhead>&lt;title>(經名)&lt;/title>（卷數）&lt;/jhead><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/juan><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/lem><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;rdg wit="【?】">&amp;lac;&lt;/rdg><br>   
+  &nbsp;&nbsp;&nbsp; &lt;/app><br>  
+  &lt;/div1><br>  
+  &lt;div1><br>  
+  &nbsp;&nbsp;&nbsp; &lt;app n="?-?b"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;lem><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;juan fun="open" n="?"><br>   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  &lt;jhead>&lt;title>(經名)&lt;/title>（卷數）&lt;/jhead><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/juan><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/lem><br>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;rdg wit="【?】">&amp;lac;&lt;/rdg><br>   
+  &nbsp;&nbsp;&nbsp; &lt;/app><br>  
+  &nbsp;&nbsp;&nbsp; ．．．<br>  
+  &lt;/div1></p>  
+</blockquote>  
+<h2 align="left">範例：大正藏「不分卷」，其他版本「分卷」</h2> 
+<blockquote> 
+  <p align="left">&lt;app n="040110-040111"><br>  
+  &lt;lem>&amp;lac;&lt;/lem ><br>  
+  &lt;rdg wit="【三】【宮】">分卷&lt;/rdg><br>  
+  &lt;/app><br>  
+  </p>  
+</blockquote>  
+  
+<h2 align="left"><a name="13-15"></a>卷十三之十五</h2>
+<p align="left">X72, No. 1435</p>
+<p align="left">&lt;lb ed=&quot;X&quot; n=&quot;0293a04&quot;/&gt;&lt;milestone 
+unit=&quot;juan&quot; n=&quot;13&quot;/&gt; &lt;lb ed=&quot;X&quot; 
+n=&quot;0293a05&quot;/&gt; <br>
+&lt;lb ed=&quot;X&quot; n=&quot;0293a06&quot;/&gt;&lt;juan fun=&quot;open&quot; 
+n=&quot;013&quot;&gt;&lt;mulu type=&quot;卷&quot; 
+n=&quot;13&quot;/&gt;&lt;jhead&gt;無異禪師廣錄卷第十三之十五&lt;/jhead&gt;&lt;/juan&gt;<br>
+&nbsp;... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+... ... ... ... ... ... ... ...<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0294b09&quot;/&gt;&lt;juan fun=&quot;close&quot; 
+n=&quot;013&quot;&gt;&lt;jhead&gt;無異禪師廣錄卷第十五&lt;/jhead&gt;&lt;/juan&gt;</p>
+  
+</body>  
+  
+</html>

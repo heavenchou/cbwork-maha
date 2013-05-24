@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>Gaiji-m.mdb Readme</title>
+<style>
+<!--
+body         { font-family: Times New Roman }
+-->
+</style>
+</head>
+
+<body>
+
+<h1 align="center">Gaiji-m.mdb Readme</h1>
+<p align="right">$Date: 2005/02/15 08:19:37 $ by Ray</p>
+<ul>
+	<li><a href="#field">欄位</a></li>
+	<li><a href="#ci">通用詞</a></li>
+	<li><a href="#hidden">找不到某欄位</a></li>
+</ul>
+<h2><a name="field"></a>欄位</h2>
+<ul>
+	<li><a href="#cb">cb</a></li>
+	<li>mojikyo</li>
+	<li>entity</li>
+	<li>uni_flag (Unicode 是否能呈現 0:否 1:是)</li>
+	<li>uni2</li>
+	<li>uni</li>
+	<li>des (組字式)</li>
+	<li>nor (通用字)</li>
+	<li>cx</li>
+	<li>ref</li>
+	<li>note</li>
+	<li>rad (部首)</li>
+	<li>str (筆劃)</li>
+	<li>zhu (注音)</li>
+	<li>fc (四角號碼)</li>
+</ul>
+<h2><a name="cb"></a>cb 欄位</h2>
+<blockquote>
+	<p># 開頭──取消使用<br>
+	a 開頭──幾乎多是 CBETA 還沒有處理校勘時的校勘用字<br>
+	b 開頭──國科會專案用字 [心如工作用字，應該是T31哪一個專案] (如果 CBETA 還沒有組字的話)<br>
+	c 開頭──法鼓全集用字(如果 CBETA 還沒有組字的話)<br>
+	n 開頭──國科會專案用字和西蓮的南山律用字 [心如、葛賢敏] (如果 CBETA 還沒有組字的話)<br>
+	x 開頭──CBETA 通用詞用字。原本四碼，用五碼後決定 x+通用詞的缺字cb碼(如果詞組都是缺字，採用首字的cb碼)，前後沒有統一，所以有一個x和兩個x。</p>
+</blockquote>
+
+<h2><a name="ci"></a>通用詞</h2>
+<blockquote>
+	<p>通用詞 於 XML 中使用的 entity, 例如 CI0001, 記錄於 entity 欄位.</p>
+</blockquote>
+<h2><a name="hidden"></a>找不到某欄位</h2>
+<blockquote>
+	<p>功能表 格式 / 取消隱藏欄位</p>
+</blockquote>
+
+</body>
+
+</html>

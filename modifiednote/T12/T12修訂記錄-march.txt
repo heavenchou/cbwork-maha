@@ -1,0 +1,915 @@
+
+hh 比對修訂：
+修訂日期：2003/4/16 
+
+修改前：
+<l>罣癡之網</l>
+<note n="0978007" resp="Taisho" type="orig" place="foot text">譬如乃至之行百字三本宮本作長行</note><note n="0978007" resp="CBETA" type="mod"><todo type="a"/>譬如乃至之行百字三本宮本作長行</note>
+<lb n="0978b03"/><l>譬如有人</l>
+
+修改後：
+<l>罣癡之網</l>
+<lb n="0978b03"/><l><note n="0978007" resp="Taisho" type="orig" place="foot text">譬如乃至之行百字三本宮本作長行</note><note n="0978007" resp="CBETA" type="mod"><todo type="a"/>譬如乃至之行百字三本宮本作長行</note>譬如有人</l>
+
+修改前：
+二<anchor id="fxT12p0775b07"/>
+
+修改後：
+<anchor id="fxT12p0775b07"/>二
+
+修改前：
+名<anchor id="fxT12p0415a01"/>
+
+修改後：
+<anchor id="fxT12p0415a01"/>名
+
+修改前：
+阿那含<anchor id="fxT12p1055b02"/>受報。或阿那含身
+
+修改後：
+阿那<anchor id="fxT12p1055b02"/>含受報。或阿那含身
+
+修改前：
+須彌山<anchor id="fxT12p1080c01"/>王
+
+修改後：
+須彌<anchor id="fxT12p1080c01"/>山王
+
+修改前：
+物故<anchor id="fxT12p0493a01"/>行於施
+
+修改後：
+物<anchor id="fxT12p0493a01"/>故行於施
+
+修改前：
+七者不宿死尸<anchor id="fxT12p0559b02"/>死尸<anchor id="fxT12p0559b03"/>者。
+
+修改後：
+七者不宿死<anchor id="fxT12p0559b02"/>尸死<anchor id="fxT12p0559b03"/>尸者
+
+修改前：
+<note n="0627003" resp="Taisho" type="orig" place="foot text">自譬如至所至十句四十字宋元明三本俱作長行</note><note n="0627003" resp="CBETA" type="mod"><todo type="a"/>自譬如至所至十句四十字宋元明三本俱作長行</note><lb n="0627c02"/>
+
+修改後：
+<lb n="0627c02"/><note n="0627003" resp="Taisho" type="orig" place="foot text">自譬如至所至十句四十字宋元明三本俱作長行</note><note n="0627003" resp="CBETA" type="mod"><todo type="a"/>自譬如至所至十句四十字宋元明三本俱作長行</note>
+
+修改前：
+<note n="0043004" resp="Taisho" type="orig" place="foot text">（（右此…述））作大書【三】【宮】</note><note n="0043004" resp="CBETA" type="mod"><todo type="a"/>（（右此…述））作大書【宋】【元】【明】【宮】</note><note place="inline">右此
+
+修改後：
+<note place="inline"><note n="0043004" resp="Taisho" type="orig" place="foot text">（（右此…述））作大書【三】【宮】</note><note n="0043004" resp="CBETA" type="mod"><todo type="a"/>（（右此…述））作大書【宋】【元】【明】【宮】</note>右此
+
+修改前：
+隨<anchor id="fxT12p0580c04"/>意語
+
+修改後：
+<anchor id="fxT12p0580c04"/>隨意語
+
+修改前：
+隨<anchor id="fxT12p0580c05"/>意語故名三藐三佛陀
+
+修改後：
+<anchor id="fxT12p0580c05"/>隨意語故名三藐三佛陀
+
+修改前：
+沙<anchor id="fxT12p0608b01"/>羅剎王
+
+修改後：
+<anchor id="fxT12p0608b01"/>沙羅剎王
+
+修改前：
+沙<anchor id="fxT12p0368c03"/>羅剎王
+
+修改後：
+<anchor id="fxT12p0368c03"/>沙羅剎王
+
+修改前：
+沙<anchor id="fxT12p0368c02"/>諸鬼神王
+
+修改後：
+<anchor id="fxT12p0368c02"/>沙諸鬼神王
+
+修改前：
+那舍<anchor id="fxT12p0951a01"/>譯
+
+修改後：
+那<anchor id="fxT12p0951a01"/>舍譯
+
+修改前：
+耶舍<anchor id="fxT12p0962c01"/>譯
+
+修改後：
+耶<anchor id="fxT12p0962c01"/>舍譯
+
+修改前：
+耶舍<anchor id="fxT12p0968a01"/>譯
+
+修改後：
+耶<anchor id="fxT12p0968a01"/>舍譯
+
+修改前：
+東晉<anchor id="fxT12p0861a01"/>平陽沙門法顯<anchor id="fxT12p0861a02"/><anchor id="fxT12p0861a03"/>譯
+
+修改後：
+東晉平陽沙門法顯譯
+
+修改前：
+東晉<anchor id="fxT12p0868a01"/>平陽沙門法顯<anchor id="fxT12p0868a02"/><anchor id="fxT12p0868a03"/>譯
+
+修改後：
+東晉平陽沙門法顯譯</byline><lb n="0868a24"/>
+
+修改前：
+東晉<anchor id="fxT12p0875c01"/>平陽沙門法顯<anchor id="fxT12p0875c02"/><anchor id="fxT12p0875c03"/>譯
+
+修改後：
+東晉平陽沙門法顯譯</byline>
+
+修改前：
+東晉<anchor id="fxT12p0882c01"/>平陽沙門法顯<anchor id="fxT12p0882c02"/><anchor id="fxT12p0882c03"/>譯
+
+修改後：
+東晉平陽沙門法顯譯</byline>
+
+修改前：
+月氏三藏<anchor id="fxT12p0978b03"/>
+
+修改後：
+月氏三<anchor id="fxT12p0978b03"/>藏竺法護譯
+
+修改前：
+月氏三藏<anchor id="fxT12p0983c02"/>竺法護譯
+
+修改後：
+月氏三<anchor id="fxT12p0983c02"/>藏竺法護譯
+
+修改前：
+姚秦三藏<anchor id="fxT12p0999b01"/>鳩摩羅什
+
+修改後：
+姚秦三<anchor id="fxT12p0999b01"/>藏鳩摩羅什
+
+修改前：
+三藏<anchor id="fxT12p1074a02"/>
+
+修改後：
+三<anchor id="fxT12p1074a02"/>藏
+
+修改前：
+尸<anchor id="fxT12p0447a04"/>波羅蜜
+
+修改後：
+<anchor id="fxT12p0447a04"/>尸波羅蜜
+
+修改前：
+不宿死尸<anchor id="fxT12p0558c01"/>
+
+修改後：
+不宿死<anchor id="fxT12p0558c01"/>尸
+
+修改前：
+尸<anchor id="fxT12p0559b04"/>
+修改後：
+<anchor id="fxT12p0559b04"/>尸
+
+修改前：
+尸<anchor id="fxT12p0559b05"/>
+
+修改後：
+<anchor id="fxT12p0559b05"/>尸
+
+修改前：
+<note place="inline"><note n="0654016" resp="Taisho" type="orig" place="foot text">〔土家反〕－【三】</note><note n="0654016" resp="CBETA" type="mod">〔土家反〕－【宋】【元】【明】</note><app n="0654016"><lem>土家反</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="0654016" resp="Taisho" type="orig" place="foot text">〔土家反〕－【三】</note><note n="0654016" resp="CBETA" type="mod">〔土家反〕－【宋】【元】【明】</note><app n="0654016"><lem><note place="inline">土家反</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="0734003" resp="Taisho" type="orig" place="foot text">〔一本云與八萬〕－【三】</note><note n="0734003" resp="CBETA" type="mod">〔一本云與八萬〕－【宋】【元】【明】</note><app n="0734003"><lem>一本云與八萬</lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
+</note>
+修改後：
+<note n="0734003" resp="Taisho" type="orig" place="foot text">〔一本云與八萬〕－【三】</note><note n="0734003" resp="CBETA" type="mod">〔一本云與八萬〕－【宋】【元】【明】</note><app n="0734003"><lem><note place="inline">一本云與八萬</note></lem><rdg wit="【宋】【元】【明】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline">
+<note n="0823011" resp="Taisho" type="orig" place="foot text">〔有本作即〕－【三】【聖】</note><note n="0823011" resp="CBETA" type="mod">〔有本作即〕－【宋】【元】【明】【聖】</note><app n="0823011"><lem>有本作即</lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="0823011" resp="Taisho" type="orig" place="foot text">〔有本作即〕－【三】【聖】</note><note n="0823011" resp="CBETA" type="mod">〔有本作即〕－【宋】【元】【明】【聖】</note><app n="0823011"><lem><note place="inline">有本作即</note></lem><rdg wit="【宋】【元】【明】【聖】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="0888031" resp="Taisho" type="orig" place="foot text">〔來雅反〕－【明】，來雅反＋（音）【聖】＊</note><app n="0888031"><lem>來雅反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">來雅反音</rdg></app></note>
+
+修改後：
+<note n="0888031" resp="Taisho" type="orig" place="foot text">〔來雅反〕－【明】，來雅反＋（音）【聖】＊</note><app n="0888031"><lem><note place="inline">來雅反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">來雅反音</rdg></app>
+
+修改前：
+<note place="inline"><note n="1009028" resp="Taisho" type="orig" place="foot text">〔竹利反〕－【三】【宮】【聖】</note><note n="1009028" resp="CBETA" type="mod">〔竹利反〕－【宋】【元】【明】【宮】【聖】</note><app n="1009028"><lem>竹利反</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1009028" resp="Taisho" type="orig" place="foot text">〔竹利反〕－【三】【宮】【聖】</note><note n="1009028" resp="CBETA" type="mod">〔竹利反〕－【宋】【元】【明】【宮】【聖】</note><app n="1009028"><lem><note place="inline">竹利反</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="1009042" resp="Taisho" type="orig" place="foot text">〔振旦者漢國也〕－【三】【宮】【聖】</note><note n="1009042" resp="CBETA" type="mod">〔振旦者漢國也〕－【宋】【元】【明】【宮】【聖】</note><app n="1009042"><lem>振旦者漢國也</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1009042" resp="Taisho" type="orig" place="foot text">〔振旦者漢國也〕－【三】【宮】【聖】</note><note n="1009042" resp="CBETA" type="mod">〔振旦者漢國也〕－【宋】【元】【明】【宮】【聖】</note><app n="1009042"><lem><note place="inline">振旦者漢國也</note></lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="1010011" resp="Taisho" type="orig" place="foot text">〔一名…說法〕十一字－【三】【宮】</note><note n="1010011" resp="CBETA" type="mod">〔一名…說法〕十一字－【宋】【元】【明】【宮】</note><app n="1010011" word-count="11"><lem>一名佛昇忉利天為母說法</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1010011" resp="Taisho" type="orig" place="foot text">〔一名…說法〕十一字－【三】【宮】</note><note n="1010011" resp="CBETA" type="mod">〔一名…說法〕十一字－【宋】【元】【明】【宮】</note><app n="1010011" word-count="11"><lem><note place="inline">一名佛昇忉利天為母說法</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="1030009" resp="Taisho" type="orig" place="foot text">〔丹本香〕－【三】【宮】</note><note n="1030009" resp="CBETA" type="mod">〔丹本香〕－【宋】【元】【明】【宮】</note><app n="1030009"><lem>丹本香</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1030009" resp="Taisho" type="orig" place="foot text">〔丹本香〕－【三】【宮】</note><note n="1030009" resp="CBETA" type="mod">〔丹本香〕－【宋】【元】【明】【宮】</note><app n="1030009"><lem><note place="inline">丹本香</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app
+
+修改前：
+<note place="inline"><note n="1030019" resp="Taisho" type="orig" place="foot text">〔丹鄉勸〕－【三】【宮】</note><note n="1030019" resp="CBETA" type="mod">〔丹鄉勸〕－【宋】【元】【明】【宮】</note><app n="1030019"><lem>丹鄉勸</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1030019" resp="Taisho" type="orig" place="foot text">〔丹鄉勸〕－【三】【宮】</note><note n="1030019" resp="CBETA" type="mod">〔丹鄉勸〕－【宋】【元】【明】【宮】</note><app n="1030019"><lem><note place="inline">丹鄉勸</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="1070008" resp="Taisho" type="orig" place="foot text">〔大乘修多羅藏〕－【三】【宮】</note><note n="1070008" resp="CBETA" type="mod">〔大乘修多羅藏〕－【宋】【元】【明】【宮】</note><app n="1070008"><lem>大乘修多羅藏</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1070008" resp="Taisho" type="orig" place="foot text">〔大乘修多羅藏〕－【三】【宮】</note><note n="1070008" resp="CBETA" type="mod">〔大乘修多羅藏〕－【宋】【元】【明】【宮】</note><app n="1070008"><lem><note place="inline">大乘修多羅藏</note></lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+<note place="inline"><note n="1090017" resp="Taisho" type="orig" place="foot text">〔梵本長一〕－【宋】【宮】</note><app n="1090017"><lem>梵本長一</lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app></note>
+
+修改後：
+<note n="1090017" resp="Taisho" type="orig" place="foot text">〔梵本長一〕－【宋】【宮】</note><app n="1090017"><lem><note place="inline">梵本長一</note></lem><rdg wit="【宋】【宮】" resp="Taisho">&lac;</rdg></app>
+
+修改前：
+曇無讖<anchor id="fxT12p0371c03"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0371c03"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0379a01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0379a01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0390b01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0390b01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0396c01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0396c01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0402c01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0402c01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0409a01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0409a01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0416a01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0416a01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0422c01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0422c01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0433c05"/>
+
+修改後：
+曇無<anchor id="fxT12p0433c05"/>讖
+
+修改前：
+曇無讖<anchor id="fxT12p0462c01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0462c01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0468a01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0468a01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0474a02"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0474a02"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0480b01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0480b01"/>讖譯
+
+修改前：
+曇無讖<anchor id="fxT12p0517c01"/>譯
+
+修改後：
+曇無<anchor id="fxT12p0517c01"/>讖譯
+
+修改前：
+佛告迦葉<anchor id="fxT12p0866c02"/>。
+
+修改後：
+佛告<anchor id="fxT12p0866c02"/>迦葉。
+
+修改前：
+佛告迦葉<anchor id="fxT12p0867a01"/>。
+
+修改後：
+佛告<anchor id="fxT12p0867a01"/>迦葉。
+
+修改前：
+<corr sic="＊"></corr>師子吼菩薩品第十一之一
+
+修改後：
+<anchor id="fxT12p0522b02"/>師子吼菩薩品第十一之一
+
+修改前：
+又阿尼樓<corr sic="＊"></corr>馱言
+能竭生死漂流<anchor id="fxT12p0549c03"/>瀑河。
+
+修改後：
+又阿尼樓<anchor id="fxT12p0549c03"/>馱言
+能竭生死漂流<anchor id="fxT12p0549c04"/>瀑河
+
+修改前：
+若<corr sic="＊"></corr>能修習身戒心慧
+云何名為不<anchor id="fxT12p0552a07"/>修
+
+修改後：
+若<anchor id="fxT12p0552a07"/>能修習身戒心慧
+云何名為不<anchor id="fxT12p0552a08"/>修
+
+修改前：
+信心故<corr sic="＊"></corr>修習淨戒
+
+修改後：
+信心故<anchor id="fxT12p0554c05"/>修習淨戒
+
+修改前：
+如來智<corr sic="＊"></corr>嘴
+
+修改後：
+如來智<anchor id="fxT12p0560a02"/>嘴
+
+修改前：
+是名<corr sic="＊"></corr>殘果
+
+修改後：
+是名<anchor id="fxT12p0579c02"/>殘果
+
+修改前：
+涕<corr sic="＊"></corr>泣盈
+
+修改後：
+涕<anchor id="fxT12p0605b01"/>泣盈
+
+修改前：
+寶幢<corr sic="＊"></corr>卑
+
+修改後：
+寶幢<anchor id="fxT12p0607c02"/>卑
+
+修改前：
+自拔頭髮<corr sic="＊"></corr>搥胸大哭
+
+修改後：
+自拔頭髮<anchor id="fxT12p0607c04"/>搥胸大哭
+
+修改前：
+<corr sic="＊"></corr>卑者至自在天
+
+修改後：
+<anchor id="fxT12p0609b01"/>卑者至自在天
+
+修改前：
+舉手<corr sic="＊"></corr>搥胸
+
+修改後：
+舉手<anchor id="fxT12p0611a01"/>搥胸
+
+修改前：
+得無<corr sic="＊"></corr>礙辯
+
+修改後：
+得無<anchor id="fxT12p0611c01"/>礙辯
+
+修改前：
+云何如來<corr sic="＊"></corr>得受安樂
+
+修改後：
+云何如來<anchor id="fxT12p0615c02"/>得受安樂
+
+修改前：
+<corr sic="＊"></corr>云何說言修無
+
+修改後：
+云何說言修無
+
+修改前：
+是名不<corr sic="＊"></corr>顛倒
+
+修改後：
+是名不<anchor id="fxT12p0617b07"/>顛倒
+
+修改前：
+告諸<corr sic="＊"></corr>比丘
+
+修改後：
+告諸<anchor id="fxT12p0617b09"/>比丘。
+
+修改前：
+其性<corr sic="＊"></corr>常住
+
+修改後：
+其性<anchor id="fxT12p0622b05"/>常住
+
+修改前：
+以能護持正<corr sic="＊"></corr>法因緣
+
+修改後：
+以能護持正<anchor id="fxT12p0623b01"/>法因緣
+
+修改前：
+<corr sic="＊"></corr>禿人輩
+
+修改後：
+<anchor id="fxT12p0624a01"/>禿人輩
+
+修改前：
+<corr sic="＊"></corr>變
+
+修改後：
+<anchor id="fxT12p0630a02"/>變
+
+修改前：
+又無動者<corr sic="＊"></corr>譬如素
+
+修改後：
+又無動者<anchor id="fxT12p0633b05"/>譬如素
+
+修改前：
+是名<corr sic="＊"></corr>初倒
+
+修改後：
+是名<anchor id="fxT12p0648a04"/>初倒
+
+修改前：
+是故名<corr sic="＊"></corr>拏
+
+修改後：
+是故名<anchor id="fxT12p0654c04"/>拏
+
+修改前：
+我今何緣橫<corr sic="＊"></corr>瞋
+
+修改後：
+我今何緣橫<anchor id="fxT12p0675c01"/>瞋
+
+修改前：
+我<corr sic="＊"></corr>實不食
+
+修改後：
+我<anchor id="fxT12p0677b01"/>實不食
+
+修改前：
+<corr sic="＊"></corr>鮮榮
+
+修改後：
+<anchor id="fxT12p0677c02"/>鮮榮
+
+修改前：
+以軟語錢財珍寶而<corr sic="＊"></corr>貢上之
+
+修改後：
+以軟語錢財珍寶而<anchor id="fxT12p0679a01"/>貢上之
+
+修改前：
+金銀琉璃珊<corr sic="＊"></corr>瑚
+
+修改後：
+金銀琉璃珊<anchor id="fxT12p0681b02"/>瑚
+
+修改前：
+令墮三惡<corr sic="＊"></corr>道中
+
+修改後：
+令墮三惡<anchor id="fxT12p0682b01"/>道中
+
+修改前：
+今於此<corr sic="＊"></corr>間拘尸那城
+
+修改後：
+今於此<anchor id="fxT12p0689c01"/>間拘尸那城
+
+修改前：
+今於此<corr sic="＊"></corr>間拘尸那城
+
+修改後：
+今於此<anchor id="fxT12p0689c02"/>間拘尸那城
+
+修改前：
+今於此<corr sic="＊"></corr>間拘尸那城
+
+修改後：
+今於此<anchor id="fxT12p0689c03"/>間拘尸那城
+
+修改前：
+二者誹謗方<corr sic="＊"></corr>等經典
+
+修改後：
+二者誹謗方<anchor id="fxT12p0690a01"/>等經典
+
+修改前：
+<corr sic="＊"></corr>得無退三昧
+
+修改後：
+<anchor id="fxT12p0690b01"/>得無退三昧
+
+修改前：
+自變其身作羅剎<corr sic="＊"></corr>像
+
+修改後：
+自變其身作羅剎<anchor id="fxT12p0692a01"/>像
+
+修改前：
+爾時說是<corr sic="＊"></corr>語已
+
+修改後：
+爾時說是<anchor id="fxT12p0693a01"/>語已
+
+修改前：
+何等名為<corr sic="＊"></corr>優陀那經
+
+修改後：
+何等名為<anchor id="fxT12p0693c05"/>優陀那經
+
+修改前：
+何<corr sic="＊"></corr>故
+
+修改後：
+何<anchor id="fxT12p0705c04"/>故
+
+修改前：
+<corr sic="＊"></corr>名之無
+
+修改後：
+<anchor id="fxT12p0718a02"/>名之無
+
+修改前：
+菩薩<corr sic="＊"></corr>摩訶
+
+修改後：
+菩薩<anchor id="fxT12p0741b02"/>摩訶
+
+修改前：
+諸子<corr sic="＊"></corr>瞋倒皆生沒想
+
+修改後：
+諸子<anchor id="fxT12p758a01"/>瞋倒皆生沒想
+
+修改前：
+雖復<corr sic="＊"></corr>壓之貪不可得
+
+修改後：
+雖復<anchor id="fxT12p0759c01"/>壓之貪不可得
+
+修改前：
+一切諸法無常<corr sic="＊"></corr>無我無樂無淨
+
+修改後：
+一切諸法無常<anchor id="fxT12p0770a01"/>無我無樂無淨
+
+修改前：
+闇室中<corr sic="＊"></corr>然一燈
+
+修改後：
+闇室中<anchor id="fxT12p0790a01"/>然一燈
+
+修改前：
+如<corr sic="＊"></corr>低彌魚
+
+修改後：
+如<anchor id="fxT12p0823c01"/>低彌魚
+
+修改前：
+<corr sic="＊"></corr>&CB01065;魚有四事
+
+修改後：
+<anchor id="fxT12p0825b02"/>&CB01065;魚有四事
+
+修改前：
+名<corr sic="＊"></corr>世
+
+修改後：
+名<anchor id="fxT12p0829b07"/>世
+
+修改前：
+名<corr sic="＊"></corr>世
+
+修改後：
+是名<anchor id="fxT12p0829c01"/>世
+
+修改前：
+非一<corr sic="＊"></corr>念
+
+修改後：
+非一<anchor id="fxT12p0834c01"/>念
+
+修改前：
+<corr sic="＊"></corr>。佗
+
+修改後：
+<anchor id="fxT12p0856b02"/>佗
+
+修改前：
+去來迅疾石壁無<corr sic="＊"></corr>礙
+
+修改後：
+去來迅疾石壁無<anchor id="fxT12p1007b04"/>礙
+
+修改前：
+<corr sic="＊"></corr>邏耆
+
+修改後：
+<anchor id="fxT12p1009a10"/>邏耆
+
+修改前：
+熾<corr sic="＊"></corr>焰惡劍劫
+
+修改後：
+熾<anchor id="fxT12p1034c01"/>焰惡劍劫
+
+修改前：
+子<corr sic="＊"></corr>五百人
+
+修改後：
+子<anchor id="fxT12p1052b01"/>五百人
+
+修改前：
+離碎身舍利去地七<corr sic="＊"></corr>仞
+
+修改後：
+離碎身舍利去地七<anchor id="fxT12p1058c01"/>仞
+
+修改前：
+<corr sic="＊"></corr>拘耶尼
+
+修改後：
+<anchor id="fxT12p1059b01"/>拘耶尼
+
+修改前：
+<corr sic="＊"></corr><title>蓮華面經
+
+修改後：
+<anchor id="fxT12p1073c01"/>蓮華面經
+
+修改前：
+<corr sic="＊"></corr><title>蓮華面經
+
+修改後：
+<anchor id="fxT12p1074a01"/>蓮華面經
+
+修改前：
+<corr sic="＊"></corr><title>蓮華面經
+
+修改後：
+<title><anchor id="fxT12p1077c01"/>蓮華面經
+
+修改前：
+<lb n="0988c24"/><juan n="001" fun="open"><mulu n="1" type="卷"></mulu><jhead><title>集一切福德三昧經</title><note n="0988017" resp="Taisho" type="orig" place="foot text">卷上缺【宮】</note>
+
+修改後：
+<lb n="0988c24"/><note n="0988017" resp="Taisho" type="orig" place="foot text">卷上缺【宮】</note><juan n="001" fun="open"><mulu n="1" type="卷"></mulu><jhead><title>集一切福德三昧經</title>
+
+修改前：
+◎<note n="0772012" resp="Taisho" type="orig" place="foot text">卷第二十六首【三】</note><note n="0772012" resp="CBETA" type="mod"><todo type="a"/>卷第二十六首【宋】【元】【明】</note>
+<lb n="0772c10"/><p>
+
+修改後：
+<lb n="0772c10"/>◎<note n="0772012" resp="Taisho" type="orig" place="foot text">卷第二十六首【三】</note><note n="0772012" resp="CBETA" type="mod"><todo type="a"/>卷第二十六首【宋】【元】【明】</note><p>
+
+修改前：
+<lb n="0546c09"/><p>◎<note n="0546015" resp="Taisho" type="orig" place="foot text">卷第三十一首【三】，北涼天竺三藏曇無讖奉詔譯【三】，大般涅槃經師子吼菩薩品第十一之五【宋】【元】，師子吼菩薩品第十一之五【明】，譯號品名下皆準之</note><note n="0546015" resp="CBETA" type="mod"><todo type="a"/>卷第三十一首【宋】【元】【明】，北涼天竺三藏曇無讖奉詔譯【宋】【元】【明】，大般涅槃經師子吼菩薩品第十一之五【宋】【元】，師子吼菩薩品第十一之五【明】，譯號品名下皆準之</note>師子吼言
+
+修改後：
+<lb n="0546c09"/>◎<note n="0546015" resp="Taisho" type="orig" place="foot text">卷第三十一首【三】，北涼天竺三藏曇無讖奉詔譯【三】，大般涅槃經師子吼菩薩品第十一之五【宋】【元】，師子吼菩薩品第十一之五【明】，譯號品名下皆準之</note><note n="0546015" resp="CBETA" type="mod"><todo type="a"/>卷第三十一首【宋】【元】【明】，北涼天竺三藏曇無讖奉詔譯【宋】【元】【明】，大般涅槃經師子吼菩薩品第十一之五【宋】【元】，師子吼菩薩品第十一之五【明】，譯號品名下皆準之</note><p>師子吼言
+
+修改前：
+<note n="0779005" resp="Taisho" type="orig" place="foot text">大般涅槃經師子吼品之三二十九首【福】，大般涅槃經卷第二十九首【福乙】</note><note n="0779005" resp="CBETA" type="mod"><todo type="a"/>大般涅槃經師子吼品之三二十九首【福】，大般涅槃經卷第二十九首【福乙】</note>
+<lb n="0779b08"/>善男子。
+
+修改後：
+<lb n="0779b08"/><note n="0779005" resp="Taisho" type="orig" place="foot text">大般涅槃經師子吼品之三二十九首【福】，大般涅槃經卷第二十九首【福乙】</note><note n="0779005" resp="CBETA" type="mod"><todo type="a"/>大般涅槃經師子吼品之三二十九首【福】，大般涅槃經卷第二十九首【福乙】</note>善男子
+
+修改前：
+◎<note n="1101004" resp="Taisho" type="orig" place="foot text">卷第四首【三】【宮】，大雲初分增長健度第三十七之餘【宋】【宮】，大雲初分增長揵度第三十七之餘【元】，大雲初分增長揵度第三十七之二【明】</note><note n="1101004" resp="CBETA" type="mod"><todo type="a"/>卷第四首【宋】【元】【明】【宮】，大雲初分增長健度第三十七之餘【宋】【宮】，大雲初分增長揵度第三十七之餘【元】，大雲初分增長揵度第三十七之二【明】</note>
+<lb n="1101a28"/><p>爾時
+
+修改後：
+<lb n="1101a28"/>◎<note n="1101004" resp="Taisho" type="orig" place="foot text">卷第四首【三】【宮】，大雲初分增長健度第三十七之餘【宋】【宮】，大雲初分增長揵度第三十七之餘【元】，大雲初分增長揵度第三十七之二【明】</note><note n="1101004" resp="CBETA" type="mod"><todo type="a"/>卷第四首【宋】【元】【明】【宮】，大雲初分增長健度第三十七之餘【宋】【宮】，大雲初分增長揵度第三十七之餘【元】，大雲初分增長揵度第三十七之二【明】</note><p>爾時
+
+修改前：
+<note n="1085003" resp="Taisho" type="orig" place="foot text">卷第一終【三】【宮】</note><note n="1085003" resp="CBETA" type="mod"><todo type="a"/>卷第一終【宋】【元】【明】【宮】</note>◎
+◎<note n="1085004" resp="Taisho" type="orig" place="foot text">卷第二首【三】【宮】</note><note n="1085004" resp="CBETA" type="mod"><todo type="a"/>卷第二首【宋】【元】【明】【宮】</note>
+</p></div1>
+<lb n="1085c09"/><div1 type="pin"><mulu level="1" n="2" label="2 三昧健度" type="品"></mulu><head>大雲初分三昧
+
+修改後：
+<note n="1085003" resp="Taisho" type="orig" place="foot text">卷第一終【三】【宮】</note><note n="1085003" resp="CBETA" type="mod"><todo type="a"/>卷第一終【宋】【元】【明】【宮】</note>◎</p></div1>
+<lb n="1085c09"/><div1 type="pin">◎<note n="1085004" resp="Taisho" type="orig" place="foot text">卷第二首【三】【宮】</note><note n="1085004" resp="CBETA" type="mod"><todo type="a"/>卷第二首【宋】【元】【明】【宮】</note><mulu level="1" n="2" label="2 三昧健度" type="品"></mulu><head>大雲初分三昧
+
+修改前：
+<lb n="0517c12"/><head type="ping">光明遍照高貴德王菩薩品第十之六</head></juan>
+<lb n="0517c13"/><p>◎<note n="0517011" resp="Taisho" type="orig" place="foot text">不分卷【三】【宮】</note><note n="0517011" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note>復次善男子
+
+修改後：
+<lb n="0517c12"/>◎<note n="0517011" resp="Taisho" type="orig" place="foot text">不分卷【三】【宮】</note><note n="0517011" resp="CBETA" type="mod"><todo type="a"/>不分卷【宋】【元】【明】【宮】</note><head type="ping">光明遍照高貴德王菩薩品第十之六</head></juan>
+<lb n="0517c13"/><p>復次善男子。
+
+
+<corr sic="＊">改成<corr sic="[＊]">
+修訂日期：2003/5/16
+
+<lb n="1034c10"/><l>後佛師子吼</l><l>熾<corr sic="[＊]"></corr>焰惡劍劫</l>
+<lb n="1052b26"/>子<corr sic="[＊]"></corr>五百人。聞佛出世佛名清淨光。我將諸弟
+<lb n="1058c22"/>時世尊入火炎三昧。離碎身舍利去地七<corr sic="[＊]"></corr>仞
+<lb n="1059b11"/>命百歲。東弗于逮壽命五百歲。<note n="1059012" resp="Taisho" type="orig" place="foot text">西＋（瞿）【宮】</note><app n="1059012"><lem>西</lem><rdg wit="【宮】" resp="Taisho">西瞿</rdg></app><corr sic="[＊]"></corr>拘耶尼
+<lb n="1073c26"/><juan n="001" fun="close"><corr sic="[＊]"></corr><title>蓮華面經</title>卷上</juan>
+<lb n="1074a02"/><juan n="002" fun="open"><mulu n="002" type="卷"></mulu><corr sic="[＊]"></corr><title>蓮華面經</title>卷下</juan>
+<lb n="1077c09"/><juan n="002" fun="close"><corr sic="[＊]"></corr><title>蓮華面經</title>卷下</juan></div1>
+<note n="0856015" resp="Taisho" type="orig" place="foot text">羅＋（一）夾註【三】【宮】【聖】</note><note n="0856015" resp="CBETA" type="mod">羅＋（一）夾註【宋】【元】【明】【宮】【聖】</note><app n="0856015"><lem>羅</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">羅<note place="inline">一</note></rdg></app><corr sic="[＊]"></corr>。佗
+<lb n="0950a15"/>離一切荒嶮<corr sic="[＊]"></corr>垢者。
+<lb n="1007b04"/>騰空中行住坐臥。去來迅疾石壁無<corr sic="[＊]"></corr>礙。
+<lb n="1009a10"/>婆阿<anchor id="fxT12p1009a09"/>訶羅阿突遮阿訶<corr sic="[＊]"></corr>邏耆
+
+
+cvs 修復前比對修訂：
+修訂日期：2003/06/02
+
+修改前：
+<lb n="0043b01"/><p><note n="0043004" resp="Taisho" type="orig" place="foot text">（（右此…述））作大書【三】【宮】</note><note n="0043004" resp="CBETA" type="mod"><todo type="a"/>（（右此…述））作大書【宋】【元】【明】【宮】</note><note place="inline">右此
+
+修改後：
+<lb n="0043b01"/><p><note place="inline"><note n="0043004" resp="Taisho" type="orig" place="foot text">（（右此…述））作大書【三】【宮】</note><note n="0043004" resp="CBETA" type="mod"><todo type="a"/>（（右此…述））作大書【宋】【元】【明】【宮】</note>右此
+
+修改前：
+<lb n="0856b18"/><note n="0856014" resp="Taisho" type="orig" place="foot text">此&CB00057;作八句而句每下有一二等記數即字傍施【三】【宮】【聖】，侘趐＝&CB00056;趐【三】【宮】【聖】＊</note><note n="0856014" resp="CBETA" type="mod"><todo type="i"/>侘趐＝&CB00056;趐【宋】【元】【明】【宮】【聖】＊，此&CB00057;作八句而句每下有一二等記數即字傍施【宋】【元】【明】【宮】【聖】</note>
+
+修改後：
+<lb n="0856b18"/><note n="0856014" resp="Taisho" type="orig" place="foot text">此&CB00057;作八句而句每下有一二等記數即字傍施【三】【宮】【聖】，侘趐＝&CB00056;趐【三】【宮】【聖】＊</note><note n="0856014" resp="CBETA" type="mod">侘趐＝&CB00056;趐【宋】【元】【明】【宮】【聖】＊，<todo type="i"/>此&CB00057;作八句而句每下有一二等記數即字傍施【宋】【元】【明】【宮】【聖】</note>
+
+修改前：
+<lb n="0866c07"/>居士耳。佛告迦葉<anchor id="fxT12p0866c02"/>。
+
+修改後：
+<lb n="0866c07"/>居士耳。佛告<anchor id="fxT12p0866c02"/>迦葉。
+
+修改前：
+<lb n="0867a09"/>第二弟子。佛告迦葉<anchor id="fxT12p0867a01"/>。
+
+修改後：
+<lb n="0867a09"/>第二弟子。佛告<anchor id="fxT12p0867a01"/>迦葉。
+
+修改前：
+<lb n="0887a14"/>目髣&CB00662;識之。
+
+修改後：
+<lb n="0887a14"/>目&CI0003;識之。
+
+修改前：
+<lb n="0887a15"/>中</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">自於身上</rdg></app>觀如來性。猶生惑想久乃彷彿。
+
+修改後：
+<lb n="0887a15"/>中</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">自於身上</rdg></app>觀如來性。猶生惑想久乃&CI0003;。
+
+修改前：
+<note place="inline"><note n="0888031" resp="Taisho" type="orig" place="foot text">〔來雅反〕－【明】，來雅反＋（音）【聖】＊</note><app n="0888031"><lem>來雅反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">來雅反音</rdg></app></note>者魔也。
+
+修改後：
+<note n="0888031" resp="Taisho" type="orig" place="foot text">〔來雅反〕－【明】，來雅反＋（音）【聖】＊</note><app n="0888031"><lem><note place="inline">來雅反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【聖】" resp="Taisho">來雅反音</rdg></app>者魔也
+
+修改前：
+<app n="0951002" word-count="12"><lem>高齊天竺三藏那連<note n="0951003" resp="Taisho" type="orig" place="foot text">提＋（黎）【元】【明】＊</note><app n="0951003"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">提黎</rdg></app>那舍<anchor id="fxT12p0951a01"/>譯</lem>
+
+修改後：
+<app n="0951003"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">提黎</rdg></app>那<anchor id="fxT12p0951a01"/>舍譯</lem>
+
+修改前：
+<app n="0968002"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">提黎</rdg></app>耶舍<anchor id="fxT12p0968a01"/>譯</lem>
+
+修改後：
+<app n="0968002"><lem>提</lem><rdg wit="【元】【明】" resp="Taisho">提黎</rdg></app>耶<anchor id="fxT12p0968a01"/>舍譯</lem>
+
+
+執行 corr2app.pl 後與 simple 轉 normal 比對：
+修訂日期：2003/06/24
+
+修改前：
+<lb n="0745c04"/>草為<app type="＊" source="0743004"><lem>&CB00176;</lem><rdg resp="Taisho" wit="【元】【明】">筏</rdg></app><note n="0745005" resp="Taisho" type="orig" place="foot text">（者）＋菩【元】【明】</note><app n="0745005"><lem>。菩</lem><rdg wit="【元】【明】" resp="Taisho">者菩</rdg></app>薩
+
+修改後：
+<lb n="0745c04"/>草為<app type="＊" source="0743004"><lem>&CB00176;</lem><rdg resp="Taisho" wit="【元】【明】">筏</rdg></app>。<note n="0745005" resp="Taisho" type="orig" place="foot text">（者）＋菩【元】【明】</note><app n="0745005"><lem>菩</lem><rdg wit="【元】【明】" resp="Taisho">者菩</rdg></app>薩
+
+修改前：
+<lb n="0865a16"/><note n="0865004" resp="Taisho" type="orig" place="foot text">常住者＝者【宮】，常者【聖】</note><note n="0865004" resp="CBETA" type="mod">常住者＝者【宮】，＝常者【聖】</note><app n="0865004"><lem>常住者</lem><rdg wit="【宮】" resp="Taisho">者</rdg><rdg wit="【聖】" resp="Taisho">常者</rdg></app><note n="0865005" resp="Taisho" type="orig" place="foot text">（著）＋世【三】【宮】</note><note n="0865005" resp="CBETA" type="mod">（著）＋世【宋】【元】【明】【宮】</note><app n="0865005"><lem>。世</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">著世</rdg></app>
+
+修改後：
+<lb n="0865a16"/><note n="0865004" resp="Taisho" type="orig" place="foot text">常住者＝者【宮】，常者【聖】</note><note n="0865004" resp="CBETA" type="mod">常住者＝者【宮】，＝常者【聖】</note><app n="0865004"><lem>常住者</lem><rdg wit="【宮】" resp="Taisho">者</rdg><rdg wit="【聖】" resp="Taisho">常者</rdg></app>。<note n="0865005" resp="Taisho" type="orig" place="foot text">（著）＋世【三】【宮】</note><note n="0865005" resp="CBETA" type="mod">（著）＋世【宋】【元】【明】【宮】</note><app n="0865005"><lem>世</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">著世</rdg></app>
+
+修改前：
+<lb n="0869b25"/>少欲<note n="0869020" resp="Taisho" type="orig" place="foot text">不＋（多）【三】【宮】</note><note n="0869020" resp="CBETA" type="mod">不＋（多）【宋】【元】【明】【宮】</note><app n="0869020"><lem>不</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">不多</rdg></app>受畜一切淨命<note n="0869021" resp="Taisho" type="orig" place="foot text">墮＝隨【三】【宮】＊</note><note n="0869021" resp="CBETA" type="mod"><todo type="＊"/>墮＝隨【宋】【元】【明】【宮】＊</note><app n="0869021"><lem>墮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app><note n="0869022" resp="Taisho" type="orig" place="foot text">（說）＋言【三】【宮】</note><note n="0869022" resp="CBETA" type="mod">（說）＋言【宋】【元】【明】【宮】</note><app n="0869022"><lem>。言</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">說言</rdg></app>
+
+修改後：
+<lb n="0869b25"/>少欲<note n="0869020" resp="Taisho" type="orig" place="foot text">不＋（多）【三】【宮】</note><note n="0869020" resp="CBETA" type="mod">不＋（多）【宋】【元】【明】【宮】</note><app n="0869020"><lem>不</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">不多</rdg></app>受畜一切淨命<note n="0869021" resp="Taisho" type="orig" place="foot text">墮＝隨【三】【宮】＊</note><note n="0869021" resp="CBETA" type="mod"><todo type="＊"/>墮＝隨【宋】【元】【明】【宮】＊</note><app n="0869021"><lem>墮</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">隨</rdg></app>。<note n="0869022" resp="Taisho" type="orig" place="foot text">（說）＋言【三】【宮】</note><note n="0869022" resp="CBETA" type="mod">（說）＋言【宋】【元】【明】【宮】</note><app n="0869022"><lem>言</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">說言</rdg></app>
+
+修改前：
+<lb n="0886c11"/>一切</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">一切海</rdg><rdg wit="【聖】" resp="Taisho">為一切海</rdg></app>其水悉<note n="0886023" resp="Taisho" type="orig" place="foot text">&CB00367;＋（有處海中八味之水是故當知非一切海其水悉&CB00367;）【三】【宮】</note><note n="0886023" resp="CBETA" type="mod">&CB00367;＋（有處海中八味之水是故當知非一切海其水悉&CB00367;）【宋】【元】【明】【宮】</note><app n="0886023"><lem>&CB00367;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB00367;有處海中八味之水是故當知非一切海其水悉&CB00367;</rdg></app><note n="0886024" resp="Taisho" type="orig" place="foot text">其中亦有＝有處海中【聖】</note><app n="0886024"><lem>。其中亦有</lem><rdg wit="【聖】" resp="Taisho">有處海中</rdg></app>
+
+修改後：
+<lb n="0886c11"/>一切</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">一切海</rdg><rdg wit="【聖】" resp="Taisho">為一切海</rdg></app>其水悉<note n="0886023" resp="Taisho" type="orig" place="foot text">&CB00367;＋（有處海中八味之水是故當知非一切海其水悉&CB00367;）【三】【宮】</note><note n="0886023" resp="CBETA" type="mod">&CB00367;＋（有處海中八味之水是故當知非一切海其水悉&CB00367;）【宋】【元】【明】【宮】</note><app n="0886023"><lem>&CB00367;</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">&CB00367;有處海中八味之水是故當知非一切海其水悉&CB00367;</rdg></app>。<note n="0886024" resp="Taisho" type="orig" place="foot text">其中亦有＝有處海中【聖】</note><app n="0886024"><lem>其中亦有</lem><rdg wit="【聖】" resp="Taisho">有處海中</rdg></app>
+
+修改前：
+<lb n="0892c03"/><note n="0892022" resp="Taisho" type="orig" place="foot text">滅＋（是不可見）【三】【宮】【聖】</note><note n="0892022" resp="CBETA" type="mod">滅＋（是不可見）【宋】【元】【明】【宮】【聖】</note><app n="0892022"><lem>滅</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">滅是不可見</rdg></app><note n="0892023" resp="Taisho" type="orig" place="foot text">（諸）＋謂【聖】</note><app n="0892023"><lem>。謂</lem><rdg wit="【聖】" resp="Taisho">諸謂</rdg></app>
+
+修改後：
+<lb n="0892c03"/><note n="0892022" resp="Taisho" type="orig" place="foot text">滅＋（是不可見）【三】【宮】【聖】</note><note n="0892022" resp="CBETA" type="mod">滅＋（是不可見）【宋】【元】【明】【宮】【聖】</note><app n="0892022"><lem>滅</lem><rdg wit="【宋】【元】【明】【宮】【聖】" resp="Taisho">滅是不可見</rdg></app>。<note n="0892023" resp="Taisho" type="orig" place="foot text">（諸）＋謂【聖】</note><app n="0892023"><lem>謂</lem><rdg wit="【聖】" resp="Taisho">諸謂</rdg></app>
+
+修改前：
+
+
+修改後：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

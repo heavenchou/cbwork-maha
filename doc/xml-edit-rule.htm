@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>XML 檔編輯規則</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="center">XML 檔編輯規則</h1>
+<p align="right">$Date: 2006/07/03 05:46:50 $ 周邦信</p>
+<ul>
+	<li>
+	<p align="left"><a href="#app">查證各版用字所作修訂</a></li>
+	<li>
+	<p align="left"><a href="#no-record">沒做記錄的修訂</a></li>
+</ul>
+<hr>
+<h1 align="left"><a name="app"></a>查證各版用字所作修訂</h1>
+<div class="OutlookMessageHeader" dir="ltr" align="left">
+	<div dir="ltr">
+		<font face="新細明體">原則是： 
+		<ul>
+			<li>按前後文義、所查閱版本用字、大正藏在本經的慣常用字，選擇 &lt;lem&gt; 修訂用字。 </li>
+			<li>若查閱版本用字與「修訂用字」為<b>同字，或異體字但變形不大的，放在 &lt;lem&gt;</b>，不用記錄字形。 </li>
+			<li>若查閱版本用字與「修訂用字」為<b>變形較大的異體字，也是放在 &lt;lem&gt;</b>，但要記錄字形。 </li>
+			<li>若查閱版本用字與「修訂用字」為<b>完全不同用字，放在 &lt;rdg&gt;</b>，要記錄字形。 </li>
+			<li>異體變形的大小，以「通用變異字形」的大原則來判斷。 </li>
+		</ul>
+		<p>假設範例：</p>
+		<blockquote>
+			<p>&lt;lb n=&quot;0087c02&quot;/&gt;心所欲 <br>
+			&lt;app&gt;<br>
+			　　&lt;lem&nbsp;wit=&quot;【CBETA】【麗】【磧】&quot; <br>
+			　　　resp=&quot;CBETA.maha&quot; <br>
+			　　　cf1=&quot;K03_p0973b12 CB01191&quot;&nbsp; <br>
+			　　　cf2=&quot;Q03_p0456c11&quot;&gt;往&lt;/lem&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【龍】&quot; resp=&quot;CBETA.maha&quot; 
+			cf1=&quot;L14_p0250a15&quot;&gt;主&lt;/rdg&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;rdg wit=&quot;【大】&quot;&gt;住&lt;/rdg&gt;<br>
+			&lt;/app&gt;諸佛土於佛</p>
+		</blockquote>
+		</font></div>
+	<p><font face="Tahoma" size="2"><span class="430064622-04112004">
+	<span class="048362406-27102004"><font size="2">
+	<span class="203143506-27102004"><font face="細明體" size="3">意思是：</font></span></font></span></span></font></div>
+<ul>
+	<li>【大】作&quot;住&quot;，【麗】作&quot;[彳*生]&quot;(CB01191)，【磧】作&quot;往&quot;，【龍】作&quot;主&quot;，【CBETA】選擇&quot;往&quot;。 </li>
+	<li>按前後文義、所查閱版本用字、大正藏在本經的慣常用字，&lt;lem&gt; 採用&quot;往&quot;。</li>
+<li></li>【麗】的&quot;[彳*生]&quot;是"往&quot;的異體(變形較大)，將其字形記錄在 &lt;lem&gt; cf 裡當做有效修訂參考。 
+</li>
+	<li>【磧】作&quot;往&quot;或與&quot;往&quot;相當的異體(變形不大，假設是&quot;[彳*(生-(白-日))]&quot;)，也放在 &lt;lem&gt;&nbsp;當做有效修訂參考，但不記錄其細微變化的字形。
+</li>
+	<li>【龍】的&quot;主"是順便查到的，記錄在 &lt;rdg&gt;&nbsp;當做無效修訂參考。 
+</li>
+</ul>
+
+<hr>
+
+<h1><a name="no-record"></a>沒做記錄的修訂</h1>
+<p>凡對底本所作修訂均做記錄, 除了:</p>
+<h2>一、標點符號的修訂</h2>
+<h2>二、咒語斷句空格的修訂</h2>
+<p>例:<br>T08n0257_p0852c09Z##「怛[寧*也]([06]切身)他(引)(一[07]句)　唵(引)[言*我]帝(引)[言*我]帝(引[08]引)(二)　播(引)囉<br>=&gt;<br>T08n0257_p0852c09Z##「怛[寧*也]([06]切身)他(引)(一[07]句)　唵(引)　[言*我]帝(引)　[言*我]帝(引[08]引)(二)　播(引)囉</p>
+<h2>三、大段文字位移</h2>
+<p>例: X78n1546「中卷佚文」搬家，搬至「卷上」後面。</p>
+
+<h2>四、悉漢對照位移</h2>
+<p>只要是悉漢對照，漢文行的行首若有「小字」就移位到上一行行尾</p>
+<p>SM</p>
+<blockquote>
+	<p class="code">T20n1041_p0032a28Z#H[10]◇◇◇◇◇◇◇◇◇ <br>
+	T20n1041_p0032a29_##唵　[禾*(尤-尢+木)](詩聿反)　[11]弟　耨　戌(引)　馱　曩(引)　野　娑[口*縛]<font color="#FF0000"><b>[&gt;&gt;(二合[12]引)]</b></font><br>
+	T20n1041_p0032b01_#H◇ <br>
+	T20n1041_p0032b02_##<font color="#FF0000"><b>[(二合[12]引)&gt;&gt;]</b></font>　賀([＊]引)</p>
+</blockquote>
+<p class="code">XML</p>
+<blockquote>
+	<p class="code">&lt;lb n=&quot;0032a28&quot; ed=&quot;T&quot;/&gt;&lt;p id=&quot;pT20p0032a2801&quot; 
+	type=&quot;dharani&quot;&gt;<br>
+	&lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-DA42;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;唵&lt;/t&gt;&lt;/tt&gt; ... ... <br>
+	&lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-B065;&lt;/t&gt;&lt;t lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;娑&amp;CB00085;&lt;/zi&gt;&lt;sg&gt;<font color="#FF0000"><b>二合引</b></font>&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;<br>
+	&lt;lb n=&quot;0032a29&quot; ed=&quot;T&quot;/&gt;<br>
+	&lt;pb n=&quot;0032b&quot; id=&quot;T20.1041.0032b&quot; ed=&quot;T&quot;/&gt;<br>
+	&lt;lb n=&quot;0032b01&quot; ed=&quot;T&quot;/&gt;&lt;tt&gt;&lt;t lang=&quot;san-sd&quot;&gt;&amp;SD-A6A9;&lt;/t&gt;&lt;t 
+	lang=&quot;chi&quot;&gt;&lt;yin&gt;&lt;zi&gt;賀&lt;/zi&gt;&lt;sg&gt;引&lt;/sg&gt;&lt;/yin&gt;&lt;/t&gt;&lt;/tt&gt;&lt;/p&gt;<br>
+	&lt;lb n=&quot;0032b02&quot; ed=&quot;T&quot;/&gt;</p>
+</blockquote>
+
+</body>
+
+</html>

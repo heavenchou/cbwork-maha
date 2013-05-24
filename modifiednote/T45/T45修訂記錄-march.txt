@@ -1,0 +1,63 @@
+cvs 修復前比對修訂：
+修訂日期：2003/06/03
+
+修訂前：
+<lb n="0188a12"/>是非<note n="0188001" resp="Taisho" type="orig" place="foot text">非東＝東非【聖】？</note><app n="0188001"><lem>非東</lem><rdg wit="【聖】？" resp="Taisho">東非</rdg></app>。
+
+修訂後：
+<lb n="0188a12"/>是非<note n="0188001" resp="Taisho" type="orig" place="foot text">非東＝東非【聖】？</note><note n="0188001" resp="CBETA" type="mod"><todo type="a"/>非東＝東非【聖】？</note>非東
+
+修訂前：
+<lb n="0317b12"/>由現可見有交儀故。由形<note n="0317001" resp="Taisho" type="orig" place="foot text">怡＝恬【甲】，憺？</note><note n="0317001" resp="CBETA" type="mod"><todo type="i"/>怡＝恬【甲】，憺？</note>
+
+修訂後：
+<lb n="0317b12"/>由現可見有交儀故。由形<note n="0317001" resp="Taisho" type="orig" place="foot text">怡＝恬【甲】，憺？</note><note n="0317001" resp="CBETA" type="mod">怡＝恬【甲】，<todo type="i"/>憺？</note>
+
+修訂前：
+<lb n="0431c21"/>無證。如何抑判。又云。唯識<note n="0431022" resp="Taisho" type="orig" place="foot text">〔兩〕－&M062485;【甲】，論？</note><note n="0431022" resp="CBETA" type="mod"><todo type="i"/>〔兩〕－&M062485;【甲】，論？</note>
+
+修訂後：
+<lb n="0431c21"/>無證。如何抑判。又云。唯識<note n="0431022" resp="Taisho" type="orig" place="foot text">〔兩〕－&M062485;【甲】，論？</note><note n="0431022" resp="CBETA" type="mod">〔兩〕－&M062485;【甲】，<todo type="i"/>論？</note>
+
+
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0915a23"/>海。遺捐汨紛。宅神靈卿。懌用恬止。自天鼓始
+
+修訂後：
+<lb n="0915a23"/>海。遺捐<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>紛。宅神靈卿。懌用恬止。自天鼓始
+
+修訂前：
+
+修訂後：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

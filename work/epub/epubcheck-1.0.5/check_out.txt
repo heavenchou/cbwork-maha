@@ -1,0 +1,46 @@
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(31): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(36): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(61): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(66): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(157): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(162): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(223): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(228): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(233): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(17): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(24): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(42): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(55): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(57): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_003.xhtml(15): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_003.xhtml(16): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_004.xhtml(14): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_004.xhtml(15): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_012.xhtml(656): The element type "span" must be terminated by the matching end-tag "</span>".
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_012.xhtml: The element type "span" must be terminated by the matching end-tag "</span>".
+
+Check finished with warnings or errors!
+
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(31): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(36): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(61): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(66): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(157): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(162): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(223): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(228): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/toc.ncx(233): assertion failed:   different playOrder values for navPoint/navTarget/pageTarget that refer to same target
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(17): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(24): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(42): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(55): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/TableOfContents.xhtml(57): element "ul" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_003.xhtml(15): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_003.xhtml(16): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_004.xhtml(14): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_004.xhtml(15): element "p" from namespace "http://www.w3.org/1999/xhtml" not allowed in this context
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_012.xhtml(656): The element type "span" must be terminated by the matching end-tag "</span>".
+ERROR: C:\release\epub_ziped\T01\T01n0001.epub/OPS/T01n0001_012.xhtml: The element type "span" must be terminated by the matching end-tag "</span>".
+
+Check finished with warnings or errors!
+

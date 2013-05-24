@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>&lt;t&gt;</title>
+<link rel="stylesheet" type="text/css" href="ray.css">
+</head>
+
+<body>
+
+<h1 align="left">&lt;t&gt;</h1>  
+<p align="right">
+<!--webbot bot="Timestamp" S-Type="EDITED"  
+S-Format="%Y/%m/%d" startspan -->2008/02/21<!--webbot bot="Timestamp" endspan i-checksum="12438" -->  
+</p>  
+<h2 align="left">Description:</h2>
+<blockquote>
+<p align="left">辭彙對照裏的一組詞</p>
+</blockquote>
+<h2 align="left">Attributes</h2>
+<blockquote>
+<p align="left"><font face="Times New Roman" size="4"><b>lang</b></font></p>
+<p align="left"><b><font size="4" face="Times New Roman">resp</font></b></p>
+<p align="left"><b><font size="4" face="Times New Roman">place</font></b>：出現在校勘欄的詞要加<span lang="en-us"> place=&quot;foot&quot;<font size="3">。</font></span></p>
+<p align="left"><b><font size="4" face="Times New Roman">rend</font></b>：default 
+是 rend=&quot;　&quot;, 也就是 &lt;t&gt; 與 &lt;t&gt; 之間會空一格, 若不空格 要指定 rend=&quot;&quot;<span style="font-weight: 400" lang="en-us"><font size="3">。</font></span></p>
+<p align="left"><b><font size="4" face="Times New Roman">type</font></b>：參考 TEI &lt;term&gt; 的 type 屬性<span style="font-weight: 400" lang="en-us"><font size="3">。</font></span></p>
+<p align="left"><b><font size="4" face="Times New Roman">wit</font></b><span lang="en-us"><b><font size="4" face="Times New Roman">
+</font></b> <span style="font-weight: 700">
+<font size="4" face="Times New Roman">(i.e. witness)</font></span></span></p>
+<p align="left"><font face="Times New Roman" size="4"><b>cert：</b></font>屬性不是 
+100 時<span style="font-weight: 400" lang="en-us"><font size="3">。</font></span></p>
+<p align="left">　</p>
+</blockquote>
+<h2 align="left">May occur within (可以被包含在元素之內)</h2> 
+<blockquote> 
+  <p align="left">&lt;tt&gt;<br>
+　</p>
+</blockquote>
+  
+<h2 align="left"><b><font face="Times New Roman" size="5">範例：</font></b>wit</h2>
+<blockquote>
+  <p style="line-height: 15pt">校勘條目: <span lang="EN-US">T31p0590</span>,<span lang="EN-US">&nbsp; </span>[<span lang="EN-US">08</span>]<span lang="EN-US"> </span>無著<span lang="EN-US">. 
+  Asa^nga.<strong style="font-weight: 400">(L. S. L'evi</strong></span><strong style="font-weight: 400">в說<span lang="EN-US">)</span></strong></p>
+</blockquote>
+<p style="line-height: 15pt; margin-left: 24pt"><span lang="EN-US">&nbsp;&nbsp;&nbsp;
+<font face="Times New Roman">&lt;note n=&quot;0590008&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;</font></span><font face="Times New Roman">無著<span lang="EN-US">. 
+Asa^nga.(L. S. L'evi</span></font><font face="Times New Roman" size="2">в說</font><font face="Times New Roman"><span lang="EN-US">)&lt;/note&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;tt type=&quot;app&quot; n=&quot;0590008&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;zh&quot;&gt;</span>無著<span lang="EN-US">&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;sk&quot; place=&quot;foot&quot; 
+<font color="#FF0000">wit</font>=&quot; L. S. L'evi</span></font><font face="Times New Roman" size="2"><span lang="EN-US">&quot;</span></font><font face="Times New Roman"><span lang="EN-US">&gt;Asa^nga 
+&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/tt&gt;&nbsp;</span></font></p>
+<h2 align="left"><b><font face="Times New Roman" size="5">範例：</font></b> type</h2>
+<blockquote>
+  <p dir="ltr">校勘條目： <span lang="EN-US">T29p0012&nbsp; 02 &lt;u&gt;Ajaajii-pau.spa(Cuminum 
+  cyminum)</span></p>
+  <p dir="ltr"><font size="3">經文： <span lang="EN-US">T29n1558_p0012a13_##</span>住。如<span lang="EN-US">[02]</span>香荾花。清<span lang="EN-US">[03]</span>澈<span lang="EN-US">[04]</span>映覆令無分散。有</font></p>
+  <p dir="ltr">XML：</p>
+  <blockquote>
+<p align="left">&lt;tt&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;zh&quot;&gt;<font size="3">香荾花&lt;/t&gt;</font><br>
+&nbsp;&nbsp;&nbsp; &lt;t lang=&quot;sk&quot; place=&quot;foot&quot;&gt;<span lang="EN-US">Ajaajii-pau.spa</span>&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;t <font color="#FF0000">type</font>=&quot;學名&quot; place=&quot;foot&quot;&gt;<span lang="EN-US">Cuminum 
+cyminum</span>&lt;/t&gt;<br>
+&lt;/tt&gt;</p>
+  </blockquote>
+</blockquote>
+<h2 align="left"><b><font face="Times New Roman" size="5">範例：</font></b>&lt;t&gt; contain &lt;title&gt;</h2> 
+<blockquote>
+<p align="left">T18, n885, p. 472a08</p> 
+<p align="left">&lt;note n=&quot;0472002&quot; resp=&quot;Taisho&quot; type=&quot;orig&quot; place=&quot;foot 
+text&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp; 一切…第二 <font face="Arial Unicode MS">Sarva-tath&#257;&#257;gata-k&#257;ya-v&#257;k-citta-rahasy&#257;t 
+guhya-sam&#257;ja bodhicittann&#257;ma dvit&#299;ya&#7717; pa&#7789;ala&#7717;.<br>
+</font>&lt;/note&gt;<br>
+&lt;tt n=&quot;0472002&quot; type=&quot;app&quot; word-count=&quot;28&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;
+&lt;t lang=&quot;chi&quot; resp=&quot;Taisho&quot;&gt;&lt;title&gt;一切如來金剛三業最上甚深祕密中祕密諸佛大集會&lt;/title&gt;菩提心分第二&lt;/t&gt;<br>
+&nbsp;&nbsp;&nbsp;
+&lt;t lang=&quot;san&quot; resp=&quot;Taisho&quot; place=&quot;foot&quot;&gt;<font face="Arial Unicode MS"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sarva-tath&#257;&#257;gata-k&#257;ya-v&#257;k-citta-rahasy&#257;t 
+guhya-sam&#257;ja bodhicittann&#257;ma dvit&#299;ya&#7717; pa&#7789;ala&#7717;.<br>
+&nbsp;&nbsp;&nbsp; </font>&lt;/t&gt;<br>
+&lt;/tt&gt;</p> 
+</blockquote>
+<p align="left"><b><font face="Times New Roman" size="5">範例：cert</font></b></p>
+<blockquote>
+<p align="left">T02, n0099, p0068a16</p>
+	<p align="left">&lt;lb n=&quot;0068a16&quot; ed=&quot;T&quot;/&gt;&lt;note n=&quot;0068006&quot; resp=&quot;Taisho&quot; 
+	place=&quot;foot text&quot; type=&quot;orig&quot;&gt;～Koseyya(?)&lt;/note&gt;&lt;note n=&quot;0068006&quot; resp=&quot;CBETA&quot; 
+	type=&quot;mod&quot;&gt;&lt;app&gt;&lt;lem&gt;迦尸細&lt;/lem&gt;&lt;rdg wit=&quot;【大】&quot;&gt;&amp;lac;&lt;/rdg&gt;&lt;/app&gt;～Koseyya(?)&lt;/note&gt;&lt;tt 
+	n=&quot;0068006&quot; type=&quot;app&quot;&gt;&lt;t resp=&quot;CBETA&quot; lang=&quot;chi&quot;&gt;迦尸細&lt;/t&gt;&lt;t
+	<font color="#FF0000">cert=&quot;?&quot;</font> resp=&quot;Taisho&quot; lang=&quot;pli&quot; place=&quot;foot&quot;&gt;Koseyya&lt;/t&gt;&lt;/tt&gt;</p>
+	<p align="left">　</p>
+</blockquote>
+  
+</body>  
+  
+</html>

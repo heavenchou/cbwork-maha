@@ -1,0 +1,357 @@
+hh ¤ñ¹ï­×­q¡G
+
+­×­q¤é´Á¡G2003/4/15
+
+1377:<juan n="003" fun="close"><jhead><title><anchor id="fxT27p0015b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T}}<anchor id="fxT27p0015b02"/>{{¨÷²Ä¤T||}}</jhead></juan>
+1810:<lb n="0020b11"/><juan n="004" fun="close"><jhead><title><anchor id="fxT27p0020b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|}}<anchor id="fxT27p0020b02"/>{{¨÷²Ä¥|||}}</jhead></juan>
+2273:<lb n="0025b23"/><juan n="005" fun="close"><jhead><title><anchor id="fxT27p0025b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­}}<anchor id="fxT27p0025b02"/>{{¨÷²Ä¤­||}}</jhead></juan>
+2742:<lb n="0030c17"/><juan n="006" fun="close"><jhead><title><anchor id="fxT27p0030c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»}}<anchor id="fxT27p0030c02"/>{{¨÷²Ä¤»||}}</jhead></juan>
+3209:<anchor id="fxT27p0036a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C}}<anchor id="fxT27p0036a02"/>{{¨÷²Ä¤C||}}
+3646:<lb n="0040c17"/><juan n="008" fun="close"><jhead><title><anchor id="fxT27p0040c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K}}<anchor id="fxT27p0040c02"/>{{¨÷²Ä¤K||}}</jhead></juan>
+4560:<lb n="0050c27"/><juan n="010" fun="close"><jhead><title><anchor id="fxT27p0050c03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q}}<anchor id="fxT27p0050c04"/>{{¨÷²Ä¤Q||}}</jhead></juan>
+5002:<lb n="0055c20"/><juan n="011" fun="close"><jhead><title><anchor id="fxT27p0055c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤@}}<anchor id="fxT27p0055c02"/>{{¨÷²Ä¤Q¤@||}}</jhead></juan>
+5520:<lb n="0061b28"/><juan n="012" fun="close"><jhead><title><anchor id="fxT27p0061b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤G}}<anchor id="fxT27p0061b02"/>{{¨÷²Ä¤Q¤G||}}</jhead></juan>
+5977:<lb n="0066c05"/><juan n="013" fun="close"><jhead><title><anchor id="fxT27p0066c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤T}}<anchor id="fxT27p0066c02"/>{{¨÷²Ä¤Q¤T||}}</jhead></juan>
+6439:<lb n="0071c16"/><juan n="014" fun="close"><jhead><title><anchor id="fxT27p0071c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¥|}}<anchor id="fxT27p0071c02"/>{{¨÷²Ä¤Q¥|||}}</jhead></juan>
+6917:<lb n="0077a13"/><juan n="015" fun="close"><jhead><title><anchor id="fxT27p0077a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤­}}<anchor id="fxT27p0077a02"/>{{¨÷²Ä¤Q¤­||}}</jhead></juan>
+7409:<lb n="0082b24"/><juan n="016" fun="close"><jhead><title><anchor id="fxT27p0082b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤»}}<anchor id="fxT27p0082b02"/>{{¨÷²Ä¤Q¤»||}}</jhead></juan>
+7898:<lb n="0088a07"/><juan n="017" fun="close"><jhead><title><anchor id="fxT27p0088a04"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤C}}<anchor id="fxT27p0088a05"/>{{¨÷²Ä¤Q¤C||}}</jhead></juan>
+8405:<lb n="0093c03"/><juan n="018" fun="close"><jhead><title><anchor id="fxT27p0093c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤K}}<anchor id="fxT27p0093c02"/>{{¨÷²Ä¤Q¤K||}}</jhead></juan>
+8898:<lb n="0099a15"/><juan n="019" fun="close"><jhead><title><anchor id="fxT27p0099a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤Q¤E}}<anchor id="fxT27p0099a02"/>{{¨÷²Ä¤Q¤E||}}</jhead></juan>
+9388:<lb n="0104b24"/><juan n="020" fun="close"><jhead><title><anchor id="fxT27p0104b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q}}<anchor id="fxT27p0104b02"/>{{¨÷²Ä¤G¤Q||}}</jhead></juan>
+10347:<lb n="0115b07"/><juan n="022" fun="close"><jhead><title><anchor id="fxT27p0115b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤G}}<anchor id="fxT27p0115b02"/>{{¨÷²Ä¤G¤Q¤G||}}</jhead></juan>
+10830:<lb n="0120c09"/><juan n="023" fun="close"><jhead><title><anchor id="fxT27p0120c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤T}}<anchor id="fxT27p0120c02"/>{{¨÷²Ä¤G¤Q¤T||}}</jhead></juan>
+11323:<lb n="0126a22"/><juan n="024" fun="close"><jhead><title><anchor id="fxT27p0126a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¥|}}<anchor id="fxT27p0126a02"/>{{¨÷²Ä¤G¤Q¥|||}}</jhead></juan>
+11799:<lb n="0131b24"/><juan n="025" fun="close"><jhead><title><anchor id="fxT27p0131b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤­}}<anchor id="fxT27p0131b02"/>{{¨÷²Ä¤G¤Q¤­||}}</jhead></juan>
+12266:<lb n="0137a13"/><juan n="026" fun="close"><jhead><title><anchor id="fxT27p0137a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤»}}<anchor id="fxT27p0137a02"/>{{¨÷²Ä¤G¤Q¤»||}}</jhead></juan>
+12746:<lb n="0142b10"/><juan n="027" fun="close"><jhead><title><anchor id="fxT27p0142b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤C}}<anchor id="fxT27p0142b02"/>{{¨÷²Ä¤G¤Q¤C||}}</jhead></juan>
+13226:<lb n="0147c05"/><juan n="028" fun="close"><jhead><title><anchor id="fxT27p0147c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤K}}<anchor id="fxT27p0147c02"/>{{¨÷²Ä¤G¤Q¤K||}}</jhead></juan>
+13703:<lb n="0152c28"/><juan n="029" fun="close"><jhead><title><anchor id="fxT27p0152c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¤Q¤E}}<anchor id="fxT27p0152c02"/>{{¨÷²Ä¤G¤Q¤E||}}</jhead></juan>
+14167:<lb n="0158a12"/><juan n="030" fun="close"><jhead><title><anchor id="fxT27p0158a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q}}<anchor id="fxT27p0158a02"/>{{¨÷²Ä¤T¤Q||}}</jhead></juan>
+14451:<lb n="0161a25"/>¦W¬°´²Ãa¯}<{{an||}}c{{h||}}or{{||r}} {{||s}}i{{d||c}}="{{fxT27p0161a01||¡¯}}"{{||><}}/{{||corr}}>¨S¤`°h</p>
+14455:<lb n="0161a29"/>¯}<{{an||}}c{{h||}}or{{||r}} {{||s}}i{{d||c}}="{{fxT27p0161a02||¡¯}}"{{||><}}/{{||corr}}>¨S¤`°h¡C¬O¿×¤G·À®t§O¡C¦¹¤¤¸Ñ²æ¬ÌÂ~
+14465:<lb n="0161b08"/><{{an||}}c{{h||}}or{{||r}} {{||s}}i{{d||c}}="{{fxT27p0161b01||¡¯}}"{{||><}}/{{||corr}}>¨S¤`°h¡C´_¦¸¾Ü·À¬O¸Ñ²æ¬OÂ÷Ã´¬Û¡C«D¾Ü·À
+14623:<lb n="0163a16"/><juan n="031" fun="close"><jhead><title><anchor id="fxT27p0163a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤@}}<anchor id="fxT27p0163a02"/>{{¨÷²Ä¤T¤Q¤@||}}</jhead></juan>
+14953:<lb n="0166c13"/>±o«D¾Ü·À­Y±ý¬É¨S¥Í²Ä¥|ÀR¼{¡C<note n="0166003" resp="Taisho" type="orig" place="foot text">°£¡×¾l¡i¤T¡j</note><note n="0166003" resp="CBETA" type="mod">°£¡×¾l¡i§º¡j¡i¤¸¡j¡i©ú¡j{{="m||</n}}o{{d"||te}}>{{¡e¦Ó¥ß¡f¡Ð¡i§º¡j¡i¤¸¡j¡i©/||<app n="0166003"><lem>°£</}}lem><rdg wit="¡i§º¡j¡i¤¸¡j¡i©ú¡j" resp="Taisho">¾l</rdg></app>±ý¬É
+15122:<lb n="0168c02"/><juan n="032" fun="close"><jhead><title><anchor id="fxT27p0168c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤G}}<anchor id="fxT27p0168c02"/>{{¨÷²Ä¤T¤Q¤G||}}</jhead></juan>
+15684:<lb n="0174c23"/><juan n="033" fun="close"><jhead><title><anchor id="fxT27p0174c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤T}}<anchor id="fxT27p0174c02"/>{{¨÷²Ä¤T¤Q¤T||}}</jhead></juan>
+16157:<lb n="0180a19"/><juan n="034" fun="close"><jhead><title><anchor id="fxT27p0180a05"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¥|}}<anchor id="fxT27p0180a06"/>{{¨÷²Ä¤T¤Q¥|||}}</jhead></juan>
+16607:<lb n="0185a13"/><juan n="035" fun="close"><jhead><title><anchor id="fxT27p0185a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤­}}<anchor id="fxT27p0185a02"/>{{¨÷²Ä¤T¤Q¤­||}}</jhead></juan>
+17044:<lb n="0189c29"/><juan n="036" fun="close"><jhead><title><anchor id="fxT27p0189c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤»}}<anchor id="fxT27p0189c02"/>{{¨÷²Ä¤T¤Q¤»||}}</jhead></juan>
+17482:<lb n="0194c16"/><juan n="037" fun="close"><jhead><title><anchor id="fxT27p0194c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤C}}<anchor id="fxT27p0194c02"/>{{¨÷²Ä¤T¤Q¤C||}}</jhead></juan>
+17936:<lb n="0199c16"/><juan n="038" fun="close"><jhead><title><anchor id="fxT27p0199c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤K}}<anchor id="fxT27p0199c02"/>{{¨÷²Ä¤T¤Q¤K||}}</jhead></juan>
+18401:<lb n="0204c28"/><juan n="039" fun="close"><jhead><title><anchor id="fxT27p0204c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤T¤Q¤E}}<anchor id="fxT27p0204c02"/>{{¨÷²Ä¤T¤Q¤E||}}</jhead></juan>
+18864:<lb n="0210a09"/><juan n="040" fun="close"><jhead><title><anchor id="fxT27p0210a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q}}<anchor id="fxT27p0210a02"/>{{¨÷²Ä¥|¤Q||}}</jhead></juan>
+19841:<lb n="0220c24"/><juan n="042" fun="close"><jhead><title><anchor id="fxT27p0220c03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤G}}<anchor id="fxT27p0220c04"/>{{¨÷²Ä¥|¤Q¤G||}}</jhead></juan>
+20326:<lb n="0226a28"/><juan n="043" fun="close"><jhead><title><anchor id="fxT27p0226a08"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤T}}<anchor id="fxT27p0226a09"/>{{¨÷²Ä¥|¤Q¤T||}}</jhead></juan>
+20792:<lb n="0231b13"/><juan n="044" fun="close"><jhead><title><anchor id="fxT27p0231b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¥|}}<anchor id="fxT27p0231b02"/>{{¨÷²Ä¥|¤Q¥|||}}</jhead></juan>
+21244:<lb n="0236b12"/><juan n="045" fun="close"><jhead><title><anchor id="fxT27p0236b03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤­}}<anchor id="fxT27p0236b04"/>{{¨÷²Ä¥|¤Q¤­||}}</jhead></juan></div1>
+21700:<lb n="0241b17"/><juan n="046" fun="close"><jhead><title><anchor id="fxT27p0241b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤»}}<anchor id="fxT27p0241b02"/>{{¨÷²Ä¥|¤Q¤»||}}</jhead></juan>
+22190:<lb n="0246c26"/><juan n="047" fun="close"><jhead><title><anchor id="fxT27p0246c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤C}}<anchor id="fxT27p0246c02"/>{{¨÷²Ä¥|¤Q¤C||}}</jhead></juan>
+22659:<lb n="0252a15"/><juan n="048" fun="close"><jhead><title><anchor id="fxT27p0252a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤K}}<anchor id="fxT27p0252a02"/>{{¨÷²Ä¥|¤Q¤K||}}</jhead></juan>
+23105:<lb n="0257a10"/><juan n="049" fun="close"><jhead><title><anchor id="fxT27p0257a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¥|¤Q¤E}}<anchor id="fxT27p0257a02"/>{{¨÷²Ä¥|¤Q¤E||}}</jhead></juan>
+23549:<lb n="0262a03"/><juan n="050" fun="close"><jhead><title><anchor id="fxT27p0262a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q}}<anchor id="fxT27p0262a02"/>{{¨÷²Ä¤­¤Q||}}</jhead></juan>
+24000:<lb n="0267c29"/><juan n="051" fun="close"><jhead><title><anchor id="fxT27p0267c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤@}}<anchor id="fxT27p0267c02"/>{{¨÷²Ä¤­¤Q¤@||}}</jhead></juan>
+24442:<lb n="0272c20"/><juan n="052" fun="close"><jhead><title><anchor id="fxT27p0272c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤G}}<anchor id="fxT27p0272c02"/>{{¨÷²Ä¤­¤Q¤G||}}</jhead></juan>
+24886:<lb n="0277c22"/><juan n="053" fun="close"><jhead><title><anchor id="fxT27p0277c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤T}}<anchor id="fxT27p0277c02"/>{{¨÷²Ä¤­¤Q¤T||}}</jhead></juan>
+25347:<lb n="0283a08"/><juan n="054" fun="close"><jhead><title><anchor id="fxT27p0283a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¥|}}<anchor id="fxT27p0283a02"/>{{¨÷²Ä¤­¤Q¥|||}}</jhead></juan>
+25573:<lb n="0285b23"/>½t¦â¨ü·Q¦æÃÑ¡C©Î{{||°£}}<anchor id="fxT27p0285b01"/>{{°£||}}¦³¨­¨£½t©Ò¾l¦æÄ­¡C
+25593:<lb n="0285c13"/>«e¥Í¦³¨­¨£¡C¿×©Î½t¦â¨ü·Q¦æÃÑ¡C©Î{{||°£}}<anchor id="fxT27p0285c01"/>{{°£||}}¦³
+25788:<lb n="0287c28"/><juan n="055" fun="close"><jhead><title><anchor id="fxT27p0287c03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤­}}<anchor id="fxT27p0287c04"/>{{¨÷²Ä¤­¤Q¤­||}}</jhead></juan>
+26260:<lb n="0293a20"/><juan n="056" fun="close"><jhead><title><anchor id="fxT27p0293a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤»}}<anchor id="fxT27p0293a02"/>{{¨÷²Ä¤­¤Q¤»||}}</jhead></juan>
+26720:<lb n="0298a29"/><juan n="057" fun="close"><jhead><title><anchor id="fxT27p0298a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤C}}<anchor id="fxT27p0298a02"/>{{¨÷²Ä¤­¤Q¤C||}}</jhead></juan>
+27151:<lb n="0303a09"/><juan n="058" fun="close"><jhead><title><anchor id="fxT27p0303a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤K}}<anchor id="fxT27p0303a02"/>{{¨÷²Ä¤­¤Q¤K||}}</jhead></juan>
+27622:<lb n="0308a29"/><juan n="059" fun="close"><jhead><title><anchor id="fxT27p0308a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤­¤Q¤E}}<anchor id="fxT27p0308a02"/>{{¨÷²Ä¤­¤Q¤E||}}</jhead></juan>
+28081:<lb n="0313b07"/><juan n="060" fun="close"><jhead><title><anchor id="fxT27p0313b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q}}<anchor id="fxT27p0313b02"/>{{¨÷²Ä¤»¤Q||}}</jhead></juan>
+29057:<lb n="0324a21"/><juan n="062" fun="close"><jhead><title><anchor id="fxT27p0324a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤G}}<anchor id="fxT27p0324a02"/>{{¨÷²Ä¤»¤Q¤G||}}</jhead></juan>
+29541:<lb n="0329c02"/><juan n="063" fun="close"><jhead><title><anchor id="fxT27p0329c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤T}}<anchor id="fxT27p0329c02"/>{{¨÷²Ä¤»¤Q¤T||}}</jhead></juan>
+30040:<lb n="0335a20"/><juan n="064" fun="close"><jhead><title><anchor id="fxT27p0335a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¥|}}<anchor id="fxT27p0335a02"/>{{¨÷²Ä¤»¤Q¥|||}}</jhead></juan>
+30514:<lb n="0340b13"/><juan n="065" fun="close"><jhead><title><anchor id="fxT27p0340b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤­}}<anchor id="fxT27p0340b02"/>{{¨÷²Ä¤»¤Q¤­||}}</jhead></juan>
+30700:<lb n="0342b18"/>¥H½Ñ¤W§®¦çªA¶¼­¹ª×¨ãÂåÃÄ¡C¤Î¾l¸ê<{{an||}}c{{h||}}or{{||r}} {{||s}}i{{d||c}}="{{fxT27p342b01||¡¯}}"{{||><}}/{{||corr}}>½t
+31410:<lb n="0350b07"/><juan n="067" fun="close"><jhead><title><anchor id="fxT27p0350b02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤C}}<anchor id="fxT27p0350b03"/>{{¨÷²Ä¤»¤Q¤C||}}</jhead></juan>
+31885:<lb n="0355c01"/><juan n="068" fun="close"><jhead><title><anchor id="fxT27p0355c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤K}}<anchor id="fxT27p0355c02"/>{{¨÷²Ä¤»¤Q¤K||}}</jhead></juan>
+32352:<lb n="0360c17"/><juan n="069" fun="close"><jhead><title><anchor id="fxT27p0360c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤»¤Q¤E}}<anchor id="fxT27p0360c02"/>{{¨÷²Ä¤»¤Q¤E||}}</jhead></juan>
+32818:<lb n="0366a02"/><juan n="070" fun="close"><jhead><title><anchor id="fxT27p0366a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q}}<anchor id="fxT27p0366a02"/>{{¨÷²Ä¤C¤Q||}}</jhead></juan></div1>
+33266:<lb n="0370c29"/><juan n="071" fun="close"><jhead><title><anchor id="fxT27p0370c03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤@}}<anchor id="fxT27p0370c04"/>{{¨÷²Ä¤C¤Q¤@||}}</jhead></juan>
+33698:<lb n="0375c07"/><juan n="072" fun="close"><jhead><title><anchor id="fxT27p0375c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤G}}<anchor id="fxT27p0375c02"/>{{¨÷²Ä¤C¤Q¤G||}}</jhead></juan>
+34180:<lb n="0381a08"/><juan n="073" fun="close"><jhead><title><anchor id="fxT27p0381a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤T}}<anchor id="fxT27p0381a02"/>{{¨÷²Ä¤C¤Q¤T||}}</jhead></juan>
+34625:<lb n="0386a02"/><juan n="074" fun="close"><jhead><title><anchor id="fxT27p0386a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¥|}}<anchor id="fxT27p0386a02"/>{{¨÷²Ä¤C¤Q¥|||}}</jhead></juan>
+35071:<lb n="0390c27"/><juan n="075" fun="close"><jhead><title><anchor id="fxT27p0390c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤­}}<anchor id="fxT27p0390c02"/>{{¨÷²Ä¤C¤Q¤­||}}</jhead></juan>
+35527:<lb n="0396a04"/><juan n="076" fun="close"><jhead><title><anchor id="fxT27p0396a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤»}}<anchor id="fxT27p0396a02"/>{{¨÷²Ä¤C¤Q¤»||}}</jhead></juan>
+35988:<lb n="0401a14"/><juan n="077" fun="close"><jhead><title><anchor id="fxT27p0401a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤C}}<anchor id="fxT27p0401a02"/>{{¨÷²Ä¤C¤Q¤C||}}</jhead></juan>
+36454:<lb n="0406a29"/><juan n="078" fun="close"><jhead><title><anchor id="fxT27p0406a02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤K}}<anchor id="fxT27p0406a03"/>{{¨÷²Ä¤C¤Q¤K||}}</jhead></juan>
+36821:<lb n="0410b05"/>»¡¥|¿ÍªÌ§Ú¯à¨ü¦æ<note n="0410006" resp="Taisho" type="orig" place="foot text">§Ì¡×²Ä¡i¤T¡j¡i®c¡j</note><note n="0410006" resp="CBETA" type="mod">{{§jua||§Ì¡×²Ä¡i§º¡j¡i¤¸¡j¡i©ú¡j¡i®c¡j</}}n{{ n="167" fun="open"><mulu n=||}}ote><app n="0410006"><lem>§Ì</lem><rdg wit="¡i§º¡j¡i¤¸¡j¡i©ú¡j¡i®c¡j" resp="Taisho">²Ä</rdg></app>¥|¤Ñ¤ý§@¦p¬O©À¡C
+36910:<lb n="0411b04"/><juan n="079" fun="close"><jhead><title><anchor id="fxT27p0411b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤C¤Q¤E}}<anchor id="fxT27p0411b02"/>{{¨÷²Ä¤C¤Q¤E||}}</jhead></juan>
+37371:<lb n="0416b14"/><juan n="080" fun="close"><jhead><title><anchor id="fxT27p0416b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q}}<anchor id="fxT27p0416b02"/>{{¨÷²Ä¤K¤Q||}}</jhead></juan>
+38319:<jhead><title><anchor id="fxT27p0426c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤G}}<anchor id="fxT27p0426c02"/>{{¨÷²Ä¤K¤Q¤G||}}</jhead></juan>
+38798:<lb n="0432a27"/><juan n="083" fun="close"><jhead><title><anchor id="fxT27p0432a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤T}}<anchor id="fxT27p0432a02"/>{{¨÷²Ä¤K¤Q¤T||}}</jhead></juan>
+39273:<lb n="0437b23"/><juan n="084" fun="close"><jhead><title><anchor id="fxT27p0437b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¥|}}<anchor id="fxT27p0437b02"/>{{¨÷²Ä¤K¤Q¥|||}}</jhead></juan>
+39713:<lb n="0442b18"/><juan n="085" fun="close"><jhead><title><anchor id="fxT27p0442b04"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤­}}<anchor id="fxT27p0442b05"/>{{¨÷²Ä¤K¤Q¤­||}}</jhead></juan>
+40189:<lb n="0447c13"/><juan n="086" fun="close"><jhead><title><anchor id="fxT27p0447c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤»}}<anchor id="fxT27p0447c02"/>{{¨÷²Ä¤K¤Q¤»||}}</jhead></juan>
+40617:<lb n="0452b20"/><juan n="087" fun="close"><jhead><title><anchor id="fxT27p0452b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤C}}<anchor id="fxT27p0452b02"/>{{¨÷²Ä¤K¤Q¤C||}}</jhead></juan>
+41052:<lb n="0457b04"/><juan n="088" fun="close"><jhead><title><anchor id="fxT27p0457b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤K}}<anchor id="fxT27p0457b02"/>{{¨÷²Ä¤K¤Q¤K||}}</jhead></juan>
+41538:<lb n="0462c09"/><juan n="089" fun="close"><jhead><title><anchor id="fxT27p0462c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤K¤Q¤E}}<anchor id="fxT27p0462c02"/>{{¨÷²Ä¤K¤Q¤E||}}</jhead></juan>
+41999:<lb n="0467c19"/><juan n="090" fun="close"><jhead><title><anchor id="fxT27p0467c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q}}<anchor id="fxT27p0467c02"/>{{¨÷²Ä¤E¤Q||}}</jhead></juan>
+42495:<lb n="0473b04"/><juan n="091" fun="close"><jhead><title><anchor id="fxT27p0473b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤@}}<anchor id="fxT27p0473b02"/>{{¨÷²Ä¤E¤Q¤@||}}</jhead></juan>
+42993:<lb n="0478c21"/><juan n="092" fun="close"><jhead><title><anchor id="fxT27p0478c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤G}}<anchor id="fxT27p0478c02"/>{{¨÷²Ä¤E¤Q¤G||}}</jhead></juan>
+43464:<lb n="0484a19"/><juan n="093" fun="close"><jhead><title><anchor id="fxT27p0484a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤T}}<anchor id="fxT27p0484a02"/>{{¨÷²Ä¤E¤Q¤T||}}</jhead></juan>
+43931:<lb n="0489b05"/><juan n="094" fun="close"><jhead><title><anchor id="fxT27p0489b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¥|}}<anchor id="fxT27p0489b02"/>{{¨÷²Ä¤E¤Q¥|||}}</jhead></juan>
+44389:<lb n="0494b12"/><juan n="095" fun="close"><jhead><title><anchor id="fxT27p0494b03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤­}}<anchor id="fxT27p0494b04"/>{{¨÷²Ä¤E¤Q¤­||}}</jhead></juan>
+44861:<lb n="0499c03"/><juan n="096" fun="close"><jhead><title><anchor id="fxT27p0499c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤»}}<anchor id="fxT27p0499c02"/>{{¨÷²Ä¤E¤Q¤»||}}</jhead></juan>
+45336:<lb n="0504c27"/><juan n="097" fun="close"><jhead><title><anchor id="fxT27p0504c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤C}}<anchor id="fxT27p0504c02"/>{{¨÷²Ä¤E¤Q¤C||}}</jhead></juan>
+45795:<lb n="0510a07"/><juan n="098" fun="close"><jhead><title><anchor id="fxT27p0510a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤K}}<anchor id="fxT27p0510a02"/>{{¨÷²Ä¤E¤Q¤K||}}</jhead></juan>
+46273:<lb n="0515b04"/><juan n="099" fun="close"><jhead><title><anchor id="fxT27p0515b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤E¤Q¤E}}<anchor id="fxT27p0515b02"/>{{¨÷²Ä¤E¤Q¤E||}}</jhead></juan>
+46744:<lb n="0520b24"/><juan n="100" fun="close"><jhead><title><anchor id="fxT27p0520b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê}}<anchor id="fxT27p0520b02"/>{{¨÷²Ä¤@¦Ê||}}</jhead></juan>
+47664:<lb n="0531a16"/><juan n="102" fun="close"><jhead><title><anchor id="fxT27p0531a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<anchor id="fxT27p0531a02"/>{{¨÷²Ä¤@¦Ê¤G||}}</jhead></juan>
+48155:<lb n="0536b26"/><juan n="103" fun="close"><jhead><title><anchor id="fxT27p0536b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<anchor id="fxT27p0536b02"/>{{¨÷²Ä¤@¦Ê¤T||}}</jhead></juan>
+48623:<lb n="0541c16"/><juan n="104" fun="close"><jhead><title><anchor id="fxT27p0541c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<anchor id="fxT27p0541c02"/>{{¨÷²Ä¤@¦Ê¥|||}}</jhead></juan>
+49073:<lb n="0546c14"/><juan n="105" fun="close"><jhead><title><anchor id="fxT27p0546c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<anchor id="fxT27p0546c02"/>{{¨÷²Ä¤@¦Ê¤­||}}</jhead></juan>
+49534:<lb n="0551c23"/><juan n="106" fun="close"><jhead><title><anchor id="fxT27p0551c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<anchor id="fxT27p0551c02"/>{{¨÷²Ä¤@¦Ê¤»||}}</jhead></juan>
+49992:<lb n="0557a06"/><juan n="107" fun="close"><jhead><title><anchor id="fxT27p0557a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<anchor id="fxT27p0557a02"/>{{¨÷²Ä¤@¦Ê¤C||}}</jhead></juan>
+50452:<lb n="0562a16"/><juan n="108" fun="close"><jhead><title><anchor id="fxT27p0562a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<anchor id="fxT27p0562a02"/>{{¨÷²Ä¤@¦Ê¤K||}}</jhead></juan></div1>
+50931:<lb n="0567b13"/><juan n="109" fun="close"><jhead><title><anchor id="fxT27p0567b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<anchor id="fxT27p0567b02"/>{{¨÷²Ä¤@¦Ê¤E||}}</jhead></juan>
+51427:<lb n="0572c28"/><juan n="110" fun="close"><jhead><title><anchor id="fxT27p0572c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0572c29"/>¤Q<}}anchor id="fxT27p0572c02"/>{{¨÷²Ä¤@¦Ê¤@||}}
+51428:<{{lb n="0572c29"/>¤Q<||}}/jhead></juan>
+51885:<lb n="0578a05"/><juan n="111" fun="close"><jhead><title><anchor id="fxT27p0578a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0578a06"/>¤Q¤@<}}anchor id="fxT27p0578a02"/>{{¨÷²Ä¤@¦Ê¤@||}}
+51886:<{{lb n="0578a06"/>¤Q¤@<||}}/jhead></juan></div1>
+52348:<lb n="0583a17"/><juan n="112" fun="close"><jhead><title><anchor id="fxT27p0583a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0583a18"/>¤Q¤G<}}anchor id="fxT27p0583a02"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+52349:<lb n="0583a1{{8"/>¤Q¤G</jhead></juan>||}}
+52350:{{<lb n="0583a1||}}9"/>
+52941:<lb n="0589c09"/><juan n="113" fun="close"><jhead><title><anchor id="fxT27p0589c03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0589c10"/>¤Q¤T<}}anchor id="fxT27p0589c04"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+52942:<lb n="0589c1{{0"/>¤Q¤T</jhead></juan>||}}
+52943:{{<lb n="0589c1||}}1"/>
+53513:<lb n="0596a10"/><juan n="114" fun="close"><jhead><title><anchor id="fxT27p0596a04"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0596a11"/>¤Q¥|<}}anchor id="fxT27p0596a05"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+53514:<lb n="0596a1{{1"/>¤Q¥|</jhead></juan>||}}
+53515:{{<lb n="0596a1||}}2"/>
+54012:<lb n="0601b28"/><juan n="115" fun="close"><jhead><title><anchor id="fxT27p0601b02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0601b29"/>¤Q¤­<}}anchor id="fxT27p0601b03"/>{{¨÷²Ä¤@¦Ê¤@||}}
+54013:<{{lb n="0601b29"/>¤Q¤­<||}}/jhead></juan>
+54504:<lb n="0607a09"/><juan n="116" fun="close"><jhead><title><anchor id="fxT27p0607a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0607a10"/>¤Q¤»<}}anchor id="fxT27p0607a02"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+54505:<lb n="0607a1{{0"/>¤Q¤»</jhead></juan>||}}
+54506:{{<lb n="0607a1||}}1"/>
+54998:<lb n="0612b22"/><juan n="117" fun="close"><jhead><title><anchor id="fxT27p0612b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0612b23"/>¤Q¤C<}}anchor id="fxT27p0612b02"/>{{¨÷²Ä¤@¦Ê¤@||}}
+54999:<{{lb n="0612b23"/>¤Q¤C<||}}/jhead></juan>
+55482:<lb n="0618a01"/><juan n="118" fun="close"><jhead><title><anchor id="fxT27p0618a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0618a02"/>¤Q¤K<}}anchor id="fxT27p0618a02"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+55483:<lb n="0618a0{{2"/>¤Q¤K</jhead></juan>||}}
+55484:{{<lb n="0618a0||}}3"/>
+55974:<lb n="0623b12"/><juan n="119" fun="close"><jhead><title><anchor id="fxT27p0623b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤@}}<{{||lb n="0623b13"/>¤Q¤E<}}anchor id="fxT27p0623b02"/>{{¨÷²Ä¤@¦Ê¤@||</jhead></juan>}}
+55975:<lb n="0623b1{{3"/>¤Q¤E</jhead></juan>||}}
+55976:{{<lb n="0623b1||}}4"/>
+56476:<lb n="0629a03"/><juan n="120" fun="close"><jhead><title><anchor id="fxT27p0629a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{<anchor id="fxT27p0629a02"/>||}}¨÷²Ä¤@¦Ê¤G
+57510:<lb n="0640b14"/><juan n="122" fun="close"><jhead><title><anchor id="fxT27p0640b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0640b15"/>¤Q¤G<}}anchor id="fxT27p0640b02"/>{{¨÷²Ä¤@¦Ê¤G||</jhead></juan>}}
+57511:<lb n="0640b1{{5"/>¤Q¤G</jhead></juan>||}}
+57512:{{<lb n="0640b1||}}6"/>
+57793:<lb n="0643b25"/>·À¤£¥¢¦¹Ãþ§Ù²{{{||«e}}<anchor id="fxT27p0643b01"/>{{«e||}}¦¹»¡ªí§Ùªí§Ù¬°Ãþ¡C
+57990:<lb n="0645c12"/><juan n="123" fun="close"><jhead><title><anchor id="fxT27p0645c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0645c13"/>¤Q¤T<}}anchor id="fxT27p0645c02"/>{{¨÷²Ä¤@¦Ê¤G||</jhead></juan>}}
+57991:<lb n="0645c1{{3"/>¤Q¤T</jhead></juan>||}}
+57992:{{<lb n="0645c1||}}4"/>
+58425:<lb n="0650b26"/><juan n="124" fun="close"><jhead><title><note n="0650001" resp="Taisho" type="orig" place="foot text">»¡¤@¤Á¦³³¡µo´¼¡×ªüÏi¹F¿i¡i©ú¡j¡i®c¡j</note><app n="0650001"><lem>»¡¤@¤Á¦³³¡µo´¼</lem><rdg wit="¡i©ú¡j¡i®c¡j" resp="Taisho">ªüÏi¹F¿i</rdg></app>¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0650b27"/>¤Q¥|<}}anchor id="fxT27p0650b01"/>{{¨÷²Ä¤@¦Ê¤G||}}
+58426:<{{lb n="0650b27"/>¤Q¥|<||}}/jhead></juan>
+58888:<lb n="0655c09"/><juan n="125" fun="close"><jhead><title><anchor id="fxT27p0655c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0655c10"/>¤Q¤­<}}anchor id="fxT27p0655c02"/>{{¨÷²Ä¤@¦Ê¤G||}}
+58889:<{{lb n="0655c10"/>¤Q¤­<||}}/jhead></juan>
+59400:<lb n="0661b29"/><juan n="126" fun="close"><jhead><title><anchor id="fxT27p0661b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0661c01"/>¤Q¤»<}}anchor id="fxT27p0661b02"/>{{¨÷²Ä¤@¦Ê¤G||}}
+59401:<{{lb n="0661c01"/>¤Q¤»<||}}/jhead></juan></div1>
+59780:<lb n="0665c19"/><juan n="127" fun="close"><jhead><title><anchor id="fxT27p0665c02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0665c20"/>¤Q¤C<}}anchor id="fxT27p0665c03"/>{{¨÷²Ä¤@¦Ê¤G||</jhead></juan>}}
+59781:<lb n="0665c2{{0"/>¤Q¤C</jhead></juan>||}}
+59782:{{<lb n="0665c2||}}1"/>
+60186:<lb n="0670b04"/><juan n="128" fun="close"><jhead><title><anchor id="fxT27p0670b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0670b05"/>¤Q¤K<}}anchor id="fxT27p0670b02"/>{{¨÷²Ä¤@¦Ê¤G||</jhead></juan>}}
+60187:<lb n="0670b0{{5"/>¤Q¤K</jhead></juan>||}}
+60188:{{<lb n="0670b0||}}6"/>
+60591:<lb n="0674c18"/><juan n="129" fun="close"><jhead><title><anchor id="fxT27p0674c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤G}}<{{||lb n="0674c19"/>¤Q¤E<}}anchor id="fxT27p0674c02"/>{{¨÷²Ä¤@¦Ê¤G||</jhead></juan>}}
+60592:<lb n="0674c{{19"/>¤Q¤E</jhead></juan>||}}
+60593:{{<lb n="0674c||}}20"/>
+60968:<lb n="0679a04"/><juan n="130" fun="close"><jhead><title><anchor id="fxT27p0679a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0679a05"/>¤Q<}}anchor id="fxT27p0679a02"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+60969:<lb n="0679a0{{5"/>¤Q</jhead></juan>||}}
+60970:{{<lb n="0679a0||}}6"/>
+61381:<lb n="0683b26"/><juan n="131" fun="close"><jhead><title><anchor id="fxT27p0683b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0683b27"/>¤Q¤@<}}anchor id="fxT27p0683b02"/>{{¨÷²Ä¤@¦Ê¤T||}}
+61382:<{{lb n="0683b27"/>¤Q¤@<||}}/jhead></juan>
+61769:<lb n="0687c25"/><juan n="132" fun="close"><jhead><title><anchor id="fxT27p0687c02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0687c26"/>¤Q¤G<}}anchor id="fxT27p0687c03"/>{{¨÷²Ä¤@¦Ê¤T||}}
+61770:<{{lb n="0687c26"/>¤Q¤G<||}}/jhead></juan>
+62091:<lb n="0691b19"/>¦³±¡·~¤O¡C¦³¾l{{® ||®v»¡¡C¥Ñ­·¤O©Ò<a}}n{{||chor id}}="{{0||fxT}}2{{16||7p}}0{{06"><lem>¿×</lem><rdg w||}}691b01"/>áÞ¡C¦¸©ó¤ô
+62156:<lb n="0692a24"/><juan n="133" fun="close"><jhead><title><anchor id="fxT27p0692a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0692a25"/>¤Q¤T<}}anchor id="fxT27p0692a02"/>{{¨÷²Ä¤@¦Ê¤T||}}
+62157:<{{lb n="0692a25"/>¤Q¤T<||}}/jhead></juan>
+62534:<lb n="0696b14"/><juan n="134" fun="close"><jhead><title><anchor id="fxT27p0696b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0696b15"/>¤Q¥|<}}anchor id="fxT27p0696b02"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+62535:<lb n="0696b1{{5"/>¤Q¥|</jhead></juan>||}}
+62536:{{<lb n="0696b1||}}6"/>
+62950:<lb n="0701a09"/><juan n="135" fun="close"><jhead><title><anchor id="fxT27p0701a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0701a10"/>¤Q¤­<}}anchor id="fxT27p0701a02"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+62951:<lb n="0701a1{{0"/>¤Q¤­</jhead></juan>||}}
+62952:{{<lb n="0701a1||}}1"/>
+63356:<lb n="0705b24"/><juan n="136" fun="close"><jhead><title><anchor id="fxT27p0705b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0705b25"/>¤Q¤»<}}anchor id="fxT27p0705b02"/>{{¨÷²Ä¤@¦Ê¤T||}}
+63357:<{{lb n="0705b25"/>¤Q¤»<||}}/jhead></juan>
+63782:<lb n="0710b03"/><juan n="137" fun="close"><jhead><title><anchor id="fxT27p0710b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0710b04"/>¤Q¤C<}}anchor id="fxT27p0710b02"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+63783:<lb n="0710b0{{4"/>¤Q¤C</jhead></juan>||}}
+63784:{{<lb n="0710b0||}}5"/>
+63944:<lb n="0712a14"/>¬O¬G¤£»¡¡C¦³»¡¡C¦¹¤¤»¡¬Û¸êªÌ¡C¿×¤ß¤ß{{||©Ò}}<anchor id="fxT27p0712a02"/>{{©Ò||}}
+64159:<lb n="0714b19"/><juan n="138" fun="close"><jhead><title><anchor id="fxT27p0714b05"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0714b20"/>¤Q¤K<}}anchor id="fxT27p0714b06"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+64160:<lb n="0714b2{{0"/>¤Q¤K</jhead></juan>||}}
+64161:{{<lb n="0714b2||}}1"/>
+64606:<lb n="0719b17"/><juan n="139" fun="close"><jhead><title><anchor id="fxT27p0719b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤T}}<{{||lb n="0719b18"/>¤Q¤E<}}anchor id="fxT27p0719b02"/>{{¨÷²Ä¤@¦Ê¤T||</jhead></juan>}}
+64607:<lb n="0719b1{{8"/>¤Q¤E</jhead></juan>||}}
+64608:{{<lb n="0719b1||}}9"/>
+65002:<lb n="0723c22"/><juan n="140" fun="close"><jhead><title><anchor id="fxT27p0723c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0723c23"/>¤Q<}}anchor id="fxT27p0723c02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+65003:<{{lb n="0723c23"/>¤Q<||}}/jhead></juan>
+65838:<lb n="0733a22"/><juan n="142" fun="close"><jhead><title><anchor id="fxT27p0733a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0733a23"/>¤Q¤G<}}anchor id="fxT27p0733a02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+65839:<{{lb n="0733a23"/>¤Q¤G<||}}/jhead></juan>
+66253:<lb n="0737c22"/><juan n="143" fun="close"><jhead><title><anchor id="fxT27p0737c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0737c23"/>¤Q¤T<}}anchor id="fxT27p0737c02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+66254:<{{lb n="0737c23"/>¤Q¤T<||}}/jhead></juan>
+66693:<lb n="0742c16"/><juan n="144" fun="close"><jhead><title><anchor id="fxT27p0742c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0742c17"/>¤Q¥|<}}anchor id="fxT27p0742c02"/>{{¨÷²Ä¤@¦Ê¥|||</jhead></juan>}}
+66694:<lb n="0742c1{{7"/>¤Q¥|</jhead></juan>||}}
+66695:{{<lb n="0742c1||}}8"/>
+67064:<lb n="0746c24"/><juan n="145" fun="close"><jhead><title><anchor id="fxT27p0746c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0746c25"/>¤Q¤­<}}anchor id="fxT27p0746c02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+67065:<{{lb n="0746c25"/>¤Q¤­<||}}/jhead></juan>
+67466:<lb n="0751b09"/><juan n="146" fun="close"><jhead><title><anchor id="fxT27p0751b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0751b10"/>¤Q¤»<}}anchor id="fxT27p0751b02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+67467:<{{lb n="0751b10"/>¤Q¤»<||}}/jhead></juan></div1>
+67854:<lb n="0755c06"/><juan n="147" fun="close"><jhead><title><anchor id="fxT27p0755c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0755c07"/>¤Q¤C<}}anchor id="fxT27p0755c02"/>{{¨÷²Ä¤@¦Ê¥|||</jhead></juan>}}
+67855:<lb n="0755c0{{7"/>¤Q¤C</jhead></juan>||}}
+67856:{{<lb n="0755c0||}}8"/>
+68252:<lb n="0760a13"/><juan n="148" fun="close"><jhead><title><anchor id="fxT27p0760a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0760a14"/>¤Q¤K<}}anchor id="fxT27p0760a02"/>{{¨÷²Ä¤@¦Ê¥|||}}
+68253:<{{lb n="0760a14"/>¤Q¤K<||}}/jhead></juan></div1>
+68618:<lb n="0764a18"/><juan n="149" fun="close"><jhead><title><anchor id="fxT27p0764a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¥|}}<{{||lb n="0764a19"/>¤Q¤E<}}anchor id="fxT27p0764a02"/>{{¨÷²Ä¤@¦Ê¥|||</jhead></juan>}}
+68619:<lb n="0764a{{19"/>¤Q¤E</jhead></juan>||}}
+68620:{{<lb n="0764a||}}20"/>
+69009:<lb n="0768b18"/><juan n="150" fun="close"><jhead><title><anchor id="fxT27p0768b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0768b19"/>¤Q<}}anchor id="fxT27p0768b02"/>{{¨÷²Ä¤@¦Ê¤­||}}
+69010:<{{lb n="0768b19"/>¤Q<||}}/jhead></juan>
+69383:<lb n="0773a11"/><juan n="151" fun="close"><jhead><title><anchor id="fxT27p0773a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0773a12"/>¤Q¤@<}}anchor id="fxT27p0773a02"/>{{¨÷²Ä¤@¦Ê¤­||</jhead></juan>}}
+69384:<lb n="0773a1{{2"/>¤Q¤@</jhead></juan>||}}
+69385:{{<lb n="0773a1||}}3"/>
+69791:<lb n="0777b27"/><juan n="152" fun="close"><jhead><title><anchor id="fxT27p0777b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0777b28"/>¤Q¤G<}}anchor id="fxT27p0777b02"/>{{¨÷²Ä¤@¦Ê¤­||}}
+69792:<{{lb n="0777b28"/>¤Q¤G<||}}/jhead></juan>
+69849:<lb n="0778a25"/>°_ªÌµû¤ê¡C{{||À³}}<anchor id="fxT27p0778a03"/>{{À³||}}»¡¦¹¥X©w¤ß½t¹L¥h©w¡C¦Ó¤£
+70199:<lb n="0782a15"/><juan n="153" fun="close"><jhead><title><anchor id="fxT27p0782a05"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0782a16"/>¤Q¤T<}}anchor id="fxT27p0782a06"/>{{¨÷²Ä¤@¦Ê¤­||</jhead></juan>}}
+70200:<lb n="0782a1{{6"/>¤Q¤T</jhead></juan>||}}
+70201:{{<lb n="0782a1||}}7"/>
+70608:<lb n="0786c03"/><juan n="154" fun="close"><jhead><title><anchor id="fxT27p0786c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0786c04"/>¤Q¥|<}}anchor id="fxT27p0786c02"/>{{¨÷²Ä¤@¦Ê¤­||</jhead></juan>}}
+70609:<lb n="0786c0{{4"/>¤Q¥|</jhead></juan>||}}
+70610:{{<lb n="0786c0||}}5"/>
+71021:<lb n="0791a25"/><juan n="155" fun="close"><jhead><title><anchor id="fxT27p0791a08"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0791a26"/>¤Q¤­<}}anchor id="fxT27p0791a09"/>{{¨÷²Ä¤@¦Ê¤­||}}
+71022:<{{lb n="0791a26"/>¤Q¤­<||}}/jhead></juan>
+71460:<lb n="0796a16"/><juan n="156" fun="close"><jhead><title><anchor id="fxT27p0796a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0796a17"/>¤Q¤»<}}anchor id="fxT27p0796a02"/>{{¨÷²Ä¤@¦Ê¤­||}}
+71461:<{{lb n="0796a17"/>¤Q¤»<||}}/jhead></juan></div1>
+71879:<lb n="0800c13"/><juan n="157" fun="close"><jhead><title><anchor id="fxT27p0800c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0800c14"/>¤Q¤C<}}anchor id="fxT27p0800c02"/>{{¨÷²Ä¤@¦Ê¤­||</jhead></juan>}}
+71880:<lb n="0800c1{{4"/>¤Q¤C</jhead></juan>||}}
+71881:{{<lb n="0800c1||}}5"/>
+72312:<lb n="0805b25"/><juan n="158" fun="close"><jhead><title><anchor id="fxT27p0805b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0805b26"/>¤Q¤K<}}anchor id="fxT27p0805b02"/>{{¨÷²Ä¤@¦Ê¤­||}}
+72313:<{{lb n="0805b26"/>¤Q¤K<||}}/jhead></juan>
+72723:<lb n="0810a18"/><juan n="159" fun="close"><jhead><title><anchor id="fxT27p0810a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤­}}<{{||lb n="0810a19"/>¤Q¤E<}}anchor id="fxT27p0810a02"/>{{¨÷²Ä¤@¦Ê¤­||</jhead></juan>}}
+72724:<lb n="0810a{{19"/>¤Q¤E</jhead></juan>||}}
+72725:{{<lb n="0810a||}}20"/>
+73026:<lb n="0813b20"/>°_¡C­Y°_¤U¤W«~Äñ{{||°h}}<anchor id="fxT27p0813b02"/>{{°h||}}¡CµS¯àÅ@¥[¦æªÌ¡C©¼¤ß
+73030:<lb n="0813b24"/>³ÓªG¹D½Ñ±o­Ñ°_¡C­Y°_¤W¤W«~Äñ{{||°h}}<anchor id="fxT27p0813b03"/>{{°h||}}¡CµS¯à
+73136:<lb n="0814c10"/><juan n="160" fun="close"><jhead><title><anchor id="fxT27p0814c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0814c11"/>¤Q<}}anchor id="fxT27p0814c02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+73137:<lb n="0814c1{{1"/>¤Q</jhead></juan>||}}
+73138:{{<lb n="0814c1||}}2"/>
+73937:<lb n="0823c03"/><juan n="162" fun="close"><jhead><title><anchor id="fxT27p0823c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0823c04"/>¤Q¤G<}}anchor id="fxT27p0823c02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+73938:<lb n="0823c0{{4"/>¤Q¤G</jhead></juan>||}}
+73939:{{<lb n="0823c0||}}5"/>
+74300:<lb n="0827c05"/><juan n="163" fun="close"><jhead><title><anchor id="fxT27p0827c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0827c06"/>¤Q¤T<}}anchor id="fxT27p0827c02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+74301:<lb n="0827c0{{6"/>¤Q¤T</jhead></juan>||}}
+74302:{{<lb n="0827c0||}}7"/>
+74711:<lb n="0832a25"/><juan n="164" fun="close"><jhead><title><anchor id="fxT27p0832a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0832a26"/>¤Q¥|<}}anchor id="fxT27p0832a02"/>{{¨÷²Ä¤@¦Ê¤»||}}
+74712:<{{lb n="0832a26"/>¤Q¥|<||}}/jhead></juan>
+75117:<lb n="0836c13"/><juan n="165" fun="close"><jhead><title><anchor id="fxT27p0836c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0836c14"/>¤Q¤­<}}anchor id="fxT27p0836c02"/>{{¨÷²Ä¤@¦Ê¤»||}}
+75118:<{{lb n="0836c14"/>¤Q¤­<||}}/jhead></juan></div1>
+75536:<lb n="0841b11"/><juan n="166" fun="close"><jhead><title><anchor id="fxT27p0841b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0841b12"/>¤Q¤»<}}anchor id="fxT27p0841b02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+75537:<lb n="0841b1{{2"/>¤Q¤»</jhead></juan>||}}
+75538:{{<lb n="0841b1||}}3"/>
+75933:<lb n="0845c17"/><juan n="167" fun="close"><jhead><title><anchor id="fxT27p0845c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0845c18"/>¤Q¤C<}}anchor id="fxT27p0845c02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+75934:<lb n="0845c1{{8"/>¤Q¤C</jhead></juan>||}}
+75935:{{<lb n="0845c1||}}9"/>
+76356:<lb n="0850b19"/><juan n="168" fun="close"><jhead><title><anchor id="fxT27p0850b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0850b20"/>¤Q¤K<}}anchor id="fxT27p0850b02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+76357:<lb n="0850b2{{0"/>¤Q¤K</jhead></juan>||}}
+76358:{{<lb n="0850b2||}}1"/>
+76766:<lb n="0855a08"/><juan n="169" fun="close"><jhead><title><anchor id="fxT27p0855a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤»}}<{{||lb n="0855a09"/>¤Q¤E<}}anchor id="fxT27p0855a02"/>{{¨÷²Ä¤@¦Ê¤»||</jhead></juan>}}
+76767:<lb n="0855a{{09"/>¤Q¤E</jhead></juan>||}}
+76768:{{<lb n="0855a||}}10"/>
+77147:<lb n="0859a28"/>¤£{{||±Ë}}<anchor id="fxT27p0859a01"/>{{±Ë||}}¤£±o¡C¿×¦³±ý¥O¥ç¦³µLº|±J¦íÀH
+77192:<lb n="0859c13"/><juan n="170" fun="close"><jhead><title><anchor id="fxT27p0859c02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>¨÷²Ä<note n="0859005" resp="Taisho" type="orig" place="foot text">¡e¤@¦Ê¡f¡Ð¡i¸t¡j</note><app n="0859005"><lem>{{<anchor id="fxT27p0859c03"/>||}}¤@¦Ê</lem><rdg wit="¡i¸t¡j" resp="Taisho">&lac;</rdg></app>
+77193:<lb n="0859c14"/>¤C¤Q<{{||anchor id="fxT27p0859c03"/><}}/jhead></juan>
+77614:<lb n="0864b13"/><juan n="171" fun="close"><jhead><title><anchor id="fxT27p0864b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0864b14"/>¤Q¤@<}}anchor id="fxT27p0864b02"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+77615:<lb n="0864b1{{4"/>¤Q¤@</jhead></juan>||}}
+77616:{{<lb n="0864b1||}}5"/>
+77968:<lb n="0868b06"/>¯À¬¥¡C¥H©¼¼¨¶ú½Ñ¤Ñ¥O©Ò±o¨­§Î¤£ºÝ<{{an||}}c{{h||}}or{{||r}} {{||s}}i{{d||c}}="{{fxT27p0868b01||¡¯}}"{{||><}}/{{||corr}}>¬F
+78063:<lb n="0869b11"/><juan n="172" fun="close"><jhead><title><anchor id="fxT27p0869b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0869b12"/>¤Q¤G<}}anchor id="fxT27p0869b02"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+78064:<lb n="0869b1{{2"/>¤Q¤G</jhead></juan>||}}
+78065:{{<lb n="0869b1||}}3"/>
+78445:<lb n="0873c02"/><juan n="173" fun="close"><jhead><title><anchor id="fxT27p0873c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0873c03"/>¤Q¤T<}}anchor id="fxT27p0873c02"/>{{¨÷²Ä¤@¦Ê¤C||}}
+78446:<{{lb n="0873c03"/>¤Q¤T<||}}/jhead></juan></div1>
+78815:<lb n="0877c11"/><juan n="174" fun="close"><jhead><title><anchor id="fxT27p0877c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0877c12"/>¤Q¥|<}}anchor id="fxT27p0877c02"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+78816:<lb n="0877c1{{2"/>¤Q¥|</jhead></juan>||}}
+78817:{{<lb n="0877c1||}}3"/>
+79213:<lb n="0882a18"/><juan n="175" fun="close"><jhead><title><anchor id="fxT27p0882a02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0882a19"/>¤Q¤­<}}anchor id="fxT27p0882a03"/>{{¨÷²Ä¤@¦Ê¤C||}}
+79214:<{{lb n="0882a19"/>¤Q¤­<||}}/jhead></juan>
+79619:<lb n="0887b13"/><juan n="176" fun="close"><jhead><title><anchor id="fxT27p0887b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0887b14"/>¤Q¤»<}}anchor id="fxT27p0887b02"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+79620:<lb n="0887b1{{4"/>¤Q¤»</jhead></juan>||}}
+79621:{{<lb n="0887b1||}}5"/>
+80044:<lb n="0892a17"/><juan n="177" fun="close"><jhead><title><anchor id="fxT27p0892a02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0892a18"/>¤Q¤C<}}anchor id="fxT27p0892a03"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+80045:<lb n="0892a1{{8"/>¤Q¤C</jhead></juan>||}}
+80046:{{<lb n="0892a1||}}9"/>
+80449:<lb n="0896c01"/><juan n="178" fun="close"><jhead><title><anchor id="fxT27p0896c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0896c02"/>¤Q¤K<}}anchor id="fxT27p0896c02"/>{{¨÷²Ä¤@¦Ê¤C||}}
+80450:<{{lb n="0896c02"/>¤Q¤K<||}}note n="0896003" resp="Taisho" type="orig" place="foot text">¸t¥»¶ø®Ñ¤ê¥ÃÀ²¤»¦~¤E¤ë¤G¤Q¤é©óªø¦w¤j·O®¦¦xÂ½¸g°|¤TÂÃªk®v¥È®N©^¶@Ä¶¬¥¦{¤Ñ®c¦x¨Fªù¥È«hµ§¨ü¤j­ð¤¤¤j¤Ò¤º¨ÍÅ@­x¦ò§Ì¤lÆ[¦Û¦b±qµL©l®É¨Ó³{½t°_¹L³y¸o&M010527;¨F°g¨S·Rªe¿¢Äñ­W®ü·q¼g¦è°ì·sÂ½¸g½×¥H³q¥¼»D¤§©ÒÄ@¥|¥Í¤»¹Dµ¥¥X¹Ð³Òªk¬É¦³½a´µÄ@µLª|</note></jhead></juan>
+80903:<lb n="0901c04"/><juan n="179" fun="close"><jhead><title><anchor id="fxT27p0901c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤C}}<{{||lb n="0901c05"/>¤Q¤E<}}anchor id="fxT27p0901c02"/>{{¨÷²Ä¤@¦Ê¤C||</jhead></juan>}}
+80904:<lb n="0901c0{{5"/>¤Q¤E</jhead></juan>||}}
+80905:{{<lb n="0901c0||}}6"/>
+81347:<lb n="0906b27"/><juan n="180" fun="close"><jhead><title><anchor id="fxT27p0906b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0906b28"/>¤Q<}}anchor id="fxT27p0906b02"/>{{¨÷²Ä¤@¦Ê¤K||}}
+81348:<{{lb n="0906b28"/>¤Q<||}}/jhead></juan>
+82160:<lb n="0915b29"/><juan n="182" fun="close"><jhead><title><anchor id="fxT27p0915b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{<anchor id="fxT27p0915c01"/>||}}¨÷²Ä¤@¦Ê¤K
+82162:<lb n="0915c01"/>¤Q¤G<{{||anchor id="fxT27p0915c01"/><}}/jhead></juan>
+82629:<lb n="0920c17"/><juan n="183" fun="close"><jhead><title><anchor id="fxT27p0920c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0920c18"/>¤Q¤T<}}anchor id="fxT27p0920c02"/>{{¨÷²Ä¤@¦Ê¤K||</jhead></juan>}}
+82630:<lb n="0920c1{{8"/>¤Q¤T</jhead></juan>||}}
+82631:{{<lb n="0920c1||}}9"/>
+83061:<lb n="0925b28"/><juan n="184" fun="close"><jhead><title><anchor id="fxT27p0925b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0925b29"/>¤Q¥|<}}anchor id="fxT27p0925b02"/>{{¨÷²Ä¤@¦Ê¤K||}}
+83062:<{{lb n="0925b29"/>¤Q¥|<||}}/jhead></juan>
+83229:<lb n="0927b15"/>µ²µLÄ@µL¬Û©ÒÂ_«DªÅ­C¡CµªµL¡C¥H{{||µL}}<anchor id="fxT27p0927b01"/>{{µL||}}¦p¬O
+83463:<lb n="0930a09"/><juan n="185" fun="close"><jhead><title><anchor id="fxT27p0930a02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0930a10"/>¤Q¤­<}}anchor id="fxT27p0930a03"/>{{¨÷²Ä¤@¦Ê¤K||</jhead></juan>}}
+83464:<lb n="0930a1{{0"/>¤Q¤­</jhead></juan>||}}
+83465:{{<lb n="0930a1||}}1"/>
+84052:<lb n="0936b27"/><juan n="186" fun="close"><jhead><title><anchor id="fxT27p0936b03"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0936b28"/>¤Q¤»<}}anchor id="fxT27p0936b04"/>{{¨÷²Ä¤@¦Ê¤K||}}
+84053:<{{lb n="0936b28"/>¤Q¤»<||}}/jhead></juan>
+84433:<lb n="0940c18"/><juan n="187" fun="close"><jhead><title><anchor id="fxT27p0940c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0940c19"/>¤Q¤C<}}anchor id="fxT27p0940c02"/>{{¨÷²Ä¤@¦Ê¤K||</jhead></juan>}}
+84434:<lb n="0940c{{19"/>¤Q¤C</jhead></juan>||}}
+84435:{{<lb n="0940c||}}20"/>
+84808:<lb n="0945a01"/><juan n="188" fun="close"><jhead><title><anchor id="fxT27p0945a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0945a02"/>¤Q¤K<}}anchor id="fxT27p0945a02"/>{{¨÷²Ä¤@¦Ê¤K||</jhead></juan>}}
+84809:<lb n="0945a0{{2"/>¤Q¤K</jhead></juan>||}}
+84810:{{<lb n="0945a0||}}3"/>
+85200:<lb n="0949b02"/><juan n="189" fun="close"><jhead><title><anchor id="fxT27p0949b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤K}}<{{||lb n="0949b03"/>¤Q¤E<}}anchor id="fxT27p0949b02"/>{{¨÷²Ä¤@¦Ê¤K||</jhead></juan>}}
+85201:<lb n="0949b0{{3"/>¤Q¤E</jhead></juan>||}}
+85202:{{<lb n="0949b0||}}4"/>
+85572:<lb n="0953b13"/><juan n="190" fun="close"><jhead><title><anchor id="fxT27p0953b02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0953b14"/>¤Q<}}anchor id="fxT27p0953b03"/>{{¨÷²Ä¤@¦Ê¤E||</jhead></juan>}}
+85573:<lb n="0953b1{{4"/>¤Q</jhead></juan>||}}
+85574:{{<lb n="0953b1||}}5"/>
+86012:<lb n="0958b02"/><juan n="191" fun="close"><jhead><title><anchor id="fxT27p0958b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0958b03"/>¤Q¤@<}}anchor id="fxT27p0958b02"/>{{¨÷²Ä¤@¦Ê¤E||</jhead></juan>}}
+86013:<lb n="0958b0{{3"/>¤Q¤@</jhead></juan>||}}
+86014:{{<lb n="0958b0||}}4"/>
+86491:<lb n="0963c01"/><juan n="192" fun="close"><jhead><title><anchor id="fxT27p0963c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0963c02"/>¤Q¤G<}}anchor id="fxT27p0963c02"/>{{¨÷²Ä¤@¦Ê¤E||</jhead></juan>}}
+86492:<lb n="0963c0{{2"/>¤Q¤G</jhead></juan>||}}
+86493:{{<lb n="0963c0||}}3"/>
+86937:<lb n="0968b26"/><juan n="193" fun="close"><jhead><title><anchor id="fxT27p0968b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0968b27"/>¤Q¤T<}}anchor id="fxT27p0968b02"/>{{¨÷²Ä¤@¦Ê¤E||}}
+86938:<{{lb n="0968b27"/>¤Q¤T<||}}/jhead></juan>
+87351:<lb n="0973a21"/><juan n="194" fun="close"><jhead><title><anchor id="fxT27p0973a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0973a22"/>¤Q¥|<}}anchor id="fxT27p0973a02"/>{{¨÷²Ä¤@¦Ê¤E||}}
+87352:<{{lb n="0973a22"/>¤Q¥|<||}}/jhead></juan>
+87826:<lb n="0978b22"/><juan n="195" fun="close"><jhead><title><anchor id="fxT27p0978b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0978b23"/>¤Q¤­<}}anchor id="fxT27p0978b02"/>{{¨÷²Ä¤@¦Ê¤E||}}
+87827:<{{lb n="0978b23"/>¤Q¤­<||}}/jhead></juan>
+88231:<lb n="0983a12"/><juan n="196" fun="close"><jhead><title><anchor id="fxT27p0983a02"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0983a13"/>¤Q¤»<}}anchor id="fxT27p0983a03"/>{{¨÷²Ä¤@¦Ê¤E||</jhead></juan>}}
+88232:<lb n="0983a1{{3"/>¤Q¤»</jhead></juan>||}}
+88233:{{<lb n="0983a1||}}4"/>
+88641:<lb n="0987c01"/><juan n="197" fun="close"><jhead><title><anchor id="fxT27p0987c01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0987c02"/>¤Q¤C<}}anchor id="fxT27p0987c02"/>{{¨÷²Ä¤@¦Ê¤E||}}
+88642:<{{lb n="0987c02"/>¤Q¤C<||}}/jhead></juan></div1>
+89142:<lb n="0993a21"/><juan n="198" fun="close"><jhead><title><anchor id="fxT27p0993a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0993a22"/>¤Q¤K<}}anchor id="fxT27p0993a02"/>{{¨÷²Ä¤@¦Ê¤E||}}
+89143:<{{lb n="0993a22"/>¤Q¤K<||}}/jhead></juan>
+89623:<jhead><title><anchor id="fxT27p0998b01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤@¦Ê¤E}}<{{||lb n="0998b28"/>¤Q¤E<}}anchor id="fxT27p0998b02"/>{{¨÷²Ä¤@¦Ê¤E||</jhead></juan>}}
+89624:<lb n="0998b2{{8"/>¤Q¤E</jhead></juan>||}}
+89625:{{<lb n="0998b2||}}9"/><p type="W"><note n="0998003" resp="Taisho" type="orig" place="foot text">¡e¦¹¨÷¡K¤]¡f¤@¦Ê¤K¤Q¤E¦r¡Ð¡i¤T¡j¡i®c¡j</note><note n="0998003" resp="CBETA" type="mod">¡e¦¹¨÷¡K¤]¡f¤@¦Ê¤K¤Q¤E¦r¡Ð¡i§º¡j¡i¤¸¡j¡i©ú¡j¡i®c¡j</note><app n="0998003" word-count="189"><lem>¦¹¨÷²Ä¤G¤Q¤T´T¤Q¤»¦æ¡C§Ù¸T¨ú°Ý<note place="inline">¤§¤U</note>µ½
+90117:<lb n="1004a09"/><juan n="200" fun="close"><jhead><title><anchor id="fxT27p1004a01"/>»¡¤@¤Á¦³³¡µo´¼¤jÏi±C¨F½×</title>{{||¨÷²Ä¤G¦Ê}}<anchor id="fxT27p1004a02"/>{{¨÷²Ä¤G¦Ê||}}</jhead></juan></div1>
+
+
+<corr sic="¡¯"> ­×­q¦¨ <corr sic="[¡¯]">¡G
+<lb n="0161a25"/>¦W¬°´²Ãa¯}<corr sic="[¡¯]"></corr>¨S¤`°h</p>
+<lb n="0161a29"/>¯}<corr sic="[¡¯]"></corr>¨S¤`°h¡C¬O¿×¤G·À®t§O¡C¦¹¤¤¸Ñ²æ¬ÌÂ~
+<lb n="0161b08"/><corr sic="[¡¯]"></corr>¨S¤`°h¡C´_¦¸¾Ü·À¬O¸Ñ²æ¬OÂ÷Ã´¬Û¡C«D¾Ü·À
+<lb n="0342b18"/>¥H½Ñ¤W§®¦çªA¶¼­¹ª×¨ãÂåÃÄ¡C¤Î¾l¸ê<corr sic="[¡¯]"></corr>½t
+<lb n="0868b06"/>¯À¬¥¡C¥H©¼¼¨¶ú½Ñ¤Ñ¥O©Ò±o¨­§Î¤£ºÝ<corr sic="[¡¯]"></corr>¬F
+
+
+
+
+
+
+
+

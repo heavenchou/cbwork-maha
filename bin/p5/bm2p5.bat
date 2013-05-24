@@ -1,0 +1,1 @@
+bm2p5.py -v A110 -o d:\bmu8-p5xml\

@@ -1,0 +1,39 @@
+寄件者: maha [maha@tpts1.seed.net.tw]
+寄件日期: 2001年10月22日星期一 PM 12:19
+收件者: 40111林雪華; heaven.chou@seed.net.tw
+副本: 40105周邦信; 40106王志攀; 40113呂美智; 40114吳蕙菁
+主旨: RE: T02 經文修訂
+
+好的，謝謝雪華。我這邊的校勘檔及經文檔已照指示修訂OK。
+
+過兩天，我會把瑞揚已經二校的 T28校勘 checknote 好，然後交給研發組。
+
+maha
+  -----Original Message-----
+  From: saywhat@chibs.edu.tw [mailto:saywhat@chibs.edu.tw]
+  Sent: Monday, October 22, 2001 11:17 AM
+  To: heaven.chou@seed.net.tw; maha@tpts1.seed.net.tw
+  Cc: ray@chibs.edu.tw; panw@chibs.edu.tw; eva@chibs.edu.tw; march@chibs.edu.tw
+  Subject: T02 經文修訂
+
+
+  Maha給我的“T02 經文修訂 101801.txt”，XML檔均已修訂，只有下面一個地方需要討論：
+
+            T02n0099_p0144c25_║窟說言。憍尸迦。若沙門．婆羅門無{{||[17]}}上愛
+
+  校勘 [16] 應分開成二項，後面的 "Ta.nhaasa^nkhayavimuttaa." （愛盡解脫）是屬於 [17]，
+
+  校勘檔要修改成這樣：
+
+          16 ～S. 22. 4. Haaliddikaani(2).
+          17 Ta.nhaasa^nkhayavimuttaa.
+
+  經文檔 註17的位置要修改成這樣：
+
+          T02n0099_p0144c25_║窟說言。憍尸迦。若沙門．婆羅門無上[17]愛
+
+
+  saywhat
+
+
+

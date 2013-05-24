@@ -1,0 +1,93 @@
+#
+# sm2xml.pl
+# 從簡單標記版 插入 "◎" 到 xml 版
+# Version 0.1
+# 2002/7/10 02:06PM written by Ray Chou
+#
+$sm_dir = "c:/cbwork/simple";    # 簡單標記版所在目錄
+$xml_dir = "c:/cbwork/xml";      # xml 版所在目錄
+$out_dir = "c:/release/new-xml"; # 輸出目錄
+
+mkdir($out_dir, MODE);
+
+my $big5='(?:(?:[\x80-\xff][\x00-\xff])|(?:[\x00-\x7f]))';
+for ($i=8; $i<=8; $i++) {
+	$vol = "T" . sprintf("%2.2d",$i);
+	$dir = "$sm_dir/$vol/new.txt";
+	if (not -e $dir) { next; }
+
+	print STDERR "$vol\n";
+	
+	open SM, "$dir" or die;
+
+	$dir = "$xml_dir/$vol";
+	opendir THISDIR, $dir or die "opendir error: $dir";
+	my @allfiles = grep /\.xml$/, readdir THISDIR;
+	closedir THISDIR;
+	
+	foreach $file (@allfiles) {
+		$f = "$xml_dir/$vol/$file";
+		open XML,"$f" or die "[39] cannot open $f, file=[$file]\n";
+		mkdir("$out_dir/$vol", MODE);
+		$f = "$out_dir/$vol/$file";
+		open O, ">$f" or die;
+		select O;
+		$found=0;
+		while (<XML>) {
+			$xml = $_;
+			if ($xml !~ /<lb n=/) {
+				print;
+				next;
+			}
+			if ($xml =~ /^($big5)*◎/) {
+				print;
+				next;
+			}
+			$xml =~ /<lb n=\"(.*?)\"/;
+			$lb = $1;
+			while (<SM>) {
+				$sm = $_;
+				if ($sm !~ /$lb/) {
+					next;
+				}
+				if ($sm =~ /^($big5)*◎/) {
+					if ($found==0) {
+						$found=1;
+						print STDERR "=> $f\n";
+					}
+					if ($sm =~ /◎\[(\d\d)\]/) {
+						$a = $1;
+						$a = "<anchor id=\"fn${vol}p" . substr($lb,0,5) . $a . "\"/>";
+						while ($xml !~ /$a/) {
+							if (<XML>) {
+								$xml .= $_;
+							} else {
+								last;
+							}
+						}
+						$xml =~ s/$a/◎$a/;
+					} elsif ($sm =~ /\[(\d\d)\]◎/) {
+						$a = $1;
+						$a = "<anchor id=\"fn${vol}p" . substr($lb,0,5) . $a . "\"/>";
+						while ($xml !~ /$a/) {
+							if (<XML>) {
+								$xml .= $_;
+							} else {
+								last;
+							}
+						}
+						$xml =~ s/$a/$a◎/;
+					}
+				}
+				last;
+			}
+			print $xml;
+		}
+		close XML;
+		close O;
+		if ($found==0) {
+			unlink "$out_dir/$vol/$file";
+		}
+	}
+	close SM;
+}

@@ -1,0 +1,155 @@
+hh 比對修訂：
+修訂日期：2003/4/18 
+
+修訂前：
+<note place="inline"><note n="0238021" resp="Taisho" type="orig" place="foot text">〔斯贈反〕－【明】，斯贈反＝許僧反【宮】【甲】</note><app n="0238021"><lem>斯贈反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宮】【甲】" resp="Taisho">許僧反</rdg></app></note>娑
+
+修訂後：
+<note n="0238021" resp="Taisho" type="orig" place="foot text">〔斯贈反〕－【明】，斯贈反＝許僧反【宮】【甲】</note><app n="0238021"><lem><note place="inline">斯贈反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宮】【甲】" resp="Taisho">許僧反</rdg></app>娑
+
+修訂前：
+<note place="inline"><note n="0239030" resp="Taisho" type="orig" place="foot text">沙＝泔【宋】【元】【宮】，〔沙詐反耶〕－【明】</note><note n="0239030" resp="CBETA" type="mod">〔沙詐反耶〕－【明】，沙＝泔【宋】【元】【宮】</note><app n="0239030"><lem>沙詐反<note n="0239031" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】，耶字本文【甲】</note><note n="0239031" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】，<todo type="i"/>耶字本文【甲】</note><app n="0239031"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">泔詐反耶</rdg></app></note>
+
+修訂後：
+<note n="0239030" resp="Taisho" type="orig" place="foot text">沙＝泔【宋】【元】【宮】，〔沙詐反耶〕－【明】</note><note n="0239030" resp="CBETA" type="mod">〔沙詐反耶〕－【明】，沙＝泔【宋】【元】【宮】</note><app n="0239030"><lem><note place="inline">沙詐反<note n="0239031" resp="Taisho" type="orig" place="foot text">耶＝邪【三】【宮】，耶字本文【甲】</note><note n="0239031" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】，<todo type="i"/>耶字本文【甲】</note><app n="0239031"><lem>耶</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">邪</rdg></app></note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">泔詐反耶</rdg></app>
+
+修訂前：
+<note place="inline"><note n="0239038" resp="Taisho" type="orig" place="foot text">安＝女【宋】【元】【宮】，〔安咸反〕－【明】，安＝母【甲】</note><note n="0239038" resp="CBETA" type="mod">〔安咸反〕－【明】，安＝女【宋】【元】【宮】，安＝母【甲】</note><app n="0239038"><lem>安咸反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">女咸反</rdg><rdg wit="【甲】" resp="Taisho">母咸反</rdg></app></note>
+
+修訂後：
+<note n="0239038" resp="Taisho" type="orig" place="foot text">安＝女【宋】【元】【宮】，〔安咸反〕－【明】，安＝母【甲】</note><note n="0239038" resp="CBETA" type="mod">〔安咸反〕－【明】，安＝女【宋】【元】【宮】，安＝母【甲】</note><app n="0239038"><lem><note place="inline">安咸反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">女咸反</rdg><rdg wit="【甲】" resp="Taisho">母咸反</rdg></app>。
+
+修訂前：
+<note place="inline"><note n="0241032" resp="Taisho" type="orig" place="foot text">抑＝柳【宋】【元】【宮】，〔抑&CB00470;反〕－【明】</note><note n="0241032" resp="CBETA" type="mod">〔抑&CB00470;反〕－【明】，抑＝柳【宋】【元】【宮】</note><app n="0241032"><lem>抑&CB00470;反</lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">柳&CB00470;反</rdg></app></note>
+
+修訂後：
+<note n="0241032" resp="Taisho" type="orig" place="foot text">抑＝柳【宋】【元】【宮】，〔抑&CB00470;反〕－【明】</note><note n="0241032" resp="CBETA" type="mod">〔抑&CB00470;反〕－【明】，抑＝柳【宋】【元】【宮】</note><app n="0241032"><lem><note place="inline">抑&CB00470;反</note></lem><rdg wit="【明】" resp="Taisho">&lac;</rdg><rdg wit="【宋】【元】【宮】" resp="Taisho">柳&CB00470;反</rdg></app>
+
+
+「找不到對應的校勘」修訂：
+
+修訂前：
+<lb n="0328a03"/>俄而顗遇害<anchor id="fxT50p0328a02"/>。密往省其孤。對坐作胡唄三
+
+修訂後：
+<lb n="0328a03"/>俄而顗遇害。<anchor id="fxT50p0328a02"/>密往省其孤。對坐作胡唄三
+
+修訂前：
+<lb n="0461a29"/><note n="0461007" resp="Taisho" type="orig" place="foot text">諸＝請【三】【宮】</note><note n="0461007" resp="CBETA" type="mod">諸＝請【宋】【元】【明】【宮】</note><app n="0461007"><lem>諸</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">請</rdg></app>名學。事<anchor id="fxT50p0461a03"/>委治城智秀。而競者尤多。秀謂
+
+修訂後：
+<lb n="0461a29"/><note n="0461007" resp="Taisho" type="orig" place="foot text">諸＝請【三】【宮】</note><note n="0461007" resp="CBETA" type="mod">諸＝請【宋】【元】【明】【宮】</note><app n="0461007"><lem>諸</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">請</rdg></app>名學。事委<anchor id="fxT50p0461a03"/>治城智秀。而競者尤多。秀謂
+
+修訂前：
+<lb n="0471c29"/>華。改<anchor id="fxT50p0471c01"/>芮為耐。講說之盛四時不輟。未趣
+
+修訂後：
+<lb n="0471c29"/>華。改<anchor id="fxT50p0471c01"/>苪為耐。講說之盛四時不輟。未趣
+
+修訂前：
+<lb n="0833c06"/><div3 type="other"><mulu type="其他" level="3" label="唐揚州孝感寺廣陵大師傳"/><head>唐揚<anchor id="fxT50p0833c02"/>州孝感寺廣陵大師傳</head>
+
+修訂後：
+<lb n="0833c06"/><div3 type="other"><mulu type="其他" level="3" label="唐揚州孝感寺廣陵大師傳"/><head>唐<anchor id="fxT50p0833c02"/>揚州孝感寺廣陵大師傳</head>
+
+修訂前：
+<note n="0898005" resp="Taisho" type="orig" place="foot text">回＝迴【宋】【元】</note><app n="0898005"><lem>回</lem><rdg wit="【宋】【元】" resp="Taisho">迴</rdg></app>
+
+修訂後：
+<note n="0898005" resp="Taisho" type="orig" place="foot text">回＝迴【宋】【元】</note><note n="0898005" resp="CBETA" type="mod">回＝迴【宋】【元】<corr resp="march" sic="">＊</corr></note><app n="0898005"><lem>回</lem><rdg wit="【宋】【元】" resp="Taisho">迴</rdg></app>
+
+修訂前：
+<note n="0935016" resp="Taisho" type="orig" place="foot text">云＋（云）【三】</note><note n="0935016" resp="CBETA" type="mod">云＋（云）【宋】【元】【明】</note><app n="0935016"><lem>云</lem><rdg wit="【宋】【元】【明】" resp="Taisho">云云</rdg></app>
+
+修訂後：
+<note n="0935016" resp="Taisho" type="orig" place="foot text">云＋（云）【三】</note><note n="0935016" resp="CBETA" type="mod">云＋（云）【宋】【元】【明】<corr resp="march" sic="">＊</corr></note><app n="0935016"><lem>云</lem><rdg wit="【宋】【元】【明】" resp="Taisho">云云</rdg></app>
+
+
+cvs 修復前比對修訂：
+修訂日期：2003/06/03
+
+修訂前：
+<lb n="0191a29"/>軍。朱&CB02326;見而歎曰。
+
+修訂後：
+<lb n="0191a29"/>軍。朱&CB11790;見而歎曰。若非經國之才。
+
+修訂前：
+<note n="0239031" resp="CBETA" type="mod"><todo type="i"/>耶＝邪【宋】【元】【明】【宮】，耶字本文【甲】</note>
+
+修訂後：
+<note n="0239031" resp="CBETA" type="mod">耶＝邪【宋】【元】【明】【宮】，<todo type="i"/>耶字本文【甲】</note>
+
+修訂前：
+<lb n="0365a19"/>其鋒辯負氣摧&CB14687;。
+
+修訂後：
+<lb n="0365a19"/>其鋒辯負氣摧&CB00314;。
+
+修訂前：
+<lb n="0540b19"/>此勝。而言色不改。時共<note n="0540017" resp="Taisho" type="orig" place="foot text">服＝伏【三】【宮】＊</note><note n="0540017" resp="CBETA" type="mod">服＝伏【宋】【元】【明】【宮】＊</note><app n="0540017"><lem>服</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">伏</rdg></app>其&CB02326;度也
+
+修訂後：
+<lb n="0540b19"/>此勝。而言色不改。時共<note n="0540017" resp="Taisho" type="orig" place="foot text">服＝伏【三】【宮】＊</note><note n="0540017" resp="CBETA" type="mod">服＝伏【宋】【元】【明】【宮】＊</note><app n="0540017"><lem>服</lem><rdg wit="【宋】【元】【明】【宮】" resp="Taisho">伏</rdg></app>其&CB11790;度也。
+
+
+新增組字修訂：
+修訂日期：2003/06/06
+
+修訂前：
+<lb n="0365a19"/>其鋒辯負氣摧&CB00314;。後羅什至姑臧。肇自遠
+
+修訂後：
+<lb n="0365a19"/>其鋒辯負氣摧&CB14687;。後羅什至姑臧。肇自遠
+
+
+[經文修訂] "汨"、"汩"
+修訂日期：2003/07/23
+
+修訂前：
+<lb n="0748a13"/>異端之說汨亂真心。無記不熏何須習俗。
+
+修訂後：
+<lb n="0748a13"/>異端之說<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>亂真心。無記不熏何須習俗。
+
+修訂前：
+<lb n="0890c29"/>年之道。陀曰。心神好靜。今為塵境汨之。何
+
+修訂後：
+<lb n="0890c29"/>年之道。陀曰。心神好靜。今為塵境<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>之。何
+
+修訂前：
+<lb n="0928a12"/><p>釋法因姑蘇嵎山朱氏子也。少汨塵俗無意
+
+修訂後：
+<lb n="0928a12"/><p>釋法因姑蘇嵎山朱氏子也。少汩塵俗無意
+
+修訂前：
+<lb n="0931a29"/>質行止肅然。身汨愛纏心懷遐舉。弱冠薙
+
+修訂後：
+<lb n="0931a29"/>質行止肅然。身<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>愛纏心懷遐舉。弱冠薙
+
+修訂前：
+<lb n="0212a04"/>而抉眼痛。清白之屈原兮。沈汨羅而不返。時
+
+修訂後：
+<lb n="0212a04"/>而抉眼痛。清白之屈原兮。沈<app><lem resp="mar">汩</lem><rdg wit="【大】">汨</rdg></app>羅而不返。時
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

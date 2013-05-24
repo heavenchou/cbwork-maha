@@ -1,0 +1,1070 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+  <title>CBETA XML P5 標籤集</title>
+  <script>
+function _display_obj(obj, status)
+{
+        if(obj.style.display!=status)
+                obj.style.display=status;
+}
+function Switch(obj)
+{
+        _display_obj(obj, obj.style.display=="none"?"":"none");
+}
+</script>
+<style>
+<!--
+p.MsoNormal
+{margin:0cm;
+margin-bottom:.0001pt;
+font-size:12.0pt;
+font-family:"Times New Roman";}
+ol
+{margin-bottom:0cm;}
+ul
+{margin-bottom:0cm;}
+table.MsoNormalTable
+{mso-style-parent:"";
+font-size:10.0pt;
+font-family:"Times New Roman";
+}
+a:link {
+	color: #0033FF;
+	text-decoration: none;border-bottom:1px;
+}
+a:visited {
+	text-decoration: none;
+	color: #9900CC;
+}
+a:hover {
+	text-decoration: underline;border-bottom:1px;position:relative;top:5px;left:5px;font-size:14pt;
+	color: #FF00FF;font-style:itelic;
+}
+a:active {
+	text-decoration: none;
+	color: #33FF66;
+}
+h1 {
+	font-size: 16pt;
+	color: #000000;
+}
+body {
+	background-image: url(images/63.gif);
+}
+.style18 {font-size: 12pt}
+.style36 {
+	font-family: Verdana;
+	color: #800080;
+	font-size: medium;
+	font-weight: normal;
+}
+.style37 {
+	color: #FF00FF;
+	margin-left: 40px;
+	font-family: Verdana;
+}
+.style41 {
+	font-family: Verdana;
+}
+.style43 {
+	color: #006600;
+	font-family: Verdana;
+	margin-left: 40px;
+}
+.style46 {
+	font-size: 12pt;
+	font-family: Verdana;
+}
+.style47 {
+	border: thin none #808000;
+	color: #CC6600;
+	font-family: Verdana;
+	background-color: #FFFFFF;
+	margin-left: 60px;
+	background-attachment: scroll;
+}
+.style49 {
+	font-family: Verdana;
+	color: #800080;
+	font-size: medium;
+	font-weight: bold;
+}
+.style50 {
+	font-weight: normal;
+}
+.style54 {
+	font-family: Verdana;
+	font-weight: bold;
+}
+.style56 {
+	font-family: Verdana;
+	font-weight: bold;
+	color: #FF00FF;
+	margin-top: 6.0pt;
+}
+.style57 {
+	font-family: Verdana;
+	color: #800080;
+	font-size: medium;
+	font-weight: normal;
+	margin-left: 40px;
+}
+.style58 {
+	text-align: right;
+	font-family: Verdana;
+	font-size: medium;
+}
+.style60 {
+	font-size: 28pt;
+	color: #800000;
+}
+.style61 {
+	color: #CC6600;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 16pt;
+}
+h2 {
+	color: #800080;
+}
+.style62 {
+	text-align: center;
+}
+.style63 {
+	color: #996633;
+	font-weight: bold;
+	font-size: small;
+}
+.style64 {
+	font-family: Verdana;
+	margin-left: 80px;
+	font-size: medium;
+}
+.style67 {
+	border: 1px none #D178A5;
+	background-color: #F1F1F1;
+}
+.style68 {
+	text-align: right;
+}
+.style69 {
+	font-size: large;
+}
+.style72 {
+	border: 1px none #D178A5;
+	background-color: #F1F1F1;
+	margin-left: 80px;
+}
+.style75 {
+	font-size: medium;
+}
+.style76 {
+	font-family: Verdana;
+	font-size: medium;
+}
+.style77 {
+	border-width: 0px;
+}
+.style78 {
+	font-size: small;
+}
+-->
+  </style>	
+</head>
+<body lang=ZH-TW>
+<div class="style62">
+<span lang=EN-US class="style60"><strong><a name="back"></a>CBETA XML P5 標籤集</strong></span>
+</div>
+<p align=center class="style58">
+by：淑儀　最近更新日期：<!--webbot bot="Timestamp" s-type="EDITED" s-format="%Y/%m/%d" startspan -->2009/07/22<!--webbot bot="Timestamp" endspan i-checksum="12768" --><p style='margin-top:6.0pt' class="style41">
+
+&nbsp;</p>
+<p style='margin-top:6.0pt' class="style69">
+<span lang=EN-US class="style41">CBETA XML 文件目前使用 utf-8 Encoding，標記採用國際標準 TEI，在 TEI 裏找不到合適的才會自訂標記，或自定標記屬性。一個 CBETA XML 檔內部架構分為檔頭（Header）及本文（Text）兩部份：</span></p>
+<p class="style56"></p>
+<h1 class="style13">一、XML 經文檔的整體架構介紹</h1>
+  <p class="style37">&lt;TEI&gt;<br />
+  　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-teiHeader.html" target="_blank" title="連結 P5">&lt;teiHeader&gt;</a><br />
+　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-text.html" target="_blank" title="連結 P5">&lt;text&gt;</a><br />
+　　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-body.html" target="_blank" title="連結 P5">&lt;body&gt;</a> 正文<br />
+　　　　　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-back.html" target="_blank" title="連結 P5">&lt;back&gt;</a> 正文後資訊</p>
+<p class="style37"><span style="cursor:hand" onClick="Switch(p1)" title="按下標題可展開及收合資料">（實例）<a name="1"></a></span></p>
+<blockquote class="style72">
+<div id="p1" style="display: ;" class="style67"><p class="style41">&lt;?xml
+        version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;<br /> &lt;TEI xmlns=&quot;http://www.tei-c.org/ns/1.0&quot; xmlns:cb=&quot;http://www.cbeta.org/ns/1.0&quot; xml:id=&quot;T01n0001&quot;&gt;<br />&lt;teiHeader&gt;...<span class="style12">...</span>&lt;/teiHeader&gt;<br />　&lt;text&gt;<br />　　&lt;body&gt;...<span class="style12">...</span>&lt;/body&gt;<br />　　&lt;back&gt;...<span class="style12">...</span>&lt;/back&gt;<br />　&lt;/text&gt;<br />&lt;/TEI&gt;
+<p class="style68"><span style="cursor:hand" onClick="Switch(p1)" class="style63"><a href="#1">（按此關閉實例內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p></div></blockquote>
+<h1 class="style54">
+二、依檔頭、本文兩大類介紹 CBETA 目前所使用的標記</h1>
+<h1 class="style54">
+1. 檔頭（Header）</h1>
+<p class="style61">
+<span style="cursor:hand" onClick="Switch(p2)" title="按下標題可展開及收合資料"><a name="1.1"></a>
+　1.1 File Description 本電子檔書目資訊描述</span>
+<a title="CBETA P5 實例" target="_blank" href="header.htm#fileDesc">
+<span class="style75">（CBETT P5 實例）</span></a></p>
+<blockquote class="style72"><div id="p2" style="display: ;">	
+	<p><span class="style41"><strong class="style50">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-fileDesc.html" target="_blank">&lt;fileDesc&gt;
+	</a></strong>檔案描述。包含對電子檔案的完整書目敘述。<br />
+	　　</span><strong> </strong><span class="style41">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-titleStmt.html" target="_blank">&lt;titleStmt&gt;
+	</a>標題陳述。(題名陳述) 匯集關於作品標題與作品智慧內容責任歸屬的資訊。<br />
+　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-title.html" target="_blank">&lt;title&gt;
+	</a>標題<br />
+	　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-author.html" target="_blank">&lt;author&gt;
+	</a>作者<br />
+	　　　
+</span>
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-respStmt.html" target="_blank">
+	<span class="style41">&lt;respStmt&gt; </span></a><span class="style41">負責人陳述。當未使用作者、編輯者等特定元素，或元素內容不足時，在此補充說明內容所屬負責人的責任陳述。<br />
+　　　　
+</span>
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-resp.html" target="_blank">
+	<span class="style41">&lt;resp&gt; 包含一個詞彙，來描述個人智慧責任的類型。</span></a><span class="style41"><br />
+	　　　　
+ 
+</span>
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-name.html" target="_parent">
+	<span class="style41">&lt;name&gt;
+<br />
+	</span></a><span class="style41">　　
+<strong class="style50">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-editionStmt.html" target="_blank">&lt;editionStmt&gt;
+	</a></strong>版本陳述<br />
+	　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-edition.html" target="_blank">&lt;edition&gt;
+	</a>版本<br />
+	　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-date.html" target="_blank">&lt;date&gt;
+	</a>日期<br />
+	　　　 &lt;respStmt xml:id=&quot;resp1&quot;&gt;　xml:id 
+是指提供一個獨特識別符碼，識別帶有該屬性的元素。 
+<br />
+	　　　　 &lt;resp&gt;
+<br />
+	　　　　 &lt;name&gt; 　　　<br />
+	　　</span><strong> </strong><span class="style41">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-extent.html" target="_blank">&lt;extent&gt;
+	</a>卷數<br />
+	　　</span><strong> </strong><span class="style41">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-publicationStmt.html" target="_blank">&lt;publicationStmt&gt;
+	</a>出版描述<br />
+	　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-distributor.html" target="_blank">&lt;distributor&gt;
+	</a>發行者／單位<br />
+	　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-name.html" target="_blank">&lt;name&gt;
+	</a><br />
+	　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-address.html" target="_blank">&lt;address&gt;
+	</a><br />
+	　　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-addrLine.html" target="_blank">&lt;addrLine&gt;
+	</a><br />
+	　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-availability.html" target="_blank">&lt;availability&gt;
+	</a>著作權狀態。提供關於文件可利用性的資訊，例如使用或發行上的任何限制、版權狀態等。<br />
+	　　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-p.html" target="_blank">&lt;p&gt;
+	</a><br />
+	　　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-date.html" target="_blank">&lt;date&gt;
+	</a>日期<br />
+	　　</span><strong> </strong><span class="style41">
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-sourceDesc.html" target="_blank">&lt;sourceDesc&gt;
+	</a>來源描述<br />
+	　　　
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-bibl.html" target="_blank">&lt;bibl&gt;
+	</a>書目資料<br />
+	　　　　 &lt;listWit&gt;
+<br />
+	　　　　　
+ 
+ 
+	<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-witness.html">&lt;witness</a> xml:id=&quot;wit1&quot;&gt;【CBETA】&lt;/witness&gt; 包含學術編輯註解中所指的單一版本描述，或由一個印記所參照的版本列表。<br />
+	　　　　　 
+&lt;witness xml:id=&quot;wit2&quot;&gt;【卍續】&lt;/witness&gt;<br />
+	</span></p>
+<p class="style68"><span style="cursor:hand" onClick="Switch(p2)" class="style63"><a href="#1.1">（按此關閉 
+file description 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p></div></blockquote>
+
+<p class="style61"><span style="cursor:hand" onClick="Switch(p3)" title="按下標題可展開及收合資料">
+　<a name="1.2"></a>1.2 Encoding Description 電子版與來源之間的關係描述</span>
+<span class="style76"><a title="CBETA P5 實例" target="_blank" href="header.htm#encodingDesc">（CBETA P5 實例）</a></span>
+<blockquote class="style72"><div id="p3" style="display: ;"><p>
+<span class="style41"><strong class="style50">
+		<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-encodingDesc.html" target="_blank">
+				&lt;encodingDesc&gt;
+</a>
+</strong> 來源描述<br /> 　　<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-projectDesc.html" target="_blank">&lt;projectDesc&gt;
+</a>
+計畫描述<br /> 　　　&lt;p xml:lang
+&gt;
+使用RFC3066的代碼，指出該元素內容的使用語言<br /> 　　</span><strong>
+		</strong> <span class="style41">
+		<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charDecl.html" target="_blank">
+				&lt;charDecl
+				&gt;
+</a>
+文字宣告<br />　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-char.html" target="_blank">
+&lt;char </a>
+xml:id=
+&quot;
+&quot;
+&gt;
+<br />　　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charName.html" target="_blank">
+&lt;charName&gt;
+</a>
+文字名稱<br />　　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-charProp.html" target="_blank">
+&lt;charProp&gt;
+</a>
+文字性質<br />　　　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-localName.html" target="_blank">
+&lt;localName&gt;
+</a>
+當地定義<br />　　　　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-value.html" target="_blank">
+&lt;value&gt;
+</a>
+性質值　　　
+</span>
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-mapping.html" target="_blank">
+<span class="style41"><br />　　　　
+&lt;mapping&gt;
+</span>
+</a>
+<span class="style41">文字對應</span></p>
+	<p class="style68">
+<span style="cursor:hand" onClick="Switch(p3)" class="style63"><a href="#1.2">（按此關閉 
+encoding description 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+</div>
+</blockquote>
+<p class="style61"><span style="cursor:hand" onClick="Switch(p4)" title="按下標題可展開及收合資料">
+　<a name="1.3"></a>1.3 Profile Description
+文件背景描述</span> <span class="style41">
+<a title="CBETA P5 實例" target="_blank" href="header.htm#profileDesc">
+<span class="style75">（CBETA P5 實例）</span></a></span>
+<blockquote class="style72">
+<div id="p4" style="display: ;"><p class="style41">
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-profileDesc.html" target="_blank">
+&lt;profileDesc&gt;
+</a>
+文件背景描述<br />
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-langUsage.html" target="_blank">　
+&lt;langUsage&gt;
+</a>
+語言使用<br />
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-language.html" target="_blank">　　
+&lt;language&gt;
+</a>
+個別敘述文本中使用的語言</p>
+	<p class="style68">
+<span style="cursor:hand" onClick="Switch(p4)" class="style63"><a href="#1.3">（按此關閉 
+profile description 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span><br />
+</p></div>
+</blockquote>
+<p class="style61"><span style="cursor:hand" onClick="Switch(p5)" title="按下標題可展開及收合資料">
+　<a name="1.4"></a>1.4 Revision Description 修訂摘要記錄</span><a title="CBETA P5 實例" target="_blank" href="header.htm#revisionDesc"><span class="style75">（CBETA 
+P5 實例）</span></a>
+<blockquote class="style72">
+<div id="p5" style="display: ;"><p class="style41">
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-revisionDesc.html" target="_blank">
+&lt;revisionDesc
+&gt;
+</a>
+修訂描述<br />　　
+<a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-change.html" target="_blank">
+&lt;change</a>
+when
+&gt; 
+變更內容與日期<br />
+	</p>
+	<p class="style68">
+<span style="cursor:hand" onClick="Switch(p5)"><a href="#1.4" class="style63">（按此關閉 
+revision description 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p></div></blockquote>
+<h1 class="style54">
+&nbsp;</h1>
+<h1 class="style54">
+2. 本文（Text）&nbsp;&lt;body&gt;、&nbsp;&lt;back&gt;常用標籤與屬性</h1>
+<p class="style64">
+<a name="back2"></a><br />
+<a target="_self" href="#annals">&lt;annals&gt;</a>
+<a href="#anchor">&lt;anchor&gt;</a>&nbsp; <a href="#bylinecbtype">&lt;byline 
+cb:type=&quot;...&quot;&gt;</a><br />
+<a href="#cbdialog">&lt;cb:dialog&gt;</a>&nbsp; <a href="#cbdocnumber">&lt;cb:docNumber&gt;</a>&nbsp; <a href="#cbdivtypexu">&lt;cb:div 
+type=&quot;xu&quot;&gt;</a>&nbsp; <a href="#cbdivtypenote">&lt;cb:div type=&quot;note&quot;&gt;</a>&nbsp; <a href="#table">&lt;cols&gt;</a><br />
+<a href="#div">&lt;div&gt;</a>&nbsp; <a href="#entry">&lt;entry&gt;</a>&nbsp; <a href="#fan">&lt;fan&gt;</a>&nbsp; <a href="#figure">&lt;figure&gt;</a>&nbsp; <a href="#g">&lt;g&gt;</a>&nbsp; <a href="#juan">&lt;juan&gt;</a>&nbsp; <a href="#lb">&lt;lb&gt;</a>&nbsp; <a href="#list">&lt;list&gt;</a>&nbsp; <a href="#lg">&lt;lg&gt;</a><br />
+<a href="#milestone">&lt;milestone&gt;</a>&nbsp; <a href="#mulu">&lt;mulu&gt;</a>&nbsp; <a href="#note">&lt;note&gt;</a>&nbsp; <a href="#p" title="段落">&lt;p&gt;</a>&nbsp; <a href="#pb">&lt;pb&gt;</a>&nbsp; <a href="#g">&lt;ref&gt;</a>&nbsp; <a href="#table">&lt;row&gt;&nbsp; &lt;table&gt;</a></p>
+<p class="style61">　2.1 &lt;body&gt;</p>
+<blockquote>
+<p class="style61">1. 最上層結構標籤集</p>
+<blockquote>
+<p class="style49"><span style="cursor:hand" onClick="Switch(p6)" title="按下標題可展開及收合資料">
+<a name="div"></a>&lt;div&gt;</span></p>
+<blockquote class="style67" style="width: auto">
+<div id="p6" style="display: ;">
+<p class="style43">例 1 一般情況，底下舉例的是多層的 div <br />
+X60n1121_p0439b05</p><p class="style47">&lt;cb:div
+        type=&quot;other&quot;&gt;&lt;cb:mulu type=&quot;其他&quot; level=&quot;2&quot;&gt;參方第二十三&lt;/cb:mulu&gt;<br />　&lt;head&gt;參方第二十三&lt;/head&gt;…&lt;/cb:div&gt;<br />&lt;cb:div
+        type=&quot;other&quot;&gt;&lt;cb:mulu type=&quot;其他&quot; level=&quot;2&quot;&gt;受具遮難第二十四&lt;/cb:mulu&gt;<br />　&lt;head&gt;受具遮難第二十四&lt;/head&gt;<br />　&lt;cb:div
+        type=&quot;other&quot;&gt;&lt;cb:mulu
+        type=&quot;其他&quot; level=&quot;3&quot;&gt;十三重難&lt;/cb:mulu&gt;<br />　　&lt;head&gt;十三重難&lt;/head&gt;…&lt;/cb:div&gt;<br />　&lt;cb:div
+        type=&quot;other&quot;&gt;&lt;cb:mulu type=&quot;其他&quot; level=&quot;3&quot;&gt;十六輕遮&lt;/cb:mulu&gt;<br />　　&lt;head&gt;十六輕遮&lt;/head&gt;…&lt;/cb:div&gt;&lt;/cb:div&gt;<br />&lt;cb:div
+        type=&quot;other&quot;&gt;&lt;cb:mulu type=&quot;其他&quot; level=&quot;2&quot;&gt;請和尚法第二十五&lt;/cb:mulu&gt;<br />　&lt;head&gt;請和尚法第二十五&lt;/head&gt;</p>
+<p class="style43">例 2. 附文<br>
+X68n1315_p0083b06WP2廬山棲賢寶覺禪院住持傳法賜紫沙門<br>
+X68n1315_p0083b07W#2澄諟重詳定&lt;/Q1&gt;</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0083b06&quot;/&gt;&lt;cb:div type=&quot;w&quot;&gt;&lt;p 
+xml:id=&quot;pX68p0083b0601&quot; rend=&quot;margin-left:2em&quot;&gt;廬山棲賢寶覺禪院住持傳法賜紫沙門<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0083b07&quot;/&gt;澄諟重詳定&lt;/p&gt;&lt;/cb:div&gt;</p>
+<p class="style43">例 3. 品<br />
+T49n2032_p0017b17D##文殊師利問經卷下分別部品第十五</p>
+<p class="style47">　&lt;cb:div type=&quot;pin&quot;&gt;&lt;cb:mulu type=&quot;品&quot; level=&quot;1&quot;&gt;15 分別部品&lt;/cb:mulu&gt;<br />
+　&lt;head&gt;文殊師利問經卷下分別部品第十五&lt;/head&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p6)" class="style63"><a href="#div">（按此關閉 
+&lt;div&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+</div>
+</blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">
+2. Paragraph Level 段落層標籤集</p>
+<blockquote>
+<p class="style49"><span style="cursor:hand" onClick="Switch(p7)" title="按下標題可展開及收合資料">
+<a name="p"></a><br />
+&lt;p&gt;</span></p>
+<blockquote class="style67" style="width: auto">
+<div id="p7" style="display: ;"><p class="style43">例 1.<br />
+T01n0001_p0001b1201</p>
+<p class="style47">&lt;p
+          xml:id=&quot;pT01p0001b1201&quot;&gt;如是我聞。&lt;/p&gt;<br />&lt;p xml:id=&quot;pT01p0001b1205&quot; 
+rend=&quot;inline&quot;&gt;一時。佛在<br /></p>
+<p class="style43">例 2. 照原狀排列，指經前目錄<br>
+X79n1563_p0658a19r##卷上<br>
+X79n1563_p0658a20r##　　　七佛<br>
+X79n1563_p0658a21r##　毗婆尸佛　尸棄佛</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0658a19&quot;/&gt;&lt;p xml:id=&quot;pX79p0658a1901&quot; cb:type=&quot;pre&quot;&gt;卷上<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0658a20&quot;/&gt;　　　七佛<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0658a21&quot;/&gt;　毗婆尸佛　尸棄佛</p>
+<p class="style43">例 3. 整段縮排<br>
+X68n1315_p0041c09P#1睦州和尚。名道蹤。嚴州人。姓陳氏。受業不載。得法</p>
+<p class="style47">&lt;p xml:id=&quot;pX68p0041c0901&quot; 
+rend=&quot;margin-left:1em&quot;&gt;睦州和尚。名道蹤。嚴州人。姓陳氏。受業不載。得法</p>
+<p class="style43">例 4. 咒語<br>
+X66n1298_p0738b22Z##吉帝伊帝　彌帝毗伽帝　羯帝羯帝　波陀莎訶</p>
+<p class="style47">&nbsp;&lt;p xml:id=&quot;pX66p0738b2201&quot; 
+cb:type=&quot;dharani&quot;&gt;吉帝伊帝　彌帝毗伽帝　羯帝羯帝　波陀莎訶&lt;/p&gt;&lt;/cb:div&gt;</p>
+<p class="style43">例 5. 咒語有縮排<br>
+X63n1232_p0161a23Z#1唵阿盧勒繼娑[口*縛]訶。</p>
+<p class="style47">&lt;p xml:id=&quot;pX63p0161a2301&quot; 
+cb:type=&quot;dharani&quot; rend=&quot;margin-left:1em&quot;&gt;唵阿盧勒繼娑嚩訶。&lt;/p&gt;</p>
+	<p class="style68">
+	<span style="cursor:hand" onClick="Switch(p7)" class="style63"><a href="#p">（按此關閉 
+	&lt;p&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style49"><span style="cursor:hand" onClick="Switch(p8)" title="按下標題可展開及收合資料">
+<a name="list"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style49">
+<span style="cursor:hand" onClick="Switch(p8)" title="按下標題可展開及收合資料">
+&lt;list&gt;</span></p>
+<blockquote class="style67"><div id="p8" style="display: ;"><p class="style43">例 1.<br>
+	X01n0013_p0364b01</p><p class="style47"><span class="style41">&lt;list&gt;<br>
+	</span>　<span class="style41"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-item.html" target="_blank">&lt;item</a> xml:id=&quot;itemX01p0364b0101&quot;&gt;十方三世一切佛&lt;/item&gt;<br />　&lt;item
+            xml:id=&quot;itemX01p0364b0201&quot;&gt;一切菩薩摩訶薩&lt;/item&gt;<br />　&lt;item
+            xml:id=&quot;itemX01p0364b0301&quot;&gt;摩訶般若波羅蜜&lt;/item&gt;<br />　&lt;item
+            xml:id=&quot;itemX01p0364b0401&quot;&gt;南無阿彌陀佛&lt;note place=&quot;inline&quot;&gt;三聲&lt;/note&gt;<br />　&lt;/item&gt;<br />&lt;/list&gt;</span></p>
+	<p class="style43">例 2. 多層次列表<br>
+	X63n1257_p0755c10I#1卷上<br>
+	X63n1257_p0755c11I#2示初心做工夫警語Ｉ評古德垂示警語<br>
+	X63n1257_p0755c12I#1卷下<br>
+	X63n1257_p0755c13I#2評古德垂示警語Ｉ示疑情發不起警語<br>
+	---------<br>
+	X63n1257_p0755c15I#2示參禪偈十首&lt;/L&gt;&lt;/Q1&gt;</p>
+	<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0755c10&quot;/&gt;&lt;list&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1001&quot;&gt;卷上<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0755c11&quot;/&gt;&lt;list&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1101&quot;&gt;示初心做工夫警語&lt;/item&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1109&quot;&gt;評古德垂示警語&lt;/item&gt;&lt;/list&gt;&lt;/item&gt;<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0755c12&quot;/&gt;&lt;item xml:id=&quot;itemX63p0755c1201&quot;&gt;卷下<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0755c13&quot;/&gt;&lt;list&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1301&quot;&gt;評古德垂示警語&lt;/item&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1308&quot;&gt;示疑情發不起警語&lt;/item&gt;<br>
+	---------<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0755c15&quot;/&gt;&lt;item 
+	xml:id=&quot;itemX63p0755c1501&quot;&gt;示參禪偈十首&lt;/item&gt;&lt;/list&gt;&lt;/item&gt;&lt;/list&gt;&lt;/cb:div&gt;</p>
+		<p class="style68">
+		<span style="cursor:hand" onClick="Switch(p8)" class="style63"><a href="#p">（按此關閉 
+		&lt;list&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+		</div></blockquote>
+<p class="style49"><span style="cursor:hand" onClick="Switch(p9)" title="按下標題可展開及收合資料">
+<a name="lg"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style49">
+<span style="cursor:hand" onClick="Switch(p9)" title="按下標題可展開及收合資料">
+&lt;lg&gt;</span></p>
+<blockquote class="style67"><div id="p9" style="display: ;">
+<p class="style43">1. 一般偈頌　X01n0013_p0364a07</p>
+	<p class="style47"><span class="style41">&lt;lg
+                xml:id=&quot;lgX01p0364a0701&quot;&gt;<br /></span>　<span class="style41"><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-l.html" target="_blank">&lt;l&gt;</a>阿彌陀佛身金色&lt;/l&gt;&lt;l&gt;相好光明無等倫&lt;/l&gt;<br />　&lt;l&gt;白毫宛轉五須彌&lt;/l&gt;&lt;l&gt;紺目澄清四大海&lt;/l&gt;<br />　&lt;l&gt;光中化佛無數億&lt;/l&gt;&lt;l&gt;化菩薩眾亦無邊&lt;/l&gt;<br />　&lt;l&gt;四十八願度眾生&lt;/l&gt;&lt;l&gt;九品咸令登彼岸&lt;/l&gt;<br />&lt;/lg&gt;</span></p>
+	<p class="style43"><br />2. 不規則偈頌　X74n1475_p0394a02</p>
+	<p class="style47"><span class="style41">&lt;lg
+                xml:id=&quot;lgX74p0394a0201&quot; type=&quot;</span><span class="style43">abnormal</span><span class="style41">&quot;&gt;<br />　&lt;l
+                rend=&quot;text-indent:1em&quot;&gt;欲識此經圓頓處&lt;/l&gt;<br />　&lt;l
+                rend=&quot;text-indent:1em&quot;&gt;先聽教起本因緣&lt;/l&gt;<br />　…<br />&lt;/lg&gt;</span></p>
+	<p class="style43"><br />
+	3. 不規則偈頌　有特定縮排<br>
+	X74n1475_p0394a02_##&lt;T,1&gt;欲識此經圓頓處&lt;T,1&gt;先聽教起本因緣<br>
+	---------<br>
+	X74n1475_p0394a08_##依之相。方顯究竟覺本之體。是稱性之果。通凡徹聖。無邊無量也。文在彌勒章末)&lt;/T&gt;</p>
+	<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0394a02&quot;/&gt;&lt;lg xml:id=&quot;lgX74p0394a0201&quot; 
+	type=&quot;abnormal&quot;&gt;&lt;l rend=&quot;text-indent:1em&quot;&gt;欲識此經圓頓處&lt;/l&gt;&lt;l 
+	rend=&quot;text-indent:1em&quot;&gt;先聽教起本因緣&lt;/l&gt;<br>
+	---------<br>
+	&lt;lb ed=&quot;X&quot; n=&quot;0394a08&quot;/&gt;依之相。方顯究竟覺本之體。是稱性之果。通凡徹聖。無邊無量也。文在彌勒章末&lt;/note&gt;&lt;/l&gt;&lt;/lg&gt;</p>
+	<p class="style43"><br />
+	4. 不規則偈頌　有特定縮排 ←暫時先標成一偈頌不作分句<br>
+	　J20nB095_p0386c25_##&lt;T,0&gt;萬國衣冠拜冕旒御筵香染繡羅裘不觀上苑枝條<br>
+	　J20nB095_p0386c26_##茂那信蒼穹兩露周踏破波濤渾是水織成縷線漫<br>
+	　J20nB095_p0386c27_##稱紬莫嫌山谷泉聲小大海何嘗擇細流&lt;/T&gt;</p>
+	<p class="style47">&lt;lb ed=&quot;J&quot; n=&quot;0386c25&quot;/&gt;&lt;lg xml:id=&quot;lgJ20p0386c2501&quot; 
+	type=&quot;abnormal&quot;&gt;&lt;l rend=&quot;text-indent:0em&quot;&gt;萬國衣冠拜冕旒御筵香染繡羅裘不觀上苑枝條<br />
+	&lt;lb ed=&quot;J&quot; n=&quot;0386c26&quot;/&gt;茂那信蒼穹兩露周踏破波濤渾是水織成縷線漫<br />
+	&lt;lb ed=&quot;J&quot; n=&quot;0386c27&quot;/&gt;稱紬莫嫌山谷泉聲小大海何嘗擇細流&lt;/l&gt;&lt;/lg&gt;</p>
+	<p class="style43"><br />
+	5. 單行小註偈頌 X61n1164_p0661b12</p>
+	<p class="style47">&lt;lg
+                xml:id=&quot;lgX61p0661b1201&quot; type=&quot;note1&quot;&gt;<br />　&lt;l&gt;法性如空無所見&lt;/l&gt;&lt;l&gt;三處法寶難思議&lt;/l&gt;<br />　&lt;l&gt;我今三業如法請&lt;/l&gt;&lt;l&gt;俱時顯現受供養&lt;/l&gt;<br />&lt;/lg&gt;</p>
+	<p class="style43"><br />
+	6. 雙行小註偈頌　X74n1467_p0089b24</p>
+	<p class="style47"><span class="style41">&lt;lg
+                xml:id=&quot;lgX74p0089b2401&quot; type=&quot;note2</span><span class="style41">&quot;&gt;<br />　&lt;l&gt;極樂世界清淨土&lt;/l&gt;&lt;l&gt;無諸惡道及眾苦&lt;/l&gt;<br />　&lt;l&gt;願如老身病苦者&lt;/l&gt;&lt;l&gt;同生無量壽佛所&lt;/l&gt;<br />&lt;/lg&gt;
+	</span></p>
+<p class="style68">
+	<span style="cursor:hand" onClick="Switch(p9)" class="style63"><a href="#lg">（按此關閉 
+	&lt;lg&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">
+3. Phrase Level 片語層</p>
+<blockquote>
+<p class="style49"><span style="cursor:hand" onClick="Switch(p10)" title="按下標題可展開及收合資料">
+<a name="fan"></a>&lt;fan&gt;反切音</span></p>
+<blockquote class="style67"><div id="p10" style="display: ;">
+<p class="style43">T09n0264_p0189c17</p>
+<p class="style43">阿便哆<span class="style78">(都餓切)</span></p>
+<p class="style47">&lt;cb:fan&gt;<br />　&lt;cb:zi&gt;哆&lt;/cb:zi&gt;<br />　&lt;cb:yin&gt;&lt;note
+          place=&quot;inline&quot;&gt;都餓切&lt;/note&gt;&lt;/cb:yin&gt;<br />&lt;/cb:fan&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p10)" class="style63"><a href="#fan">（按此關閉 
+&lt;fan&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p11)" class="style49" title="按下標題可展開及收合資料">
+<a name="note"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p11)" class="style49" title="按下標題可展開及收合資料">
+&lt;note&gt;夾註</span></p>
+<blockquote class="style67"><div id="p11" style="display: ;">
+<p class="style43">夾註小字：X68n1314_p0002a12 </p>
+<p class="style47">&lt;note place=&quot;inline&quot;&gt;五卷一丈&lt;/note&gt;</p>
+<p class="style43">側註小字 X54n0866_p0074c01
+<img alt="" src="images/X54n0866_p0074c01.jpg" width="42" height="94" /></p>
+<p class="style47"><span class="style41">&lt;note 
+place=&quot;interlinear&quot;&gt;寫本云&lt;/note&gt;文永三年...</span></p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p11)" class="style63"><a href="#note">（按此關閉 
+&lt;note&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p12)" title="按下標題可展開及收合資料" class="style49">
+<a name="entry"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p12)" title="按下標題可展開及收合資料" class="style49">
+&lt;entry&gt;辭書 或 註釋書</span></p>
+<blockquote class="style67"><div id="p12" style="display: ;">
+	<p class="style43">1. X64n1261_p0314b02</p><p class="style47">
+	&lt;entry&gt;<br />　&lt;form&gt;師資&lt;/form&gt;<br />　&lt;cb:def&gt;&lt;p
+                xml:id=&quot;pX64p0314b0203&quot; rend=&quot;margin-left:1em&quot;&gt;<span class="style18"><span class="style41">老氏曰。善人。不善人之師。不善人。善人之資。......</span></span><span class="style41">&lt;/p&gt;&lt;/cb:def&gt;<br />&lt;/entry&gt;</span></p>
+	<p class="style43">2. 辭書位於行中　X64n1262_p0437c15</p><p class="style47">
+	<span class="style41">&lt;entry&gt;<br />　&lt;form&gt;弊&lt;/form&gt;<br />　&lt;cb:def&gt;&lt;p
+                xml:id=&quot;pX64p0437c1502&quot; rend=&quot;margin-left:1em&quot;&gt;病也。&lt;/p&gt;&lt;/cb:def&gt;<br />&lt;/entry&gt;<br />&lt;entry
+                rend=&quot;inline&quot;&gt;<br />　&lt;form&gt;夫&lt;/form&gt;<br />　&lt;cb:def&gt;&lt;p
+                xml:id=&quot;pX64p0437c1505&quot; rend=&quot;margin-left:1em&quot;&gt;</span><span class="style46">承上啟下之辭。</span><span class="style41">&lt;/p&gt;<br />
+	　&lt;/cb:def&gt;<br />&lt;/entry&gt;</span></p>
+	<p class="style68">
+<span style="cursor:hand" onClick="Switch(p12)" class="style63"><a href="#entry">（按此關閉 
+&lt;entry&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div>
+</blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p13)" title="按下標題可展開及收合資料" class="style49">
+<a name="cbdialog"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p13)" title="按下標題可展開及收合資料" class="style49">
+&lt;cb:dialog&gt; 1. 有規則的問答段落
+				 2. 陳述、辯證</span></p>
+<blockquote class="style67"><div id="p13" style="display: ;">
+<p class="style43">X63n1220_p0008c09</p><p class="style47">
+&lt;cb:dialog type=&quot;qa&quot;&gt;<br />
+　<a target="_blank" href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-sp.html">&lt;sp</a> 
+cb:type=&quot;question&quot;&gt;&lt;p xml:id=&quot;pX63p0008c0901&quot;&gt;論曰。若復有人。志求佛道者。當脩何法。最為省要。&lt;/p&gt;&lt;/sp&gt;<br />
+　&lt;sp cb:type=&quot;answer&quot;&gt;&lt;p xml:id=&quot;pX63p0008c0920&quot; 
+rend=&quot;inline&quot;&gt;答曰。唯觀心一法。總攝諸法。最為省要。&lt;/p&gt;&lt;/sp&gt;<br />
+&lt;/cb:dialog&gt;</p>
+	<p class="style68">
+	<span style="cursor:hand" onClick="Switch(p13)" class="style63">
+	<a href="#entry">（按此關閉 
+&lt;cb:dialog&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36"><span style="cursor:hand" onClick="Switch(p14)" title="按下標題可展開及收合資料" class="style49"><a name="cbdialogorig"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p14)" title="按下標題可展開及收合資料" class="style49">&lt;cb:div type=&quot;orig&quot;&gt;
+原文，&lt;cb:div type=&quot;commentary&quot;&gt;解釋</span></p>
+<blockquote class="style67"><div id="p14" style="display: ;">	
+<p class="style43">X64n1265_p0534a14</p><p class="style47">
+&lt;cb:div type=&quot;orig&quot;&gt;<br />
+　&lt;p xml:id=&quot;pX64p0534a1401&quot;&gt;大覺璉和尚初遊廬山。圓通訥禪師一見。直以大器<br />
+期之。或問。何自而知之。訥曰。斯人中正不倚。動靜尊...<br />
+&lt;cb:div type=&quot;commentary&quot;&gt;<br />
+　&lt;p xml:id=&quot;pX64p0534a1801&quot; rend=&quot;margin-left:1em&quot;&gt;廬山江西山名。圓通名居訥。字仲敏。延慶子榮之<br />
+</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p14)" class="style63"><a href="#cbdialogorig">（按此關閉內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p></div></blockquote>
+
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+
+<p class="style36"><span style="cursor:hand" onClick="Switch(p15)" title="按下標題可展開及收合資料" class="style49"><a name="cbdivtypenote"></a>&lt;cb:div
+type=&quot;note&quot;&gt;&lt;entry&gt; </span><span style="cursor:hand" onClick="Switch(p15)" title="按下標題可展開及收合資料" class="style49">
+註解條目字詞解釋。&lt;form&gt;註解條目；&lt;def&gt;註解條目之解釋內容</span><span style="cursor:hand" onClick="Switch(p15)" title="按下標題可展開及收合資料" class="style49">　　　 </span></p>
+<blockquote class="style67"><div id="p15" style="display: ;">	
+	<p class="style43">X64n1263_p0469b05</p><p class="style47">&lt;cb:div
+                                    type=&quot;note&quot;&gt;<br />　&lt;entry
+                                    rend=&quot;margin-left:1em&quot;&gt;<br />　　&lt;form&gt;妙喜&lt;/form&gt;<br />　　&lt;def&gt;&lt;p
+                                    xml:id=&quot;pX64p0469b0503&quot; cb:type=&quot;inline&quot; rend=&quot;margin-left:1em&quot;&gt;妙喜者。臨安府徑山宗杲大慧普覺禪師…&lt;/p&gt;&lt;/def&gt;&lt;/entry&gt;　<br />　&lt;entry
+                                    rend=&quot;margin-left:1em&quot;&gt;<br />　　&lt;form&gt;竹菴&lt;/form&gt;<br />　　&lt;def&gt;&lt;p
+                                    xml:id=&quot;pX64p0469b1203&quot; cb:type=&quot;inline&quot; rend=&quot;margin-left:1em&quot;&gt;溫州龍翔竹菴士珪禪師。成都府史氏子…&lt;/p&gt;&lt;/def&gt;&lt;/entry&gt;<br />……<br />&lt;/cb:div&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p15)" class="style63"><a href="#cbdialog">（按此關閉 字詞解釋 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>                              
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p16)" title="按下標題可展開及收合資料" class="style49">
+<a name="annals"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p16)" title="按下標題可展開及收合資料" class="style49">
+&lt;annals&gt;編年史</span></p>
+<blockquote class="style67"><div id="p16" style="display: ;">
+<p class="style43">J01nA042_p0793a14</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p16)" class="style63"><a href="#annls">（按此關閉 
+&lt;annals&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">
+4. Milestone tags 里程碑</p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p17)" title="按下標題可展開及收合資料" class="style49">
+<a name="milestone"></a><br />
+&lt;milestone&gt;
+切卷標記</span></p>
+<blockquote class="style67"><div id="p17" style="display: ;">
+<p class="style43">&nbsp;</p>
+<p class="style47"><span class="style41">
+<a target="_blank" href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-milestone.html">&lt;milestone</a>
+        unit=&quot;juan&quot; n=&quot;1&quot;/&gt;<br /></span>…<span class="style41"><br />首楞嚴經義疏釋要鈔卷第一并序<br />
+</span>…<span class="style41"><br />&lt;milestone
+        unit=&quot;juan&quot; n=&quot;2&quot;/&gt;<br /></span>…<span class="style41"><br />首楞嚴經義疏釋要鈔卷第二</span></p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p17)" class="style63"><a href="#milestone">（按此關閉 
+&lt;milestone&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p18)" title="按下標題可展開及收合資料" class="style49">
+<a name="cbdocnumber"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p18)" title="按下標題可展開及收合資料" class="style49">
+&lt;cb:docNumber&gt;經號</span></p>
+<blockquote class="style67"><div id="p18" style="display: ;">
+<p class="style43">X11n0267_p0079a04</p><p class="style47">&lt;cb:docNumber&gt;No.
+            267&lt;/cb:docNumber&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p18)" class="style63"><a href="#cbdocnumber">（按此關閉 
+&lt;cb:docNumber&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p19)" title="按下標題可展開及收合資料" class="style49">
+<a name="cbdivtypexu"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p19)" title="按下標題可展開及收合資料" class="style49">
+&lt;cb:div type=&quot;xu&quot;&gt;序</span></p>
+<blockquote class="style67"><div id="p19" style="display: ;">
+<p class="style43">X68n1315_p0002a19X##No. 1315-A<br>
+X68n1315_p0002a20X=# 重刻古尊宿語錄序</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0002a19&quot;/&gt;&lt;cb:div type=&quot;xu&quot;&gt;&lt;cb:mulu type=&quot;序&quot; level=&quot;1&quot;&gt;No. 
+1315-A 重刻古尊宿語錄序&lt;/cb:mulu&gt;&lt;head&gt;No. 1315-A<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0002a20&quot;/&gt; 重刻古尊宿語錄序&lt;/head&gt;</p>
+<p class="style43">X68n1315_p0035a01x#1臨濟慧照禪師塔記</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0035a01&quot;/&gt;&lt;cb:div type=&quot;xu&quot;&gt;&lt;cb:mulu type=&quot;序&quot; 
+level=&quot;1&quot;&gt;臨濟慧照禪師塔記&lt;/cb:mulu&gt;&lt;head&gt;臨濟慧照禪師塔記&lt;/head&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p19)" class="style63"><a href="#cbdivtypexu">（按此關閉 
+序 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p20)" title="按下標題可展開及收合資料" class="style49">
+<a name="bylinecbtype"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p20)" title="按下標題可展開及收合資料" class="style49">
+&lt;byline cb:type=&quot;...&quot;&gt; 作譯者等。</span></p>
+<blockquote class="style67"><div id="p20" style="display: ;">
+<p>type 內的屬性質有以下幾種：錄（抄寫、謄寫）、記（寫、書）；寫、梓（刻板印行、治定）；寫、再治（似撰）、編述……等等，<br>
+以上未定者可以先標此語法，再由標記人員查證處理(目前不作查證)。</p>
+<p>1. author：著作者（造、釋、著、撰、述、說、作、略、纂、編述）</p>
+<p class="style43">X72n1435_p0378a22A##弟子　智達劉日杲　撰</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0378a22&quot;/&gt;<strong class="style50">&lt;byline 
+cb:type=&quot;author&quot;&gt;</strong>弟子　智達劉日杲　撰&lt;/byline&gt;</p>
+
+<p>2. editor：編輯者（Editor、編、選、編述）</p>
+<p class="style43">X72n1428_p0128c06E##住萬壽小師比丘簪谿了廣　編 </p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0128c06&quot;/&gt;<strong class="style50">&lt;byline 
+cb:type=&quot;editor&quot;&gt;</strong>住萬壽小師比丘簪谿了廣　編&lt;/byline&gt;<br>
+</p>
+<p>3. collector：收集者（Collector 輯、集、編集）</p>
+<p class="style43">X72n1433_p0217c13C##浦城夢筆山嗣法門人　道盛　集</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0217c13&quot;/&gt;<strong class="style50">&lt;byline 
+cb:type=&quot;collector&quot;&gt;</strong>浦城夢筆山嗣法門人　道盛　集&lt;/byline&gt;
+</p>
+<p>4. Translator：譯者（譯、失譯）</p>
+<p class="style43">T21n1312_p0463a05Y##西天譯經三藏朝散大夫試光祿卿
+T21n1312_p0463a06Y=#明教大師臣法賢奉　詔譯</p>
+<p class="style47">&lt;lb n=&quot;0463a05&quot; ed=&quot;T&quot;/&gt;&lt;byline n=&quot;Translator&quot;&gt;西天譯經三藏朝散大夫試光祿卿<br>
+&lt;lb n=&quot;0463a06&quot; ed=&quot;T&quot;/&gt;明教大師臣法賢奉　詔譯&lt;/byline&gt;</p>
+
+<p>5. other：類似譯著者：</p>
+<p class="style43">X72n1438_p0580c05B##書記　太靖　錄</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0580c05&quot;/&gt;<strong class="style50">&lt;byline 
+cb:type=&quot;other&quot;&gt;</strong>書記　太靖　錄&lt;/byline&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p20)" class="style63"><a href="#bylinecbtype">（按此關閉 
+作譯者 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p21)" title="按下標題可展開及收合資料" class="style49">
+<a name="juan"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p21)" title="按下標題可展開及收合資料" class="style49">
+&lt;juan&gt;卷</span></p>
+<blockquote class="style67"><div id="p21" style="display: ;">
+<p class="style43">X11n0267_p0079a05</p><p class="style47">&lt;cb:juan
+              fun=&quot;open&quot; n=&quot;1&quot;&gt;&lt;cb:mulu type=&quot;卷&quot; level=&quot;&quot;/&gt;&lt;cb:jhead&gt;首楞嚴經義疏釋要鈔卷第一并序&lt;/cb:jhead&gt;&lt;/cb:juan&gt;<br />&lt;cb:juan
+              fun=&quot;open&quot; n=&quot;2&quot;&gt;&lt;cb:mulu type=&quot;卷&quot; level=&quot;&quot;/&gt;&lt;cb:jhead&gt;首楞嚴經義疏釋要鈔卷第二&lt;/cb:jhead&gt;&lt;/cb:juan&gt;<br />&lt;cb:juan
+              fun=&quot;open&quot; n=&quot;3&quot;&gt;&lt;cb:mulu type=&quot;卷&quot; level=&quot;&quot;/&gt;&lt;cb:jhead&gt;首楞嚴經義疏釋要鈔卷第三&lt;/cb:jhead&gt;&lt;/cb:juan&gt;</p>
+<p class="style37">&nbsp;</p>
+<p class="style43">例 2. 該卷不分卷 (不用加 milestone)</p>
+<p class="style43">X80n1566_p0463b15j##五燈會元續略卷第一上<br>
+X80n1566_p0463b16_##<br>
+X80n1566_p0463b17J-#五燈會元續略卷第一下<br>
+</p>
+<p class="style47">&lt;lb ed=&quot;X&quot; n=&quot;0463b15&quot;/&gt;&lt;cb:juan fun=&quot;close&quot; 
+n=&quot;001a&quot;&gt;&lt;cb:jhead&gt;五燈會元續略卷第一上&lt;/cb:jhead&gt;&lt;/cb:juan&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0463b16&quot;/&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0463b17&quot;/&gt;&lt;cb:juan fun=&quot;open&quot; n=&quot;001b&quot;&gt;&lt;cb:mulu type=&quot;卷&quot; 
+level=&quot;&quot;&gt;第一下&lt;/cb:mulu&gt;&lt;cb:jhead&gt;五燈會元續略卷第一下&lt;/cb:jhead&gt;&lt;/cb:juan&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p21)" class="style63"><a href="#juan">（按此關閉 
+&lt;juan&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p22)" title="按下標題可展開及收合資料" class="style49">
+<a name="pb"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p22)" title="按下標題可展開及收合資料" class="style49">
+&lt;pb&gt;頁碼</span></p>
+<blockquote class="style67"><div id="p22" style="display: ;">
+<p class="style47"><span class="style41">&lt;pb
+                        ed=&quot;X&quot; xml:id=&quot;X83.1578.0397b&quot; n=&quot;0397b&quot;/&gt; 　<br />
+</span>…<span class="style41"><br />&lt;pb
+                          ed=&quot;X&quot; xml:id=&quot;X83.1578.0397c&quot; n=&quot;0397c&quot;/&gt;</span></p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p22)" class="style63"><a href="#pb">（按此關閉 
+&lt;pb&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p23)" title="按下標題可展開及收合資料" class="style49">
+<a name="lb" class="style49"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p23)" title="按下標題可展開及收合資料" class="style49">
+&lt;lb&gt;行號</span></p>
+<blockquote class="style67"><div id="p23" style="display: ;">
+<p class="style43">1. 大正藏</p>
+<p class="style47"><br />&lt;lb
+                                  n=&quot;0001b14&quot; ed=&quot;T&quot;/&gt;於乞食後集花林堂。各共議言。諸賢比丘。<br /> &lt;lb
+                                n=&quot;0001b15&quot; ed=&quot;T&quot;/&gt;唯無上尊為最奇特。神通遠達。威力弘大。</p>
+<p class="style43">
+2. 卍續藏</p>
+<p class="style47">
+<br />&lt;lb
+                                ed=&quot;X&quot; n=&quot;0364a01&quot;/&gt;&lt;milestone
+                                unit=&quot;juan&quot; n=&quot;1&quot;/&gt;<br /> &lt;lb
+                                ed=&quot;X&quot; n=&quot;0364a02&quot;/&gt;</p>
+<p class="style43">3. 強迫分行</p>
+<p class="style47"><br>
+&lt;lb ed=&quot;X&quot; n=&quot;0070b01&quot; type=&quot;honorific&quot;/&gt;御製序文。闡揚宗淨合一之旨。<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0070b02&quot; type=&quot;honorific&quot;/&gt;高宗純皇帝南巡。親詣雲棲。拈香禮佛。</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p23)" class="style63"><a href="#lb">（按此關閉 
+&lt;lb&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div>
+</blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p24)" title="按下標題可展開及收合資料" class="style49">
+<a name="mulu"></a></span></p>
+</blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p24)" title="按下標題可展開及收合資料" class="style49">
+&lt;mulu&gt;目錄</span></p>
+<blockquote class="style67"><div id="p24" style="display: ;">
+<p class="style43">&nbsp;</p>
+<p class="style47">1. &lt;cb:mulu
+                                        type=&quot;序&quot; level=&quot;1&quot;&gt;No.
+                                        1263-A 禪林寶訓序&lt;/cb:mulu&gt;<br />2. &lt;cb:mulu
+                                        type=&quot;卷&quot; level=&quot;&quot;/&gt;<br />3. &lt;cb:mulu
+                                        type=&quot;其他&quot; level=&quot;1&quot;&gt;首楞嚴經義疏釋要鈔&lt;/cb:mulu&gt;<br />4. &lt;cb:mulu
+                                        type=&quot;附文&quot; level=&quot;1&quot;&gt;楞嚴經釋題一卷&lt;/cb:mulu&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p24)" class="style63"><a href="#mulu">（按此關閉 
+&lt;mulu&gt; 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68"><a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">5. gaiji 缺字</p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p25)" title="按下標題可展開及收合資料" class="style49">
+<a name="g"></a><br />
+&lt;g&gt;外字（gaiji）<br>
+&lt;ref&gt;互相參照</span></p>
+<blockquote class="style67"><div id="p25" style="display: ;">
+<p class="style43">X11n0267_0081b14<span class="style41"><img src="images/CB15112.gif" alt="CB15112" width="47" height="45" /></span></p>
+<p class="style47">&lt;lb
+        ed=&quot;X&quot; n=&quot;0081b14&quot;/&gt;來默然受請故始自鹿苑終于&lt;g ref=&quot;#CB15112&quot;&gt;󳬈&lt;/g&gt;樹說諸經法教化</p>
+<p class="style43">T18n0849_p0058a10　<img src="images/SD-A5D8.gif" width="16" height="16" />&nbsp; 
+（悉曇字）</p>
+<p class="style47">&lt;anchor
+        xml:id=&quot;begd1e1742&quot;/&gt;&lt;g ref=&quot;#SD-A5D8&quot;&gt;􄗘&lt;/g&gt;婆&lt;anchor
+        xml:id=&quot;endd1e1742&quot;/&gt;</p><p class="style43">X74n1481_p0551b24　<img src="images/RJ-C977.gif" width="14" height="16" />&nbsp; 
+（蘭扎體）</p><p class="style47">&lt;anchor
+        xml:id=&quot;begd1e1481&quot;/&gt;&lt;g ref=&quot;#RJ-C977&quot;/&gt;折&lt;anchor
+        xml:id=&quot;endd1e1481&quot;/&gt;字布於</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p25)" class="style63"><a href="#g">（按此關閉 
+缺字 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">
+6. Graphics 圖形</p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p26)" title="按下標題可展開及收合資料" class="style49">
+<a name="figure"></a><br />
+&lt;figure&gt;插圖</span></p>
+<blockquote class="style67"><div id="p26" style="display: ;">
+<p class="style43">T18n0859_p0178a10</p><p class="style47">&lt;lb
+                            n=&quot;0178a10&quot; ed=&quot;T&quot;/&gt;&lt;p
+                            xml:id=&quot;pT18p0178a1001&quot;&gt;<br />&lt;figure&gt;<br /><a href="http://www.tei-c.org/release/doc/tei-p5-doc/html/ref-graphic.html">　&lt;graphic</a> url=&quot;../figures/T/T18017801.gif&quot;/&gt;<br />&lt;/figure&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p26)" class="style63"><a href="#figure">（按此關閉 
+圖形 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">7. 表格</p>
+<blockquote>
+<p class="style36">
+<span style="cursor:hand" onClick="Switch(p27)" title="按下標題可展開及收合資料" class="style49">
+<a name="table"></a><br />
+&lt;table&gt;表格<br />
+&lt;row&gt; 列數<br />
+&lt;cols&gt; 
+每一列包含的行數</span></p>
+<blockquote class="style67"><div id="p27" style="display: ;">
+<p class="style43">T49n2035_p0316d15 <img src="images/T49n2035_p0316d15.jpg" width="378" height="42" /></p>
+<p class="style47">&lt;lb
+            n=&quot;0316d15&quot; ed=&quot;T&quot;/&gt;&lt;table cols=&quot;1&quot;&gt;<br />&lt;lb
+            n=&quot;0316d16&quot; ed=&quot;T&quot;/&gt;&lt;row role=&quot;data&quot;&gt;&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;八寒地獄圖&lt;/cell&gt;&lt;/row&gt;<br />&lt;lb
+            n=&quot;0316d17&quot; ed=&quot;T&quot;/&gt;&lt;row role=&quot;data&quot;&gt;&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;一頞浮陀　二尼賴陀 <br />&lt;lb
+            n=&quot;0316d18&quot; ed=&quot;T&quot;/&gt;三阿吒吒　四阿波波 <br />&lt;lb n=&quot;0316d19&quot; ed=&quot;T&quot;/&gt;五嘔喉　　六欝波羅 <br />&lt;lb
+            n=&quot;0316d20&quot; ed=&quot;T&quot;/&gt;七波頭摩　八分陀利&lt;/cell&gt;&lt;/row&gt;&lt;/table&gt;</p>
+<p class="style41">&nbsp;</p>
+<p class="style43">X76n1516_p0018b12 <img src="images/X76n1516_p0018b12.jpg" width="413" height="69" /></p>
+<p class="style47">&lt;table
+            cols=&quot;4&quot;&gt;<br /> &lt;lb ed=&quot;X&quot; n=&quot;0018b12&quot;/&gt;&lt;row
+            role=&quot;data&quot;&gt;<br />　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;庚子&lt;note
+            place=&quot;inline&quot;&gt;魏&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;高祖丕黃初元&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;蜀昭烈王&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;備&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;吳太祖&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;權&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;十一月獻帝禪位于魏王丕改元&lt;/note&gt;&lt;/cell&gt;&lt;/row&gt; <br />&lt;lb
+            ed=&quot;X&quot; n=&quot;0018b13&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;辛丑&lt;note
+            place=&quot;inline&quot;&gt;二&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;章武元&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;據西蜀&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            cols=&quot;2&quot; role=&quot;data&quot; rows=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;元&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;全有吳楚&lt;/note&gt;&lt;/cell&gt;&lt;/row&gt; <br />&lt;lb
+            ed=&quot;X&quot; n=&quot;0018b14&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;壬寅&lt;note
+            place=&quot;inline&quot;&gt;三&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;二&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            cols=&quot;2&quot; role=&quot;data&quot; rows=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;黃武元&lt;/note&gt;&lt;/cell&gt;&lt;/row&gt;<br />&lt;lb
+            ed=&quot;X&quot; n=&quot;0018b15&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;癸卯&lt;note
+            place=&quot;inline&quot;&gt;四&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;後主&lt;/note&gt;&lt;note place=&quot;inline&quot;&gt;建興元&lt;/note&gt;&lt;/cell&gt;<br />　&lt;cell
+            cols=&quot;2&quot; role=&quot;data&quot; rows=&quot;1&quot;&gt;&lt;note
+            place=&quot;inline&quot;&gt;二&lt;/note&gt;&lt;/cell&gt;&lt;/row&gt;&lt;/table&gt;</p>
+<p class="style41">&nbsp;</p>
+<p class="style43">
+X24n0448_p0027a25　<img src="images/X24n0448_p0027a25.jpg" width="344" height="93"/>
+　原書圖檔→<img alt="" src="images/X24n0448_p0027a25_book.jpg" width="273" height="121" /></p>
+<p class="style47">
+&lt;table cols=&quot;9&quot;&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a25&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell rows=&quot;6&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;於&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;&lt;note place=&quot;inline&quot;&gt;色&lt;/note&gt;&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;6&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;&lt;note place=&quot;inline&quot;&gt;一廣四略&lt;/note&gt;&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;不&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;6&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;作&lt;/cell&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;大&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;不&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;6&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;作&lt;/cell&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;小&lt;/cell&gt;&lt;/row&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a26&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;集&lt;/cell&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;散&lt;/cell&gt;&lt;/row&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a27&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell rows=&quot;2&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;有量&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;2&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;無量&lt;/cell&gt;&lt;/row&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a28&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;&lt;note place=&quot;inline&quot;&gt;受想行識&lt;/note&gt;&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;&gt;亦&lt;/cell&gt;<br>
+　&lt;cell rows=&quot;3&quot; role=&quot;data&quot; cols=&quot;1&quot;/&gt;&lt;/row&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a29&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;廣&lt;/cell&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;狹&lt;/cell&gt;&lt;/row&gt;<br>
+&lt;lb ed=&quot;X&quot; n=&quot;0027a30&quot;/&gt;&lt;row role=&quot;data&quot;&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;有力&lt;/cell&gt;<br>
+　&lt;cell role=&quot;data&quot; rows=&quot;1&quot; cols=&quot;1&quot;&gt;無力&lt;/cell&gt;&lt;/row&gt;&lt;/table&gt;</p>
+<p class="style68">
+<span style="cursor:hand" onClick="Switch(p27)" class="style63"><a href="#table">（按此關閉 
+表格 內容<img alt="" src="images/arrow22.gif" width="34" height="33" />）</a></span></p>
+	</div></blockquote></blockquote>
+<p class="style68">
+<a href="#back2">
+<img alt="返回標籤選項" src="images/icon547.gif" width="70" height="20" class="style77" /></a></p>
+<p class="style61">8. 校勘符號</p>
+<blockquote>
+<p class="style36">
+<a name="anchor" target="_blank" href="anchor.htm" class="style49">&lt;anchor&gt;校勘</a></p>
+</blockquote></blockquote>
+<p style='margin-top:6.0pt' class="style61"><strong>　2.2 &lt;back&gt;</strong></p>
+<blockquote>
+<p class="style57"><a target="_blank" href="anchor.htm" class="style49">校勘條目</a></p>
+</blockquote>
+<p align="right"><span lang=EN-US style='color:blue' class="style41">
+<img alt="返回頂端" src="images/icon547.gif" width="70" height="20" /></span></p>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+cvs 修復前比對修訂：
+修訂日期：2003/06/05
+
+修訂前：
+<lb n="0173c03"/>之人。畢能流通。勘為依也。<note n="0173039" resp="Taisho" type="orig" place="foot text">以增＝以曾【甲】，已曾？</note><note n="0173039" resp="CBETA" type="mod"><todo type="i"/>以增＝以曾【甲】，＝已曾？</note>
+
+修訂後：
+<lb n="0173c03"/>之人。畢能流通。勘為依也。<note n="0173039" resp="Taisho" type="orig" place="foot text">以增＝以曾【甲】，已曾？</note><note n="0173039" resp="CBETA" type="mod">以增＝以曾【甲】，<todo type="i"/>＝已曾？</note>
+
+修訂前：
+<lb n="0439c07"/><item rend="">初通本&CB00528;分二
+
+修訂後：
+<lb n="0439c07"/><item>初通本&CB00528;分二
+
+修訂前：
+<lb n="1224b21"/>   文當顯恐後難曉古再標了</item></list></item></list></item></list>
+
+修訂後：
+<lb n="1224b21"/>文當顯恐後難曉古再標了</item></list></item></list></item></list>
+
+修訂前：
+<lb n="1297b22"/><l>今生少善不曾作</l><l>　來世覓人身大曬難</l></lg>
+
+修訂後：
+<lb n="1297b22"/><l>今生少善不曾作</l><l>來世覓人身大曬難</l></lg>
+
+修訂前：
+<note n="1383040" resp="Taisho" type="orig" place="foot text">（今請西方…頭）十三字∞（今請南方…眼）十三字【甲】</note><note n="1383040" resp="CBETA" type="mod"><todo type="i"/>〔今請〕－【甲】，（今請西方…頭）十三字∞（今請南方…眼）十三字【甲】</note>
+
+修訂後：
+<note n="1383040" resp="Taisho" type="orig" place="foot text">（今請西方…頭）十三字∞（今請南方…眼）十三字【甲】</note><note n="1383040" resp="CBETA" type="mod"><todo type="a"/>〔今請〕－【甲】，（今請西方…頭）十三字∞（今請南方…眼）十三字【甲】</note>
+
+修訂前：
+<lb n="1422c08"/>妄。身行正真。左&CB06983;
+
+修訂後：
+<lb n="1422c08"/>妄。身行正真。左&CB06875;為
+
+修訂前：
+
+修訂後：
+
+
+
+
+
+
+

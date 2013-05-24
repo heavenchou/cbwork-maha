@@ -1,0 +1,67 @@
+校勘符號位置修訂
+
+修改前：
+T26n1525_p0247c10_##佛[03]故。四者為欲利益無量眾生。五者難得妙
+
+修改後：
+大正藏作：[03]佛故。四者為欲利益無量眾生。五者難得妙
+
+修改前：
+T26n1536_p0385b23_##諸[07]施主所應供養。如世尊為高直身形婆羅
+
+修改後：
+大正藏作：[07]諸施主所應供養。如世尊為高直身形婆羅
+
+
+cvs 修復前比對修訂：
+
+修訂日期：2003/06/02
+
+修改前：
+<lb n="0010c04"/><mulu type="品" level="1" n="1" label="1 序品"/><head type="added"><corr resp="Shao-Yun" sic="">序品第一</corr></head>
+
+修改後：
+<lb n="0010c04"/><mulu type="品" level="1" n="1" label="1 序品"/>
+
+修改前：
+<lb n="0627a08"/><mulu type="品" level="1" n="1" label="1 五法品"/><head><note n="0627004" resp="Taisho" type="orig" place="foot text">（眾事分阿毘曇）＋五法品【宋】【元】【宮】，品題前宋元明宮四本俱有啟請二字並五言三十八句之偈頌，今依麗本在第十二卷末 (cf. p. 692)</note><note n="0627004" resp="CBETA" type="mod"><todo type="i"/>（眾事分阿毘曇）＋五法品【宋】【元】【宮】，品題前宋元明宮四本俱有啟請二字並五言三十八句之偈頌，今依麗本在第十二卷末(cf. p. 692)</note>
+
+修改後：
+<lb n="0627a08"/><mulu type="品" level="1" n="1" label="1 五法品"/><head><note n="0627004" resp="Taisho" type="orig" place="foot text">（眾事分阿毘曇）＋五法品【宋】【元】【宮】，品題前宋元明宮四本俱有啟請二字並五言三十八句之偈頌，今依麗本在第十二卷末 (cf. p. 692)</note><note n="0627004" resp="CBETA" type="mod">（眾事分阿毘曇）＋五法品【宋】【元】【宮】，<todo type="i"/>品題前宋元明宮四本俱有啟請二字並五言三十八句之偈頌，今依麗本在第十二卷末(cf. p. 692)</note>
+
+修改前：
+<lb n="0692a24"/><lg><l><note n="0692001" resp="Taisho" type="orig" place="foot text">（啟請）＋敬禮【三】【宮】，啟請，敬禮乃至涅槃樂五言三十八句宋元明宮四本俱在本論卷第一品題前，cf. p. 627</note><note n="0692001" resp="CBETA" type="mod"><todo type="i"/>（啟請）＋敬禮【宋】【元】【明】【宮】，啟請，敬禮乃至涅槃樂五言三十八句宋元明宮四本俱在本論卷第一品題前，cf. p.627</note>
+
+修改後：
+<lb n="0692a24"/><lg><l><note n="0692001" resp="Taisho" type="orig" place="foot text">（啟請）＋敬禮【三】【宮】，啟請，敬禮乃至涅槃樂五言三十八句宋元明宮四本俱在本論卷第一品題前，cf. p. 627</note><note n="0692001" resp="CBETA" type="mod">（啟請）＋敬禮【宋】【元】【明】【宮】，<todo type="i"/>啟請，敬禮乃至涅槃樂五言三十八句宋元明宮四本俱在本論卷第一品題前，cf. p.627</note>
+
+修改前：
+<lb n="0821c10"/>苦法智無知他人心智三<note n="0821029" resp="Taisho" type="orig" place="foot text">法苦等也＝法智苦智等智也【明】，法苦等【宮】【聖】【聖乙】，法苦等也四字聖乙本作本文</note><note n="0821029" resp="CBETA" type="mod"><todo type="i"/>法苦等也＝法智苦智等智也【明】，＝法苦等【宮】【聖】【聖乙】，法苦等也四字聖乙本作本文</note>
+
+修改後：
+<lb n="0821c10"/>苦法智無知他人心智三<note n="0821029" resp="Taisho" type="orig" place="foot text">法苦等也＝法智苦智等智也【明】，法苦等【宮】【聖】【聖乙】，法苦等也四字聖乙本作本文</note><note n="0821029" resp="CBETA" type="mod">法苦等也＝法智苦智等智也【明】，＝法苦等【宮】【聖】【聖乙】，<todo type="i"/>法苦等也四字聖乙本作本文</note>
+
+修改前：
+<lb n="0853b24"/><note n="0853022" resp="Taisho" type="orig" place="foot text">詐＝作【宮】</note><app n="0853022"><lem>詐</lem><rdg wit="【宮】" resp="Taisho">作</rdg></app><note n="0853023" resp="Taisho" type="orig" place="foot text">反＝切【明】</note><app n="0853023"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app></note>耆羅<note n="0853024" resp="Taisho" type="orig" place="foot text">〔五〕－【聖乙】，以下細註記數六乃至九聖乙本無</note><note n="0853024" resp="CBETA" type="mod"><todo type="i"/>〔五〕－【聖乙】，以下細註記數六乃至九聖乙本無</note>
+
+修改後：
+<lb n="0853b24"/><note n="0853022" resp="Taisho" type="orig" place="foot text">詐＝作【宮】</note><app n="0853022"><lem>詐</lem><rdg wit="【宮】" resp="Taisho">作</rdg></app><note n="0853023" resp="Taisho" type="orig" place="foot text">反＝切【明】</note><app n="0853023"><lem>反</lem><rdg wit="【明】" resp="Taisho">切</rdg></app></note>耆羅<note n="0853024" resp="Taisho" type="orig" place="foot text">〔五〕－【聖乙】，以下細註記數六乃至九聖乙本無</note><note n="0853024" resp="CBETA" type="mod">〔五〕－【聖乙】，<todo type="i"/>以下細註記數六乃至九聖乙本無</note>
+
+修改前：
+<lb n="0853c01"/>經<note n="0853026" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】【聖乙】，以下細註記數二乃至十一宋元明宮聖乙五本無</note><note n="0853026" resp="CBETA" type="mod"><todo type="i"/>〔一〕－【宋】【元】【明】【宮】【聖乙】，以下細註記數二乃至十一宋元明宮聖乙五本無</note>
+
+修改後：
+<lb n="0853c01"/>經<note n="0853026" resp="Taisho" type="orig" place="foot text">〔一〕－【三】【宮】【聖乙】，以下細註記數二乃至十一宋元明宮聖乙五本無</note><note n="0853026" resp="CBETA" type="mod">〔一〕－【宋】【元】【明】【宮】【聖乙】，<todo type="i"/>以下細註記數二乃至十一宋元明宮聖乙五本無</note>
+
+修改前：
+
+修改後：
+
+
+
+
+
+
+
+
+

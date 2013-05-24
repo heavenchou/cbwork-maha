@@ -1,0 +1,9 @@
+perl cbr2t.pl T08
+perl cbr2t.pl T20
+perl cbr2t.pl X56
+perl cbr2t.pl X58
+perl cbr2t.pl X60
+perl cbr2t.pl X74
+perl cbr2t.pl X76
+perl cbr2t.pl X81
+perl cbr2t.pl X86

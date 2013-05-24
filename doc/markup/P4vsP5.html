@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5" />
+<title>P4 vs P5 normal 比對步驟</title>
+<style type="text/css">
+<!--
+p {
+	font-family: "新細明體";
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #009900;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000066;
+}
+h3 {
+	font-family: "新細明體";
+	color: #0000FF;
+	font-weight: bold;
+	text-indent: 0.5cm;
+}
+h4 {
+	font-family: "新細明體";
+	font-weight: bold;
+	color: #0066FF;
+	text-indent: 1cm;
+	font-size: 12pt;
+}
+h5 {
+	font-family: "新細明體";
+	font-size: 12pt;
+	font-weight: normal;
+	text-indent: 1.6cm;
+}
+.style3 {color: #CC6699}
+.style4 {color: #FF0000}
+.style6 {font-size: 12pt}
+body {
+	background-image: figure/11.gif;
+}
+.style7 {color: #990000}
+-->
+</style>
+</head>
+<body background="figure/11.gif">
+
+<h1 align="center">P4 vs P5 normal 比對</h1>
+<p align="center">&nbsp;</p>
+<p align="center">P5      xml 轉 P5 normal_big5 的流程概要：</p>
+<p align="center"> 一、P5 xml       → P5 nor_u8，使用程式：C:\cbwork\bin\p5\p5totxt-dir.py</p>
+<p align="center">二、P5 nol_u8 → P5 nor_b5， 使用程式：C:\cbwork\bin\p5\u8-b5.py </p>
+<p align="center">&nbsp;</p>
+<p>作業之前，請先更新 CVS及 gaiji-m.mdb，並手動新建相關資料夾：</p>
+<blockquote>
+  <p> C:\release\cbeta-p5　（存放P4轉P5 XML檔） </p>
+  <p>C:\release\p5-normal（存放P5 normal_u8 檔）</p>
+  <p> C:\in_u8　　　　（存放P5 normal_u8 檔）</p>
+  <p> C:\out_b5　　　（存放P5 normal_b5 檔）</p>
+  <p> E:\q\diff\有差異符號的前後行 （存放比對用相關檔）</p>
+</blockquote>
+<p>&nbsp;</p>
+<h2>步驟：</h2>
+<h2> 一、    P5 xml 轉 P5 normal_u8 </h2>
+<h3>1.      請以滑鼠直接點選執行 p5totxt-dir.py。 </h3>
+<blockquote>
+  <p>參數：</p>
+  <blockquote>
+    <p>  dir_in = '/release/cbeta-p5'　　<span class="style3">←來源檔</span></p>
+    <p>  dir_out = '/release/p5-normal' 　<span class="style3">←輸出檔</span></p>
+  </blockquote>
+  <p>還要留意底下的 <span class="style4">'X01</span>' 是指卍續藏，大正藏要改為 '<span class="style4">T01</span>'</p>
+  <blockquote>
+    <p>if os.path.isdir(source+'/'+s):     <br />
+    if s&gt;='<span class="style4">X01</span>': <br />
+    do_dir(source+'/'+s, dest+'/'+s) </p>
+  </blockquote>
+</blockquote>
+<h3>2.      將輸出檔　/release/p5-normal/ 裡已轉好的 P5 normal_u8 檔，手動移到 c:/in_u8　底下。</h3>
+<p>&nbsp;</p>
+<h2>二、P5 normal_u8 轉 P5 normal_b5 </h2>
+<h3>1. 請以滑鼠直接點選執行C:\cbwork\bin\p5\u8-b5.bat </h3>
+<blockquote>
+  <p>參數： u8-b5.py　c:/in_u8　c:/out_b5</p>
+  <p>（說明：c:/in_u8 ←來源檔　 c:/out_b5 ←輸出檔）</p>
+</blockquote>
+<h3>2. 接著在輸出檔 c:/out_b5 底下放入這六個檔（在圖上按滑鼠右鍵可複製到自己電腦）：</h3>
+<blockquote>
+  <blockquote>
+    <p><a href="http://w3.cbeta.org/intranet/markup/doc/T_1_cont-all_P5b5.bat">T_1_cont-all_P5b5.bat</a>　　      <a href="http://w3.cbeta.org/intranet/markup/doc/T_2_ren-all_P5b5.bat">T_2_ren-all_P5b5.bat</a>　　<a href="http://w3.cbeta.org/intranet/markup/doc/T_3_copy-all_P5b5.bat">T_3_copy-all_P5b5.bat</a></p>
+    <p><a href="http://w3.cbeta.org/intranet/markup/doc/X_1_cont-all_P5b5.bat">X_1_cont-all_P5b5.bat</a>　　<a href="http://w3.cbeta.org/intranet/markup/doc/X_2_ren-all_P5b5.bat">X_2_ren-all_P5b5.bat</a>　　<a href="http://w3.cbeta.org/intranet/markup/doc/X_3_copy-all_P5b5.bat">X_3_copy-all_P5b5.bat</a></p>
+  </blockquote>
+</blockquote>
+<h3> 3. 依數字順序點選執行上面所列的批次檔，檔案說明如下（都是全部的冊數，T是大正藏，X是卍續藏）</h3>
+<blockquote>
+  <blockquote>
+    <p> 1_cont-all（連結合併每冊的 normal 檔為一個檔） </p>
+    <p>2_ren-all （將合併檔改名稱）</p>
+    <p> 3_copy-all（將改名後的檔複製到 E:\q） </p>
+  </blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<h2>三、比對： p5_normal_b5  v.s.  P4_xml_normal</h2>
+<h3>1. 比對條件： </h3>
+<ul>
+  <li class="style6"> 忽略全形空格。 </li>
+  <li class="style6"> P4 xml 轉 normal 的參數：xml2txt -v X11 -h -z -x 1 <br />
+    （不    要檔頭資訊、不產生校勘符號、不用通用字、悉曇字使用 entity &amp;SD-xxxx）</li>
+</ul>
+<h3>2.  P4 xml 轉 normal使用批次檔流程，以下批次檔均直接點選2下即可執行</h3>
+<h4>a. 跑 缺字 與 parsal </h4>
+<h5>a-1. 程式：x_cbent.bat，位置：c:\x_cbent（卍續藏），T_cbent（大正藏），all_cbent（大正加卍續） </h5>
+<h5>a-2. 程式：parseall.pl，位置：c:\cbwork\work\bin，跑大正藏及卍續藏的 parse，<br />　　　　　　　　  
+輸出結果檔在 c:\temp\ parseall.out，如果檔案大小 0KB 則表示無任何錯誤。</h5>
+<h4>b. xml→normal 步驟  （在圖上按滑鼠右鍵可複製到自己電腦）</h4>
+<h5>b-1. 在C:\cbwork\xml 底下放入這2個檔，執行後輸出檔在C:\release\normal\</h5>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p><a href="http://w3.cbeta.org/intranet/markup/doc/T_P4nor_-h-z-x1.bat">T_P4nor_-h-z-x1.bat</a>　　<a href="http://w3.cbeta.org/intranet/markup/doc/X_P4nor_-h-z-x1.bat">X_P4nor_-h-z-x1.bat</a></p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<h5>b-2. 在C:\release\normal\  底下放入這6個檔，並依數字順序點選執行批次檔     （T是大正藏，X是卍續藏）</h5>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p><a href="http://w3.cbeta.org/intranet/markup/doc/T_1_cont-all_xml_nor.bat">T_1_cont-all_xml_nor.bat</a>　<a href="http://w3.cbeta.org/intranet/markup/doc/T_2_ren-all_xml_nor.bat">T_2_ren-all_xml_nor.bat</a>　<a href="http://w3.cbeta.org/intranet/markup/doc/T_3_copy-all_xml_nor.bat">T_3_copy-all_xml_nor.bat</a></p>
+      <p><a href="http://w3.cbeta.org/intranet/markup/doc/X_1_cont-all_xml_nor.bat">X_1_cont-all_xml_nor.bat</a>　<a href="http://w3.cbeta.org/intranet/markup/doc/X_2_ren-all_xml_nor.bat">X_2_ren-all_xml_nor.bat</a>　<a href="http://w3.cbeta.org/intranet/markup/doc/X_3_copy-all_xml_nor.bat">X_3_copy-all_xml_nor.bat</a></p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<h5>b-3. 依數字順序點選執行上面所列的批次檔，檔案說明如下（都是全部的冊數，T是大正藏，X是卍續藏） </h5>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>1_cont-all（連結合併每冊的 normal 檔為一個檔）</p>
+      <p> 2_ren-all （將合併檔改名稱） </p>
+      <p>3_copy-all（將改名後的檔複製到 E:\q）</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<p> </p>
+<h4>c. 進行 P4 與 P5 批次檔比對作業  </h4>
+<h5>c-1. 先在 E:\q  底下要放入這個壓縮檔→ <a href="http://w3.cbeta.org/intranet/markup/doc/Q.rar">Q.rar</a>，並解壓縮在 E:\q      </h5>
+<h5>　　解壓縮後可以看到程式使用說明文件→ README0.TXT </h5>
+<h5>c-2. 執行 E:\qFGFC-P4P5_all_T.bat （大正藏）或 FGFC-P4P5_all_X.bat （卍續藏）</h5>
+<h5>c-3. 產生比對差異結果檔 <span class="style7">*-dif.txt</span>，並將結果檔複製到 E:\q\diff </h5>
+<h5>c-4. 在 E:\q\diff 底下放入　<a href="http://w3.cbeta.org/intranet/markup/doc/SPCL2_4.exe">特殊標記頻次統計程式</a>（可點選下載），並對上述結果檔進行多檔統計，</h5>
+<h5>　　若有差異才會產生 .sum 檔，沒差異的就不會看到 .sum 檔，然後再分析有差     異的冊數。</h5>
+<h5>c-5. 針對上面的 c-3比對差異結果可再執行此程式，它會將含有搜尋字串（例如差     異符號）的前後行予以輸出。 </h5>
+<h5>　　操作方法：在　<span class="style7">E:\q\diff\有差異符號的前後行</span> 　的底下放入此檔　<a href="http://w3.cbeta.org/intranet/markup/doc/dif_line.rar">前後行.rar</a>     　並解壓縮。</h5>
+<h5>　 　解壓縮後可以看到程式使用說明文件→ 使用說明.txt</h5>
+<p> </p>
+<p></p>
+</body>
+</html>
